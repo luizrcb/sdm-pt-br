@@ -1,51 +1,60 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "sdm-pt-br",
+  "title": "SDM: Português (Brasil)",
+  "description": "Modulo de tradução Babele em Português do Brasil para Synthetic Dream Machine",
   "version": "#{VERSION}#",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "13",
+    "verified": "13"
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Luber",
+      "discord": "nightlybuild_",
+      "email": "luizrcb@gmail.com",
+      "url": "https://foundryvtt.com/community/luizbertoni"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [
+      {
+        "id": "sdm",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.5.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.7.5"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pt-BR",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
+  "esmodules": ["main.js"],
   "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
+   {
+      "lang": "pt-BR",
+      "name": "Português Brasileiro",
+      "path": "lang/pt-BR.json"
     }
   ],
-  "url": "#{URL}#",
+  "url": "https://github.com/luizrcb/sdm-pt-br",
+  "bugs": "https://github.com/luizrcb/sdm-pt-br/issues",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "readme": "README.md"
 }

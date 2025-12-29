@@ -1,0 +1,706 @@
+{
+  "label": "Traços",
+  "folders": {
+    "Barbarian": "Bárbaro",
+    "Bluelander": "Azulita",
+    "Bourgeois": "Burguês",
+    "Golem": "Golem",
+    "Greenlander": "Esmeraldino",
+    "Holy Fool": "Tolo Sagrado",
+    "Manager": "Gerente",
+    "Noömagus": "Noömago",
+    "Noble": "Nobre",
+    "Orangelander": "Laranjenha",
+    "Purplelander": "Violetense",
+    "Redlander": "Rúbreo",
+    "Scion": "Herdeiro de Legado",
+    "Servant": "Servo",
+    "Skeleton": "Esqueleto",
+    "Tourist": "Turista",
+    "Soldier": "Soldado",
+    "Trickster": "Trapaceiro",
+    "Weapon": "Arma",
+    "Bearer Traits": "Traços do Portador",
+    "Weapon Traits": "Traços da Arma",
+    "Yellowlander": "Safraniano",
+    "Path of the Fighter": "Caminho do Combatente",
+    "Path of the Wizard": "Caminho do Mago",
+    "Path of the Traveler": "Caminho do Viajante"
+  },
+  "mapping": {
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
+  },
+  "entries": {
+    "0. Barbarian": {
+      "name": "0. Bárbaro",
+      "description": "<p>Você é um forasteiro ou um estranho, habilidoso com armas e armaduras mortas, livre de velhatec ou fantasciência. Osso ou ferro, couro ou arma de fogo. Além disso, você pode se esconder, sobreviver e prosperar em ruínas ou terras desperdiçadas, estepes empoeiradas ou montanhas escarpadas.</p>"
+    },
+    "0. Bluelander": {
+      "name": "0. Azulita",
+      "description": "<p>Da Terra Azul. Filho da guerra e de deuses estranhos e terras arruinadas. Habilidoso num barco e numa montanha, entrelaçado com tec-fungos e bactérias. Empunhe a lança de pesca, faca, rede e gancho de escalada. Além disso, se você sofrer corrupção, pode rolar novamente o resultado.</p>"
+    },
+    "0. Bourgeois": {
+      "name": "0. Burguês",
+      "description": "<p>Criador cidadão ou escalador conspirador? Use as ferramentas da sociedade civil: o mercado de ações, a mão invisível, a lei da burocracia, a palma bem untada eficaz. Empunhe porrete e espada, pistola e arma de mão velhatec. Além disso, gaste um dado heróico para convencer um oficial de que você entende do assunto.</p>"
+    },
+    "0. Fighter": {
+      "name": "0. Combatente",
+      "description": "<p>Você se chama guardião, guerreiro ou mestre de armas.</p><p>Você é habilidoso no uso de armas e armaduras tradicionais; de faca a espada, disparador a rifle, escudo de quitina a arnês amortecedor.</p><p>Além disso, você é habilidoso em defesa. Isso é um bônus de +3 em defesa e ataque. Especialista: +6; mestre: +9.</p><p><em>(atualize o bônus de defesa na aba de efeitos conforme este nível de habilidade aumenta)</em></p>"
+    },
+    "0. Golem": {
+      "name": "0. Golem",
+      "description": "<p>Você fez, refez e desfez a si mesmo. Você tem uma profissão civil perdida no tempo, como protocolador de chá ou adivinhador-aplacador. Você se torna habilidoso (+3 de bônus) em qualquer atividade que observe atentamente por um dia, codificando-a como um lema de habilidade armazenado em um espaço de inventário. Você não pode melhorar um lema de habilidade. Removê-lo leva 10 minutos.</p>"
+    },
+    "0. Greenlander": {
+      "name": "0. Esmeraldino",
+      "description": "<p>Da Terra Verde. Você é filho da indústria. Habilidoso no uso de magias velhatec civis e fantasciência, comandando golems, controlando veículos e suplicando nos templos. Você empunha armas velhatec e armas tradicionais de nave do vácuo.</p>"
+    },
+    "0. Holy Fool": {
+      "name": "0. Louco Sagrado",
+      "description": "<p>Você se chama profeta, sua máquina de nascimento o chama de humano muito malcriado. Você lê sonhos, escuta estrelas, canta para o mar. Além disso, quando você não tem habilidade relevante, pode gastar 1 ponto de vida ou atributo para obter +[[/r 1d6]] em uma única rolagem.</p>"
+    },
+    "0. Manager": {
+      "name": "0. Gerente",
+      "description": "<p>Um avatar da lei, ordem e procedimento. Você navega por formulários e tradições, templos e repartições. Você empunha o uniforme, armadura e ferramentas de sua guilda. Além disso, pode gastar 1 ponto de vida para detectar se uma criatura está mentindo ou não (90% de precisão).</p>"
+    },
+    "0. Noömagus": {
+      "name": "0. Noömago",
+      "description": "<p>Você se chama cavaleiro neon. Regozije-se em rituais meméticos e empunhe os poderes elétrico, luminoso e demoníaco. Use armas sintéticas e luminosas. Além disso, gaste um dado heróico para se lembrar de um fato sobre qualquer item desconhecido que você segure.</p>"
+    },
+    "0. Noble": {
+      "name": "0. Nobre",
+      "description": "<p>Você nasceu melhor. Você não precisa fazer nada, só tem que ser. Você é habilidoso com armas e armaduras prestigiosas, rico em velhatec, imbuído de fantasciência. Além disso, gaste um dado heróico para fazer um humano de classe inferior ver as coisas do seu jeito.</p>"
+    },
+    "0. Orangelander": {
+      "name": "0. Laranjenha",
+      "description": "<p>Da Terra Laranja. Você deve se considerar feliz. Exiba seus jogos, artes, músicas e esportes. Empunhe a raquete, o bastão, o arco de caça e a lança de polo da morte. Além disso, gaste um dado heróico para deter mortos-vivos próximos.</p>"
+    },
+    "0. Purplelander": {
+      "name": "0. Violetense",
+      "description": "<p>Da Terra Púrpura. Você é uma criação mágica suficientemente avançada para passar por humana. Habilidoso com maquinarias telementais e matempsíquicas. Empunhe as ferramentas das estepes recuperadas, de bólter a picareta. Além disso, você conta como pós-humano, concedendo-lhe um bônus de +3 contra efeitos que afetam humanos.</p><p><em>Este bônus de +3 não é automatizado</em></p>"
+    },
+    "0. Redlander": {
+      "name": "0. Rúbreo",
+      "description": "<p>Da Terra Vermelha. Você é um humano livre, refinado, destilado. Construa bunkers, cultive videiras e sele sua mente contra mentiras. Empunhe as armas da libertação divina: canhão e motosserra, martelo e foice.</p><p>Além disso, armaduras que você veste concedem +1 de defesa adicional por mochila.</p><p><em>(este bônus precisa ser configurado manualmente em seus itens de armadura)</em></p>"
+    },
+    "0. Scion": {
+      "name": "0. Herdeiro do Legado",
+      "description": "<p>Você é o filho de um ancestral divino. Seu sangue guarda habilidades e chaves para poderes divinos, costumes antigos e dispositivos tec-construtores. Gaste 1 ponto de vida para mergulhar em memórias ancestrais por um fato sobre o Há Muito Muito Tempo. Além disso, gaste um dado heróico para aumentar um atributo em 1d6 por cerca de uma hora.</p><p><em>Use o efeito ativo do Herdeiro do Legado para o aumento de atributo</em></p>"
+    },
+    "0. Servant": {
+      "name": "0. Servo",
+      "description": "<p>Você nasceu, ou foi feito, para servir. Você é habilidoso em um ofício de colarinho azul, mas também em relações, enganações e lisonjas. Você ganha +1 ponto de vida por ponto de resistência. Além disso, gaste um dado heróico para fazer as classes superiores ignorá-lo ou subestimá-lo.</p><p><em>Use o efeito ativo para atualizar sua vida bônus (+1 vida por ponto de resistência)</em></p>"
+    },
+    "0. Skeleton": {
+      "name": "0. Esqueleto",
+      "description": "<p>Você estava morto. Agora você é não. Uma força temível o anima. Você não precisa de comida, água, ar ou sono. Você fala, embora não tenha laringe.</p><p><span style=\"text-decoration:underline\">Você sofre dano mínimo de ataques perfurantes e metade de cortantes, mas o dobro de contundentes.</span></p><p>Além disso, você é habilidoso em uma arma perdida no tempo.</p>"
+    },
+    "0. Soldier": {
+      "name": "0. Soldado",
+      "description": "<p>Você serviu nas não-guerras na fronteira do tempo. Você conhece as armas e armaduras do regulamento; varinha-arma e escudo, lâmina e traje de combate. Você ganha +2 de defesa (+4 como especialista, +6 como mestre). <em>Atualize o efeito ativo de <strong>Bônus de Defesa</strong> quando este nível de habilidade subir.</em></p><p>Além disso, quando um aliado fica ao seu lado, ele adiciona seu carisma à sua pontuação de defesa.</p><p><em>Seus aliados devem usar um efeito ativo para aumentar sua defesa com seu valor de carisma atual. (Edite o efeito ativo <strong>Bônus de Defesa de Aliado</strong> e deixe-o inativo em sua ficha. Arraste e solte o efeito ativo <strong>Bônus de Defesa de Aliado</strong> na ficha do personagem de seu Aliado).</em></p>"
+    },
+    "0. Tourist": {
+      "name": "0. Turista",
+      "description": "<p>Você não é daqui. Tropece em lugares onde não deveria estar, visite pontos turísticos que deveriam estar escondidos. Por acidente, claro. Empunhe o livro, o bastão e o guarda-chuva. Além disso, gaste um dado heróico para entrar em um lugar selado ou trancado.</p>"
+    },
+    "0. Traveler": {
+      "name": "0. Viajante",
+      "description": "<p>Você se chama vagabundo, andarilho, o vento.</p><p>Você é habilidoso em gerenciar uma caravana, navegar com mapas e estrelas e pontos de referência, fazer e esconder acampamentos, encontrar água e comida, e na etiqueta das vastas terras abertas.</p><p>Você empunha o bastão de marcha, a adaga e o rifle tradicional.</p>"
+    },
+    "0. Trickster": {
+      "name": "0. Trapaceiro",
+      "description": "<p>Chame-se vento, aurora e sol. Pratique truques linguísticos, ilusões tecno-mágicas e técnicas ginossóficas. Gaste um dado heróico e alguém que você enganou pensa que você o ajudou.</p>"
+    },
+    "0. Weapon": {
+      "name": "0. Arma",
+      "description": "<p>Coisa mais preciosa, presente para a humanidade! Empunhe retórica, persuasão, manipulação e verdadeiros poderes psíquicos. Use humanos e ferramentas como você. Além disso, gaste um dado heróico para parecer sem valor.</p>"
+    },
+    "0. Wizard": {
+      "name": "0. Mago",
+      "description": "<p>Você se chama mago, criador ou mecânico. Você é habilidoso em lançar magias (usando <strong>poderes velhatec</strong>). Talvez você apenas saiba ler os manuais do Há Muito Tempo e os códigos Zero-Um?</p><p><em>(altere o valor do <span style=\"text-decoration:underline\"><em><span style=\"text-decoration:underline\">custo de poder</span></em></span> do personagem para 1 no modo de edição da ficha de personagem)</em></p>"
+    },
+    "0. Yellowlander": {
+      "name": "0. Safraniano",
+      "description": "<p>Da Terra Amarela. Você é um mercador, um mantenedor, um mercenário. Barganhe e avalie, conserte e improvise, extorque e traia. Empunhe arco e lança, boleadeira, laço e garrote. Além disso, gaste um ponto de atributo para fugir de uma luta com segurança.</p>"
+    },
+    "1.  Competent Appearance": {
+      "name": "1. Aparência Competente",
+      "description": "<p>Você sempre parece competente ao parecer fazer algo que poderia parecer ser seu trabalho.</p>"
+    },
+    "1.  Country Squire": {
+      "name": "1. Escudeiro Rural",
+      "description": "<p>Você ganha dinheiro do jeito certo: concessões de recursos nas vastidões e terras arruinadas. Uma propriedade rural remota lhe dá €15/semana e todas as azeitonas rancorosas que você pode cuspir.</p>"
+    },
+    "1. Abandoned": {
+      "name": "1. Abandonado",
+      "description": "<p>Quando seus conterrâneos foram para reprocessamento e reparo, você permaneceu nas cascas de casas apodrecidas. Coisas velhas, coisas mortas, ainda falam com você. Gaste 1 ponto de vida para falar com qualquer coisa morta.</p>"
+    },
+    "1. Antimagus": {
+      "name": "1. Antimago",
+      "description": "<p>Seu próprio sangue se rebela contra os truques dos falsos deuses. Ganhe 2 pontos de vida por nível, mas o preço que você paga por magias velhatec e fantasciência é dobrado.</p><p><em>Atualize o efeito ativo <strong>Vida Bônus</strong> toda vez que seu personagem subir de nível.</em></p>"
+    },
+    "1. Arboreal": {
+      "name": "1. Arborícola",
+      "description": "<p>Seu fenótipo é adaptado à vida nas árvores—ou nos biodutos de uma megaestrutura. Escale, balance e pule como um gibão. Ganhe +1 de força.</p>"
+    },
+    "1. Armiger": {
+      "name": "1. Armígero",
+      "description": "<p>Carregue um número de armas igual ao seu nível de graça, ignorando inventário.</p><p><em>(atualize este valor de bônus na aba de efeitos a cada nível)</em></p>"
+    },
+    "1. Armorborn": {
+      "name": "1. Nascido da Armadura",
+      "description": "<p>Qualquer armadura que você vista não ocupa espaço no inventário. A armadura lhe dá um bônus de defesa igual ao seu tamanho em mochilas.</p><p><em>(crie um efeito ativo em seus itens de armadura para adicionar um bônus de defesa igual ao seu tamanho em mochilas)</em></p>"
+    },
+    "1. Backstabber": {
+      "name": "1. Facada nas Costas",
+      "description": "<p>Empunhe facas e pistolas. Cause dano duplo quando um alvo não espera seu ataque.</p>"
+    },
+    "1. Boatmaster": {
+      "name": "1. Mestre de Barcos",
+      "description": "<p>Você lida com barcos superlativamente. Você pode caber um número extra de sacas igual ao seu nível num barco (mas não mais que o dobro de sua capacidade).</p><p><em>Você pode usar uma ficha de <strong>caravana</strong> para o barco</em></p>"
+    },
+    "1. Burglar": {
+      "name": "1. Ladrão",
+      "description": "<p>Você sempre foi tão bom em invadir e escapar de lugares, desarmando cadeados e armadilhas, e se movendo muito silenciosamente. Você era a pessoa perfeita para salvar sua arma (seu mestre) de sua prisão... er... câmara do tesouro. Além disso, gaste um dado heróico para encontrar imediatamente um cofre ou alavanca escondidos.</p>"
+    },
+    "1. Burner": {
+      "name": "1. Queimador",
+      "description": "<p>Uma vez por turno, você pode gastar um ponto de atributo para sobrecarregar um poder, independentemente de seu custo</p>"
+    },
+    "1. Cad": {
+      "name": "1. Canalha",
+      "description": "<p>Você definitivamente não é um gato. Pelagem lustrosa o protege dos raios dos sóis severos e do frio do ar rarefeito superior. Seus dois braços secundários permitem que você carregue mais itens prontos.</p>"
+    },
+    "1. Cleanser": {
+      "name": "1. Purificador",
+      "description": "<p>Gaste 1 ponto de carisma ou [[/r 1d6]] de vida para terminar outro poder ou encantamento. Puf, se foi. Além disso, você pode gastar um dado heróico para purificar instantaneamente uma pequena área: uma poça estagnada de bactérias, uma cozinha de pratos sujos, um quarto de meias fedorentas, um carro de poeira, ou um santuário de maldições profanas e pichações.</p>"
+    },
+    "1. Cosmic Qanat": {
+      "name": "1. Qanat Cósmico",
+      "description": "<p>Veja as linhas de força cósmica fluindo através do mundo. Use todos os poderes como se você fosse 2 níveis mais alto. Reduz o risco de corrupção!</p>"
+    },
+    "1. Diesel Dwarf": {
+      "name": "1. Anão Diesel",
+      "description": "<p>Seus ancestrais foram adaptados para servir aos deuses como refinadores de terras devastadas, reciclando depósitos de cadáveres do Há Muito Muito Tempo por um futuro mais brilhante. Além de uma afinidade natural por engenharia, direção e perfuração, você pode substituir suas necessidades alimentares por produtos petrolíferos por até um mês. Ganhe 1 de rapidez.</p>"
+    },
+    "1. Double-Platinum Deathless Backup": {
+      "name": "1. Backup Imortal Duplo-Platina",
+      "description": "<p>Você tem duas joias da alma. Uma está num ovo num pato numa lebre num cofre de prazer privado numa ilha particular. Hah!</p>"
+    },
+    "1. Dreamwalker": {
+      "name": "1. Andarilho dos Sonhos",
+      "description": "<p>Quando você entra na noösfera, leva seu corpo junto, deixando nada além de um aroma de amêndoas na hiloesfera. Ganhe +1 de resistência.</p>"
+    },
+    "1. Escapist": {
+      "name": "1. Escapista",
+      "description": "<p>Você é habilidoso em ter sorte. Isso é um bônus de +3 em todos os testes de resistência.</p>"
+    },
+    "1. Glowing Skeleton": {
+      "name": "1. Esqueleto Brilhante",
+      "description": "<p>Livre-se de suas botas pesadas de chumbo, seu traje de borracha, suas luvas de risco. Deixe-os ver seus ossos radioativos. Você é resistente a dano radiante e corrupção. Quando despido, criaturas adjacentes perdem pontos de vida iguais ao seu nível a cada rodada.</p>"
+    },
+    "1. Grounded": {
+      "name": "1. Aterrado",
+      "description": "<p>Uma vida sólida deixou você capaz de se livrar das pedradas e flechadas da infortúnio ultrajante. Ganhe +1 de aura ou inteligência.</p><p>Além disso, remova 1 fardo mental adicional quando você descansar.</p>"
+    },
+    "1. Hardened": {
+      "name": "1. Endurecido",
+      "description": "<p>Você é bom em evitar efeitos que o atordoariam, paralisariam ou incapacitariam. Além disso, resistente à radiação eletromagnífica.</p>"
+    },
+    "1. Hexad Member": {
+      "name": "1. Membro da Hexade",
+      "description": "<p>Você pertence a uma sociedade de autoajuda e conhece seus glifos e protocolos. Seu código-fonte foi modificado para lhe dar acesso a seu arsenal de autodefesa. Uma vez por dia, gaste 1 ponto de carisma para encontrar um contato em um distrito industrial.</p>"
+    },
+    "1. Hexer Meritocrat": {
+      "name": "1. Meritocrata Hexador",
+      "description": "<p>Seu mérito permanece superlativo. Quando habilidoso, seu bônus é +4, quando especialista +8, quando mestre +12.</p>"
+    },
+    "1. Personal Daimon": {
+      "name": "1. Daemon Pessoal",
+      "description": "<p>Essência nímbica de um aureano dos tempos mais distantes, onde futuro e passado se encontram. Ele conhece histórias estranhas e, uma vez por sessão, permite que você narre uma reviravolta ou descoberta surpresa (\"havia uma bateria extra na mala vazia!\"). O árbitro tem um veto suave se algo for muito absurdo.</p>"
+    },
+    "2. Blastermaster": {
+      "name": "2. Mestre dos Disparadores",
+      "description": "<p>Você é habilidoso com os disparadores, varinhas, bastões e rifles da antiga infantaria do trovão.</p><p>Adicione seu bônus de habilidade ao dano; recarregue como uma ação livre. (ao rolar dano, selecione a habilidade Mestre dos Disparadores no diálogo de rolagem).</p><p>Além disso, se você gastar uma ação para firmar sua mira, aumente seu alcance e multiplicador de crítico em 1.<br />Ative o efeito ativo para aumentar seu multiplicador de crítico em 1.</p>"
+    },
+    "2. Blessed": {
+      "name": "2. Abençoado",
+      "description": "<p>Quando apenas a sorte resolve, você tem vantagem. Isso também é um bônus em todos os testes de resistência.</p>"
+    },
+    "2. Blood Clad": {
+      "name": "2. Revestido de Sangue",
+      "description": "<p>Ganhe um dado de sangue quando for ferido. Gaste um dado de sangue para absorver [[/r 1d6]] de dano ou aumentar seu dano em [[/r 1d6]]. Você pode armazenar um número de dados de sangue igual ao seu nível. Cura, descanso ou um banho quente removem seus dados de sangue.</p>"
+    },
+    "2. Cheesemaker": {
+      "name": "2. Queijeiro",
+      "description": "<p>Você é um membro da sociedade secreta dos laticínios. Fale com mofos, leveduras e bactérias. Pequenas formas de vida se dobram à sua vontade. Gaste 1 ponto de vida para converter 1 mochila de biomatéria em \"queijo\" comestível durante a noite.</p>"
+    },
+    "2. Citizen Living": {
+      "name": "2. Vida do Cidadão",
+      "description": "<p>Criado para o hedonismo e o prazer máximo, você é a alma de toda festa, o espírito de toda conversa, o glutão de todo deleite. Ganhe +1 de carisma e resistência.</p>"
+    },
+    "2. Clueless Outsider": {
+      "name": "2. Forasteiro Desligado",
+      "description": "<p>Pego em flagrante? Invadindo propriedade? Gaste um dado heróico e você é liberado com uma advertência e um sorriso indulgente.</p>"
+    },
+    "2. Colonist": {
+      "name": "2. Colonista",
+      "description": "<p>Você vem de um dos antigos grupos de colonos A.N.T., projetados como um organismo colonial. Designe até cinco outras criaturas como membros de sua hexade. <span style=\"text-decoration:underline\">Cada uma ganha vida temporária igual ao seu nível se passar a noite em sua vizinhança</span>. Ganhe +1 de carisma.</p>"
+    },
+    "2. Cronic": {
+      "name": "2. Crônico",
+      "description": "<p>Gaste um dado heróico para usar um segundo poder neste round.</p>"
+    },
+    "2. Curse-Blessed": {
+      "name": "2. Amaldiçoado-Bençoado",
+      "description": "<p>Uma criatura pensante (animal ou pessoa) não pode jogar você fora sem sua permissão. Eles o possuem agora, e isso significa que você pertence a eles. Para sempre e sempre, até que você os liberte. Ou alguém remova sua maldição… er… bênção… de alguma forma. É melhor manter seu portador feliz, para que ele não tente fazer com que você seja removido. Talvez algumas mentiras sobre seu destino? Além disso, você pode se comunicar telepaticamente com qualquer criatura que esteja tocando em você e exalar um sedativo mental suave, que a mantém dócil e prestativa em circunstâncias comuns.</p>"
+    },
+    "2. Deeply Embodied": {
+      "name": "2. Profundamente Encarnado",
+      "description": "<p>Você está profundamente codificado em sua forma física e pode usar sua <span style=\"text-decoration:underline\">habilidade de força para magias velhatec</span> e <span style=\"text-decoration:underline\">resistência para fantasciência</span>.</p><p><em>Você pode editar seus ataques de <strong>Velhatec</strong> e <strong>Fantasciência</strong> no modo de edição da ficha para alterar sua Habilidade Padrão.</em> </p>"
+    },
+    "2. Defender": {
+      "name": "2. Defensor",
+      "description": "<p>Você é habilidoso em defesa física e todos os tipos de equipamento defensivo. Além disso, mesmo desarmado, ganhe um bônus de armadura +3. Especialista: +6 de armadura; mestre: +9 de armadura.</p><p><em>(atualize o bônus de armadura na aba de efeitos quando este nível de habilidade aumentar)</em></p>"
+    },
+    "2. Doombringer": {
+      "name": "2. Arauto da Perdição",
+      "description": "<p>Sua é a mão sombria do destino. Quando você atinge uma criatura que tem nível inferior ao da sua arma (seu mestre), ela é imediatamente derrotada, sem necessidade de rolagem de dano.</p>"
+    },
+    "2. Dust Rat": {
+      "name": "2. Rato da Poeira",
+      "description": "<p>Adaptado à terra seca, você precisa da metade da água de um humano normal. Ganhe 1 ponto de resistência. Além disso, você sabe se virar em biomas áridos.</p>"
+    },
+    "2. Enterprising": {
+      "name": "2. Empreendedor",
+      "description": "<p>De alguma forma, você sempre ganha 20% a mais. É assustador. Você também sabe como montar e embaralhar empresas de caridade de fachada dedutíveis de impostos.</p>"
+    },
+    "2. Expert Friends": {
+      "name": "2. Amigos Especialistas",
+      "description": "<p>Você sabe onde encontrar ajuda especializada e como inspirar pessoas. Cada pet ou coadjuvante é um especialista em uma coisa. Isso é um bônus de +6.</p>"
+    },
+    "2. Faceless": {
+      "name": "2. Sem Rosto",
+      "description": "<p>Você não tem rosto e deve escolher conscientemente um rosto a cada dia. Quando inconsciente, seu rosto se dissolve para revelar um ovoide liso.</p>"
+    },
+    "2. Falscher": {
+      "name": "2. Falscher",
+      "description": "<p>Você é um humano falso, cultivado a partir de semente em uma fábrica ilegal e fora da rede.</p><p>Este traço lhe dá memórias falsas de infância e uma ocupação aleatória que é (role [[/r 1d6]]): (1–3) desesperadoramente desatualizada, (4–5) surpreendentemente mundana, (6) aterrorizante e alienígena. Você não tem alma (<em>ka</em>) e é <span style=\"text-decoration:underline\">imune a dano mental</span>.</p>"
+    },
+    "2. Friends": {
+      "name": "2. Amigos",
+      "description": "<p>Você pode ter um número de pets ou coadjuvantes igual ao seu nível que não ocupam o espaço de inventário usual. (<em>ainda não automatizado</em>)</p>"
+    },
+    "2. Hackmagic": {
+      "name": "2. Hackmagia",
+      "description": "<p>Hackeie e modifique poderes ativos e efeitos velhatec. Se você reconhecer um poder (um teste de inteligência basta) e ele for igual ou inferior ao seu nível, você pode gastar seu preço (em vida ou dados heróicos) para arrancar o controle dele por um round. O nível aumentado do Qanat Cósmico aplica-se ao traço Hackmagia.</p>"
+    },
+    "2. Housemaker": {
+      "name": "2. Construtor de Casas",
+      "description": "<p>Nada deixa os humanos mais felizes que ninhos. Assim os humanos fazem suas próprias casas: construindo, instalando fiação, encanamento, reparando. Gaste um dado heróico para encontrar um duto de ar útil ou conexão de esgoto entre dois cômodos ou prédios adjacentes.</p>"
+    },
+    "2. Knight Reflexes": {
+      "name": "2. Reflexos de Cavaleiro",
+      "description": "<p>Nervos e glândulas sobrecarregados permitem que você gaste vida para aumentar sua iniciativa (1-por-1). Além disso, ganhe +1 de rapidez.</p>"
+    },
+    "2. My Bones Engraved": {
+      "name": "2. Meus Ossos Gravados",
+      "description": "<p>Você falou com o guardião dos pensamentos, que lhe deu um cinzel mágico para gravar seus ossos. Ganhe cinco espaços de inventário de osso para poderes em seus braços, pernas e crânio. Gravar um poder leva um dia. Substituir um poder gravado reduz permanentemente sua resistência em 1, a menos que você também substitua ritualmente seus ossos (ai).</p>"
+    },
+    "2. Powered": {
+      "name": "2. Alimentado",
+      "description": "<p>Você não precisa comer. Uma omnibateria é tudo de que você precisa. Além disso, você pode dar partida em máquinas com uma faísca do seu dedo.</p>"
+    },
+    "2. Social Survivor": {
+      "name": "2. Sobrevivente Social",
+      "description": "<p>Treinado para intuir o que os outros querem, você pode gastar 1 ponto de vida para melhorar um resultado de reação.</p>"
+    },
+    "3.  Fighting Woman or Man": {
+      "name": "3. Mulher ou Homem de Luta",
+      "description": "<p>Você é habilidoso com sua arma (seu mestre) e armas como ela. Uma vez por round, como uma única ação, você pode atacar um número de inimigos adjacentes de nível 0–1 igual ao seu nível.</p>"
+    },
+    "3.  Inquisition Agent": {
+      "name": "3. Agente da Inquisição",
+      "description": "<p>A Autoridade Humana não tem uma força policial secreta. Tais sugestões são ilegais. Você certamente não é habilidoso em técnicas de interrogatório, nem possui uma licença para matar.</p>"
+    },
+    "3. Citizen Maintainer": {
+      "name": "3. Mantenedor de Cidadãos",
+      "description": "<p>Habilidoso em manter os cidadãos mortos. Repare e melhore os mortos-vivos, converse com eles, conheça seus modos e necessidades. Além disso, um bônus em testes contra todos os ataques especiais de mortos-vivos.</p><p><em>Ative o Efeito Ativo <strong>Mantenedor de Cidadãos</strong> para obter o bônus em testes.</em></p>"
+    },
+    "3. Culling": {
+      "name": "3. Abate",
+      "description": "<p>Quando você elimina um inimigo, você ganha uma ação livre imediata. O árbitro pode limitar o número de ações livres, se elas fugirem do controle.</p>"
+    },
+    "3. Death Hunger": {
+      "name": "3. Fome da Morte",
+      "description": "<p>Você sabe tudo sobre desmontar mortais. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 nas rolagens de ataque até o final da batalha. Após a primeira morte, você rosna e ruge até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Ative o efeito ativo <strong>Fome da Morte</strong> durante a batalha e atualize seu valor após inimigo morto. Quando este nível de habilidade subir, modifique o efeito ativo pelo modificador da habilidade para cada inimigo morto.</em></p>"
+    },
+    "3. Devastator": {
+      "name": "3. Devastador",
+      "description": "<p>Uma vez por round, quando você atinge um inimigo de nível inferior ao seu, você pode reduzi-lo a 0 de vida em vez de rolar dano.</p>"
+    },
+    "3. Dissipated": {
+      "name": "3. Dissipado",
+      "description": "<p>Coquetéis químicos o movem, mas sem eles você é fraco e pálido.</p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Gaste €5 x nível por semana para ganhar +2 de força e rapidez.</span></span></p><p><strong>Sem eles</strong>: sofra -2 de força e resistência.</p><p><em>Ative ou desative manualmente os efeitos ativos Com Produtos Químicos e Sem Produtos Químicos. Os bônus alterarão os valores totais das habilidades, ajuste os valores atuais de acordo.</em></p>"
+    },
+    "3. Expensive Training": {
+      "name": "3. Treinamento Caro",
+      "description": "<p>Você teve o melhor treinador e agora é um especialista em um traço, como esgrima ou boxe vigilante. Uma vez por ano, você pode gastar €1.000 e rolar inteligência.<br /><strong>Sucesso</strong>: aumente imediatamente o nível de habilidade de um traço (ex.: de <em>habilidoso</em> para <em>especialista</em>).</p>"
+    },
+    "3. Exuberant": {
+      "name": "3. Exuberante",
+      "description": "<p>Cada um dos seus pontos de vida vale o dobro ao pagar por poderes.</p><p>(<em>reduza pela metade seu custo de poder no modo de edição da ficha</em>)</p>"
+    },
+    "3. Fake Out": {
+      "name": "3. Finta",
+      "description": "<p>Você sabe como se esconder e ficar quieto quando necessário. Reduzido a 0 de vida? Gaste um dado heróico e aquele último golpe não conectou.</p>"
+    },
+    "3. Fortunate One": {
+      "name": "3. Afortunado",
+      "description": "<p>Quando você rola um resultado natural 1, role novamente. Ou aceite o natural 1 e guarde uma re-rolagem para mais tarde na sessão. A re-rolagem ocupa um espaço de inventário.</p>"
+    },
+    "3. Grit": {
+      "name": "3. Determinação",
+      "description": "<p>Ganhe 1 ponto de vida por nível (<em>atualize o valor na aba de efeitos a cada nível</em>) e <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">vantagem quando você rolar resistência</span></span> (<em>não automatizado</em>).</p><p><em>(bônus de vida só se aplicará ao valor máximo de vida, você precisa ajustar o valor atual de acordo)</em></p>"
+    },
+    "3. Holy Diver": {
+      "name": "3. Mergulhador Sagrado",
+      "description": "<p>Por muito tempo você nadou na noösfera, caçando a medula do conhecimento esquecido. Finalmente, a noösfera olhou de volta para dentro de você e reestruturou sua mente. Você tem uma compreensão intuitiva de caminhar por sonhos e portais oníricos. Gaste 1 ponto de vida para ler para onde um portal leva.</p>"
+    },
+    "3. Human Library": {
+      "name": "3. Biblioteca Humana",
+      "description": "<p>Um campo de conhecimento do Há Muito Muito Tempo está armazenado em sua mente. Você só pode acessá-lo subconscientemente. Ganhe +1 de inteligência.</p>"
+    },
+    "3. Hunter": {
+      "name": "3. Caçador",
+      "description": "<p>Rastreie, prenda e atire em caça com arco, rifle e dardo. Esconda-se na natureza, mova-se despercebido. Quando você atira de uma emboscada, seus acertos críticos causam triplo em vez de dano duplo. Especialista: x4; mestre: x5.</p><p>(edite o valor na aba de efeitos para 4 ou 5 quando o nível de habilidade aumentar)</p>"
+    },
+    "3. Informant": {
+      "name": "3. Informante",
+      "description": "<p>Você teve a grande honra de se tornar um agente não-oficial da Inquisição. Você recebe €5/semana e uma vez por sessão pode gastar um dado heróico para que uma contravenção seja ignorada. Às vezes a Inquisição pede um pequeno favor.</p>"
+    },
+    "3. Noösphere Native": {
+      "name": "3. Nativo da noösfera",
+      "description": "<p>Você nasceu em uma geração conectada à noösfera. Você pode acessá-la e usá-la, mas você também adiciona seu bônus de habilidade a todas as defesas na noösfera... e contra daemons em geral.</p><p><em>Atualize o efeito ativo <strong>Nativo da noösfera</strong> quando este nível de habilidade subir. Ative o efeito ativo <strong>Nativo da noösfera</strong> quando estiver na noösfera.</em></p>"
+    },
+    "3. Of-World": {
+      "name": "3. Do-Mundo",
+      "description": "<p>Sua essência está entrelaçada com o código-fonte do mundo. Gaste 1 dado heróico para se fundir com pedra ou árvore ou lago ou nuvem por algumas horas.</p>"
+    },
+    "3. Oppressed Faith": {
+      "name": "3. Fé Oprimida",
+      "description": "<p>Que você deve esconder sua fé prova seu poder. Ela ensina furtividade e uma língua guardada. Você pode invocar publicamente um deus, enquanto usa o poder de outro.</p>"
+    },
+    "3. Rancher": {
+      "name": "3. Rancheiro",
+      "description": "<p>Você sabe como manter rebanhos bem oleados e carregados, gerenciar pastores e cães, cavalgar corcéis solares, localizar poços de água e roubar bestas de fardo. Ganhe 1 de força ou carisma.</p><p><em>(use o efeito ativo <strong>Rancheiro</strong> para adicionar o bônus de força ou carisma)</em></p>"
+    },
+    "3. Resourceful": {
+      "name": "3. Recursivo",
+      "description": "<p>Uma vida nas sombras ensinou você a pedir emprestado e apropriar-se com desenvoltura. Ao visitar um prédio pela primeira vez, você pode gastar 1 ponto de vida para sair com um item útil.</p>"
+    },
+    "3. Ruster": {
+      "name": "3. Ferrugento",
+      "description": "<p>Quase bárbaro em sua habilidade de viver da terra, longe das fábricas e fabricadores velhatec. Você sabe como catar comida e equipamento de terras desperdiçadas, ruínas e outro ecossistema pós-construtor estranho de sua escolha. Você é habilidoso com o bólter, a rede, o gancho, o canivete do exército e o traje de camuflagem.</p>"
+    },
+    "3. Synthetic Soul": {
+      "name": "3. Alma Sintética",
+      "description": "<p>Você tem uma alma artificial e um backup de sua alma em uma fita cassete. Você pode reescrever a alma conforme necessário. Isso é ótimo se você precisar modificar sua identidade biopneumométrica.</p>"
+    },
+    "3. Void Ward": {
+      "name": "3. Égide do Vácuo",
+      "description": "<p>O vazio de sua alma o protege. Adicione sua aura à sua defesa.</p><p><em>(Edite o valor do efeito ativo <strong>Égide do Vácuo</strong> para adicionar seu valor de aura atual à sua defesa)</em></p>"
+    },
+    "4.  Phylake’s Child": {
+      "name": "4. Filho do Guardião",
+      "description": "<p>Dizem que seu progenitor era uma bruxa que seduziu um guardião sagrado — um anjo-demônio chamado Phylake pelos estudiosos. Daemons falam com você e o veem como um deles.</p>"
+    },
+    "4. Demolisher": {
+      "name": "4. Demolidor",
+      "description": "<p>Seus acertos críticos são mais fortes (ex.: x2 se torna x3). Além disso, quando você atinge um objeto até o tamanho de um carro compacto, pode gastar 1 ponto de força ou resistência para simplesmente demoli-lo. Portas estouram abertas, paredes de tijolos explodem, paredes de madeira se estilhaçam em gravetos, cabanas de palha saem voando, golems pequenos amassam. Você também pode usar essa habilidade para transformar um acerto normal em um crítico, ou para dobrar um acerto crítico. Como uma arma (sem força ou resistência), simplesmente use as habilidades do seu portador como combustível para sua fúria.</p>"
+    },
+    "4. Divine Blood": {
+      "name": "4. Sangue Divino",
+      "description": "<p>Pequenas máquinas de código-fonte cantam em suas veias. Seu custo para ativar dispositivos ou poderes velhatec é reduzido em 2 (mínimo de 1).</p>"
+    },
+    "4. Ducky": {
+      "name": "4. Pato",
+      "description": "<p>Como uma minoria de classe baixa, você sabe lutar com armas ocultas e manobrar em burocracias ossificadas. Além disso, uma vez por dia, gaste um dado heróico para 'se lembrar' de um membro confiável do clã creche local que poderia ajudá-lo, por um preço.</p>"
+    },
+    "4. Feral": {
+      "name": "4. Feral",
+      "description": "<p>Você não é mole como os vermes da civilização. Sua intuição apurada o protege de dano. Adicione sua aura aos seus testes de resistência e ao seu total de vida.</p><p><em>Atualize manualmente os valores do efeito ativo <strong>Feral</strong> quando sua Aura atual mudar.</em></p>"
+    },
+    "4. From Dust, Returning": {
+      "name": "4. Do Pó, Retornando",
+      "description": "<p>Sua ligação com o mundo é mais forte do que nunca. Mesmo se esmagado em pó, quando seus restos provarem um pouco de (role [[/r d6]]): (1) água benta, (2) sangue, (3) vinho, (4) sopa de tomate, (5) leite, ou (6) néctar, seu corpo se reforma em uma semana.</p>"
+    },
+    "4. Irresistible": {
+      "name": "4. Irresistível",
+      "description": "<p>A cada rodada você causa dano igual ao seu nível a um inimigo que você atacou, independentemente de sua rolagem de ataque ter acertado ou errado. <em>(não automatizado)</em></p>"
+    },
+    "4. Kaffetropist": {
+      "name": "4. Cafetropista",
+      "description": "<p>Você metaboliza cafeína em outras drogas úteis. Beber um café pode colocá-lo para dormir, acordá-lo, purgá-lo de outras toxinas (perca [[/r 1d3]] de vida vomitando), ou dar-lhe visões (ganhe égide +5 mas suas habilidades motoras são prejudicadas).</p><p><em>(Ative o efeito ativo <strong>Visões</strong> para obter o bônus de égide +5)</em></p>"
+    },
+    "4. Legal Immunity": {
+      "name": "4. Imunidade Legal",
+      "description": "<p>Seu status patrício compra muitos privilégios: estacionamento gratuito, acesso prioritário, portas abertas e mais. Uma vez por sessão, você pode gastar um dado heróico para fazer policiais e juízes desviarem o olhar.</p>"
+    },
+    "4. Loyal": {
+      "name": "4. Leal",
+      "description": "<p>Você nunca trai seus amigos (ou mestre) e sofreria tortura e tribulação por eles sem medo. Uma vez por cena, quando você sacrifica seus próprios melhores interesses para provar sua lealdade, você ganha imediatamente um dado heróico. Além disso, ganhe +1 de égide.</p>"
+    },
+    "4. Metropolitan": {
+      "name": "4. Metropolitan",
+      "description": "<p>Seu senso cívico permite que você viaje infalivelmente pelos caminhos secretos de uma cidade, e você sabe como acessar fluxos civis de nutrientes e energia de graça. Seu senso inato de superioridade concede a você égide +1.</p>"
+    },
+    "4. Mind Palace": {
+      "name": "4. Palácio Mental",
+      "description": "<p>Memorize um número de poderes igual ao seu nível de graça, ignorando inventário.<br /><em>(edite a cada nível o valor na aba de efeitos)</em></p>"
+    },
+    "4. Motivational": {
+      "name": "4. Motivacional",
+      "description": "<p>Gaste um dado heróico para encorajar um recurso humano a fazer o que você quer. Eles podem recusar, mas isso custa a eles [[/r 1d6]] + nível de vida.</p>"
+    },
+    "4. Perfect": {
+      "name": "4. Perfeito",
+      "description": "<p>Sua forma é perfeita e imutável, ao contrário do corpo maleável natural aos humanos. Sua perfeição intimida e atrai igualmente. Você não pode ser corrompido ou bio-modificado. Ganhe +1 de carisma.</p>"
+    },
+    "4. Pickpocket": {
+      "name": "4. Batedor de Bolsos",
+      "description": "<p>Habilidoso em furto sorrateiro. Falhou sua rolagem? Salve e ninguém percebeu.</p>"
+    },
+    "4. Pleasant": {
+      "name": "4. Agradável",
+      "description": "<p>Conversa charmosa e um comportamento fácil. Você faz as pessoas gostarem de você.</p><p>Isso é +2 em rolagens de reação. Especialista: +4; mestre: +6.</p><p>(atualize o valor do bônus de reação na aba de efeitos quando este nível de habilidade aumentar)</p>"
+    },
+    "4. Power Scroller": {
+      "name": "4. Rolador de Poderes",
+      "description": "<p>Você é ótimo com pergaminhos. Você pode pegar um poder, prepará-lo e vinculá-lo a um objeto físico como um cartão de visita ou guardanapo com glifos de bloqueio. O pergaminho é imbuído com sua força vital até que alguém o ative com a palavra de ativação de sua escolha. Você pode gastar um dado heróico para reduzir o custo de um poder imbuído em um pergaminho nessa quantidade (mínimo 1). Você pode recuperar a vida imbuída após o pergaminho ser descarregado.</p>"
+    },
+    "4. Rationalised": {
+      "name": "4. Racionalizado",
+      "description": "<p>Imunidade ao pânico hard-wired. Adicione sua força ou resistência à sua pontuação de égide.</p><p><em>(Use o efeito ativo <strong>Racionalizado</strong> para adicionar sua força ou resistência atual ao seu bônus de égide.)</em></p>"
+    },
+    "4. Reanimator": {
+      "name": "4. Reanimador",
+      "description": "<p>Não apenas versado nas escrituras ocultas, você carrega faíscas do Deus-Uma-Vez-Vivo dentro de si. Gaste 1 ponto de vida para reanimar uma besta do tamanho de um cão por uma hora, mais para criaturas maiores.</p>"
+    },
+    "4. Ruderalist": {
+      "name": "4. Ruderalista",
+      "description": "<p>Jardine em ruínas velhatec, distinga hologramas de comedores de vazio e navegue pelos perigos do velhatec por intuição e tradição. Empunhe armas elétricas e magnéticas. Ganhe 1 de inteligência.</p>"
+    },
+    "4. Shopstaff": {
+      "name": "4. Funcionário de Loja",
+      "description": "<p>Criado e criado para um papel de serviço, você faz as pessoas se sentirem confortáveis ao seu redor. Gaste 1 ponto de carisma para tornar um humano mais amigável (um inimigo hostil se acalma, um sujeito mal-humorado se torna prestativo).</p>"
+    },
+    "4. Underestimated": {
+      "name": "4. Subestimado",
+      "description": "<p>Ninguém nunca o alveja primeiro. As pessoas estão sempre surpresas com seu primeiro ataque.</p>"
+    },
+    "4. Undying Synthetic": {
+      "name": "4. Sintético Imorredouro",
+      "description": "<p>Você não morrerá. Mas seu corpo decai. Felizmente você sabe como se reparar e se substituir. Embora tenha esquecido muito, você retém uma história oral profunda, se eclética.</p>"
+    },
+    "4. Vampire": {
+      "name": "4. Vampiro",
+      "description": "<p>Drene a força vital de outras criaturas para alimentar seus próprios poderes e habilidades. Seu alvo deve estar disposto ou imóvel. Você drena 1 ponto de vida por minuto.<br />Desenhe uma caixa de \"vida emprestada\" em sua ficha de personagem. Armazene uma quantidade igual à sua própria vida.</p>"
+    },
+    "5.  Soul Fuel": {
+      "name": "5. Combustível de Alma",
+      "description": "<p>Encontre o <em>ka</em> em todas as coisas. Use a força vital de um amigo próximo para alimentar seus poderes. Além disso, gaste um dado heróico e [[/r 1d4]] de vida para recarregar uma omnibateria.</p>"
+    },
+    "5. Bystander": {
+      "name": "5. Espectador",
+      "description": "<p>Você é bom em parecer inocente e inofensivo. Além disso, reduza o dano de todos os efeitos de área pelo seu nível. Então, por 6 no nível 6.</p>"
+    },
+    "5. Cold New Flesh": {
+      "name": "5. Carne Nova e Fria",
+      "description": "<p>Sua carne é como pedra semipreciosa. Você ganha +1 de defesa natural e, bebendo sangue fresco, transfere vida de uma criatura disposta para si mesmo. Um pouco como, er, um vampiro?</p>"
+    },
+    "5. Fatespun": {
+      "name": "5. Tecido pelo Destino",
+      "description": "<p>Você é um item mágico e qualquer forma de detecção de magia mostra isso. Você é incrivelmente durável para um objeto. De fato, destruí-lo verdadeiramente requer uma missão: um ritual especial, um lugar especial e um tempo especial. Anote a missão, se quiser. Se você for fisicamente destruído (por ficar sem vida, por exemplo) ou jogado fora (ex.: em um lago, um oceano profundo, um portal do vácuo) você reaparece em algum lugar, perto do seu portador ou perto de um potencial novo portador, em um momento narrativamente oportuno (ou em [[/r 2d4]] semanas).</p>"
+    },
+    "5. Intestinal Fortitude": {
+      "name": "5. Fortitude Intestinal",
+      "description": "<p>Uma vez por sessão, restaure um atributo completamente. Agora mesmo. Assim. Além disso, uma vez por sessão, você pode gastar um dado heróico para superar um veneno ingerido ou um efeito de medo.</p>"
+    },
+    "5. Lost Songs": {
+      "name": "5. Canções Perdidas",
+      "description": "<p>Suas canções assombrosas de resiliência humana inspiram seus aliados e assustam seus inimigos. Gaste 1 ponto de carisma, dado heróico ou dado de sangue para conceder um bônus ou penalidade de [[/r 1d8]] a uma rolagem.</p><p><em>Este bônus ou penalidade não é automatizado. Adicione manualmente 1d8 ou -1d8 no campo Modificador de um diálogo de rolagem.</em></p>"
+    },
+    "5. Mossblood": {
+      "name": "5. Sangue de Musgo",
+      "description": "<p>Seus ancestrais lento-povoados adaptaram-se à fome da cidade aprendendo a se alimentar de luz e chuva, mineral e nutriente roubado de plantas. Você pode falar com as plantas através de suas noösferas locais.</p>"
+    },
+    "5. Noösphere Priest": {
+      "name": "5. Sacerdote da noösfera",
+      "description": "<p>Você é treinado para interagir com a noösfera e programar seus periféricos para máxima satisfação do usuário. Além disso, ganhe um bônus ao fazer sacrifícios aos deuses digitais.</p>"
+    },
+    "5. Oblique Reality": {
+      "name": "5. Realidade Oblíqua",
+      "description": "<p>Gaste um ponto de vida ou um dado heróico para desviar um poder direcionado a você (ou a um alvo adjacente) para a esquerda ou direita (ou para cima ou para baixo).</p>"
+    },
+    "5. Old Money": {
+      "name": "5. Dinheiro Velho",
+      "description": "<p>Progenitor se recusa a largar seus negócios bancários e industriais de suas garras frias, mortas-vivas, reencarnadas. Ainda assim, você tem seu nome e mesada. Fundo fiduciário lhe dá €25/semana.</p>"
+    },
+    "5. Orange Half-Ling": {
+      "name": "5. Meio-Linga Laranja",
+      "description": "<p>Seu tamanho pequeno reduz suas necessidades e estende sua vida. Você precisa apenas de um quarto da comida, água e bebida de um humano médio. Além disso, ganhe +1 de rapidez (até um máximo de 6).</p>"
+    },
+    "5. Pet Sidekick": {
+      "name": "5. Pet Coadjuvante",
+      "description": "<p>Você trata o pet como seu mestre. Eles são do mesmo nível que você. Você pode trocar de papéis, tornando o pet o PJ (gere seus atributos normalmente). Você capta os pensamentos e emoções de criaturas semelhantes ao pet. Ganhe +1 de aura.</p>"
+    },
+    "5. Pocketmaster": {
+      "name": "5. Mestre dos Bolsos",
+      "description": "<p>Oculte um número de pequenos objetos igual ao seu nível de graça, ignorando inventário. Uma faca é pequena.</p><p><em>(a cada nível atualize o valor do bônus na aba de efeitos)</em></p>"
+    },
+    "5. Revenant-in-Waiting": {
+      "name": "5. Revenante em Espera",
+      "description": "<p>Quando você morre, sua arma (seu mestre) pode escolher revivê-lo reduzindo um de seus atributos em 1. Cada vez que você retorna, você é um pouco menos humano, um pouco mais morto. Quando todos os seus atributos são reduzidos a 0, você é o escravo cadáver ambulante de sua arma.</p>"
+    },
+    "5. Saffron Eater": {
+      "name": "5. Comedor de Açafrão",
+      "description": "<p>Exposição prolongada a venenos e poções exóticas deixou sua pele amarela brilhante e o tornou resistente à maioria das toxinas. Ganhe 1 de aura e um bônus para evitar se viciar.</p>"
+    },
+    "5. Sculpted Beauty": {
+      "name": "5. Beleza Esculpida",
+      "description": "<p>Além da linhagem germinativa, você exala glamour sintético. Ganhe +2 de carisma.</p>"
+    },
+    "5. Second Chance": {
+      "name": "5. Segunda Chance",
+      "description": "<p>Quando você cairia a 0 de vida, você cai para 1 de vida em vez disso. <strong>Uma vez.</strong></p><p>Recarregue a segunda chance com um dado heróico.</p>"
+    },
+    "5. Slayer": {
+      "name": "5. Exterminador",
+      "description": "<p>Uma vez por round, dobre seus modificadores de ataque e dano contra um inimigo de seu nível ou superior.</p><p><em>(este modificador dobrado não é automatizado)</em></p>"
+    },
+    "5. Soothsayer": {
+      "name": "5. Adivinho",
+      "description": "<p>Quando ninguém mais em uma vila consegue ler, sua interpretação dos sonhos divinos do zumbido ambiente das árvores-noéticas é inestimável. Bosque, clareira, cogumelo e lodo falam com você. Gaste 1 ponto de vida para falar com eles.</p>"
+    },
+    "5. Spelunker": {
+      "name": "5. Espeleólogo",
+      "description": "<p>Crescendo em uma perfuração de montanha, você se aventurou em lugares profundos. Escalou, rapelou, mergulhou, acampou, forrageou, marcou e mapeou eles. Além disso, ganhe um bônus ao lutar em lugares apertados.</p><p><em>Ative o efeito ativo Bônus de Luta quando lutando em um lugar apertado</em></p>"
+    },
+    "5. Strong": {
+      "name": "5. Forte",
+      "description": "<p>Uma vida de trabalho e a boa dieta fornecida pelo establishment lhe deram um físico poderoso. Ganhe +2 de força ou resistência.</p><p><em>(Use o efeito ativo Forte e adicione 2 às linhas de força ou resistência.)</em></p>"
+    },
+    "5. Subconscious Decay": {
+      "name": "5. Decaimento Subconsciente",
+      "description": "<p>Quando você está inconsciente ou dormindo, sua forma física decai rapidamente. Ela se reconstitui quando você acorda. Ganhe +1 de aura.</p>"
+    },
+    "5. Ur-War Program": {
+      "name": "5. Programa da Guerra Ur",
+      "description": "<p>O legado da guerra eterna está codificado dentro de você. Aumente sua rapidez em 1 e os dados de seu @UUID[Compendium.sdm.equipment.Item.uKcbcZUs1jQZskQ4]{Dano Desarmado} em um nível (geralmente [[/r 1d4]])</p>"
+    },
+    "5. Vintner": {
+      "name": "5. Vinicultor",
+      "description": "<p>Seus ancestrais se modificaram para sobreviver fora da rede, extraindo sustento da flora profana dos deuses. Você é imune a toxinas vegetais. Beber uma dose de etanol puro concede a você 1 de vida temporária (até seu nível mais resistência). Álcool não é uma toxina vegetal.</p><p><em>(Atualize manualmente o valor do efeito ativo <strong>Vida Temporária</strong> para seu Nível + resistência atual)</em></p>"
+    },
+    "6.  Numbers Maximization Official": {
+      "name": "6. Oficial de Maximização de Números",
+      "description": "<p>Você dominou o popular jogo humano de \"números aumentam\". Gaste 1 ponto de vida para adicionar [[/r 1d6]] a uma rolagem, mas o resultado é sua chance de uma falha crítica em sua próxima rolagem.</p>"
+    },
+    "6. Hashtag Blessed": {
+      "name": "6. #Abençoado",
+      "description": "<p>Cada vez que você visita um novo lugar, ganhe um dado de turista. Ele funciona como um dado heróico. Você pode segurar um número igual ao seu carisma.</p><p><em>Atualize a propriedade <span style=\"text-decoration:underline\">system.tourist_dice.max</span> do efeito ativo <strong>Dados de Turista</strong> com o valor do seu carisma atual.</em></p>"
+    },
+    "6. I Am Legion": {
+      "name": "6. Eu Sou Legião",
+      "description": "<p>Você sabe tudo sobre exércitos. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 de dano até o final da batalha. Após a primeira morte, sangue jorra de você até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Ative e edite o efeito ativo <strong>Eu Sou Legião</strong> para adicionar o bônus de dano.</em></p>"
+    },
+    "6. Perfected Germline": {
+      "name": "6. Linhagem Germinativa Perfeita",
+      "description": "<p>Mais alto e saudável que outros humanos, você é imune a todas as doenças e livre de todas as falhas. Supostamente.</p>"
+    },
+    "6. Recast": {
+      "name": "6. Relançar",
+      "description": "<p>Quando seu poder falha ou um alvo passa no teste, você pode usar o poder novamente de graça. <strong>Uma vez.</strong> Recarregue seu relançar com um dado heróico.</p>"
+    },
+    "6. Shackleminded": {
+      "name": "6. Mente-Acorrentada",
+      "description": "<p>Seu cérebro foi aumentado com pregos inscritos com glifos e fios sagrados, imunizando-o contra ataques mentais, efeitos psíquicos e iniciativa individual. Ganhe +2 de égide e +1 de resistência, mas perca -1 de inteligência.</p>"
+    },
+    "6. Silver-Tongued": {
+      "name": "6. Língua de Prata",
+      "description": "<p>Você poderia (e o faz) convencer as escamas a caírem de um dragão. Gaste um dado heróico e uma criatura acredita em você, sem necessidade de rolagem.</p>"
+    },
+    "6. Soiltwined": {
+      "name": "6. Entrelaçado ao Solo",
+      "description": "<p>Broto do próprio solo, você é um ur-camponês, um com este Mundo Dado. Descalço no solo nu, você é mais sábio e forte, adicionando sua <strong>resistência</strong> às rolagens de <em>inteligência</em> e <em>força</em>.</p><p><em>Ajuste manualmente os valores do efeito ativo <strong>Entrelaçado ao Solo</strong>, adicionando seu valor de <span style=\"text-decoration:underline\">resistência</span> atual ao bônus de rolagem de inteligência e força e ao bônus de teste.</em></p>"
+    },
+    "6. Soul Thief": {
+      "name": "6. Ladrão de Almas",
+      "description": "<p>Quando uma criatura próxima é reduzida a 0 de vida, você pode roubar um pouco de sua alma e ganhar [[/r 1d4]] de vida. Isso reduz um de seus outros atributos a 0.</p>"
+    },
+    "6. Sporemark": {
+      "name": "6. Marca de Esporos",
+      "description": "<p>O micélio está dentro de você. Você ouve o todo-fungo. Fale com árvores e solo e coisas apodrecendo. Se ferimentos o reduzirem a 0 de vida, passar um dia enterrado em solo vivo restaura você à saúde plena.</p>"
+    },
+    "6. Superuser": {
+      "name": "6. Superusuário",
+      "description": "<p>Você pode ativar qualquer velhatec ou fantasciência como uma ação livre—mesmo se você não tiver uma habilidade relevante ou se estiver de alguma forma bio- ou espírito-bloqueado. Os efeitos ainda podem corrompê-lo, no entanto.</p>"
+    },
+    "6. Swift": {
+      "name": "6. Veloz",
+      "description": "<p>Uma vez por turno, gaste um ponto de vida ou um dado heróico para obter uma ação extra neste round.</p>"
+    },
+    "6. Telempath": {
+      "name": "6. Telempata",
+      "description": "<p>Você pode transmitir mentalmente avisos gerais, sentimentos e impressões para outras criaturas a uma distância média. Ganhe +1 de égide.</p>"
+    },
+    "6. Terrifying": {
+      "name": "6. Aterrorizante",
+      "description": "<p>Você é habilidoso em assustar pessoas. Isso também é um bônus de +2 ao quebrar o moral de seus inimigos. Especialista: +4; mestre: +6<br /><em>(bônus de moral devem ser adicionados manualmente às rolagens)</em></p>"
+    },
+    "6. Thorny": {
+      "name": "6. Espinhoso",
+      "description": "<p>Sua pele é coriácea e coberta de crescimentos espinhosos. Você precisa da metade da água de um humano normal e ganha +1 de armadura natural. Cause dano duplo ao agarrar.</p>"
+    },
+    "6. Tough": {
+      "name": "6. Resistente",
+      "description": "<p>Sua vida dura significa que você pode aguentar mais punição que a maioria dos humanos. Cada dia, você acorda com [[/r 1d6]] + nível de pontos de punição temporários. Eles absorvem dano físico, mas não podem alimentar poderes ou traços.</p><p><em>Use vida temporária como pontos de punição. Ao usar poderes ou traços que custam pontos de vida, não use os pontos de vida temporários. Ajuste o efeito ativo <strong>Resistente</strong> para habilitar vida temporária.</em></p>"
+    },
+    "6. Unfred": {
+      "name": "6. Infred",
+      "description": "<p>Seus ancestrais reconstruíram seus cérebros. Você parece humano, mas é imune a efeitos de controle humano e sua mente conta como alienígena. Ganhe +1 de resistência.</p>"
+    },
+    "6. Urbane": {
+      "name": "6. Urbano",
+      "description": "<p>Você pode ir a qualquer lugar e falar com qualquer pessoa em uma cidade. Gaste 1 ponto de vida e há um beco de passagem secreto, café escondido ou portal seguro bloqueado por classe.</p>"
+    },
+    "6. Very Strong": {
+      "name": "6. Muito Forte",
+      "description": "<p>Aumente sua força em 2. Ignore os limites humanos normais.</p>"
+    },
+    "6. Veteran of the Psychic Wars": {
+      "name": "6. Veterano das Guerras Psíquicas",
+      "description": "<p>Você lutou nas guerras dos ladrões de mentes com raio-laser e machete vibratória. Adicione seu bônus a testes contra encantamentos e controle mental. Além disso, sofra metade do dano de golpes mentais comuns, mas o dobro de acertos críticos mentais.</p><p><em>Este bônus em testes não é automatizado.</em></p>"
+    },
+    "6. Wanderer": {
+      "name": "6. Andarilho",
+      "description": "<p>Um dia você se afastou de sua vida. Anos de estrada endureceram seus pés e amoleceram seu coração. Aumente sua resistência e aura em 1.</p>"
+    },
+    "6. Werker": {
+      "name": "6. Trabalhador",
+      "description": "<p>Seus ancestrais foram bioengenheirados para manter a maquinaria dos construtores. Você tem uma compreensão intuitiva de dispositivos e processos velhatec. Gaste 1 ponto de vida para interagir com um dispositivo e verificar se ele pode ser consertado e, pelo menos aproximadamente, como.</p>"
+    },
+    "6. Wild Survivor": {
+      "name": "6. Sobrevivente Selvagem",
+      "description": "<p>Forjado na natureza hostil, você é habilidoso em táticas de guerrilha e usar o ambiente como arma. Dados vários minutos, você sempre pode improvisar uma arma d10 de gravetos e pedras e ossos de robô. Com mais tempo, você pode fazer armadilhas: alçapões, poços, laços e mais.</p>"
+    },
+    "6. Wired": {
+      "name": "6. Ligado",
+      "description": "<p>Seu corpo é modificado para secretar estimulantes e depressoras sob demanda. Como uma ação livre, gaste 1 ponto de vida para obter um bônus de +2 nas rolagens de iniciativa, 2 de vida para ganhar uma ação bônus, ou 3 de vida para recuperar um ponto de atributo.</p><p><em>(Estes bônus não são automatizados)</em></p>"
+    }
+  }
+}

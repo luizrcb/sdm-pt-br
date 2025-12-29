@@ -1,0 +1,22 @@
+{
+  "label": "Criaturas",
+  "mapping": {
+    "biography": "system.biography",
+    "tokenName": "prototypeToken.name"
+  },
+  "entries": {
+    "Pet Bird": {
+        "name": "Ave de Estimação",
+        "tokenName": "Ave de Estimação"
+    },
+    "Spear Snake": {
+        "name": "Serpente-Lança",
+        "tokenName": "Serpente-Lança"
+    },
+    "Vicious Bird": {
+        "name": "Ave Cruel",
+        "tokenName": "Ave Cruel",
+        "biography": "<p>Este mascote não é amigo de ninguém. Xinga como um marinheiro das estrelas.<br /></p>"
+    }
+  }
+}
