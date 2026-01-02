@@ -1,0 +1,555 @@
+{
+  "label": "Poderes",
+  "folders": {
+    "Weapon Trait": "Traço Arma"
+  },
+  "mapping": {
+    "description": "system.description",
+    "range": "system.power.range",
+    "target": "system.power.target",
+    "duration": "system.power.duration",
+    "overcharge": "system.power.overcharge",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
+  },
+  "entries": {
+    "Access Noötree": {
+      "name": "Acesso à Noöárvore",
+      "description": "<p><em>Surfe Espiritual Localizado</em><br /><br />Você se desconecta do corpo e envia sua mente-espírito (<em>ka-ba</em>) ao espaço onírico sintético de uma árvore-servidor local. É possível acessar memórias de curto prazo da árvore, anúncios divinos, novidades algorítmicas de interesse humano e realidades oníricas derivadas hospedadas localmente.</p>",
+      "range": "toque",
+      "target": "uma árvore pensante",
+      "duration": "10 minutos",
+      "overcharge": "<p>Obtenha acesso de nível raiz ao código-fonte da árvore e encontre as portas miceliais que a ligam à noösfera mais ampla, fragmentos do mundo eletrônico de Muito Tempo Atrás, palácios de memória celestiais e outros micro-reinos.</p><p>Ruído e comoção podem alertar guardiões funcionais (N[[/r 2d6]], eletroangelicais).</p>"
+    },
+    "Akaula's Sacrificial Hero": {
+      "name": "Herói Sacrificial de Akaula",
+      "description": "<p><em>Purificação da Boca do Inferno</em></p><p>O purificador usa os seis sigilos da ligação para marcar um herói para o abate. O herói perde 1 ponto de vida por rodada. Quando ele fica sem vida, sua mente e alma irrompem num clarão de fogo do Criador. O fogo banhe todos os daemons e alienígenas de até o dobro do nível do herói num raio de 100 metros e fecha todos os portais dimensionais e do vácuo por um número de anos igual ao nível do herói.</p>",
+      "range": "toque",
+      "target": "herói escolhido, área grande",
+      "duration": "permanente",
+      "overcharge": "<p>os forasteiros são destruídos, os portais são quebrados por décadas iguais ao nível do herói.</p>"
+    },
+    "Alter Self": {
+      "name": "Alterar o Eu",
+      "description": "<p><em>Beleza Interior Manifestada, Mente Sobre a Carne</em></p><p>A mente do mago reesculta seus próprios traços. Ele pode assumir a aparência de uma pessoa específica, desde que a tenha estudado de perto, ou de um tipo geral. Nenhuma habilidade é alterada. Alternativamente, o mago pode escolher ganhar guelras, visão em pouca luz, ou outra habilidade natural menor, a critério do árbitro.</p>",
+      "range": "toque",
+      "target": "si mesmo",
+      "duration": "1 hora",
+      "overcharge": "<p>os efeitos tornam-se permanentes.</p>"
+    },
+    "Animate Corpse": {
+      "name": "Animar Cadáver",
+      "description": "<p><em>Pós-Mortalidade Artificial</em></p><p>Em 1 hora, um cadáver humanoide razoavelmente intacto se ergue como um zumbi pós-mortal.</p><p>Animado por um fragmento de alma e resíduos de personalidade. Obedece ordens simples, mas deve ser relembrado a cada 6 horas.</p><p>O mago pode controlar um número de pós-mortais igual ao seu Nível sem risco de rebelião.</p>",
+      "range": "toque",
+      "target": "cadáver",
+      "duration": "permanente",
+      "overcharge": "<p>Desperta instantaneamente ou como um pós-mortal especializado.</p>"
+    },
+    "Anne Astec": {
+      "name": "Ane Estético",
+      "description": "<p><em>Analgésico Sacerdotal Iátrico</em></p><p>Suprime a resposta à dor de uma criatura, aliviando dor e fardos. Espera… o escriba confundiu anestésico com estético?</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "um dia",
+      "overcharge": "<p>dura uma semana.</p>"
+    },
+    "Anti-Babylon": {
+      "name": "Anti-Babilônia",
+      "description": "<p><em>Protocolo Universal de Tradução</em></p><p>Permite comunicação funcional com qualquer entidade: vegetal, animal, mineral ou banco de dados.</p>",
+      "range": "próximo",
+      "target": "1 criatura ou objeto",
+      "duration": "1 hora",
+      "overcharge": "<p>Todos os objetos ao alcance dos braços ou comunicação curta à distância.</p>"
+    },
+    "Better Pastures": {
+      "name": "Pastagens Melhores",
+      "description": "<p><em>Escolha do Remendo Darehodo</em></p><p>Medite por uma hora em uma encruzilhada, observando o fluxo de suas energias, o voo dos pássaros, o deslocar das sementes de paina. Faça uma pergunta objetiva de sim/não à encruzilhada, e ela responderá. Este caminho alcança água em até 50 milhas? Há pasto verde ao longo daquele caminho em até 20 km?</p>",
+      "range": "si mesmo",
+      "target": "si mesmo",
+      "duration": "1 hora",
+      "overcharge": "<p>Faça uma segunda pergunta ou esclareça a primeira.</p>"
+    },
+    "Big Wish": {
+      "name": "Grande Desejo",
+      "description": "<p><em>Continue Girando, Súplica ao Demiurgo Perverso</em></p><p>Você invoca um demiurgo, um eco dos Construtores, e ordena que ele conceda seu desejo. O demiurgo faz o possível para interpretá-lo mal, provavelmente por ser um alienígena fora do tempo e do espaço. O círculo de proteção leva um dia para ser traçado, ou o poder pode ser perigoso. A invocação em si exige apenas três gestos e um objeto reflexivo.</p><p>Desejos típicos (e perversões):</p><ul><li><p>“Traga meu amor de volta à vida.” feito, mas agora ela ama outra pessoa.</p></li><li><p>“Afaste este cálice de mim.” muito bem, vamos entregá-lo ao seu nêmesis.</p></li><li><p>“Transporte-me para um lugar seguro.” agora você está em um cofre bancário, sem nenhum de seus pertences.</p></li><li><p>“Tire-nos desta frigideira!” direto para o fogo.</p></li><li><p>“Este poder é inútil?” bem, é quase uma piada.</p></li></ul>",
+      "range": "si mesmo",
+      "target": "demiurgo",
+      "duration": "um dia, depois permanente",
+      "overcharge": "<p>Você recebe três desejos em um cálice de cristal. Beba seu líquido azedo para invocar seu demiurgo.</p>"
+    },
+    "Blue Lotus": {
+      "name": "Lótus Azul",
+      "description": "<p><em>Contentamento Somático Máximo</em></p><p>A bem-aventurança da soma traz contentamento ao alvo (salvaguarda).<br /><em>Sucesso:</em> perde o próximo turno em devaneio extático.<br /><em>Falha:</em> senta-se, perdido em êxtase por uma hora.</p>",
+      "range": "curto (~5m)",
+      "target": "1 criatura",
+      "duration": "1 hora",
+      "overcharge": "<p>Afeta um número de criaturas igual ao seu nível + 1.</p>"
+    },
+    "Burden Share": {
+      "name": "Partilha de Fardo",
+      "description": "<p><em>Ritual de Empatia do Sanador</em></p><p>O conjurador acessa a essência de uma criatura para transferir um de seus fardos fadiga, ferimento, ansiedade ou outra aflição. O fardo se transforma em uma pedra espiritual, o fardo do curador, que passa para outra criatura próxima. Impõe impacto negativo leve em atributos, sem dano permanente, dissipando-se normalmente com descanso.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "várias horas",
+      "overcharge": "<p>O ritual leva vários minutos, mas inflige [[/r 1d4]] dano a ambas as partes.</p>"
+    },
+    "Burdenbeast Modification": {
+      "name": "Modificação de Cargofera",
+      "description": "<p><em>Arte do Transporte, Mutação Útil de Usha</em></p><p>O mago modifica uma criatura de tamanho humano ou maior para carregar uma saca adicional de mercadorias. O ritual exige 6 horas e uma saca de massas de ovos de besta (€500). Alvos não dispostos fazem salvaguarda.</p>",
+      "range": "toque",
+      "target": "criatura",
+      "duration": "permanente",
+      "overcharge": "<p></p>"
+    },
+    "Can Trip": {
+      "name": "Truque do Tropeço",
+      "description": "<p><em>Maldição do Pé Torto, Catástrofe Felina Desastrada</em></p><p>Você deseja que alguém se espalhe pelo chão e seja humilhado, e sua maldição murmurada pode fazer isso acontecer. Os cadarços do alvo se soltam de repente ou uma pedra ou galho salta para fazê-lo tropeçar. O alvo faz uma salvaguarda ou cai estatelado.</p>",
+      "range": "alguns metros",
+      "target": "alguém que possa ouvi-lo",
+      "duration": "instantâneo",
+      "overcharge": "<p>Não há salvaguarda. O alvo tropeça.</p>"
+    },
+    "Cerebral Purge": {
+      "name": "Expurgo Cerebral",
+      "description": "<p><em>Despertar Brutal, A Faca Fria da Realidade</em></p><p>O mago usa uma onda telecrônica para purificar o cérebro do alvo de quaisquer impurezas drogas ou magias de alteração mental. O alvo perde [[/r 1d6]] vida e suas memórias recentes ficam turvas. Alvos não dispostos fazem salvaguarda.</p>",
+      "range": "10 m",
+      "target": "criatura",
+      "duration": "0",
+      "overcharge": "<p>O alvo perde [[/r 2d6]] vida e esquece o que aconteceu na última hora. Alvos não dispostos ainda fazem salvaguarda.</p>"
+    },
+    "Counterfire": {
+      "name": "Contrafogo",
+      "description": "<p><em>Projétil Panóptico</em></p><p>Desvie um ataque iminente, corpo a corpo ou à distância, com um projétil. Declare o contrafogo antes da rolagem de ataque.</p>",
+      "range": "hemisfério médio, ~12 m",
+      "target": "um ataque",
+      "duration": "interrupção",
+      "overcharge": "<p>O atacante faz salvaguarda ou é desarmado.</p>"
+    },
+    "Dampen Mass": {
+      "name": "Amortecer Massa",
+      "description": "<p><em>Aprimoramento Logístico Nosigoro</em></p><p>Um campo de sub-realidade reduz pela metade a massa interativa do objeto. Um objeto de 100 kg age como se tivesse 50 kg.</p>",
+      "range": "toque",
+      "target": "1 saca",
+      "duration": "1 dia",
+      "overcharge": "<p>A massa é reduzida pela metade novamente. Alternativamente, afeta um objeto duas vezes maior ou dura uma semana.</p>"
+    },
+    "Dancing In The Hail": {
+      "name": "Dançando no Granizo",
+      "description": "<p><em>Desviar-Bala</em></p><p>Reduz sua “caixa de acerto” metafísica ao tamanho da sua arma. Todos os ataques à distância contra você sofrem penalidades severas (desvantagem).</p>",
+      "range": "si mesmo",
+      "target": "si mesmo",
+      "duration": "uma rodada",
+      "overcharge": "<p>Ataques à distância que acertarem causam apenas metade do dano.</p>"
+    },
+    "Depleted Heavy Metal Rain": {
+      "name": "Chuva de Heavy Metal Empobrecido",
+      "description": "<p><em>Explosão Maior</em></p><p>Imbua seu próximo disparo com um erro inercial. Role os dados de dano duas vezes. Os dados também explodem.<br /><br />Adicione o dano da arma no campo <span style=\"text-decoration:underline\">fórmula de rolagem</span> duas vezes, usando chaves: {1d6x, 1d6x}</p><p>(o “x” indica que os dados explodem), e no campo <span style=\"text-decoration:underline\">rolagem de sobrecarga</span> três vezes: {1d6x, 1d6x, 1d6x}.</p>",
+      "range": "toque",
+      "target": "arma âncora",
+      "duration": "alguns minutos",
+      "overcharge": "<p>Role os dados de dano três vezes.</p>"
+    },
+    "Dissolution and Resolution of the Spirit": {
+      "name": "Dissolução e Resolução do Espírito",
+      "description": "<p><em>Sonolência Feérica, Reinicialização Forçada</em></p><p>O mago dissolve o espírito de uma criatura, deixando uma concha inerte ou pseudocadáver. Após 1 dia, o espírito “reinicia”, limpo de parasitas espirituais, daemons, vermes de código ou magias mentais.</p>",
+      "range": "toque",
+      "target": "uma criatura voluntária",
+      "duration": "1 dia",
+      "overcharge": "<p>O alvo permanece inerte por uma semana. A reinicialização também repara ferimentos físicos e doenças.</p>"
+    },
+    "Dryland Sculpture": {
+      "name": "Escultura de Terra Seca",
+      "description": "<p><em>Bangalô Utilitário de Pedra Viva, Rito da Forma de Coral</em></p><p>Ao longo de 6 horas, o mago induz um tijolo de pedra viva (1 mochila) a crescer em uma forma de coral terrestre de qualquer formato desejado dentro da área-alvo. Hemisférios são populares. Não esqueça da porta.</p>",
+      "range": "toque",
+      "target": "área de 5 m de diâmetro",
+      "duration": "permanente"
+    },
+    "Egregious Topology": {
+      "name": "Topologia Egrégia",
+      "description": "<p><em>Deslocamento Fractal de Fase</em></p><p>Matemágica pós-real irracional empurra um objeto para uma superposição anakata com a matéria comum. Um item pode atravessar uma porta, uma mão pode atravessar a tampa de uma caixa.</p>",
+      "range": "toque",
+      "target": "1 mão ou mochila",
+      "duration": "1 minuto",
+      "overcharge": "<p>Afeta 1 pessoa ou uma saca.</p>"
+    },
+    "Entropic Reversal": {
+      "name": "Reversão Entrópica",
+      "description": "<p><em>O Amuleto do Descompasso, Despertar dos Distantes de Zundan</em></p><p>O mago traça um círculo cronômantico de 1 metro de diâmetro ao redor do objeto-alvo. Quando o desenho é concluído, um clarão de para-entropia restaura o objeto à função perfeita e degrada tudo o mais dentro do círculo. O ritual leva 15 minutos.</p>",
+      "range": "3 m",
+      "target": "objeto (ferramenta ou máquina)",
+      "duration": "0",
+      "overcharge": "<p>Permite um círculo de 10 metros de diâmetro.</p>"
+    },
+    "Essence Sift": {
+      "name": "Peneira de Essência",
+      "description": "<p><em>Atrator Abstraído</em></p><p>Ao articular nomes, locais e velocidades de uma substância, ela é extraída de uma mistura. Sal se filtra da água, orgânicos emergem do solo, água precipita do ar. Quanto mais preciso o nome e o conhecimento, mais perfeita a separação.</p>",
+      "range": "toque",
+      "target": "1 mochila ou garrafa",
+      "duration": "5 minutos",
+      "overcharge": "<p>Duas substâncias são extraídas ao mesmo tempo. Ou uma mochila de substância é peneirada ao longo de meia hora.</p>"
+    },
+    "Eyes of Akaula": {
+      "name": "Olhos de Akaula",
+      "description": "<p><em>Visões dos Queridos Partidos</em></p><p>Os olhos do buscador brilham em verde-limão pálido e enxergam coisas invisíveis, ocultas, ausentes e mortas.</p>",
+      "range": "médio, ~50 m",
+      "target": "si mesmo",
+      "duration": "1 dia",
+      "overcharge": "<p>O buscador ganha um ataque de olhar que paralisa as coisas mencionadas por [[/r 1d6]] rodadas (salvaguarda).</p>"
+    },
+    "Eyes of the Arrow": {
+      "name": "Olhos da Flecha",
+      "description": "<p><em>Projétil Panóptico</em></p><p>Vincule um fio da sua consciência a um projétil. Ele age como um olho remoto (ou outro sensor).</p>",
+      "range": "toque",
+      "target": "1 projétil",
+      "duration": "cerca de 1 minuto",
+      "overcharge": "<p>O projétil manobra em voo com a Rapidez de uma pomba.</p>"
+    },
+    "Floating Disc": {
+      "name": "Disco Flutuante",
+      "description": "<p><em>Escudo do Justo, Mula do Mago</em></p><p>O mago cria um disco côncavo de força presa com 1 m de diâmetro. O disco paira, pode ser empurrado à velocidade de caminhada e inclinado para criar uma barreira quase impenetrável. O disco desaparece se ficar a mais de 30 m do mago.</p>",
+      "range": "30m",
+      "target": "ponto",
+      "duration": "1 hora",
+      "overcharge": "<p>o disco pode ter até 5m de diâmetro e se move ao comando falado do mago.</p>"
+    },
+    "Gem Bomb": {
+      "name": "Bomba de Gema",
+      "description": "<p><em>Bola de Fogo do Joalheiro, Flor Explosiva de Pedra de Uzud (RSDC)</em></p><p>O mago entalha um campo de força explosivo em uma gema valendo ao menos €20. Ela explode ao impacto, causando [[/r 2d6]] de dano a todos os próximos.</p>",
+      "range": "toque",
+      "target": "gema",
+      "duration": "0",
+      "overcharge": "<p>explode como uma Bola de Fogo.</p>"
+    },
+    "Green Haven": {
+      "name": "Refúgio Verde",
+      "description": "<p><em>Santuário Arbóreo</em></p><p>Convença arbustos, gramíneas, sarças e outras plantas a formar um domo de sebes, um santuário para descansar e se esconder. Inimigos precisam de pelo menos um turno para atravessar a sebe. Eles ficam vulneráveis enquanto estão na parede vegetal. Após uma noite ou um dia, as plantas retornam ao normal.</p>",
+      "range": "próximo",
+      "target": "uma esfera de 7m de diâmetro",
+      "duration": "uma noite ou um dia",
+      "overcharge": "<p>esculpa uma muralha de sebes espinhosas medindo 200 metros quadrados e 1 metro de espessura. Os espinhos cortam quem tentar atravessar como adagas ([[/r 1d4]] de dano).</p>"
+    },
+    "Highway Cruiser": {
+      "name": "Cruzeiro de Estrada",
+      "description": "<p><em>Autotolo Dirigente</em></p><p>Conjure um daemon motorista da noösfera e o vincule ao seu veículo ou montaria por um dia. Eis que a carruagem dirige sozinha! Espera-se que o daemon entenda sua língua para receber comandos de voz.</p>",
+      "range": "toque",
+      "target": "veículo ou montaria",
+      "duration": "1 dia",
+      "overcharge": "<p>o daemon é capaz de manobras mais complexas e de se adaptar a situações mutáveis da estrada, como lanceiros vagarosos bloqueando a estrada.</p>"
+    },
+    "Hlod Person": {
+      "name": "Imolibizar Pessoa",
+      "description": "<p><em>Enlace do Demônio Disléxico, Constrição Imprevista de Leshnik</em></p><p>Agite a mão como uma folha dobrada ao meio pela sexta vez e veja seu alvo se tornar como um tronco de madeira (salvaguarda). Duro, rígido, imóvel, receptivo à carpintaria.</p>",
+      "range": "curto",
+      "target": "uma pessoa",
+      "duration": "1 hora",
+      "overcharge": "<p>A mudança é permanente.</p>"
+    },
+    "Imbue Edge": {
+      "name": "Imbuir Lâmina",
+      "description": "<p><em>Lança Fatiadora de Seka, Vorpalizar</em></p><p>O mago sussurra para uma arma, imbuindo-a de astúcia, luxúria e humor. Ela causa +2 de dano e pode ferir espíritos, daemons e outros seres intangíveis pela duração da magia.</p>",
+      "range": "toque",
+      "target": "arma cortante",
+      "duration": "6 horas",
+      "overcharge": "<p>em um acerto crítico, o alvo deve passar em uma salvaguarda ou morrer.</p>"
+    },
+    "Invoke Ub Dragon": {
+      "name": "Invocar Dragão Ub",
+      "description": "<p><em>Faísca de Erro da Realidade Local</em></p><p>O conjurador invoca o código Ub e condensa perturbações magitecnológicas acumuladas em um devorador. Seu poder depende do nível de perturbação (decidido pelo árbitro ou por um [[/r d10]]). Após a manifestação, a perturbação local diminui um nível; forças presas se soltam, emaranhados de energia se dissipam, fantasmas de radiação enfraquecem.</p><ul><li><p>&lt;1 não perturbado:</p><ul><li><p><strong>plâncton aéreo cintilante</strong> (L0, inofensivo)</p></li></ul></li><li><p>1–3 levemente perturbado:</p><ul><li><p><strong>limo purificador</strong> (L[[/r 1d4]], cáustico)</p></li></ul></li><li><p>4–7 estática temporal:</p><ul><li><p><strong>lagarto da destruição</strong> (L[[/r 2d4]], blindado)</p></li></ul></li><li><p>8–9 cicatriz espacial:</p><ul><li><p><strong>saltador flamejante</strong> (L[[/r 2d6]], espinhoso)</p></li></ul></li><li><p>10+ fratura da realidade:</p><ul><li><p><strong>ceifador de lâminas</strong> (L[[/r 3d4+2]], alado)</p></li></ul></li></ul>",
+      "range": "aqui",
+      "target": "grande área local de realidade perturbada",
+      "duration": "permanente",
+      "overcharge": "<p>Você tem controle temporário do devorador.</p>"
+    },
+    "Knock / Lock": {
+      "name": "Abrir / Trancar",
+      "description": "<p><em>Lamento do Chaveiro, Selo de Hashoon</em></p><p>O mago invoca um fragmento de consciência dentro de uma fechadura-alvo. Eufórico, o objeto fracamente senciente murmura nas bordas da mente do mago, implorando para agradar. Ele se destranca ou se tranca sozinho. Fechaduras mágicas fazem salvaguarda com bônus igual ao Nível de seu mago.</p>",
+      "range": "10m",
+      "target": "fechadura",
+      "duration": "permanente",
+      "overcharge": "<p>a porta ou portal é escancarado ou selado, soldado ou fundido.</p>",
+      "roll_formula": ""
+    },
+    "Linked Portals": {
+      "name": "Portais Vinculados",
+      "description": "<p><em>Viagem Astral Menor, Túnel Conveniente de Nilbreg o Tecnoduque</em></p><p>O mago desenha dois círculos de 3 metros de raio no ar. Os círculos são ligados por uma ponte de irrealidade astral. Tudo que entra em um arco sai pelo outro inalterado, mas com seu vetor de movimento ajustado pela posição dos portais. Dois arcos posicionados um acima do outro permitem que um objeto caia em velocidade terminal.</p>",
+      "range": "toque",
+      "target": "área",
+      "duration": "30 minutos",
+      "overcharge": "<p>a orientação dos portais pode ser ajustada à vontade. Os portais também podem ser arremessados até 10 metros.</p>"
+    },
+    "Magic Jar": {
+      "name": "Frasco Mágico",
+      "description": "<p><em>Ba Engarrafado de Abned, Mente Cristalizada</em></p><p>O mago transfere a personalidade de uma criatura inconsciente para um cristal delicado no valor de €1.000. O procedimento apaga a personalidade original. O processo leva 30 minutos.</p>",
+      "range": "toque",
+      "target": "criatura",
+      "duration": "permanente",
+      "overcharge": "<p>a personalidade da criatura é copiada, não apagada. Há 50% de chance de conflito de ego catastrófico ou partição moral.</p>"
+    },
+    "Metempsychosis": {
+      "name": "Metempsicose",
+      "description": "<p><em>Tradução Ka-Ba de Serapefti</em></p><p>Transfere a essência de um paciente para um novo hospedeiro físico. Uma réplica perfeita do corpo original é ideal, mas hospedeiros alternativos como golems rudes, animais, cristais ou até cubas de líquido memorial podem servir. A mudança de forma pode causar estresse psicofísico temporário.</p>",
+      "range": "toque",
+      "target": "1 paciente e 1 hospedeiro",
+      "duration": "1 dia e noite",
+      "overcharge": "<p>Tentar sobrescrever a mente de um hospedeiro não cooperativo. Alternativamente, reduzir o estresse psicofísico da transferência.</p>"
+    },
+    "Mother of Bullets": {
+      "name": "Mãe das Balas",
+      "description": "<p><em>Sangue Tornado Chumbo</em></p><p>Recarrega sua arma como ação livre, convertendo força vital em projéteis semi-reais.</p>",
+      "range": "toque",
+      "target": "arma âncora",
+      "duration": "instantâneo",
+      "overcharge": "<p>o primeiro projétil semi-real que atingir um alvo causa dano extra igual ao seu nível mais o custo do poder (2 + nível).</p>"
+    },
+    "Motor Fixative": {
+      "name": "Fixador Motor",
+      "description": "<p><em>Iniciativa de Requalificação de Aluguel</em></p><p>Queima temporariamente uma habilidade prática observada no cérebro. Após assistir um nadador, piloto ou atirador em ação, a criatura pode executar o mesmo.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "1 dia",
+      "overcharge": "<p>Dura uma semana.</p>"
+    },
+    "Nihil Est!": {
+      "name": "Nihil Est!",
+      "description": "<p><em>O Fim da Vida Tornado Presente, Vínculo de Autoimolação de Hadi</em></p><p>Entre um passo e outro, você cintila entre existência e não-existência, envelhece um ano e uma criatura que você toca desaparece no nada do espaço-verme por um ano. Sem salvaguarda.</p><p>Perigoso: independentemente de quão poderoso você seja.</p>",
+      "range": "toque",
+      "target": "um alvo senciente",
+      "duration": "1 ano",
+      "overcharge": "<p>você envelhece sete anos e uma esfera de um quilômetro de diâmetro, centrada na sua alma, desaparece no nada do espaço-verme por um ano. Sobrecarregue novamente para permanecer e observar a esfera desaparecer (tenha algum meio de levitação preparado).</p>"
+    },
+    "Objective Telekinesis": {
+      "name": "Telecinese Objetiva",
+      "description": "<p><em>O Garfo Curvo, a Mão Invisível de Made</em></p><p>Fragmentos da sua forma se corroem, sublimam e se tornam uma mão ectoplásmica com a qual você pode acariciar, segurar, esmagar e descartar. Ela é tão forte quanto um humano fraco. Ao golpear, causa [[/r 1d3]] de dano.</p>",
+      "range": "próximo",
+      "target": "objeto",
+      "duration": "alguns minutos",
+      "overcharge": "mais forte que a maioria dos humanos (força 3), causa [[/r 1d3]]+3 de dano."
+    },
+    "Open Person": {
+      "name": "Abrir Pessoa",
+      "description": "<p><em>Ritual Preparatório de Hsu Doru</em></p><p>Ativa as costuras de construção de um humano padrão™, desdobrando-o sem dor como uma flor para facilitar tratamento médico. Uma pessoa aberta pode se ferir gravemente se não tomar cuidado ([[/r 3d6]] de dano por ação). Tratamentos são significativamente mais fáceis; o custo de magias médicas é reduzido à metade.</p>",
+      "range": "toque",
+      "target": "1 humano padrão™",
+      "duration": "1 hora",
+      "overcharge": "<p>Os órgãos individuais são desenrolados e suspensos em ectoplasma protetor. Atividade nesse estado pode ser letal (salvaguarda ou morte). Tratamentos se tornam triviais; custos de magias médicas caem para um quarto.</p>"
+    },
+    "Orange Dream": {
+      "name": "Sonho Laranja",
+      "description": "<p><em>Os Trabalhos da Aranha Esquecida</em></p><p>Uma criatura neutra ou amigável concorda em fazer o que você pedir por uma hora (sem salvaguarda), desde que não pareça imediatamente perigoso ou arriscado.</p>",
+      "range": "sussurro",
+      "target": "uma criatura",
+      "duration": "uma hora",
+      "overcharge": "<p>até uma criatura hostil ou violenta escuta, desde que você consiga sussurrar em seu ouvido.</p>"
+    },
+    "Parasoma Transference": {
+      "name": "Transferência Parasômica",
+      "description": "<p><em>Desvio Vital de Hsu Doru</em></p><p>Manipula padrões energéticos subjacentes para transferir vida de uma criatura para outra, ou diretamente das reservas do conjurador.</p>",
+      "range": "toque",
+      "target": "2 criaturas",
+      "duration": "instantâneo",
+      "overcharge": "<p>A amplificação restaura [[/r 1d4]] vida adicional por ponto transferido.</p>"
+    },
+    "Primary Desenescence": {
+      "name": "Desenescência Primária",
+      "description": "<p><em>Fonte de Rejuvenescimento™ de Wissa</em></p><p>Restaura uma criatura ao seu estado biológico de um ano atrás, preservando a maioria de suas memórias atuais.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "uma semana",
+      "overcharge": "<p>Restaura a criatura ao estado de seis anos atrás.</p>"
+    },
+    "Process Food": {
+      "name": "Processar Alimento",
+      "description": "<p><em>Gerar Gosma Rosa, Maná do Criador</em></p><p>Após um ritual de 1 hora, o mago transforma uma saca de matéria orgânica intragável em comida nutritiva (1 saca de suprimentos). Causa câncer mágico se consumido por longos períodos.</p>",
+      "range": "toque",
+      "target": "matéria bruta",
+      "duration": "permanente",
+      "overcharge": "<p>cria comida a partir de matéria inorgânica.</p>"
+    },
+    "Purple Memories": {
+      "name": "Memórias Púrpuras",
+      "description": "<p><em>Exibição Emocional Cômica</em></p><p>O alvo torna-se suscetível à influência. A menor palavra ou sensação dispara memórias, pensamentos e emoções vívidas. Como alguém poderia manter pensamentos ou fatos em segredo nesse estado? Ou resistir a uma boa canção empolgante?</p>",
+      "range": "toque",
+      "target": "uma criatura",
+      "duration": "vários minutos",
+      "overcharge": "<p>afeta um número de criaturas igual ao dobro do seu nível.</p>"
+    },
+    "Pyreball": {
+      "name": "Bola de Fogo",
+      "description": "<p><em>Incendiário Instantâneo, Inferno Plácido de Damora</em></p><p>Você retira uma brasa do tamanho de uma bola de uma pira ou fogueira e recita fórmulas apaziguadoras para aprisionar todo o fogo dentro dela. Quando a bola atinge uma superfície dura (ou é atingida), todos os fogos aprisionados irrompem de uma vez, causando [[/r 5d6]] de dano a todas as criaturas no raio da explosão. Uma bola não detonada se dissipa inofensivamente após um dia.</p>",
+      "range": "toque ou arremesso",
+      "target": "diâmetro de 10m",
+      "duration": "um dia, depois instantâneo",
+      "overcharge": "<p>a bola causa [[/r 10d6]] de dano, ou seus fogos se conservam por um mês.</p>"
+    },
+    "Raise Dead": {
+      "name": "Ressuscitar Morto",
+      "description": "<p><em>A Sétima Abominação, A Hakaba Sombria</em></p><p>Após um ritual de 6 horas, o mago chama de volta a alma de uma criatura e a prende ao seu cadáver, criando uma abominação morta-viva e uma paródia da vida. Se a criatura está morta há mais de 24 horas, apenas ecos de sua personalidade e memórias (Ba) permanecem. Esta magia deve ser sobrecarregada para chamar de volta a alma de qualquer criatura de valor e potência.</p>",
+      "range": "toque",
+      "target": "cadáver",
+      "duration": "permanente",
+      "overcharge": "<p>o mago pode dar à criatura ressuscitada um comando curto, que a criatura tentará obedecer da melhor forma possível.</p>"
+    },
+    "Real-time Rebuild": {
+      "name": "Reconstrução em Tempo Real",
+      "description": "<p><em>Cura Rápida de Zdarovar</em></p><p>Invoca os oneiroi Quiscus e Sanatus para alcançar a essência de uma criatura e substituir código danificado por uma versão imaculada. Este processo doloroso causa dano igual ao poder da magia.</p><p>Variável: (2) remove imperfeições cosméticas, (4) expulsa toxinas ou aflições, (6) restaura um órgão danificado para as configurações de fábrica, (10) regenera um membro, (16) regenera uma cabeça ou torso, (25) reconstrói um corpo inteiro a partir de pó e fragmentos.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "minutos",
+      "overcharge": "<p>O processo de cura é acelerado para apenas alguns segundos, mas isso dobra a dor experimentada pelo alvo.</p>"
+    },
+    "Reason’s Harvest": {
+      "name": "Colheita da Razão",
+      "description": "<p><em>Interface da Biblioteca-Total</em></p><p>O protocolo de colheita desliza sobre a nuvem de infotronium ambiente de um objeto—essencialmente, copia o equivalente a um livro de informação diretamente para a mente do usuário.</p>",
+      "range": "toque",
+      "target": "1 item ou livro",
+      "duration": "1 minuto",
+      "overcharge": "<p>Equivalente a dez livros, mas isso é doloroso.</p>"
+    },
+    "Recall Soul": {
+      "name": "Recuperar Alma",
+      "description": "<p><em>Necroflama, Roubo de Ka</em></p><p>Após um ritual de 1 hora, o mago chama de volta a alma de uma criatura, que irrompe do cadáver como uma serpente serpentina de fogo ectoplasmático. A alma pode ser capturada em um golem, usada para alimentar artefatos obscenos, ou meramente usada para efeito teatral. Esta magia deve ser sobrecarregada para chamar de volta a alma de qualquer criatura de valor e potência.</p>",
+      "range": "toque",
+      "target": "cadáver",
+      "duration": "0",
+      "overcharge": "<p>a alma é presa em um globo etéreo portátil por até 3 horas.</p>"
+    },
+    "Red Mist": {
+      "name": "Névoa Vermelha",
+      "description": "<p><em>Aumento de Agressão Tática</em></p><p>A necessidade de Rubra supera o alvo. Raiva e paixão fervem, ameaçando quebrar sua compostura (salvaguarda). Ele joga novamente sua rolagem de reação com um único d8. Escolha se eles adicionam ou subtraem seu carisma.<br />(<em>jogue novamente a reação usando a fórmula customizada </em><span style=\"text-decoration:underline\"><em><span style=\"text-decoration:underline\">1d8)</span></em></span></p>",
+      "range": "curto, ~20m",
+      "target": "uma criatura",
+      "duration": "alguns minutos",
+      "overcharge": "<p>afeta um número de criaturas igual ao seu nível + 1.</p>"
+    },
+    "Restorative Slumber": {
+      "name": "Sonho Restaurador",
+      "description": "<p><em>Ritual do Sonho Curador de Medeorita</em></p><p>A forma-sonho do conjurador guia o paciente para um sono profundo e curativo. Enquanto dorme, o paciente parece sem vida. Após a conclusão da magia, o paciente acorda rejuvenescido, com um atributo restaurado ou um fardo removido.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "3 dias e noites",
+      "overcharge": "<p>Restaure um atributo adicional ou remova um segundo fardo. Alternativamente, reduza o sono do paciente em três vezes.</p>"
+    },
+    "Ring of Lead": {
+      "name": "Anel de Chumbo",
+      "description": "<p><em>Ciclo Rápido de Giro de Metal</em></p><p>Use a postura da serra circular para descarregar toda sua munição de uma vez, atacando toda* criatura adjacente com uma ação.</p>",
+      "range": "adjacente",
+      "target": "todas as criaturas",
+      "duration": "uma ação",
+      "overcharge": "<p>nenhuma rolagem de ataque necessária. *sujeito à quantidade de munição que sua arma âncora comporta.</p>"
+    },
+    "Roadfinder": {
+      "name": "Encontra-Estradas",
+      "description": "<p><em>Farejador de Asfalto</em></p><p>Fareje os campos rodoviários do mundo, 'guarde as linhas do caminho astral. Detecte a estrada mais próxima a um dia de marcha ou menos.</p>",
+      "range": "um dia de marcha",
+      "target": "si mesmo",
+      "duration": "1 hora",
+      "overcharge": "<p>o alcance de detecção é dobrado ou o sentido dura um dia.</p>"
+    },
+    "Roadmaker": {
+      "name": "Cria-Estradas",
+      "description": "<p><em>Motor da Civilidade de Stradograd</em></p><p>Pelos poderes canalizados do grande conversor, Chem Caoutchouc, a realidade base é reorganizada. Ao longo de um dia, uma estrada de pedra-rápida cresce da terra, reta como um teodolito, abaulada e elevada, com a fortuna de 7 metros de largura e uma milha métrica de comprimento. A estrada atravessa pântanos, balança sobre vales e perfura túneis através de cumes. Sem fixadores e preparação adicionais, a superfície da estrada de pedra-rápida se deteriora em um mês.</p>",
+      "range": "uma milha métrica",
+      "target": "rocha e solo",
+      "duration": "1 dia",
+      "overcharge": "<p>a pedra-rápida se fixa em pedra-padrão durante a noite, criando uma superfície que durará um século sem manutenção.</p>"
+    },
+    "Speak With Husk": {
+      "name": "Falar com a Casca",
+      "description": "<p><em>Ecos da Mente, Necrofone</em></p><p>Os ecos de personalidade presos em um cadáver respondem a três perguntas feitas pelo mago. O cadáver pode mentir.</p>",
+      "range": "3m",
+      "target": "cadáver",
+      "duration": "10 minutos",
+      "overcharge": "<p>o cadáver mantém uma conversa completa pela duração da magia. Ele não pode mentir, mas pode evadir.</p>"
+    },
+    "Stoyevod’s Irreducible Crystallization of the Ego Complex": {
+      "name": "Cristalização Irredutível do Complexo Egoico, por Stoyevod",
+      "description": "<p><em>Restauração do Inestimável</em></p><p>Este ritual profundamente imoral arranca uma psique partida da consciência cósmica da Mente-Total. Rouba a alma perdoada do Fogo-Total da Criação-Preservação-Destruição. Desfaz a decadência do corpo no Verde-Total da Vida-Morte-Renascimento. Num turbilhão extático, o herói é recriado de fogo sagrado, sopro sagrado e solo perfeito. Eles fazem sua rolagem de reviver com vantagem. Tudo que este ritual requer é o sacrifício amoroso de outro humano, e mais um para cada nível do herói.</p><p>Perigoso: O especialista sacrificial provavelmente será corrompido por esta magia.</p>",
+      "range": "aqui",
+      "target": "um herói morto",
+      "duration": "permanente",
+      "overcharge": "<p>O herói adiciona +20 à sua rolagem de reviver ou aumenta um de seus atributos em 1.</p>"
+    },
+    "Supplicate the Rotting God": {
+      "name": "Suplicar ao Deus Apodrecido",
+      "description": "<p><em>Retroceder a Roda do Amor e da Morte</em></p><p>O mago sacrifica pelo menos uma criatura senciente para restaurar uma criatura recentemente morta à vida. O nível total do alvo e do(s) sacrifício(s) deve ser aproximadamente igual. O ritual leva 1 hora por sacrifício e dará terrivelmente errado se for interrompido. O alvo é restaurado à vida e a uma semelhança de saúde por um ano e um dia.</p>",
+      "range": "toque",
+      "target": "cadáver",
+      "duration": "0"
+    },
+    "Suspended in the Light": {
+      "name": "Suspenso na Luz",
+      "description": "<p><em>Agarramento Luminoso, Controle de Luz Sólida</em></p><p>Você brilha, a mão do portador brilha, o ar brilha, e você ergue seu alvo um palmo do chão enquanto a luz sólida o estrangula. Eles sofrem [[/r 1d4]] de dano e perdem sua próxima ação.</p>",
+      "range": "próximo",
+      "target": "criatura ou objeto",
+      "duration": "instantâneo",
+      "overcharge": "<p>eles sofrem [[/r 1d8]] de dano em vez disso.</p>"
+    },
+    "Suspended Insight": {
+      "name": "Insight Suspenso",
+      "description": "<p><em>Revelações da Dor</em></p><p>O mago se pendura numa árvore de espinhos e ganha +1 em um atributo pelo resto do dia e uma resposta enigmática a uma única pergunta feita ao vácuo indiferente. A resposta tem 1 chance em 6 de ser imediatamente útil.</p><p><em>(use um efeito ativo para conceder o bônus de atributo)</em></p>",
+      "range": "si mesmo",
+      "target": "árvore de espinhos",
+      "duration": "1 hora",
+      "overcharge": "<p>Ganhe +2 em um atributo e a resposta tem 1 chance em 4 de ser imediatamente útil.</p>",
+      "roll_formula": ""
+    },
+    "Thornstone Obelisk": {
+      "name": "Obelisco de Espinhopedra",
+      "description": "<p><em>Árvore de Lâminas</em></p><p>O petromante derrama seu sangue vital, forçando a semente de coral-terrestre a um crescimento súbito e explosivo. Uma árvore de calcário de 5–8 metros de altura irrompe do chão, causando [[/r 2d6]] de dano a criaturas adjacentes. Qualquer um que se mova através de seu matagal de galhos cortantes sofre [[/r 1d4]] de dano. A velocidade do crescimento mata o coral-terrestre.</p>",
+      "range": "curto (~10m)",
+      "target": "semente de coral-terrestre plantada",
+      "duration": "permanente",
+      "overcharge": "<p>o crescimento é ainda mais violento, causando [[/r 6d6]] de dano a criaturas em um pequeno raio e espalhando o chão com estilhaços de coral-terrestre como aljôfares.</p>"
+    },
+    "Three-Point Immobility": {
+      "name": "Imobilidade de Três Pontos",
+      "description": "<p><em>Escada Celestial, Criar Plataforma Flutuante</em></p><p>O mago ancora manualmente um objeto a três pontos físicos com fios de força-presas. Uma vez ancorado, o objeto fica imóvel—mesmo se suspenso no ar.</p>",
+      "range": "toque",
+      "target": "objeto sólido",
+      "duration": "1 hora",
+      "overcharge": "<p>a amarra é permanente.</p>"
+    },
+    "Toxin Render": {
+      "name": "Destilador de Toxina",
+      "description": "<p><em>Destilação a Diesel do Anão</em></p><p>O mago usa um ritual de 1 hora para convencer animalculas ligadas à noösfera ambiente a juntarem uma saca de resíduos tóxicos e convertê-los em combustível utilizável para veículos ou golems. Corrói motores se usado por períodos prolongados.</p>",
+      "range": "10m",
+      "target": "resíduos tóxicos",
+      "duration": "1 hora",
+      "overcharge": "<p>converte material que não é tóxico ou não é resíduo.</p>"
+    },
+    "Tragic Missile": {
+      "name": "Míssil Trágico",
+      "description": "<p><em>Bólide de Força Guiada Antipessoal, Penetrador Craniano de Cupido</em></p><p>Você visualiza um canal conectando os campos de energia ambiente com o ka-ba de uma entidade que você pode ver. Quando você libera sua visualização, as energias atingem o nexo do espaço mental da entidade, como um míssil teleguiado noösférico. O efeito doloroso causa [[/r 2d4]] de dano mais 2 por nível do alvo. Quanto mais forte ele é, mais duramente a tragédia o atinge. O míssil não deixa marca. Míssil Trágico não pode afetar alvos sem mente e alma.</p>",
+      "range": "médio, ~30–50m",
+      "target": "qualquer coisa com mente e alma",
+      "duration": "instantâneo",
+      "overcharge": "<p>Você visualiza três canais de uma vez, atingindo um único alvo três vezes ou três alvos diferentes.</p>"
+    },
+    "Wing And Prayer": {
+      "name": "Asa e Prece",
+      "description": "<p><em>Conserto Porco</em></p><p>Use sua fé para consertar um eixo ou tala uma perna. Seu veículo ou montaria ganha temporariamente [[/r 1d8]] de vida e ignora um fardo por um dia, mas depois o dano é pior.</p>",
+      "range": "toque",
+      "target": "veículo ou montaria",
+      "duration": "1 dia",
+      "overcharge": "<p>o conserto dura uma semana; mas o dano depois é ainda pior.</p>"
+    },
+    "Yellow Cloud": {
+      "name": "Nuvem Amarela",
+      "description": "<p><em>Areias dos Tempos Perdidos</em></p><p>Uma poeira amarela fina e obscurecedora ergue-se do chão e paira no ar. Um véu que nenhuma visão pode perfurar. A poeira irrita os pulmões de respiradores de ar. Após alguns minutos, é levada pelo vento.</p>",
+      "range": "próximo",
+      "target": "um cubo de 9m",
+      "duration": "alguns minutos",
+      "overcharge": "<p>convoca uma parede de poeira cintilante e imóvel medindo 200 metros cúbicos.</p>"
+    },
+    "Yellow Foresight": {
+      "name": "Previsão Amarela",
+      "description": "<p><em>Visões do Mercador Cauteloso</em></p><p>O mago consome uma saboneteira de açafrão (€10) e medita por 1 hora para escanear as auras na área-alvo. Ele tem uma ideia geral do número de sencientes e do humor geral. Se os sencientes forem muito diferentes do mago, ler o humor pode ser impossível.</p>",
+      "range": "1km",
+      "target": "círculo de 100m de diâmetro",
+      "duration": "0",
+      "overcharge": "<p>consumir uma quantidade perigosa (€100) de açafrão permite ao mago implantar uma atitude positiva em alguns sencientes.</p>"
+    }
+  }
+}

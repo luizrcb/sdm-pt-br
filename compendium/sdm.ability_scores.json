@@ -1,0 +1,128 @@
+{
+  "label": "Atributos",
+  "entries": {
+    "Wq2H7Tf7Vkt9eKX8": {
+      "name": "Rolar Atributos",
+      "description": "<p>Role 1d100 uma vez para gerar os atributos.</p><p><b>(atribua os valores sem rótulo)</b></p>",
+      "results": {
+        "1-1": "<b>disperso</b>: 1 / 1 / 1 / 1 / 1 / 1",
+
+        "2-2": "<b>musculoso</b>: for 5 / 1 / 0 / 0 / 0 / 0",
+        "3-3": "<b>viril</b>: res 5 / 1 / 0 / 0 / 0 / 0",
+        "4-4": "<b>elástico</b>: rap 5 / 1 / 0 / 0 / 0 / 0",
+        "5-5": "<b>hipnótico</b>: car 5 / 1 / 0 / 0 / 0 / 0",
+        "6-6": "<b>reservado</b>: aur 5 / 1 / 0 / 0 / 0 / 0",
+        "7-7": "<b>erudito</b>: int 5 / 1 / 0 / 0 / 0 / 0",
+
+        "8-8": "<b>ogresco</b>: for 4 / 1 / 1 / 0 / 0 / 0",
+        "9-9": "<b>pesado</b>: res 4 / 1 / 1 / 0 / 0 / 0",
+        "10-10": "<b>frenético</b>: rap 4 / 1 / 1 / 0 / 0 / 0",
+        "11-11": "<b>delicado</b>: car 4 / 1 / 1 / 0 / 0 / 0",
+        "12-12": "<b>etéreo</b>: aur 4 / 1 / 1 / 0 / 0 / 0",
+        "13-13": "<b>focado</b>: int 4 / 1 / 1 / 0 / 0 / 0",
+
+        "14-14": "<b>robusto</b>: for 2 / 2 / 2 / 1 / 0 / 0",
+        "15-15": "<b>enérgico</b>: res 2 / 2 / 2 / 1 / 0 / 0",
+        "16-16": "<b>trêmulo</b>: rap 2 / 2 / 2 / 1 / 0 / 0",
+        "17-17": "<b>atraente</b>: car 2 / 2 / 2 / 1 / 0 / 0",
+        "18-18": "<b>feroz</b>: aur 2 / 2 / 2 / 1 / 0 / 0",
+        "19-19": "<b>sabedor</b>: int 2 / 2 / 2 / 1 / 0 / 0",
+
+        "20-20": "<b>fortão</b>: for 2 / 2 / 1 / 1 / 1 / 0",
+        "21-21": "<b>volumoso</b>: res 2 / 2 / 1 / 1 / 1 / 0",
+        "22-22": "<b>flexível</b>: rap 2 / 2 / 1 / 1 / 1 / 0",
+        "23-23": "<b>agradável</b>: car 2 / 2 / 1 / 1 / 1 / 0",
+        "24-24": "<b>inflexível</b>: aur 2 / 2 / 1 / 1 / 1 / 0",
+        "25-25": "<b>astuto</b>: int 2 / 2 / 1 / 1 / 1 / 0",
+
+        "26-26": "<b>rústico</b>: for 2 / 1 / 1 / 1 / 1 / 1",
+        "27-27": "<b>atarracado</b>: res 2 / 1 / 1 / 1 / 1 / 1",
+        "28-28": "<b>ágil</b>: rap 2 / 1 / 1 / 1 / 1 / 1",
+        "29-29": "<b>simpático</b>: car 2 / 1 / 1 / 1 / 1 / 1",
+        "30-30": "<b>firme</b>: aur 2 / 1 / 1 / 1 / 1 / 1",
+        "31-31": "<b>escolarizado</b>: int 2 / 1 / 1 / 1 / 1 / 1",
+
+        "32-32": "<b>valente</b>: for 3 / 3 / 1 / 0 / 0 / 0",
+        "33-33": "<b>atlético</b>: res 3 / 3 / 1 / 0 / 0 / 0",
+        "34-34": "<b>destro</b>: rap 3 / 3 / 1 / 0 / 0 / 0",
+        "35-35": "<b>encantador</b>: car 3 / 3 / 1 / 0 / 0 / 0",
+        "36-36": "<b>resiliente</b>: aur 3 / 3 / 1 / 0 / 0 / 0",
+        "37-37": "<b>crítico</b>: int 3 / 3 / 1 / 0 / 0 / 0",
+
+        "38-38": "<b>grande</b>: for 3 / 2 / 2 / 0 / 0 / 0",
+        "39-39": "<b>resistente</b>: res 3 / 2 / 2 / 0 / 0 / 0",
+        "40-40": "<b>hábil</b>: rap 3 / 2 / 2 / 0 / 0 / 0",
+        "41-41": "<b>escorregadio</b>: car 3 / 2 / 2 / 0 / 0 / 0",
+        "42-42": "<b>obstinado</b>: aur 3 / 2 / 2 / 0 / 0 / 0",
+        "43-43": "<b>articulado</b>: int 3 / 2 / 2 / 0 / 0 / 0",
+
+        "44-44": "<b>firmeza férrea</b>: for 3 / 2 / 1 / 1 / 0 / 0",
+        "45-45": "<b>saudável</b>: res 3 / 2 / 1 / 1 / 0 / 0",
+        "46-46": "<b>preciso</b>: rap 3 / 2 / 1 / 1 / 0 / 0",
+        "47-47": "<b>glamouroso</b>: car 3 / 2 / 1 / 1 / 0 / 0",
+        "48-48": "<b>disciplinado</b>: aur 3 / 2 / 1 / 1 / 0 / 0",
+        "49-49": "<b>esperto</b>: int 3 / 2 / 1 / 1 / 0 / 0",
+
+        "50-50": "<b>vigoroso</b>: for 3 / 1 / 1 / 1 / 1 / 0",
+        "51-51": "<b>robusto</b>: res 3 / 1 / 1 / 1 / 1 / 0",
+        "52-52": "<b>rápido</b>: rap 3 / 1 / 1 / 1 / 1 / 0",
+        "53-53": "<b>sedutor</b>: car 3 / 1 / 1 / 1 / 1 / 0",
+        "54-54": "<b>cascudo</b>: aur 3 / 1 / 1 / 1 / 1 / 0",
+        "55-55": "<b>cultivado</b>: int 3 / 1 / 1 / 1 / 1 / 0",
+
+        "56-56": "<b>poderoso</b>: for 4 / 3 / 0 / 0 / 0 / 0",
+        "57-57": "<b>luxuriante</b>: res 4 / 3 / 0 / 0 / 0 / 0",
+        "58-58": "<b>leve</b>: rap 4 / 3 / 0 / 0 / 0 / 0",
+        "59-59": "<b>enfeitiçante</b>: car 4 / 3 / 0 / 0 / 0 / 0",
+        "60-60": "<b>sublime</b>: aur 4 / 3 / 0 / 0 / 0 / 0",
+        "61-61": "<b>inventivo</b>: int 4 / 3 / 0 / 0 / 0 / 0",
+
+        "62-62": "<b>musculatura densa</b>: for 4 / 2 / 1 / 0 / 0 / 0",
+        "63-63": "<b>rijo</b>: res 4 / 2 / 1 / 0 / 0 / 0",
+        "64-64": "<b>ardiloso</b>: rap 4 / 2 / 1 / 0 / 0 / 0",
+        "65-65": "<b>vencedor</b>: car 4 / 2 / 1 / 0 / 0 / 0",
+        "66-66": "<b>perspicaz</b>: aur 4 / 2 / 1 / 0 / 0 / 0",
+        "67-67": "<b>perceptivo</b>: int 4 / 2 / 1 / 0 / 0 / 0",
+
+        "68-68": "<b>durão</b>: for 4 / 1 / 1 / 1 / 0 / 0",
+        "69-69": "<b>constante</b>: res 4 / 1 / 1 / 1 / 0 / 0",
+        "70-70": "<b>hábil</b>: rap 4 / 1 / 1 / 1 / 0 / 0",
+        "71-71": "<b>provocante</b>: car 4 / 1 / 1 / 1 / 0 / 0",
+        "72-72": "<b>instável</b>: aur 4 / 1 / 1 / 1 / 0 / 0",
+        "73-73": "<b>original</b>: int 4 / 1 / 1 / 1 / 0 / 0",
+
+        "74-74": "<b>colossal</b>: for 5 / 2 / 0 / 0 / 0 / 0",
+        "75-75": "<b>incansável</b>: res 5 / 2 / 0 / 0 / 0 / 0",
+        "76-76": "<b>alado</b>: rap 5 / 2 / 0 / 0 / 0 / 0",
+        "77-77": "<b>sedutor nato</b>: car 5 / 2 / 0 / 0 / 0 / 0",
+        "78-78": "<b>oracular</b>: aur 5 / 2 / 0 / 0 / 0 / 0",
+        "79-79": "<b>enciclopédico</b>: int 5 / 2 / 0 / 0 / 0 / 0",
+
+        "80-80": "<b>aço vivo</b>: for 5 / 1 / 1 / 0 / 0 / 0",
+        "81-81": "<b>vital</b>: res 5 / 1 / 1 / 0 / 0 / 0",
+        "82-82": "<b>determinado</b>: rap 5 / 1 / 1 / 0 / 0 / 0",
+        "83-83": "<b>irresistível</b>: car 5 / 1 / 1 / 0 / 0 / 0",
+        "84-84": "<b>resoluto</b>: aur 5 / 1 / 1 / 0 / 0 / 0",
+        "85-85": "<b>diabólico</b>: int 5 / 1 / 1 / 0 / 0 / 0",
+
+        "86-86": "<b>hercúleo</b>: for 4 / 3 / 1 / 0 / 0 / 0",
+        "87-87": "<b>fibroso</b>: res 4 / 3 / 1 / 0 / 0 / 0",
+        "88-88": "<b>veloz</b>: rap 4 / 3 / 1 / 0 / 0 / 0",
+        "89-89": "<b>impressionante</b>: car 4 / 3 / 1 / 0 / 0 / 0",
+        "90-90": "<b>obcecado</b>: aur 4 / 3 / 1 / 0 / 0 / 0",
+        "91-91": "<b>criativo</b>: int 4 / 3 / 1 / 0 / 0 / 0",
+
+        "92-92": "<b>olímpico</b>: for 5 / 2 / 1 / 0 / 0 / 0",
+        "93-93": "<b>radiante</b>: res 5 / 2 / 1 / 0 / 0 / 0",
+        "94-94": "<b>mercúrial</b>: rap 5 / 2 / 1 / 0 / 0 / 0",
+        "95-95": "<b>angélico</b>: car 5 / 2 / 1 / 0 / 0 / 0",
+        "96-96": "<b>hermético</b>: aur 5 / 2 / 1 / 0 / 0 / 0",
+        "97-97": "<b>gênio</b>: int 5 / 2 / 1 / 0 / 0 / 0",
+
+        "98-98": "<b>atlante</b>: for 3 / res 3 / rap 3 / 0 / 0 / 0",
+        "99-99": "<b>proteico</b>: car 3 / aur 3 / int 3 / 0 / 0 / 0",
+        "100-100": "<b>abençoado</b>: 2 / 2 / 2 / 2 / 2 / 2"
+      }
+    }
+  }
+}

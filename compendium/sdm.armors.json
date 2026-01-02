@@ -1,0 +1,441 @@
+{
+  "label": "Armaduras",
+  "folders": {
+    "Modern and Ancient Shields": "Escudos Modernos e Antigos",
+    "Light Armors": "Armaduras Leves",
+    "Medium Armors": "Armaduras Médias",
+    "Classic Golem Armor": "Armadura Golem Clássica",
+    "Heavy Armors": "Armaduras Pesadas"
+  },
+  "mapping": {
+    "description": "system.description",
+    "range": "system.power.range",
+    "target": "system.power.target",
+    "duration": "system.power.duration",
+    "overcharge": "system.power.overcharge",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
+  },
+  "entries": {
+
+    "Amber Cuirass": {
+      "name": "Couraça de Âmbar",
+      "description": "<p>Fios de memórias ancestrais presos em âmbar.</p><p>Memórias espectrais concedem +1 Inteligência.</p><p><strong>Características:</strong> volumoso</p>",
+      "effects": {
+        "Ghostly memories": {
+          "name": "Memórias espectrais",
+          "description": "<p>Memórias espectrais concedem +1 Inteligência.</p>"
+        }
+      }
+    },
+
+    "Artyhide": {
+      "name": "Couro Artístico",
+      "description": "<p>Barato, brilhante quando oleado.</p><p><strong>Características:</strong> quente</p>"
+    },
+
+    "Assault Suit": {
+      "name": "Traje de Assalto",
+      "description": "<p>Tendões prateados, placas de porcelana, tecidos desmortos.</p><p><strong>Características:</strong> quente, Força +1, Resistência +1</p>",
+      "effects": {
+        "Assault Suit": {
+          "name": "Traje de Assalto",
+          "description": "<p>for +1, res +1</p>"
+        }
+      }
+    },
+
+    "Ballistic Linen Suit": {
+      "name": "Traje de Linho Balístico",
+      "description": "<p>O traje do aventureiro gentil. Bolso secreto para mamilo.</p><p><strong>Características:</strong> fresco, bolso 3</p>",
+      "effects": {
+        "pocket 3": {
+          "name": "bolsos 3"
+        }
+      }
+    },
+
+    "Blazeglass": {
+      "name": "Vidro Ígneo",
+      "description": "<p>Permite disparar armas de feixe através deste escudo de vidro polarizado.</p><p><strong>Características:</strong> lúcido, quebrável</p>"
+    },
+
+    "Bone Mesh": {
+      "name": "Malha Óssea",
+      "description": "<p>Produto registrado do mago dos ossos.</p><p><strong>Características:</strong> volumoso, fresco</p>"
+    },
+
+    "Brazen Minotaur": {
+      "name": "Minotauro de Bronze",
+      "description": "<p>Monstruosidade de carne divina e bronze astral cozida nos tanques criptas do Deus da Carne Viva. Causa [[/r 1d10]] dano com ataques desarmados.</p><p>Vincula-se ao usuário; remoção exige um dia de oração ou [[/r 3d6]] vida.</p><p>Modo de queima [[/r 1d20]]: ganha +6 Força e um campo de força de 30 vida (efeitos ativos).</p><p><strong>Características:</strong> grande, recarga 3 [[/r 1d20]], vinculado, arma</p>",
+      "effects": {
+        "Burn (+6 str)": {
+          "name": "Queima (+6 for)",
+          "description": "<p>Modo de queima 1d20: ganha +6 Força</p>"
+        },
+        "Burn (+30 life)": {
+          "name": "Queima (+30 vida)",
+          "description": "<p>Modo de queima 1d20: ganha um campo de força de 30 vida</p>"
+        }
+      }
+    },
+
+    "Bullet Plate Weave": {
+      "name": "Trama de Placas Balísticas",
+      "description": "<p>Forja moderna com alfaiataria antiga. Suas partes metálicas ruidosas prejudicam furtividade, mas tornam a investida mais intimidadora.</p><p><strong>Características:</strong> volumoso, barulhento, quente</p>"
+    },
+
+    "Bunker Crawler": {
+      "name": "Rastejador de Bunker",
+      "description": "<p>Traje de pedra viva moldada, com tentáculos de ancoragem para subir e descer túneis.</p><p><strong>Características:</strong> quente, espinhoso, intravenoso</p>"
+    },
+
+    "Dryland Weave": {
+      "name": "Tecido de Terra Seca",
+      "description": "<p>Tecido a partir dos cílios de híbridos especiais de coral terrestre, surpreendentemente respirável.</p><p><strong>Características:</strong> fresco</p>"
+    },
+
+    "Field Glove": {
+      "name": "Luva de Campo",
+      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p><p><strong>Características:</strong> mãos livres</p>",
+      "effects": {
+        "Boost Defense Field": {
+          "name": "Campo de Defesa Aprimorada",
+          "description": "<p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>"
+        }
+      }
+    },
+
+    "Full Archaic": {
+      "name": "Arcaico Completo",
+      "description": "<p>Este traje inteligente pode lutar sem você dentro (veja modo de destruição automática total).</p><p>Aviso: pode desenvolver personalidade.</p><p>Modo de queimar [[/r 1d20]]: ganha +4 Força ou um campo de força de 20 vida (<em>efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], semi-senciente</p><p>@UUID[Compendium.sdm.macros.Macro.uUshgTy0nsMeCznq]{Arcaico Completo – Destruição Automática}</p>",
+      "effects": {
+        "Burn (+4 str)": {
+          "name": "Queima (+4 for)"
+        },
+        "Burn (+20 life)": {
+          "name": "Queima (+20 vida)"
+        }
+      }
+    },
+
+    "GRD Combat Harness": {
+      "name": "Arreio de Combate GRD",
+      "description": "<p>Traje semi-orgânico feio com tentáculos preênseis para manter equipamentos sempre à mão.</p><p><strong>Características:</strong> volumoso, quente, vivo</p>"
+    },
+
+    "Hard Light Targe": {
+      "name": "Broquel de Luz Sólida",
+      "description": "<p>Escudo de força com botão de acionamento.</p><p>Em combate corpo a corpo, causa [[/r 1d4]] de dano e decepa membros em um 17 natural.</p><p><strong>Características:</strong> arma, vorpal</p><p><em>armaduras com a característica arma são armas com efeito ativo de bônus de armadura</em></p>",
+      "effects": {
+        "armor +3": {
+          "name": "armadura +3"
+        }
+      }
+    },
+
+    "Hazviral Suit": {
+      "name": "Traje Hazviral",
+      "description": "<p>Traje de pele sintética projetado pela deusa Haz-Maat.</p><p><strong>Características:</strong> ambiente, quente</p>"
+    },
+
+    "Jade Mail": {
+      "name": "Cota de Jade",
+      "description": "<p>Elos entoados em pedra que também concedem resistência contra fantasmas e daemons imateriais.</p><p><strong>Características:</strong> volumoso</p>"
+    },
+
+    "Malachite Swirl": {
+      "name": "Espiral de Malaquita",
+      "description": "<p>Pedra polida e linhas de força entrelaçadas para resistir a ataques de alta velocidade e energia.</p><p>Modo de queima [[/r 1d20]]: ganhe +5 força ou 30 vida em campo de força (<em>alternar efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]], à prova de balas, resistente a energia</p>",
+      "effects": {
+        "Burn (+5 str)": {
+          "name": "Queima (+5 for)",
+          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 vida</p>"
+        },
+        "Burn (+30 life)": {
+          "name": "Queima (+30 vida)",
+          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 vida</p>"
+        }
+      }
+    },
+
+    "Nomad Robes": {
+      "name": "Vestes Nômades",
+      "description": "<p>Excelentes no deserto quente.</p><p><strong>Características:</strong> fresco</p>"
+    },
+
+    "Onyx Ghost": {
+      "name": "Fantasma de Ônix",
+      "description": "<p>Serpentes de ônix entrelaçadas e pedras espirituais mutantes sussurram sobre vidas desperdiçadas e sonhos destruídos.</p><p>Modo de queima [[/r 1d20]]: ganhe +3 aura ou um campo de força de 50 vida (<em>efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], ambiente</p>",
+      "effects": {
+        "Burn (+3 aur)": {
+          "name": "Queima (+3 aur)",
+          "description": "<p>Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 vida</p>"
+        },
+        "Burn (+50 life)": {
+          "name": "Queima (+50 vida)",
+          "description": "Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 vida"
+        }
+      }
+    },
+
+    "HVbDfQ9tCQZ4CGOi": {
+      "name": "Andarilho de Porcelana",
+      "description": "<p>O melhor da tecnologia principesca, com placas cerâmicas policromadas reluzentes.</p><p>Modo de queima [[/r 1d20]]: anda sozinho por várias horas.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]], volumoso, frio, intravenoso</p>"
+    },
+
+    "Riot Pleather Suit": {
+      "name": "Traje de Couro Sintético de Motim",
+      "description": "<p>Com pontos de fixação destacáveis para espinhos, capa e crânio.</p><p><strong>Características:</strong> quente, espinhoso</p>"
+    },
+
+    "Scale Suit": {
+      "name": "Traje de Escamas",
+      "description": "<p>Feito de escamas de pangolim de ferro des-extintas.</p><p><strong>Características:</strong> volumoso, quente</p>"
+    },
+
+    "Shield Mk74c": {
+      "name": "Escudo Mk74c",
+      "description": "<p>Clássico moderno de vime e couro sintético.</p><p><strong>Características:</strong> despedaçar</p>"
+    },
+
+    "Shipmetal Shirt": {
+      "name": "Camisa de Metal de Nave",
+      "description": "<p>Leve como uma camisa de barco, resistente como aço.</p><p><strong>Características:</strong> clarão 8, fresco</p>"
+    },
+
+    "Silk Vest": {
+      "name": "Colete de Seda",
+      "description": "<p>Proteção elegante para o herói na cidade.</p><p><strong>Características:</strong> à prova de balas, estiloso</p>"
+    },
+
+    "Spectral Parasite": {
+      "name": "Parasita Espectral",
+      "description": "<p>Escamas de aço-vidro Sátrapa e um parasita criador de ambiente.</p><p>Modo queima [[/r 1d20]]: ganhe +2 de força (efeito ativo)</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]], volumoso, fresco, ambiente</p>",
+      "effects": {
+        "Burn (+2 str)": {
+          "name": "Queima (+2 for)",
+          "description": "<p>Modo de Queima 1d20: ganhe +2 de força</p>"
+        }
+      }
+    },
+
+    "Splinter Suit": {
+      "name": "Traje de Estilhaços",
+      "description": "<p>Escamas de madeira-sol sobre tecidos fibrosos. Flutua surpreendentemente bem até ficar encharcado.</p><p><strong>Características:</strong> volumoso, quente</p>"
+    },
+
+    "Strapguard": {
+      "name": "Guarda-Pulso",
+      "description": "<p>Latão e plaz presos ao seu antebraço.</p><p><strong>Características:</strong> mãos-livres</p>"
+    },
+
+    "Syncsuit": {
+      "name": "Traje de Sincronia",
+      "description": "<p>Spandex antigo e fio vivo para controle proprioceptivo direto de um veículo ou nave do vácuo.</p><p><strong>Características:</strong> interface</p>"
+    },
+
+    
+    "Ultra Ba \"Leapfrog\"": {
+      "name": "Ba Ultra \"Pula-Sapo\"",
+      "description": "<p>Combo de raio-laser e gorrinho que traduz sua personalidade para outro corpo após reduzir o alvo a 0 de vida.</p><p><strong>Características:</strong> curto, recarga 10 [[/r 1d20]], 2M, sintonizar, fantasciência</p>"
+    },
+    "Ultra Blaster": {
+      "name": "Disparador Ultra",
+      "description": "<p>Para uso no vácuo, com bobinas de partículas totalmente blindadas que funcionam até no subespaço das vias-entediantes.<br /><strong>Características:</strong> curto, recarga 1 [[/r 1d20]], cegante, radiante</p>"
+    },
+    "Ultra-Purga": {
+      "name": "Ultrapurgante",
+      "description": "<p>Purgante terrivelmente eficaz. Perda [[/r 2d4]] de vida ou pontos de atributo e igual número de infecções, demônios possuidores e outras afecções danosas.</p>"
+    },
+    "Umbral Panoply": {
+      "name": "Panóplia Umbral",
+      "description": "<p>Tecido de sombra sólida e synthseda.</p><p><strong>Características:</strong> volumoso, fresco, camuflagem</p>"
+    },
+    "Umbrella Gun": {
+      "name": "Guarda-Chuva-Arma",
+      "description": "<p>Protege da chuva e tem um único tiro surpresa.</p><p><strong>Características:</strong> recarga 20.</p>"
+    },
+    "Unarmed Damage": {
+      "name": "Dano Desarmado",
+      "description": "<p><em>(Este item não ocupa espaços de item se estiver equipado)</em></p><p>Se você não tem um item adequado para um tipo de ataque, você pode [quase] sempre fazer um ataque desarmado.</p><p>Exemplos de ataques desarmados: <strong>Corpo a Corpo</strong> - um soco, um chute, uma cabeçada. <strong>À Distância</strong> - um torrão, pedra ou barra de sabão arremessados. <strong>Velhatec</strong> ou outro ataque de inteligência - um truque conveniente, um subterfúgio, uma surpresa mecânica. <strong>Fantasciência</strong> ou outro ataque de carisma - uma fanfarrona terrível, uma maldição severa, um olhar do mal, uma invocação falsa.</p>",
+      "effects": {
+        "Weapon Slot Bonus": {
+          "name": "Bonus de Espaço de Arma"
+        }
+      }
+    },
+    "Unnoticeability Mask": {
+      "name": "Máscara da Imperceptibilidade",
+      "description": "<p>Passe despercebido. Vem com seis rostos predefinidos, incluindo advogado de regras.</p>"
+    },
+    "Ur Gun": {
+      "name": "Ur-Arma",
+      "description": "<p>Você é o ideal platônico da arma. Sua precisão é incomparável. Você se encaixa em qualquer mão como se tivesse sido feito para ela—porque foi. Suas balas condensam-se do reino cármico insubstancial entre o aqui e o não-aqui. Você é o julgamento dos deuses. Você se importa que seu portador perecerá por sua bala providencial? Pode? O que é um mortal comparado ao grande propósito? Qualquer ataque rolado com você é um acerto crítico em um resultado natural 13 ou um natural 20. Se um natural 13 erraria seu alvo pretendido, o acerto crítico atinge o alvo razoável mais próximo (incluindo aliados) em seu lugar.</p>"
+    },
+    "UV Lotion": {
+      "name": "Loção UV",
+      "description": "<p>Protege de radiação astral e concede resistência a dano radiante.</p>"
+    },
+    "Vicious Bird": {
+      "name": "Perverso",
+      "description": "<p>Este pet não é amigo de ninguém. Xinga como um marinheiro estelar.</p><p>@UUID[Compendium.sdm.creatures.Actor.NmWt8PHA0INeZhnO]{Vicious Bird} N1, 6 de vida</p>"
+    },
+    "Vidy Unity Box": {
+      "name": "Caixa de Unidade Vidy",
+      "description": "<p>Holo-peças de Há Muito Muito Tempo, como *O Muro do Lobo Chorão* e *O Templo do Rei Serpente*. Reúne o povo em um brilho azul suave.</p>"
+    },
+    "Vile Recorder": {
+      "name": "Gravador Vil",
+      "description": "<p>Para seu backup atualizado. Implantável.</p><p><strong>Características:</strong> herético</p>"
+    },
+    "Violet Cat Egg": {
+      "name": "Ovo de Gato Violeta",
+      "description": "<p>Purrova do grande favor de um senhor-gato. E de maestria.</p><p><strong>Características:</strong> terra púrpura</p>"
+    },
+    "Violet City Healotion": {
+      "name": "Curaloção da Cidade Violeta",
+      "description": "<p>Restaura [[/r 2d6]] de vida ou 1 ponto de atributo físico.</p>"
+    },
+    "Voice Modulator": {
+      "name": "Modulador de Voz",
+      "description": "<p>Este escaravelho se prende ao seu pescoço com tarsais agarradinhos.</p>"
+    },
+    "Void-Certified Sleeping Bag": {
+      "name": "Saco de Dormir Certificado para Vácuo",
+      "description": "<p>Durma tranquilo, mesmo se sua estrela rápida tiver um vazamento! Roubado.</p>"
+    },
+    "Void Gun": {
+      "name": "Arma do Vácuo",
+      "description": "<p>Fragmentos de navalha de baixo impacto destroçam a carne mas deixam cascos do vácuo intactos. Inútil contra trajes com armadura +5 ou melhor.</p><p><strong>Características:</strong> recarga 3</p>"
+    },
+    "Void Infantry Dissipator": {
+      "name": "Dissipador de Infantaria do Vácuo",
+      "description": "<p>Pavese imponente de cerâmica, aerólito e bobinas crípticas. Qualquer dano acima de 10 se dissipa inofensivamente como um clarão policromático.</p><p><strong>Características:</strong> clarão 10, despedaçar</p>"
+    },
+    "Void Paste": {
+      "name": "Pasta do Vácuo",
+      "description": "<p>Pacotes de comida sempre-fresca™ embalada a vácuo produzida para os viajantes do vácuo de outrora. Absorve umidade ambiente quando aberto. Qualquer umidade.</p>"
+    },
+    "Void Thermos": {
+      "name": "Termos do Vácuo",
+      "description": "<p>Vedações de vácuo perfeito mantêm chá, sopa ou biopasta™ da MÃE quente por uma semana.</p>"
+    },
+    "Voidsuit": {
+      "name": "Traje do Vácuo",
+      "description": "<p>Uma aranha do vácuo lobotomizada, tecida e escavada em uma forma adequada para carregar um humano. </p><p>Ar para 3 dias.</p><p><strong>Características:</strong> volumoso, grande, ambiente, vácuo</p>"
+    },
+
+    "Voyager Supplies": {
+      "name": "Suprimentos de Viajante",
+      "description": "<p>Carne enlatada, cerveja de viagem, aguardente para matar germes e memórias, tralhas inúteis, jornais mal-impressos, meias, goma de mascar e profiláticos. Coisas humanas. Nada além disso.</p>"
+    },
+
+    "Walking Bed": {
+      "name": "Cama Andante",
+      "description": "<p>Uma espécie de golem.</p><p>N1, capacidade 1</p>"
+    },
+    "Walking Stick Sword": {
+      "name": "Espada Bengala",
+      "description": "<p>Elegante. Ajuda a andar. Também, oculta.</p><p><strong>Características:</strong> oculto</p>"
+    },
+    "Wall-Blender": {
+      "name": "Liquidificador de Parede",
+      "description": "<p>Traje camaleão. Quinze tons de cinza e vinte tons de marrom.</p>"
+    },
+    "War Furs": {
+      "name": "Pelagens de Guerra",
+      "description": "<p>Listradas para mostrar força.</p>"
+    },
+    "War Mask": {
+      "name": "Máscara de Guerra",
+      "description": "<p>Uma visão aterradora para assustar inimigos. Um bônus contra medo, também.</p>"
+    },
+    "Water Extractor": {
+      "name": "Extrator de Água",
+      "description": "<p>Extrai toda a umidade de um decímetro cúbico de matéria em menos de um minuto. Garrafa não inclusa. Reutilizável.</p>"
+    },
+    "Water Pills": {
+      "name": "Pílulas de Água",
+      "description": "<p>Purifica o suprimento de água de um dia. Mata insetos. Remove algumas toxinas. Recarrega 2.</p>"
+    },
+    "Watersuit": {
+      "name": "Traje Aquático",
+      "description": "<p>Traje refrigerante de synthpele sobre malha de osso tecida, com sistema de refrigeração e filtração vascular.</p><p><strong>Características:</strong> volumoso, ambiente</p>"
+    },
+    "Weapon of Nobility": {
+      "name": "Arma da Nobreza",
+      "description": "<p>Você representa majestade, cintilante e cruel (role [[/r 1d6]]): (1) espada dourada (1d8), (2) arco brilhante (1d8), (3) cetro de lápis-lazúli (1d8), (4) mangual farpado (1d8), (5) lança de jade (1d10), ou (6) adaga-machado de bronze (1d8). Seu portador é resistente a tudo que é baixo e ignóbil, sofrendo metade do dano da ralé camponesa ou de bandidos. Dito isso, a nobreza está nos olhos de quem vê, então cuidado — seu portador sofre dano duplo de qualquer um que ele acredite ser legitimamente seu superior. Além disso, qualquer criatura baixa ou vil que tocar em você sofre 1d4 de dano e horríveis bolhas se espalham por sua pele.</p>"
+    },
+    "Whiskers": {
+      "name": "Bigodes",
+      "description": "<p>Expandem a mente, aumentam a percepção (inteligência +1), causam um efeito fraco de levitação e coordenação reduzida. Um tanto viciantes—a abstinência causa tremores fortes.</p><p><em>(use efeito ativo para aumentar inteligência)</em></p>"
+    },
+    "White City Matter Creator": {
+      "name": "Criador de Matéria da Cidade Branca",
+      "description": "<p>Este dispositivo espiralado e ondulado duplica [[/r 1d6]] mochilas de matéria à distância.</p><p><strong>Características:</strong> curto, recarga 5 [[/r 1d20]], 2M, sintonizar</p>"
+    },
+    "Wing And Prayer": {
+      "name": "Asa e Prece",
+      "description": "<p><em>Conserto Porco</em></p><p>Use sua fé para consertar um eixo ou tala uma perna. Seu veículo ou montaria ganha temporariamente [[/r 1d8]] de vida e ignora um fardo por um dia, mas depois o dano é pior.</p>",
+      "range": "toque",
+      "target": "veículo ou montaria",
+      "duration": "1 dia",
+      "overcharge": "<p>o conserto dura uma semana; mas o dano depois é ainda pior.</p>"
+    },
+    "S0zXIOaxG7DxgjGo": {
+      "name": "Machado-Martelo do Ghoul de Fios",
+      "description": "<p>Uma coisa de biomáquina morta-viva, coberta de flagelos contorcidos e vômito-ácido. Dano duplo em inimigos fortemente blindados.</p><p><strong>Características:</strong> necrótico</p>"
+    },
+    "Wratosek": {
+      "name": "Wratosek",
+      "description": "<p>Grande espada de duas mãos forjada em metal de nave numa era distante.</p>"
+    },
+    "Wrench Hammer": {
+      "name": "Martelo-Chave Inglesa",
+      "description": "<p>Ferramenta da casta dos mantenedores para portas divinas e escotilhas sagradas. Hoje, uma insígnia do ofício sacerdotal.</p><p><strong>Características:</strong> duas mãos</p>"
+    },
+    "Yellow Cloud": {
+      "name": "Nuvem Amarela",
+      "description": "<p><em>Areias dos Tempos Perdidos</em></p><p>Uma poeira amarela fina e obscurecedora ergue-se do chão e paira no ar. Um véu que nenhuma visão pode perfurar. A poeira irrita os pulmões de respiradores de ar. Após alguns minutos, é levada pelo vento.</p>",
+      "range": "próximo",
+      "target": "um cubo de 9m",
+      "duration": "alguns minutos",
+      "overcharge": "<p>convoca uma parede de poeira cintilante e imóvel medindo 200 metros cúbicos.</p>"
+    },
+    "Yellow Dart": {
+      "name": "Dardo Amarelo",
+      "description": "<p>Lança de metal e osso. Gaste 1 de vida para fazê-la brilhar por uma hora.</p><p><strong>Características:</strong> alcance, 2M</p>"
+    },
+    "Yellow Foresight": {
+      "name": "Previsão Amarela",
+      "description": "<p><em>Visões do Mercador Cauteloso</em></p><p>O mago consome uma saboneteira de açafrão (€10) e medita por 1 hora para escanear as auras na área-alvo. Ele tem uma ideia geral do número de sencientes e do humor geral. Se os sencientes forem muito diferentes do mago, ler o humor pode ser impossível.</p>",
+      "range": "1km",
+      "target": "círculo de 100m de diâmetro",
+      "duration": "0",
+      "overcharge": "<p>consumir uma quantidade perigosa (€100) de açafrão permite ao mago implantar uma atitude positiva em alguns sencientes.</p>"
+    },
+    "Yellow Poncho": {
+      "name": "Poncho Amarelo",
+      "description": "<p>Protege do sol, calor e raios que afetam a mente.</p>"
+    },
+    "OITROVjjKTWaG6Xx": {
+      "name": "Choux Crême de Cérebro-Amarelo",
+      "description": "<p>Concede bônus ao contatar alienígenas, demônios e outras criaturas mentais da noösfera. Pode induzir sonhos visionários. Pode conter tecido cerebral de mentes-estelares.</p>"
+    },
+    "You Go": {
+      "name": "Vai Lá",
+      "description": "<p>Bebida gasosa que permite ignorar um fardo por um dia. Consumo excessivo pode causar petrificação (salvaguarda fácil depois da 2ª lata, médio depois da 3ª, etc.)!</p>"
+    },
+    "Zu Helmet": {
+      "name": "Elmo Zu",
+      "description": "<p>Ele recebe vozes do além. Geme com as vozes do deserto e da montanha. Permite que você fale com fantasmas e aparições.</p>"
+    },
+    "Zunkwaffel Wandgun": {
+      "name": "Varinha-Arma Zunkwaffel",
+      "description": "<p>A pistola de supressão de mortos-vivos interrompe temporariamente sua força animadora (salvaguarda ou nocauteado por um minuto).</p><p><strong>Características:</strong> recarga 3</p>"
+    }
+  }
+}
