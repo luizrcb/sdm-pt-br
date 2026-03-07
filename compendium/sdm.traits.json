@@ -48,7 +48,12 @@
     },
     "0. Fighter": {
       "name": "0. Combatente",
-      "description": "<p>Você se chama guardião, guerreiro ou mestre de armas.</p><p>Você é habilidoso no uso de armas e armaduras tradicionais; de faca a espada, disparador a rifle, escudo de quitina a arnês amortecedor.</p><p>Além disso, você é habilidoso em defesa. Isso é um bônus de +3 em defesa e ataque. Especialista: +6; mestre: +9.</p><p><em>(atualize o bônus de defesa na aba de efeitos conforme este nível de habilidade aumenta)</em></p>"
+      "description": "<p>Você se chama guardião, guerreiro ou mestre de armas.</p><p>Você é habilidoso no uso de armas e armaduras tradicionais; de faca a espada, disparador a rifle, escudo de quitina a arnês amortecedor.</p><p>Além disso, você é habilidoso em defesa. Isso é um bônus de +3 em defesa e ataque. Especialista: +6; mestre: +9.</p><p><em>(atualize o bônus de defesa na aba de efeitos conforme este nível de habilidade aumenta)</em></p>",
+      "effects": {
+        "Skilled at Defense": {
+          "name": "Treinado em Defesa"
+        }
+      }
     },
     "0. Golem": {
       "name": "0. Golem",
@@ -126,11 +131,11 @@
       "name": "0. Safraniano",
       "description": "<p>Da Terra Amarela. Você é um mercador, um mantenedor, um mercenário. Barganhe e avalie, conserte e improvise, extorque e traia. Empunhe arco e lança, boleadeira, laço e garrote. Além disso, gaste um ponto de atributo para fugir de uma luta com segurança.</p>"
     },
-    "1.  Competent Appearance": {
+    "1. Competent Appearance": {
       "name": "1. Aparência Competente",
       "description": "<p>Você sempre parece competente ao parecer fazer algo que poderia parecer ser seu trabalho.</p>"
     },
-    "1.  Country Squire": {
+    "1. Country Squire": {
       "name": "1. Escudeiro Rural",
       "description": "<p>Você ganha dinheiro do jeito certo: concessões de recursos nas vastidões e terras arruinadas. Uma propriedade rural remota lhe dá €15/semana e todas as azeitonas rancorosas que você pode cuspir.</p>"
     },
@@ -140,7 +145,15 @@
     },
     "1. Antimagus": {
       "name": "1. Antimago",
-      "description": "<p>Seu próprio sangue se rebela contra os truques dos falsos deuses. Ganhe 2 pontos de vida por nível, mas o preço que você paga por magias velhatec e fantasciência é dobrado.</p><p><em>Atualize o efeito ativo <strong>Vida Bônus</strong> toda vez que seu personagem subir de nível.</em></p>"
+      "description": "<p>Seu próprio sangue se rebela contra os truques dos falsos deuses. Ganhe 2 pontos de vida por nível, mas o preço que você paga por magias velhatec e fantasciência é dobrado.</p><p><em>Atualize o efeito ativo <strong>Vida Bônus</strong> toda vez que seu personagem subir de nível.</em></p>",
+      "effects": {
+        "Double power cost": {
+          "name": "Custo de power dobrado"
+        },
+        "Bonus Life (lvl x2)": {
+          "name": "Vida Bônus (Nível x2)"
+        }
+      }
     },
     "1. Arboreal": {
       "name": "1. Arborícola",

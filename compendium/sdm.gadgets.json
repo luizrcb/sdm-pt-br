@@ -1,3 +1,314 @@
 {
-    "label": "Dispositivos"
+    "label": "Dispositivos",
+    "folders": {
+    "Climbing & Mobility": "Escalada e Mobilidade",
+    "Stealth & Disguise": "Furtividade e Disfarce",
+    "Security & Infiltration": "Segurança e Infiltração",
+    "Protection & Safety": "Proteção e Segurança",
+    "Magielectronics & Power": "Magieletrônica e Energia",
+    "Communication & Control": "Comunicação e Controle",
+    "Travel & Outdoors": "Viagem e Vida ao Ar Livre",
+    "Surveillance & Tracking": "Vigilância e Rastreamento",
+    "Rest & Recreation": "Descanso e Recreação"
+  },
+  "mapping": {
+    "description": "system.description",
+    "range": "system.power.range",
+    "target": "system.power.target",
+    "duration": "system.power.duration",
+    "overcharge": "system.power.overcharge",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
+  },
+  "entries": {
+    "Aerolith Anchor": {
+      "name": "Âncora de Aerólito",
+      "description": "<p>Reduz sua velocidade ao cair. Quanto maior, maior a desaceleração.</p>"
+    },
+
+    "Alarwurm Box": {
+      "name": "Caixa de Alarverme",
+      "description": "<p>Responde a condições pré-programadas. Sensores básicos. Barulhenta.</p>"
+    },
+
+    "Astral Compass": {
+      "name": "Bússola Astral",
+      "description": "<p>Direções, latitude, longitude e mapa arcaico. Requer linha de visão astral.</p>"
+    },
+
+    "Aug-Harness": {
+      "name": "Arnés de Aumento",
+      "description": "<p>Aumento físico de força golem. Define sua Força como 6. recarga 5 [[/r 1d20]]</p>",
+      "effects": {
+        "str 6": {
+          "name": "for 6"
+        }
+      }
+    },
+
+    "Augmented Reality": {
+      "name": "Realidade Aumentada",
+      "description": "<p>Óculos com gerador de esquemas em tempo real.</p>"
+    },
+
+    "Bioscanner": {
+      "name": "Bioscanner",
+      "description": "<p>Detecta vestígios de indivíduos e espécies. O banco de dados pode estar desatualizado.</p>"
+    },
+
+    "Campaign Bed": {
+      "name": "Cama de Campanha",
+      "description": "<p>Malha de quitina e bambu flexível para um bom descanso. Remove +1 aflição por semana.</p>"
+    },
+
+
+    "Chronometer": {
+      "name": "Cronômetro",
+      "description": "<p>Cravejado de joias, com funções de data, temporizador, alarme, fuso horário e anotações.</p>"
+    },
+
+    "Clicker Casket": {
+      "name": "Caixão Clicker",
+      "description": "<p>Detector portátil de 17 tipos de raios mágicos e mundanos. Alcance médio.</p>"
+    },
+
+    "Climbing Gear": {
+      "name": "Apetrechos de Escalada",
+      "description": "<p>Pontas, cordas, cintos, mosquetões, haste estática.</p>"
+    },
+
+    "Control Choke": {
+      "name": "Estrangulamento de Controle",
+      "description": "<p>Controle remoto humano (salvaguarda difícil). Não funciona em magos. recarga 19 [[/r 1d20]].</p>"
+    },
+
+    "Credenticard": {
+      "name": "Credencicard",
+      "description": "<p>ID gerativa simpática. A opção de falsificação sempre convincente. recarga 3 [[/r 1d20]].</p>"
+    },
+
+    "Dampsound Shoes": {
+      "name": "Sapatos Abafa-Som",
+      "description": "<p>Muito acolchoados. Elegantes em certos contextos.</p>"
+    },
+
+    "Dark-Vision Goggles": {
+      "name": "Óculos de Visão no Escuro",
+      "description": "<p>Com emissor infravermelho.</p>"
+    },
+
+
+    "Disintegrity Spray": {
+      "name": "Spray de Desintegridade",
+      "description": "<p>Dissolve metais, plásticos, fechaduras e grades.</p>"
+    },
+
+    "Distraction Projector": {
+      "name": "Projetor de Distração",
+      "description": "<p>Holográfico. Alcance curto, recarga 3 [[/r 1d20]].</p>"
+    },
+
+    "Ear Jewels": {
+      "name": "Joias Auriculares",
+      "description": "<p>Seis para comunicação de equipe criptografada. Jarro de recarga. Microfone ruim. Longo alcance.</p>"
+    },
+
+    "Ear Slug": {
+      "name": "Lesma Auricular",
+      "description": "<p>Tradutor universal. Alimenta-se de cera de ouvido. Simbionte, não parasita.</p>"
+    },
+
+    "Electronic Ear": {
+      "name": "Ouvido Eletrônico",
+      "description": "<p>Escuta à distância.</p>"
+    },
+
+    "Emergency Flare": {
+      "name": "Sinalizador de Emergência",
+      "description": "<p>Brilha intensamente e solta fumaça por cerca de 10 minutos. Diz: “Estou aqui!”. recarga 2 [[/r 1d20]].</p>"
+    },
+
+    "Enviro Mask": {
+      "name": "Máscara Ambiental",
+      "description": "<p>Protege contra esporos, gás e magias tóxicas.</p>"
+    },
+
+    "Enviro Tent": {
+      "name": "Barraca Ambiental",
+      "description": "<p>Protege do calor, frio e chuva. Recicla líquidos e ar por 1 semana.</p>"
+    },
+
+    "Exoskelegolem": {
+      "name": "Exoesquelegolem",
+      "description": "<p>Tubos, cabos, carne sintética e mente insetoide. Carrega +1 saca.</p>",
+      "effects": {
+        "carry +1 sack": {
+          "name": "carrega +1 saca",
+          "description": "<p>carrega +1 saca (10 mochilas)</p>"
+        }
+      }
+    },
+
+    "Folding Chair": {
+      "name": "Cadeira Dobrável",
+      "description": "<p>Tubos de vime, malha, canos e porta-copos. Muito confortável para vigilâncias.</p>"
+    },
+
+    "Glo Paint": {
+      "name": "Tinta Brilhante",
+      "description": "<p>Com bico aplicador. Marque seu caminho. Brilha o suficiente para ler.</p>"
+    },
+
+    "Grappling Hook": {
+      "name": "Gancho de Escalada",
+      "description": "<p>E 50 cúbitos de corda.</p>"
+    },
+
+    "Holomap": {
+      "name": "Holomapa",
+      "description": "<p>Esqueça mapear enquanto rasteja por instalações! Rastreamento automático 4D. Alcance médio.</p>"
+    },
+
+    "Hyper Adhesive": {
+      "name": "Hiperadesivo",
+      "description": "<p>Sele portas ou imobilize inimigos (salvaguarda). recarga 4 [[/r 1d20]].</p>"
+    },
+
+    "Inflatable Raft": {
+      "name": "Bote Inflável",
+      "description": "<p>Leve.</p><p>Guardado: 1 st,</p><p>inflado: 10 st e carrega 5 sacas</p>"
+    },
+
+    "Interface Gauntlet": {
+      "name": "Manopla de Interface",
+      "description": "<p>Acesse dispositivos magi-elétricos usando suas portas locais da noösfera. Abra portas biomecânicas, converse com máquinas vivas, conte piadas para fantasmas de radiação.</p>"
+    },
+
+    "Invisibilly Bomb": {
+      "name": "Bomba de Invisibilidade",
+      "description": "<p>Torna todos os objetos em uma pequena área transparentes. Arremesso.</p>"
+    },
+
+    "Mechatronic Picks": {
+      "name": "Gazuas Mecatrônicas",
+      "description": "<p>Abrem qualquer porta que não tenha mente própria. Essas exigem palavras.</p>"
+    },
+
+    "Microgolem": {
+      "name": "Microgolem",
+      "description": "<p>Rastreador de vigilância remota. Voador custa €200. Longo alcance.</p>"
+    },
+
+    "Multi-Auto Tool": {
+      "name": "Ferramenta Multi-Auto",
+      "description": "<p>75 ferramentas mecânicas em uma. Desarma armadilhas, monta móveis. recarga 2 [[/r 1d20]].</p>"
+    },
+
+    "Musical Instrument": {
+      "name": "Instrumento Musical",
+      "description": "<p>Guitarra, oud, pipa, qanbus, rubab ou tambur. Solta línguas e eleva humores.</p>"
+    },
+
+    "Nanopear Spray": {
+      "name": "Spray de Nanopérolas",
+      "description": "<p>Repara qualquer item em uma hora. recarga 5 [[/r 1d20]]</p>"
+    },
+
+    "Nasal Filters": {
+      "name": "Filtros Nasais",
+      "description": "<p>Barram odores horríveis e náusea. Também protegem contra algumas toxinas inaláveis.</p>"
+    },
+
+    "Nulla Charger": {
+      "name": "Carregador Nulla",
+      "description": "<p>Usa energia zero para recarregar qualquer item em uma hora. recarga 5 [[/r 1d20]].</p>"
+    },
+
+    "Oculars": {
+      "name": "Oculares",
+      "description": "<p>Óptica tecno com zoom 25x, telêmetro e bloqueador de anúncios integrado.</p>"
+    },
+
+    "Omni-Utilitool": {
+      "name": "Omni-Ferramenta",
+      "description": "<p>Cortador a laser, micro-soldador, feixe de plasma e outras sete pequenas ferramentas de energia.</p>"
+    },
+
+    "Omnibatteries": {
+      "name": "Omnibaterias",
+      "description": "<p>12 baterias NRFB de uso único. Recarregam qualquer item de 1 espaço. Explodem se perfuradas ou arremessadas contra algo duro.</p><p><strong>Características:</strong> arremesso, área P, recarga 2</p>"
+    },
+
+    "Portable Illusion": {
+      "name": "Ilusão Portátil",
+      "description": "<p>Projetor de cristal vidy de experiência 9D. Engana não-magos. Recarga 4 [[/r 1d20]].</p>"
+    },
+
+    "Radiothermal Stove": {
+      "name": "Fogão Radiotérmico",
+      "description": "<p>Provê calor para sempre (ou pelo menos 100 anos). Atenção! Não abra de forma alguma!</p>"
+    },
+
+    "Ray Banes": {
+      "name": "Banimento de Raios",
+      "description": "<p>Óculos de sol velhatec que bloqueiam UV. Símbolo de status para viajantes e mercadores.</p>"
+    },
+
+    "Rebreather": {
+      "name": "Respirificador",
+      "description": "<p>Respire debaixo d'água (assumindo que a água contenha oxigênio dissolvido)</p>"
+    },
+
+    "Signal Jammer": {
+      "name": "Bloqueador de Sinal",
+      "description": "<p>Configure para bloquear comunicações eletromagnéticas e psíquicas. Alcance e área médios.</p>"
+    },
+
+    "IlzXc8yjw6NbeJlD": {
+      "name": "Corda Inteligente",
+      "description": "<p>20 metros. Amarra e desamarra sob comando. Não está claro se pode falar.</p>"
+    },
+
+    "Soft-Hands Gloves": {
+      "name": "Luvas de Mãos Suaves",
+      "description": "<p>Grave e replique impressões digitais.</p>"
+    },
+
+    "Solar Lamp": {
+      "name": "Lâmpada Solar",
+      "description": "<p>Lâmpada Magia de Outrora que come a luz do sol para emitir um feixe curto de luz quente.</p>"
+    },
+
+    "Starting Kit": {
+      "name": "Kit Inicial",
+      "description": "<p>O kit mede uma saca inteira (10 mochilas) em peso e inclui até 10 itens individuais. Você não precisa escolher antecipadamente exatamente o que está no kit do seu personagem—os itens estão em uma superposição quântica até você defini-los durante o jogo.<br /><br />O kit não inclui nada melhor do que uma arma civil ([[/r 1d6]] dano) e nenhuma armadura.</p>"
+    },
+
+    "Unnoticeability Mask": {
+      "name": "Máscara da Imperceptibilidade",
+      "description": "<p>Passe despercebido. Vem com seis rostos predefinidos, incluindo advogado de regras.</p>"
+    },
+
+    "Voice Modulator": {
+      "name": "Modulador de Voz",
+      "description": "<p>Este escaravelho se prende ao seu pescoço com tarsais agarradinhos.</p>"
+    },
+
+    "Void Thermos": {
+      "name": "Termos do Vácuo",
+      "description": "<p>Vedações de vácuo perfeito mantêm chá, sopa ou biopasta™ da MÃE quente por uma semana.</p>"
+    },
+
+    "Wall-Blender": {
+      "name": "Liquidificador de Parede",
+      "description": "<p>Traje camaleão. Quinze tons de cinza e vinte tons de marrom.</p>"
+    },
+
+    "Water Pills": {
+      "name": "Pílulas de Água",
+      "description": "<p>Purifica o suprimento de água de um dia. Mata insetos. Remove algumas toxinas. Recarrega 2.</p>"
+    }
+  }
 }

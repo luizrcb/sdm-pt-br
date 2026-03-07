@@ -1,3 +1,223 @@
 {
-    "label": "Consumíveis"
+  "label": "Consumíveis",
+  "folders": {
+    "Foods": "Alimentos",
+    "Drinks": "Bebidas",
+    "Medicines": "Medicamentos",
+    "Drugs": "Drogas",
+    "Potions": "Poções",
+    "Supplies": "Suprimentos"
+  },
+  "mapping": {
+    "description": "system.description",
+    "range": "system.power.range",
+    "target": "system.power.target",
+    "duration": "system.power.duration",
+    "overcharge": "system.power.overcharge",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
+  },
+  "entries": {
+    "Black Light Lotus": {
+      "name": "Lótus de Luz Negra",
+      "description": "<p>Brilha no escuro, adorada por gatos. Ingerida, permite ignorar aflições mentais por uma semana. Fumada, induz sono profundo e restaura [[/r 1d6]] vida. Aplicada à pele, libera feromônios alteradores da mente, concedendo +1 Carisma por um dia. Viciante  abstinência causa câimbras e fome.</p><p><em>(use efeito ativo para Carisma)</em></p>",
+      "effects": {
+        "+1 cha": {
+          "name": "+1 car"
+        }
+      }
+    },
+
+    "Blue Spacecake": {
+      "name": "Bolo Espacial Azul",
+      "description": "<p>Aumenta percepção (Aura +1) e faz seu rosto brilhar como uma vela. Na verdade é um iogurte com cogumelos, não um bolo. Não contém esporos que alteram a mente.</p>"
+    },
+
+    "Cat Coffee": {
+      "name": "Cafelino",
+      "description": "<p>Excremento narcótico de gato preto que induz sono e restaura atributos mentais perdidos. Fortemente viciante a abstinência causa reclamações incessantes.</p>"
+    },
+
+    "Curative Snake Oil": {
+      "name": "Óleo de Cobra Curativo",
+      "description": "<p>Remédio genérico para venenos, toxinas, insetos, parasitas, doenças, fungos, mofo, erupções, bolhas e ressaca. Beba toda segunda-feira para obter uma salvaguarda bônus gratuita por semana.</p>"
+    },
+
+    "Eggplant Elixir": {
+      "name": "Elixir de Berinjela",
+      "description": "<p>Concede pele emborrachada e resistência contra dano físico e elétrico.</p>"
+    },
+
+    "ggUAeAA9W7BYMU2e": {
+      "name": "Felix Whizz",
+      "description": "<p>Bebida energética popular. Ganha +[[/r 1d4]] vida, mas deixa você um pouco irritante.</p><p>Fracamente viciante — abstinência causa comportamento rabugento, irritadiço e desfocado.</p><p><em>(edite e use o efeito ativo para conceder a vida bônus)</em></p>",
+      "effects": {
+        "+ life": {
+          "name": "+ vida"
+        }
+      }
+    },
+
+    "Flesh Soil": {
+      "name": "Solo de Carne",
+      "description": "<p>Substrato biomágico que nutre um órgão, como um fígado, uma mão ou uma cabeça, por um mês. Ótimo para manter um amigo decapitado vivo até alcançar uma instalação de reencarnação. Frasco vendido separadamente.</p>"
+    },
+
+    "Full-Heal Kit": {
+      "name": "Kit de Cura Total",
+      "description": "<p>Regeneradores de amplo espectro reconstroem um membro perdido em poucos minutos. Atualizações OTA disponíveis para reconstruir órgãos adicionais.</p>"
+    },
+
+    "Glitchvidy": {
+      "name": "Glitchvídeo",
+      "description": "<p>Neurotransformador direto absorvido via óculos de comunicação. Originalmente um reprogramador humano, agora usado para estimulação direta de prazer. Viciante — a abstinência bloqueia acesso a habilidades e traços aleatórios.</p>"
+    },
+
+    "Goat Bricks": {
+      "name": "Tijolos de Cabra",
+      "description": "<p>Aveia, pão anão esmagado, água desidratada e eletrólitos. Tudo que sua cargofera precisa. Favor adicionar água.</p>"
+    },
+
+    "Green Ortholentils": {
+      "name": "Ortolentilhas Verdes",
+      "description": "<p>Ignore 1 fardo mental por horas, reduza dissonância cognitiva por um dia e obedeça autoridades com mais facilidade. Produto em wafer não contém ancestrais.</p>",
+      "effects": {
+        "-1 burden": {
+          "name": "-1 fardo"
+        }
+      }
+    },
+
+    "Healmachine": {
+      "name": "Curamáquina",
+      "description": "<p>Restaura [[/r 2d8]] de vida a uma máquina. Repara danos cosméticos em veículos.</p>"
+    },
+
+    "Injectable Fodder": {
+      "name": "Ração Injetável",
+      "description": "<p>Nutrição intravenosa para sua cargofera. O uso excessivo pode transformá-la em um zumbi carnívoro (salvaguarda fácil, uma vez por semana). Não certificado para uso humano.</p>"
+    },
+
+    "Keep It Up Cha": {
+      "name": "Chá Sustenta-Aí",
+      "description": "<p>Chá feito do micélio do Deus Azul. Reduz insatisfação, tremedeira e iniciativa. Oferece contentamento, pertencimento e obediência. Rumorado afrodisíaco.</p>"
+    },
+
+    "Lemma Worm": {
+      "name": "Verme do Lema",
+      "description": "<p>Droga memética apreciada por estímulo auditivo e tátil. Traz sensação de sentido. Uso excessivo causa crenças estranhas. Levemente viciante — abstinência causa paranoia.</p>"
+    },
+
+    "Octarine Oil": {
+      "name": "Óleo Octarino",
+      "description": "<p>Colírio iridescente que revela um espectro mais amplo, de micro-ondas a raios gama.</p>"
+    },
+
+    "Orange Ratgum": {
+      "name": "Chiclete de Rato Laranja",
+      "description": "<p>Resistência a efeitos telepáticos e controle mental enquanto mastiga. Contém menos de 3% de rato do vazio.</p>"
+    },
+
+    "Otherface Cream": {
+      "name": "Creme Outra-Face",
+      "description": "<p>Fique parecido com sua estrela procedimental favorita! Deixa seu rosto macio e maleável.</p>"
+    },
+
+    "Philip Juice": {
+      "name": "Suco de Philip",
+      "description": "<p>Transforme-se! Troque dois atributos.</p>"
+    },
+
+    "Photosynth Sap": {
+      "name": "Seiva Fotossintética",
+      "description": "<p>O suco condensado da árvore dourada permite que a luz do sol o alimente por uma semana.</p>"
+    },
+
+    "Purple Haze": {
+      "name": "Névoa Púrpura",
+      "description": "<p>A tragada preferida dos errantes do UV. A aromatizada “essensa de mors” entorpece dor e emoções. Um longo baseado ajuda com dor, luto, medo e sofrimento, mas torna a pessoa lenta e de vontade fraca. Levemente viciante, abstinência causa boca seca e névoa mental.</p>"
+    },
+
+    "Purple Worm Sausages": {
+      "name": "Salsichas de Verme Púrpura",
+      "description": "<p>Energia suficiente para um dia de trabalho pesado e ignore 1 fardo físico ou ferimento por várias horas. Não feitas de vermes gigantes.</p>"
+    },
+
+    "Red Nutrislurry": {
+      "name": "Nutrilama Vermelha",
+      "description": "<p>Revigora como um descanso curto. Ótimo para sentinelas! Pode conter vampiro processado.</p>"
+    },
+
+
+    "Song-Ghost Fuel": {
+      "name": "Combustível de Fantasma da Canção",
+      "description": "<p>Emanações de daemon preso liquefeitas. Combustível limpo e denso para sua máquina. Pode deixar fenômenos parapsíquicos para trás após a queima.</p>"
+    },
+
+
+    "Soul Juice": {
+      "name": "Suco de Alma",
+      "description": "<p>Alma destilada. Remove 1 fardo mental permanentemente. Também, uma fonte de energia.</p>"
+    },
+
+    "Standard Corpsolene": {
+      "name": "Cadavrolina Padrão",
+      "description": "<p>Dinossauros mortos sintéticos básicos. Combustível para seus veículos.</p>"
+    },
+
+    "Synthetic Blood": {
+      "name": "Sangue Sintético",
+      "description": "<p>Solo Vermelho Fino safra. Para cirurgia ou para alimentar um vampiro por uma semana.</p>"
+    },
+
+
+    "Tonic Harmony": {
+      "name": "Harmonia Tônica",
+      "description": "<p>Aprecie mais sua música! Adquira afinação perfeita e uma garganta dourada.</p>"
+    },
+
+
+    "Ultra-Purga": {
+      "name": "Ultrapurgante",
+      "description": "<p>Purgante terrivelmente eficaz. Perda [[/r 2d4]] de vida ou pontos de atributo e igual número de infecções, demônios possuidores e outras afecções danosas.</p>"
+    },
+
+    "UV Lotion": {
+      "name": "Loção UV",
+      "description": "<p>Protege de radiação astral e concede resistência a dano radiante.</p>"
+    },
+
+    "Violet City Healotion": {
+      "name": "Curaloção da Cidade Violeta",
+      "description": "<p>Restaura [[/r 2d6]] de vida ou 1 ponto de atributo físico.</p>"
+    },
+
+
+    "Void Paste": {
+      "name": "Pasta do Vácuo",
+      "description": "<p>Pacotes de comida sempre-fresca™ embalada a vácuo produzida para os viajantes do vácuo de outrora. Absorve umidade ambiente quando aberto. Qualquer umidade.</p>"
+    },
+
+    "Voyager Supplies": {
+      "name": "Suprimentos de Viajante",
+      "description": "<p>Carne enlatada, cerveja de viagem, aguardente para matar germes e memórias, tralhas inúteis, jornais mal-impressos, meias, goma de mascar e profiláticos. Coisas humanas. Nada além disso.</p>"
+    },
+
+    "Whiskers": {
+      "name": "Bigodes",
+      "description": "<p>Expandem a mente, aumentam a percepção (inteligência +1), causam um efeito fraco de levitação e coordenação reduzida. Um tanto viciantes—a abstinência causa tremores fortes.</p><p><em>(use efeito ativo para aumentar inteligência)</em></p>"
+    },
+
+    "OITROVjjKTWaG6Xx": {
+      "name": "Choux Crême de Cérebro-Amarelo",
+      "description": "<p>Concede bônus ao contatar alienígenas, demônios e outras criaturas mentais da noösfera. Pode induzir sonhos visionários. Pode conter tecido cerebral de mentes-estelares.</p>"
+    },
+
+    "You Go": {
+      "name": "Vai Lá",
+      "description": "<p>Bebida gasosa que permite ignorar um fardo por um dia. Consumo excessivo pode causar petrificação (salvaguarda fácil depois da 2ª lata, médio depois da 3ª, etc.)!</p>"
+    }
+  }
 }

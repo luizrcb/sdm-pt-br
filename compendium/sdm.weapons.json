@@ -1,3 +1,3139 @@
 {
-    "label": "Armas"
+    "label": "Armas",
+    "folders": {
+    "Armors": "Armaduras",
+    "Gears": "Equipamentos",
+    "Powers": "Poderes",
+    "Trait Items": "Equipamentos de Traços",
+    "Wards": "Égides",
+    "Weapons": "Armas",
+    "Unarmed Attack": "Ataque Desarmado",
+    "Modern and Ancient Shields": "Escudos Modernos e Antigos",
+    "Light Armors": "Armaduras Leves",
+    "Medium Armors": "Armaduras Médias",
+    "Classic Golem Armor": "Armadura Golem Clássica",
+    "Heavy Armors": "Armaduras Pesadas",
+    "Traditional Melee Weapons": "Armas Corpo a Corpo Tradicionais",
+    "Long Ago Melee Weapons": "Armas Corpo a Corpo de Muito Tempo Atrás",
+    "Ranged Weapons": "Armas de Longo Alcance",
+    "Throwing Weapons": "Armas de Arremesso",
+    "Terrible Ranged Weapons of the Long Ago": "Terríveis Armas de Longo Alcance de Muito Tempo Atrás",
+    "Gadgets": "Dispositivos",
+
+    "Climbing & Mobility": "Escalada e Mobilidade",
+    "Stealth & Disguise": "Furtividade e Disfarce",
+    "Security & Infiltration": "Segurança e Infiltração",
+    "Protection & Safety": "Proteção e Segurança",
+    "Magielectronics & Power": "Magieletrônica e Energia",
+    "Communication & Control": "Comunicação e Controle",
+    "Travel & Outdoors": "Viagem e Vida ao Ar Livre",
+    "Surveillance & Tracking": "Vigilância e Rastreamento",
+    "Rest & Recreation": "Descanso e Recreação",
+
+    "Consumables": "Consumíveis",
+    "Foods": "Alimentos",
+    "Drinks": "Bebidas",
+    "Medicines": "Medicamentos",
+    "Drugs": "Drogas",
+    "Potions": "Poções",
+    "Supplies": "Suprimentos",
+
+    "Barbarian": "Bárbaro",
+    "Bluelander": "Azulita",
+    "Bourgeois": "Burguês",
+    "Golem": "Golem",
+    "Greenlander": "Esmeraldino",
+    "Holy Fool": "Tolo Sagrado",
+    "Manager": "Gerente",
+    "Noömagus": "Noömago",
+    "Noble": "Nobre",
+    "Orangelander": "Laranjenha",
+    "Purplelander": "Violetense",
+    "Redlander": "Rúbreo",
+    "Scion": "Herdeiro de Legado",
+    "Servant": "Servo",
+    "Skeleton": "Esqueleto",
+    "Tourist": "Turista",
+    "Soldier": "Soldado",
+    "Trickster": "Trapaceiro",
+    "Weapon": "Arma",
+    "Bearer Items": "Itens de Portador",
+    "Weapon Form": "Forma de Arma",
+    "Yellowlander": "Safraniano",
+    "Weapon Trait": "Traço de Arma",
+    "Trinkets": "Berloques",
+    "Wearable Wards": "Égides Vestíveis",
+    "Portable Wards": "Égides Portáteis",
+    "Bulky Wards": "Égides Volumosos"
+  },
+  "mapping": {
+    "description": "system.description",
+    "range": "system.power.range",
+    "target": "system.power.target",
+    "duration": "system.power.duration",
+    "overcharge": "system.power.overcharge",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
+  },
+  "entries": {
+    "ZteNSXBaRUbC5CuU": {
+      "name": "Lança Sifão de Almas",
+      "description": "<p>Açoita como uma cobra, bebendo almas e deixando cascas vazias. Armazena três almas.</p><p>Gaste uma para animá-la como uma @UUID[Compendium.sdm.creatures.Actor.RrHPo1p4xq14BKO3]{Serpente-Lança} (N3/12 vida) ou para recuperar [[/r 1d6x]] vida.</p><p><strong>Características:</strong> 2M, sintonizar, fantasciência</p>"
+    },
+
+    "Abominable Paw": {
+      "name": "Pata Abominável",
+      "description": "<p>A pata preservada de algum fenótipo humano sombrio do extremo norte distante. Dobra os efeitos de suas maldições.</p>"
+    },
+
+    "Access Flenser": {
+      "name": "Acesso ao Esfolador",
+      "description": "<p>Esta lâmina fantasma menos letal corta camadas de ego e id.</p><p>Dano máximo: impõe uma ordem direta à alma do alvo (salvaguarda contra ordens extremas).</p><p><strong>Características:</strong> alcance, recarga 5 [[/r 1d20]], sintonizar, Velhatec, subjugação</p>"
+    },
+
+    "Access Noötree": {
+      "name": "Acesso à Noöárvore",
+      "description": "<p><em>Surfe Espiritual Localizado</em><br /><br />Você se desconecta do corpo e envia sua mente-espírito (<em>ka-ba</em>) ao espaço onírico sintético de uma árvore-servidor local. É possível acessar memórias de curto prazo da árvore, anúncios divinos, novidades algorítmicas de interesse humano e realidades oníricas derivadas hospedadas localmente.</p>",
+      "range": "toque",
+      "target": "uma árvore pensante",
+      "duration": "10 minutos",
+      "overcharge": "<p>Obtenha acesso de nível raiz ao código-fonte da árvore e encontre as portas miceliais que a ligam à noösfera mais ampla, fragmentos do mundo eletrônico de Muito Tempo Atrás, palácios de memória celestiais e outros micro-reinos.</p><p>Ruído e comoção podem alertar guardiões funcionais (N[[/r 2d6]], eletroangelicais).</p>"
+    },
+
+    "Acrylic Reliquary": {
+      "name": "Relicário Acrílico",
+      "description": "<p>Um disco translúcido de plástico que amolece e endurece conforme seus pensamentos. Armazena com segurança um fragmento de radiância ou de personalidade humana.</p>"
+    },
+
+    "Aerolith Anchor": {
+      "name": "Âncora de Aerólito",
+      "description": "<p>Reduz sua velocidade ao cair. Quanto maior, maior a desaceleração.</p>"
+    },
+
+    "Aerolith Impactor": {
+      "name": "Impactador de Aerólito",
+      "description": "<p>Dispara uma semente de aerólito que reduz o peso do alvo em 1 saca por acerto.</p><p>O efeito dura 10 minutos.</p><p><strong>Características:</strong> médio, recarga 4 [[/r 1d20]], Velhatec</p>"
+    },
+
+    "Agon Whip": {
+      "name": "Chicote de Agonia",
+      "description": "<p>Implanta no alvo um homúnculo de sua personalidade (salvaguarda).</p><p>A cada rodada, cada personalidade implantada tenta assumir o controle (rolagens de Aura).</p><p><strong>Características:</strong> alcance, recarga 13 [[/r 1d20]], sintonizar, fantasciência, oneroso</p>"
+    },
+
+    "Air Compressor": {
+      "name": "Compressor de Ar",
+      "description": "<p>Máscara biomecânica para respirar em condições de baixa pressão.</p><p><strong>Características:</strong> barulhento</p>"
+    },
+
+    "Akaula's Sacrificial Hero": {
+      "name": "Herói Sacrificial de Akaula",
+      "description": "<p><em>Purificação da Boca do Inferno</em></p><p>O purificador marca um herói para o abate com seis sigilos de contenção. O herói perde 1 vida por rodada. Quando a vida se esgota, mente e alma irrompem no fogo do Criador. O fogo bane todos os demônios e alienígenas de até o dobro do nível do herói em um raio de 100 metros e sela todos os portais dimensionais e do vazio por um número de anos igual ao nível do herói.</p>"
+    },
+
+    "Alarwurm Box": {
+      "name": "Caixa de Alarverme",
+      "description": "<p>Responde a condições pré-programadas. Sensores básicos. Barulhenta.</p>"
+    },
+
+    "Alter Self": {
+      "name": "Alterar o Eu",
+      "description": "<p><em>Beleza Interior Manifestada, Mente Sobre a Carne</em></p><p>A mente do mago reesculta seus próprios traços. Ele pode assumir a aparência de uma pessoa específica, desde que a tenha estudado de perto, ou de um tipo geral. Nenhuma habilidade é alterada. Alternativamente, o mago pode escolher ganhar guelras, visão em pouca luz, ou outra habilidade natural menor, a critério do árbitro.</p>",
+      "range": "toque",
+      "target": "si mesmo",
+      "duration": "1 hora",
+      "overcharge": "<p>os efeitos tornam-se permanentes.</p>"
+    },
+
+    "Amber Cuirass": {
+      "name": "Couraça de Âmbar",
+      "description": "<p>Fios de memórias ancestrais presos em âmbar.</p><p>Memórias espectrais concedem +1 Inteligência.</p><p><strong>Características:</strong> volumoso</p>",
+      "effects": {
+        "Ghostly memories": {
+          "name": "Memórias espectrais",
+          "description": "<p>Memórias espectrais concedem +1 Inteligência.</p>"
+        }
+      }
+    },
+
+    "Amber Suit": {
+      "name": "Traje de Âmbar"
+    },
+
+    "Amber Wandgun": {
+      "name": "Varinhola de Âmbar",
+      "description": "<p>Dispara descargas arqueadas de dor e fogo. Curto alcance.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+    },
+
+    "Ancient Jezail": {
+      "name": "Jezail Antigo",
+      "description": "<p>Já matou uma cria dos Construtores de Muito Tempo Atrás? Carregado pelo Criador, longo alcance.</p>"
+    },
+
+    "Angelroarer": {
+      "name": "Rugidor Angelical",
+      "description": "<p>Projetor portátil de holograma sólido que manifesta um progenitor divino para punir descrentes. Barulhento, brilhante, incendiário e aterrador.</p><p><strong>Características:</strong> curto, recarga 7 [[/r 1d20]], 2M, aterrador, calor, subjugação</p>"
+    },
+
+    "Animate Corpse": {
+      "name": "Animar Cadáver",
+      "description": "<p><em>Pós-Mortalidade Artificial</em></p><p>Em 1 hora, um cadáver humanoide razoavelmente intacto se ergue como um zumbi pós-mortal.</p><p>Animado por um fragmento de alma e resíduos de personalidade. Obedece ordens simples, mas deve ser relembrado a cada 6 horas.</p><p>O mago pode controlar um número de pós-mortais igual ao seu Nível sem risco de rebelião.</p>",
+      "range": "toque",
+      "target": "cadáver",
+      "duration": "permanente",
+      "overcharge": "<p>Desperta instantaneamente ou como um pós-mortal especializado.</p>"
+    },
+
+    "Anne Astec": {
+      "name": "Ane Estético",
+      "description": "<p><em>Analgésico Sacerdotal Iátrico</em></p><p>Suprime a resposta à dor de uma criatura, aliviando dor e fardos. Espera… o escriba confundiu anestésico com estético?</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "um dia",
+      "overcharge": "<p>dura uma semana.</p>"
+    },
+
+    "Anti-Babylon": {
+      "name": "Anti-Babilônia",
+      "description": "<p><em>Protocolo Universal de Tradução</em></p><p>Permite comunicação funcional com qualquer entidade: vegetal, animal, mineral ou banco de dados.</p>",
+      "range": "próximo",
+      "target": "1 criatura ou objeto",
+      "duration": "1 hora",
+      "overcharge": "<p>Todos os objetos ao alcance dos braços ou comunicação curta à distância.</p>"
+    },
+
+    "Anti-Static Robes": {
+      "name": "Vestes Anti-Estática",
+      "description": "<p>Reduzem retorno mágico. Bônus em salvaguardas contra corrupção e Velhatec.</p>",
+      "effects": {
+        "Save Bonus": {
+          "name": "Bônus de Salvaguardas",
+          "description": "<p>Bônus em salvaguardas contra corrupção e Velhatec.</p>"
+        }
+      }
+    },
+
+    "Antimagic Mouth": {
+      "name": "Boca Antimagia",
+      "description": "<p>Caixa monstruosa em forma de boca. Cabe sua cabeça?!</p><p><strong>Características:</strong> antimagia (gaste [[/r 1d6+1]] vida para anular um efeito salvaguarda)</p>"
+    },
+
+    "Articulated G-Wagon": {
+      "name": "Vagão-G Articulado",
+      "description": "<p>Seis rodas, sete marchas e uma omnibateria solar.</p><p>N4, capacidade 5</p>"
+    },
+
+    "Artyhide": {
+      "name": "Couro Artístico",
+      "description": "<p>Barato, brilhante quando oleado.</p><p><strong>Características:</strong> quente</p>"
+    },
+
+    "Arzax Lance": {
+      "name": "Lança Arzax",
+      "description": "<p>Lança de energia ultraleve. Pode colapsar em uma haste curta.</p><p>Atordoa em 13 natural.</p><p><strong>Características:</strong> alcance, cavalaria</p>"
+    },
+
+    "Assault Suit": {
+      "name": "Traje de Assalto",
+      "description": "<p>Tendões prateados, placas de porcelana, tecidos desmortos.</p><p><strong>Características:</strong> quente, Força +1, Resistência +1</p>",
+      "effects": {
+        "Assault Suit": {
+          "name": "Traje de Assalto",
+          "description": "<p>for +1, res +1</p>"
+        }
+      }
+    },
+
+    "Astral Compass": {
+      "name": "Bússola Astral",
+      "description": "<p>Direções, latitude, longitude e mapa arcaico. Requer linha de visão astral.</p>"
+    },
+
+    "Astral Pin": {
+      "name": "Alfinete Astral",
+      "description": "<p>Pode conter uma alma. 1 em 6 de chance de já conter uma.</p>"
+    },
+
+    "Aug-Harness": {
+      "name": "Arnés de Aumento",
+      "description": "<p>Aumento físico de força golem. Define sua Força como 6. recarga 5 [[/r 1d20]]</p>",
+      "effects": {
+        "str 6": {
+          "name": "for 6"
+        }
+      }
+    },
+
+    "Augmented Reality": {
+      "name": "Realidade Aumentada",
+      "description": "<p>Óculos com gerador de esquemas em tempo real.</p>"
+    },
+
+    "Autoportal Conflux": {
+      "name": "Confluência Autoportal",
+      "description": "<p>Dispara a si mesmo e ao usuário através de si, emergindo no destino com um estrondo. Em 13 natural ocorre atraso na rematerialização (role d6).</p><p><strong>Características:</strong> longo, área M, recarga 7 [[/r 1d20]], 2M, sintonizar, lento, Velhatec</p>"
+    },
+
+    "Ballistic Linen Suit": {
+      "name": "Traje de Linho Balístico",
+      "description": "<p>O traje do aventureiro gentil. Bolso secreto para mamilo.</p><p><strong>Características:</strong> fresco, bolso 3</p>",
+      "effects": {
+        "pocket 3": {
+          "name": "bolsos 3"
+        }
+      }
+    },
+
+    "Basic Homunculo": {
+      "name": "Homúnculo Básico",
+      "description": "<p>Pequeno falso humano. Sacrifique-o para absorver um efeito tecnomágico ou para alimentar seus poderes.</p><p><strong>Características:</strong> automático</p>"
+    },
+
+    "Battle Briefcase": {
+      "name": "Maleta de Batalha",
+      "description": "<p>Protege magidocs e pergaminhos do Príncipe Azul. Funciona como escudo.</p>"
+    },
+
+    "Battle Stick": {
+      "name": "Cassetete de Batalha",
+      "description": "<p>Madeira dura para pancadas duras.</p><p><strong>Características:</strong> Força ou Rapidez</p>"
+    },
+
+    "Better Life Pamphlets": {
+      "name": "Panfletos de Vida Melhor",
+      "description": "<p>Promessas.</p>"
+    },
+
+    "Better Pastures": {
+      "name": "Pastagens Melhores",
+      "description": "<p><em>Escolha do Remendo Darehodo</em></p><p>Medite por uma hora em uma encruzilhada, observando o fluxo de suas energias, o voo dos pássaros, o deslocar das sementes de paina. Faça uma pergunta objetiva de sim/não à encruzilhada, e ela responderá. Este caminho alcança água em até 50 milhas? Há pasto verde ao longo daquele caminho em até 20 km?</p>",
+      "range": "si mesmo",
+      "target": "si mesmo",
+      "duration": "1 hora",
+      "overcharge": "<p>Faça uma segunda pergunta ou esclareça a primeira.</p>"
+    },
+
+    "Big Wish": {
+      "name": "Grande Desejo",
+      "description": "<p><em>Continue Girando, Súplica ao Demiurgo Perverso</em></p><p>Você invoca um demiurgo, um eco dos Construtores, e ordena que ele conceda seu desejo. O demiurgo faz o possível para interpretá-lo mal, provavelmente por ser um alienígena fora do tempo e do espaço. O círculo de proteção leva um dia para ser traçado, ou o poder pode ser perigoso. A invocação em si exige apenas três gestos e um objeto reflexivo.</p><p>Desejos típicos (e perversões):</p><ul><li><p>“Traga meu amor de volta à vida.” feito, mas agora ela ama outra pessoa.</p></li><li><p>“Afaste este cálice de mim.” muito bem, vamos entregá-lo ao seu nêmesis.</p></li><li><p>“Transporte-me para um lugar seguro.” agora você está em um cofre bancário, sem nenhum de seus pertences.</p></li><li><p>“Tire-nos desta frigideira!” direto para o fogo.</p></li><li><p>“Este poder é inútil?” bem, é quase uma piada.</p></li></ul>",
+      "range": "si mesmo",
+      "target": "demiurgo",
+      "duration": "um dia, depois permanente",
+      "overcharge": "<p>Você recebe três desejos em um cálice de cristal. Beba seu líquido azedo para invocar seu demiurgo.</p>"
+    },
+
+    "Bioscanner": {
+      "name": "Bioscanner",
+      "description": "<p>Detecta vestígios de indivíduos e espécies. O banco de dados pode estar desatualizado.</p>"
+    },
+
+    "Black City Blade": {
+      "name": "Lâmina da Cidade Negra",
+      "description": "<p>Feita de obsidiana, sombra e erro. Sussurra histórias perdidas.</p><p><strong>Características:</strong> ignora resistências a dano</p>"
+    },
+
+    "Black Light Lotus": {
+      "name": "Lótus de Luz Negra",
+      "description": "<p>Brilha no escuro, adorada por gatos. Ingerida, permite ignorar aflições mentais por uma semana. Fumada, induz sono profundo e restaura [[/r 1d6]] vida. Aplicada à pele, libera feromônios alteradores da mente, concedendo +1 Carisma por um dia. Viciante  abstinência causa câimbras e fome.</p><p><em>(use efeito ativo para Carisma)</em></p>",
+      "effects": {
+        "+1 cha": {
+          "name": "+1 car"
+        }
+      }
+    },
+
+    "Black Mandible": {
+      "name": "Mandíbula Negra",
+      "description": "<p>Você sabe que este osso metálico veio de um Construtor. Um deus, de certo modo.</p>"
+    },
+
+    "Blazeglass": {
+      "name": "Vidro Ígneo",
+      "description": "<p>Permite disparar armas de feixe através deste escudo de vidro polarizado.</p><p><strong>Características:</strong> lúcido, quebrável</p>"
+    },
+
+    "Blindgod": {
+      "name": "Deus Cego",
+      "description": "<p>Máscara facial que oculta sua alma e mente de demônios e divindades.</p>",
+      "effects": {
+        "+1 Endurance": {
+          "name": "+1 Resistência"
+        }
+      }
+    },
+
+    "Blisscandy": {
+      "name": "Doce do Êxtase",
+      "description": "<p>Mantém pensamentos ruins afastados, previne traições. Reduz Carisma e Rapidez em 1. Pensamentos ruins e atributos retornam após um dia.</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]]</p>",
+      "effects": {
+        "-1 cha and -1 agi": {
+          "name": "-1 car e -1 rap"
+        }
+      }
+    },
+
+    "Blood Brandy": {
+      "name": "Conhaque de Sangue",
+      "description": "<p>Vinho de sangue espessado. Restaura [[/r 1d6]]+1 pontos de atributo ou vida. Intoxicante.</p>"
+    },
+
+    "Blood Deed": {
+      "name": "Escritura de Sangue",
+      "description": "<p>Eles lhe devem €1.000 ou um corpo.</p>"
+    },
+
+    "Blue God Blaster": {
+      "name": "Detonador do Deus Azul",
+      "description": "<p>Partícula do divino, subvertida e convertida em um arranjo tóxico para combate em túneis.</p><p><strong>Características:</strong> muito curto, recarga 7 [[/r 1d20]], 2M, necrótico, explosão</p>"
+    },
+
+    "Blue Lotus": {
+      "name": "Lótus Azul",
+      "description": "<p><em>Contentamento Somático Máximo</em></p><p>A bem-aventurança da soma traz contentamento ao alvo (salvaguarda).<br /><em>Sucesso:</em> perde o próximo turno em devaneio extático.<br /><em>Falha:</em> senta-se, perdido em êxtase por uma hora.</p>",
+      "range": "curto (~5m)",
+      "target": "1 criatura",
+      "duration": "1 hora",
+      "overcharge": "<p>Afeta um número de criaturas igual ao seu nível + 1.</p>"
+    },
+
+    "Blue Spacecake": {
+      "name": "Bolo Espacial Azul",
+      "description": "<p>Aumenta percepção (Aura +1) e faz seu rosto brilhar como uma vela. Na verdade é um iogurte com cogumelos, não um bolo. Não contém esporos que alteram a mente.</p>"
+    },
+
+    "Bodylectric Bracers": {
+      "name": "Braçadeiras Corpóletricas",
+      "description": "<p>Fale com máquinas como se fossem seus irmãos.</p>"
+    },
+
+    "Bola": {
+      "name": "Boleadeira",
+      "description": "<p>Pesos com cordas para enredar um alvo. Popular entre pastores e nômades.</p><p><strong>Características:</strong> enredar</p>"
+    },
+
+    "Bone Mesh": {
+      "name": "Malha Óssea",
+      "description": "<p>Produto registrado do mago dos ossos.</p><p><strong>Características:</strong> volumoso, fresco</p>"
+    },
+
+    "Bone Necklace": {
+      "name": "Colar de Ossos",
+      "description": "<p>Ossos mortos-vivos vivos! Não ingerir.</p><p><strong>Características:</strong> mortífero</p>"
+    },
+
+    "Book of Hellaesthetics": {
+      "name": "Livro de Infernoestética",
+      "description": "<p>Palavras para causar dor ou removê-la. Gaste 2 vida para restaurar ou remover (salvaguarda) [[/r 1d6]]+1 vida. Sele para recarregar durante a noite.</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]]</p>",
+      "effects": {
+        "+1 Thought": {
+          "name": "+1 Inteligência"
+        }
+      }
+    },
+
+    "Book of Regulations": {
+      "name": "Livro de Regulamentos",
+      "description": "<p>Como um conjunto de gazuas para burocracias e organizações.</p>"
+    },
+
+    "Book of True Thought": {
+      "name": "Livro do Pensamento Verdadeiro",
+      "description": "<p>Escrito pelo mestre do mestre, contém todas as respostas. Com ele, gaste um dado heroico para encontrar o caminho. Funciona 5 em 6 vezes.</p>"
+    },
+
+    "Booster Bracelet": {
+      "name": "Pulseira de Impulso",
+      "description": "<p>Quebre-a para anular um ataque.</p>"
+    },
+
+    "Bow": {
+      "name": "Arco",
+      "description": "<p>Pena recurvada de metalave e tiras de quitina laminada. Sua falta de características é uma característica.</p><p><strong>Características:</strong> médio, 2M</p>"
+    },
+
+    "Box of Eyes": {
+      "name": "Caixa de Olhos",
+      "description": "<p>Permite cultivar olhos funcionais por todo o corpo. Nojento.</p><p><strong>Características:</strong> implante</p>"
+    },
+
+    "Bravery Goggles": {
+      "name": "Óculos da Coragem",
+      "description": "<p>Ocultam visões aterradoras. Podem impor uma penalidade severa.</p>"
+    },
+
+    "Brazen Minotaur": {
+      "name": "Minotauro de Bronze",
+      "description": "<p>Monstruosidade de carne divina e bronze astral cozida nos tanques criptas do Deus da Carne Viva. Causa [[/r 1d10]] dano com ataques desarmados.</p><p>Vincula-se ao usuário; remoção exige um dia de oração ou [[/r 3d6]] vida.</p><p>Modo de queima [[/r 1d20]]: ganha +6 Força e um campo de força de 30 vida (efeitos ativos).</p><p><strong>Características:</strong> grande, recarga 3 [[/r 1d20]], vinculado, arma</p>",
+      "effects": {
+        "Burn (+6 str)": {
+          "name": "Queima (+6 for)",
+          "description": "<p>Modo de queima 1d20: ganha +6 Força</p>"
+        },
+        "Burn (+30 life)": {
+          "name": "Queima (+30 vida)",
+          "description": "<p>Modo de queima 1d20: ganha um campo de força de 30 vida</p>"
+        }
+      }
+    },
+
+    "Buffer Harness II": {
+      "name": "Arnês de Amortecimento II",
+      "description": "<p>Campos de força inteligentes permitem gastar 2 vida para limitar o dano máximo de qualquer ataque a 6 até o início do seu próximo turno.</p>"
+    },
+
+    "Builder Blade": {
+      "name": "Lâmina do Construtor",
+      "description": "<p>Faca de não-matéria da velha tecnologia. Corta qualquer coisa (lentamente). Recarrega à luz do sol.</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]]</p>"
+    },
+
+    "Builder Blaster": {
+      "name": "Detonador do Construtor",
+      "description": "<p>4 de 6 disparos restantes. O daemon de licença foi exorcizado. Precisa de uma porta buildertech para recarregar.</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]], 2M</p>"
+    },
+
+    "Builderbang": {
+      "name": "Explosão do Construtor",
+      "description": "<p>A granada sagrada de fragmentação dos tempos antigos, estimada pelos granadeiros da inquisição.</p><p><strong>Características:</strong> área G</p>"
+    },
+
+    "Builderhorse": {
+      "name": "Cavalo do Construtor",
+      "description": "<p>Oito pernas, pele sintética, ossos compostos, cérebro-relógio à moda antiga.</p><p>N3, capacidade 4, rápido</p>"
+    },
+
+    "Bullet Plate Weave": {
+      "name": "Trama de Placas Balísticas",
+      "description": "<p>Forja moderna com alfaiataria antiga. Suas partes metálicas ruidosas prejudicam furtividade, mas tornam a investida mais intimidadora.</p><p><strong>Características:</strong> volumoso, barulhento, quente</p>"
+    },
+
+    "Bunker Crawler": {
+      "name": "Rastejador de Bunker",
+      "description": "<p>Traje de pedra viva moldada, com tentáculos de ancoragem para subir e descer túneis.</p><p><strong>Características:</strong> quente, espinhoso, intravenoso</p>"
+    },
+
+    "Bunker Pass": {
+      "name": "Passe de Bunker",
+      "description": "<p>Amuleto de velha tecnologia que prova que você é um humano verdadeiro, autorizado a se abrigar nos bunkers anti-deuses que pontilham a Terra Vermelha. Também abre portas sábias.</p>"
+    },
+
+    "Burden Share": {
+      "name": "Partilha de Fardo",
+      "description": "<p><em>Ritual de Empatia do Sanador</em></p><p>O conjurador acessa a essência de uma criatura para transferir um de seus fardos fadiga, ferimento, ansiedade ou outra aflição. O fardo se transforma em uma pedra espiritual, o fardo do curador, que passa para outra criatura próxima. Impõe impacto negativo leve em atributos, sem dano permanente, dissipando-se normalmente com descanso.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "várias horas",
+      "overcharge": "<p>O ritual leva vários minutos, mas inflige [[/r 1d4]] dano a ambas as partes.</p>"
+    },
+
+    "Burdenbeast Modification": {
+      "name": "Modificação de Cargofera",
+      "description": "<p><em>Arte do Transporte, Mutação Útil de Usha</em></p><p>O mago modifica uma criatura de tamanho humano ou maior para carregar uma saca adicional de mercadorias. O ritual exige 6 horas e uma saca de massas de ovos de besta (€500). Alvos não dispostos fazem salvaguarda.</p>",
+      "range": "toque",
+      "target": "criatura",
+      "duration": "permanente",
+      "overcharge": "<p></p>"
+    },
+
+    "Burdenbeast Whip": {
+      "name": "Chicote de Cargofera",
+      "description": "<p>Pode ser usado para se balançar.</p><p><strong>Características:</strong> Força ou Rapidez, alcance</p>"
+    },
+
+    "Cad Bird": {
+      "name": "Ave Canalha",
+      "description": "<p>Um cariamídeo de 2 metros. Rápido e assustador, com bico e garras.</p><p>N3, capacidade 1</p>"
+    },
+
+    "Caius the Comprehender": {
+      "name": "Caius, o Compreensor",
+      "description": "<p>Um daemon de Muito Tempo Atrás, preso a um brinco, que traduz corretamente textos em 5 de 6 vezes e os traduz de forma catastrófica na outra 1 de 6.</p>"
+    },
+
+    "Camelskin Jerkin": {
+      "name": "Gibão de Pele de Camelo",
+      "description": "<p>Couro vivo resistente com borlas e bolsos secretos. Bom para parecer indistinto.</p>",
+      "effects": {
+        "Conceal 1 st": {
+          "name": "Oculta 1 mo"
+        }
+      }
+    },
+
+    "Campaign Bed": {
+      "name": "Cama de Campanha",
+      "description": "<p>Malha de quitina e bambu flexível para um bom descanso. Remove +1 aflição por semana.</p>"
+    },
+
+    "Can Trip": {
+      "name": "Truque do Tropeço",
+      "description": "<p><em>Maldição do Pé Torto, Catástrofe Felina Desastrada</em></p><p>Você deseja que alguém se espalhe pelo chão e seja humilhado, e sua maldição murmurada pode fazer isso acontecer. Os cadarços do alvo se soltam de repente ou uma pedra ou galho salta para fazê-lo tropeçar. O alvo faz uma salvaguarda ou cai estatelado.</p>",
+      "range": "alguns metros",
+      "target": "alguém que possa ouvi-lo",
+      "duration": "instantâneo",
+      "overcharge": "<p>Não há salvaguarda. O alvo tropeça.</p>"
+    },
+
+    "Cat Coffee": {
+      "name": "Cafelino",
+      "description": "<p>Excremento narcótico de gato preto que induz sono e restaura atributos mentais perdidos. Fortemente viciante a abstinência causa reclamações incessantes.</p>"
+    },
+
+    "Cat Collar": {
+      "name": "Coleira de Gato",
+      "description": "<p>Prova de serviço aos Lordes Felinos. Garante cama e proteína.</p>"
+    },
+
+    "Centaur Cradle (vehicle mod)": {
+      "name": "Berço de Centauro (modificação de veículo)",
+      "description": "<p>Quatro rodas, amortecedores, hastes tubulares e tração plugável. Converte um golem-andante em um autogolem simples e rápido.</p><p>(adicione este item a uma caravana)</p>",
+      "effects": {
+        "+2 Capacity": {
+          "name": "+2 Capacidade"
+        }
+      }
+    },
+
+    "Ceramic Visage": {
+      "name": "Visagem Cerâmica",
+      "description": "<p>Um rosto gentil para acalmar humanos de carne macia.</p>",
+      "effects": {
+        "+2 Charisma": {
+          "name": "+2 Carisma"
+        }
+      }
+    },
+
+    "Cerebral Purge": {
+      "name": "Expurgo Cerebral",
+      "description": "<p><em>Despertar Brutal, A Faca Fria da Realidade</em></p><p>O mago usa uma onda telecrônica para purificar o cérebro do alvo de quaisquer impurezas drogas ou magias de alteração mental. O alvo perde [[/r 1d6]] vida e suas memórias recentes ficam turvas. Alvos não dispostos fazem salvaguarda.</p>",
+      "range": "10 m",
+      "target": "criatura",
+      "duration": "0",
+      "overcharge": "<p>O alvo perde [[/r 2d6]] vida e esquece o que aconteceu na última hora. Alvos não dispostos ainda fazem salvaguarda.</p>"
+    },
+
+    "Ceremonial Axe": {
+      "name": "Machado Cerimonial",
+      "description": "<p>Com sua energia de Velhatec esgotada, ainda é um símbolo de status. Concede +2 Carisma.</p><p><strong>Características:</strong> 2M</p>",
+      "effects": {
+        "+2 Cha": {
+          "name": "+2 Car"
+        }
+      }
+    },
+
+    "Chain Sword": {
+      "name": "Espada de Corrente",
+      "description": "<p>Uma arma elegante da época do grande erro de reencarnação.</p><p>Decapita com 20 Natural.</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], versátil, vorpal</p>"
+    },
+
+    "Chronometer": {
+      "name": "Cronômetro",
+      "description": "<p>Cravejado de joias, com funções de data, temporizador, alarme, fuso horário e anotações.</p>"
+    },
+
+    "Cinnabar Shoes": {
+      "name": "Sapatos de Cinábrio",
+      "description": "<p>Passa sem deixar rastros em ruínas e bunkers abandonados.</p>"
+    },
+
+    "City Shoes": {
+      "name": "Sapatos Urbanos",
+      "description": "<p>Solados macios para encontrar seu caminho pela cidade de olhos fechados.</p>"
+    },
+
+    "Clicker Casket": {
+      "name": "Caixão Clicker",
+      "description": "<p>Detector portátil de 17 tipos de raios mágicos e mundanos. Alcance médio.</p>"
+    },
+
+    "Climbing Gear": {
+      "name": "Apetrechos de Escalada",
+      "description": "<p>Pontas, cordas, cintos, mosquetões, haste estática.</p>"
+    },
+
+    "Cloak of the City": {
+      "name": "Capa da Cidade",
+      "description": "<p>Passa sem deixar rastros na cidade. Torne-se um com a alvenaria.</p>"
+    },
+
+    "Coffee Bonbons": {
+      "name": "Bombons de Café",
+      "description": "<p>Doce que oculta um fardo por um dia. Pode causar tremores.</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]]</p>",
+      "effects": {
+        "-1 burden": {
+          "name": "-1 fardo"
+        }
+      }
+    },
+
+    "Collar of Happiness": {
+      "name": "Coleira da Felicidade",
+      "description": "<p>Injeta você com suco da felicidade quando se sente triste.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+    },
+
+    "Collar of Life": {
+      "name": "Coleira da Vida",
+      "description": "<p>Armazena até 3 vida para poderes. Não se importa de onde você conseguiu.</p><p><em>(Um campo de Vida Emprestada limitado a 3 será exibido na ficha do personagem.)</em></p>",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo"
+        }
+      }
+    },
+
+    "Comfy Sandals": {
+      "name": "Sandálias Confortáveis",
+      "description": "<p>Exiba suas meias enquanto caminha com estilo!</p>"
+    },
+
+    "Concussive": {
+      "name": "Concussiva",
+      "description": "<p>Um pote de argila cheio de pólvora negra. Uma granada que qualquer artesão moderno pode fazer.</p><p><strong>Características:</strong> área P</p>"
+    },
+
+    "Control Choke": {
+      "name": "Estrangulamento de Controle",
+      "description": "<p>Controle remoto humano (salvaguarda difícil). Não funciona em magos. recarga 19 [[/r 1d20]].</p>"
+    },
+
+    "Copypasta Egg": {
+      "name": "Ovo Copypasta",
+      "description": "<p>Alimente-o com €500 em materiais e segure-o por uma semana para copiar seu corpo.</p>"
+    },
+
+    "XbtPcSL4eUQppXxW": {
+      "name": "Macacão & Headset Cordwood™",
+      "description": "<p>Uma sala virtual com acesso à noösfera em movimento. Uma casa própria mesmo que você não tenha onde dormir.</p>"
+    },
+
+    "Counterfire": {
+      "name": "Contrafogo",
+      "description": "<p><em>Projétil Panóptico</em></p><p>Desvie um ataque iminente, corpo a corpo ou à distância, com um projétil. Declare o contrafogo antes da rolagem de ataque.</p>",
+      "range": "hemisfério médio, ~12 m",
+      "target": "um ataque",
+      "duration": "interrupção",
+      "overcharge": "<p>O atacante faz salvaguarda ou é desarmado.</p>"
+    },
+
+    "Court Kit": {
+      "name": "Kit de Corte",
+      "description": "<p>Caixa de rapé, pegadores de especiarias, copos, xícaras de café, escovas, pentes, alfinetes, anéis, saltos, cintas, pergaminhos, moduladores de voz e mais.</p>"
+    },
+
+    "Credenticard": {
+      "name": "Credencicard",
+      "description": "<p>ID gerativa simpática. A opção de falsificação sempre convincente. recarga 3 [[/r 1d20]].</p>"
+    },
+
+    "Crossbow": {
+      "name": "Besta",
+      "description": "<p>Tecnomecânica simples e silenciosa. Recarregue após cada disparo.</p><p><strong>Características:</strong> médio</p>"
+    },
+
+    "Crow Armor": {
+      "name": "Armadura de Corvo",
+      "description": "<p>Infla para desacelerar suas quedas. Popular entre cavaleiros de wyvern.</p>"
+    },
+
+    "Cryptic Clavus": {
+      "name": "Clavus Críptico",
+      "description": "<p>É um cartão, é uma chave, destranca portas de Velhatec. Exige jeitinho e um teste de perícia.</p>"
+    },
+
+    "Crystal Siege Rod": {
+      "name": "Bastão de Cerco de Cristal",
+      "description": "<p>Amplificador de raio de desintegração alojado em um estojo de latão e pau-brasil coberto de glifos. Um remanescente das guerras dos deuses vivos racionalistas.</p><p>Arromba portas se qualquer dado rolar um 6 Natural.</p><p><strong>Características:</strong> curto, recarga 4 [[/r 1d20]], 2M, desajeitado, lento</p>"
+    },
+
+    "Cunning Watch": {
+      "name": "Relógio Astuto",
+      "description": "<p>Indica o tempo e a etiqueta.</p>",
+      "effects": {
+        "+1 Charisma": {
+          "name": "+1 Carisma"
+        }
+      }
+    },
+
+    "Curative Snake Oil": {
+      "name": "Óleo de Cobra Curativo",
+      "description": "<p>Remédio genérico para venenos, toxinas, insetos, parasitas, doenças, fungos, mofo, erupções, bolhas e ressaca. Beba toda segunda-feira para obter uma salvaguarda bônus gratuita por semana.</p>"
+    },
+
+    "Daemonskin Mask": {
+      "name": "Máscara de Pele Demoníaca",
+      "description": "<p>Ornamentada. Gaste 1 dado heróico para aterrorizar a ralé e fazê-la fugir (salvaguarda).</p>",
+      "effects": {
+        "+1 Armor": {
+          "name": "+1 Armadura"
+        }
+      }
+    },
+
+    "Dale Four-Four": {
+      "name": "Dale Quatro-Quatro",
+      "description": "<p>Bolter senciente dos Tempos Muito Antigos, de quatro disparos e muitas cores. Três ajustes: atordoar por [[/r 1d4]] rodadas (salvaguarda), queimar ([[/r 1d6]]), ou desintegrar ([[/r 4d4]]).</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]]</p>"
+    },
+
+    "Dampen Mass": {
+      "name": "Amortecer Massa",
+      "description": "<p><em>Aprimoramento Logístico Nosigoro</em></p><p>Um campo de sub-realidade reduz pela metade a massa interativa do objeto. Um objeto de 100 kg age como se tivesse 50 kg.</p>",
+      "range": "toque",
+      "target": "1 saca",
+      "duration": "1 dia",
+      "overcharge": "<p>A massa é reduzida pela metade novamente. Alternativamente, afeta um objeto duas vezes maior ou dura uma semana.</p>"
+    },
+
+    "Dampsound Shoes": {
+      "name": "Sapatos Abafa-Som",
+      "description": "<p>Muito acolchoados. Elegantes em certos contextos.</p>"
+    },
+
+    "Dancing In The Hail": {
+      "name": "Dançando no Granizo",
+      "description": "<p><em>Desviar-Bala</em></p><p>Reduz sua “caixa de acerto” metafísica ao tamanho da sua arma. Todos os ataques à distância contra você sofrem penalidades severas (desvantagem).</p>",
+      "range": "si mesmo",
+      "target": "si mesmo",
+      "duration": "uma rodada",
+      "overcharge": "<p>Ataques à distância que acertarem causam apenas metade do dano.</p>"
+    },
+
+    "Dark-Vision Goggles": {
+      "name": "Óculos de Visão no Escuro",
+      "description": "<p>Com emissor infravermelho.</p>"
+    },
+
+    "Dead God Tooth": {
+      "name": "Dente de Deus Morto",
+      "description": "<p>Bônus para capturar e armazenar poderes e magias conjuradas contra você.</p>"
+    },
+
+    "Dead Language Daemon": {
+      "name": "Daemon de Língua Morta",
+      "description": "<p>Um espírito da noösfera preso em uma carcaça de vidro e aço. Traduz línguas mortas. Inventa limeriques obscenos e sonetos delicados.</p>"
+    },
+
+    "Declaration of Pause": {
+      "name": "Declaração de Pausa",
+      "description": "<p>Cilindro de encantamento de suspensão demoníaca, ligado a um alto-falante de corda. Gaste 1 vida: um daemon próximo perde sua ação (salvaguarda).</p>"
+    },
+
+    "Depleted Heavy Metal Rain": {
+      "name": "Chuva de Heavy Metal Empobrecido",
+      "description": "<p><em>Explosão Maior</em></p><p>Imbua seu próximo disparo com um erro inercial. Role os dados de dano duas vezes. Os dados também explodem.<br /><br />Adicione o dano da arma no campo <span style=\"text-decoration:underline\">fórmula de rolagem</span> duas vezes, usando chaves: {1d6x, 1d6x}</p><p>(o “x” indica que os dados explodem), e no campo <span style=\"text-decoration:underline\">rolagem de sobrecarga</span> três vezes: {1d6x, 1d6x, 1d6x}.</p>",
+      "range": "toque",
+      "target": "arma âncora",
+      "duration": "alguns minutos",
+      "overcharge": "<p>Role os dados de dano três vezes.</p>"
+    },
+
+    "Diagnostic Wand": {
+      "name": "Varinha Diagnóstica",
+      "description": "<p>Exige um resumo completo de intenção. A próxima ação do alvo requer duas ações para ser concluída.</p><p><strong>Características:</strong> curto, recarga 15 [[/r 1d20]], sintonizar, Velhatec</p>"
+    },
+
+    "Disintegrity Spray": {
+      "name": "Spray de Desintegridade",
+      "description": "<p>Dissolve metais, plásticos, fechaduras e grades.</p>"
+    },
+
+    "Dissolution and Resolution of the Spirit": {
+      "name": "Dissolução e Resolução do Espírito",
+      "description": "<p><em>Sonolência Feérica, Reinicialização Forçada</em></p><p>O mago dissolve o espírito de uma criatura, deixando uma concha inerte ou pseudocadáver. Após 1 dia, o espírito “reinicia”, limpo de parasitas espirituais, daemons, vermes de código ou magias mentais.</p>",
+      "range": "toque",
+      "target": "uma criatura voluntária",
+      "duration": "1 dia",
+      "overcharge": "<p>O alvo permanece inerte por uma semana. A reinicialização também repara ferimentos físicos e doenças.</p>"
+    },
+
+    "Distraction Projector": {
+      "name": "Projetor de Distração",
+      "description": "<p>Holográfico. Alcance curto, recarga 3 [[/r 1d20]].</p>"
+    },
+
+    "Doormaker": {
+      "name": "Fazedor de Portas",
+      "description": "<p>Esta caneta-pincel empática permite desenhar portas em estruturas de pedra viva e metal de nave. Criada originalmente para mantenedores da Metrópole. Borracha vendida separadamente.</p><p><strong>Características:</strong> recarga 7 [[/r 1d20]], restrito</p>"
+    },
+
+    "Dream Bone Knife": {
+      "name": "Faca de Osso Onírico",
+      "description": "<p>Corta fantasmas e daemons.</p>"
+    },
+
+    "Driver License": {
+      "name": "Carteira de Motorista",
+      "description": "<p>Este amuleto holomórfico permite dirigir na Metrópole.</p><p>Também pode tentar comandar autômatos-golem com ele (salvaguarda difícil).</p>"
+    },
+
+    "Dryland Sculpture": {
+      "name": "Escultura de Terra Seca",
+      "description": "<p><em>Bangalô Utilitário de Pedra Viva, Rito da Forma de Coral</em></p><p>Ao longo de 6 horas, o mago induz um tijolo de pedra viva (1 mochila) a crescer em uma forma de coral terrestre de qualquer formato desejado dentro da área-alvo. Hemisférios são populares. Não esqueça da porta.</p>",
+      "range": "toque",
+      "target": "área de 5 m de diâmetro",
+      "duration": "permanente"
+    },
+
+    "Dryland Weave": {
+      "name": "Tecido de Terra Seca",
+      "description": "<p>Tecido a partir dos cílios de híbridos especiais de coral terrestre, surpreendentemente respirável.</p><p><strong>Características:</strong> fresco</p>"
+    },
+
+    "Drywood Gourd": {
+      "name": "Cabaça de Madeira Seca",
+      "description": "<p>A madeira predatória desta cabaça absorve líquidos sozinha! Ótima para secar roupas úmidas ou desidratar inimigos.</p>"
+    },
+
+    "Dumb Veil": {
+      "name": "Véu Emburrecedor",
+      "description": "<p>Obscurece emanações mentais. Oculta inteligência.</p>"
+    },
+
+    "Dusk Emitter": {
+      "name": "Emissor de Crepúsculo",
+      "description": "<p>Esta prática pistola-varinha de raio antluz, de bolso, emite “crepúsculo” em um cone de 15°.</p><p><strong>Características:</strong> médio, recarga 3 [[/r 1d20]], cegante, Velhatec</p>"
+    },
+
+    "Dust Face": {
+      "name": "Máscara de Poeira",
+      "description": "<p>Máscara facial completa que protege contra poeira, névoa, esporos e toxinas.</p>"
+    },
+
+    "Dusty Orb": {
+      "name": "Orbe Empoeirado",
+      "description": "<p>Televisão remota de uma pequena cidade encantadora. Lembra o lar, mas não corresponde a nada que você já tenha visto. Ligado a um portal secreto de observação.</p>"
+    },
+
+    "Ear Jewels": {
+      "name": "Joias Auriculares",
+      "description": "<p>Seis para comunicação de equipe criptografada. Jarro de recarga. Microfone ruim. Longo alcance.</p>"
+    },
+
+    "Ear Slug": {
+      "name": "Lesma Auricular",
+      "description": "<p>Tradutor universal. Alimenta-se de cera de ouvido. Simbionte, não parasita.</p>"
+    },
+
+    "Echoing Top Hat": {
+      "name": "Cartola Ecoante",
+      "description": "<p>Sussurra etiqueta, hierarquia e orientação de status em sua mente.</p>"
+    },
+
+    "Eggplant Elixir": {
+      "name": "Elixir de Berinjela",
+      "description": "<p>Concede pele emborrachada e resistência contra dano físico e elétrico.</p>"
+    },
+
+    "Ego Echo Wandpistol": {
+      "name": "Pistola-Varinha de Eco do Ego",
+      "description": "<p>Reverbera pensamentos e emoções, desorientando o alvo (salvaguarda). Uma criatura desorientada (1d6): @UUID[Compendium.sdm.rolltables.RollTable.eerz5aHba8TEL7YK]{Criatura Desorientada (salvaguarda)}</p><p><strong>Características:</strong> curto, recarga 4 [[/r 1d20]], sintonizar, fantasciência, psíquico</p>"
+    },
+
+    "Egregious Topology": {
+      "name": "Topologia Egrégia",
+      "description": "<p><em>Deslocamento Fractal de Fase</em></p><p>Matemágica pós-real irracional empurra um objeto para uma superposição anakata com a matéria comum. Um item pode atravessar uma porta, uma mão pode atravessar a tampa de uma caixa.</p>",
+      "range": "toque",
+      "target": "1 mão ou mochila",
+      "duration": "1 minuto",
+      "overcharge": "<p>Afeta 1 pessoa ou uma saca.</p>"
+    },
+
+    "Eisen Doppler Amulet": {
+      "name": "Amuleto Eisen-Doppler",
+      "description": "<p>Gaste 1 dado heróico para projetar sua ilusão de ferro próxima (nível e perícias como PJ, defesa 19, dano 1d8, apenas 1 vida).</p>"
+    },
+
+    "Electronic Ear": {
+      "name": "Ouvido Eletrônico",
+      "description": "<p>Escuta à distância.</p>"
+    },
+
+    "Elegant Eater Sword": {
+      "name": "Espada Devoradora Elegante",
+      "description": "<p>Lâmina de energia. Vorpal. Corta quase tudo.</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]], vorpal</p>"
+    },
+
+    "EM Harness": {
+      "name": "Arreio EM",
+      "description": "<p>Protege entranhas positrônicas, reduzindo à metade dano radiante e elétrico.</p>",
+      "effects": {
+        "+3 Ward": {
+          "name": "+3 Égide"
+        }
+      }
+    },
+
+    "Emergency Flare": {
+      "name": "Sinalizador de Emergência",
+      "description": "<p>Brilha intensamente e solta fumaça por cerca de 10 minutos. Diz: “Estou aqui!”. recarga 2 [[/r 1d20]].</p>"
+    },
+
+    "Empire Armor": {
+      "name": "Armadura do Império",
+      "description": "<p>Placas sanguíneas sobre malha de carne. Alimente com 1 vida por dia ou receba apenas metade do bônus.</p><p><em>(ative o efeito ativo para obter o bônus completo da armadura)</em></p>",
+      "effects": {
+        "Empire Armor bonus": {
+          "name": "Bônus da Armadura do Império",
+          "description": "Alimente com 1 vida por dia"
+        }
+      }
+    },
+
+    "Empty Glasses": {
+      "name": "Óculos Vazios",
+      "description": "<p>Óculos alienígenas estilosos de além do véu da realidade.</p><p><strong>Características:</strong> insonhar (gaste [[/r 1d4]] vida para enxergar além de ilusões)</p>"
+    },
+
+    "Entropic Reversal": {
+      "name": "Reversão Entrópica",
+      "description": "<p><em>O Amuleto do Descompasso, Despertar dos Distantes de Zundan</em></p><p>O mago traça um círculo cronômantico de 1 metro de diâmetro ao redor do objeto-alvo. Quando o desenho é concluído, um clarão de para-entropia restaura o objeto à função perfeita e degrada tudo o mais dentro do círculo. O ritual leva 15 minutos.</p>",
+      "range": "3 m",
+      "target": "objeto (ferramenta ou máquina)",
+      "duration": "0",
+      "overcharge": "<p>Permite um círculo de 10 metros de diâmetro.</p>"
+    },
+
+    "Enviro Mask": {
+      "name": "Máscara Ambiental",
+      "description": "<p>Protege contra esporos, gás e magias tóxicas.</p>"
+    },
+
+    "Enviro Tent": {
+      "name": "Barraca Ambiental",
+      "description": "<p>Protege do calor, frio e chuva. Recicla líquidos e ar por 1 semana.</p>"
+    },
+
+    "Escape Button": {
+      "name": "Botão de Fuga",
+      "description": "<p>Fixe em uma parede, pressione, e uma porta aparece. Uso único.</p>"
+    },
+
+    "Essence Sift": {
+      "name": "Peneira de Essência",
+      "description": "<p><em>Atrator Abstraído</em></p><p>Ao articular nomes, locais e velocidades de uma substância, ela é extraída de uma mistura. Sal se filtra da água, orgânicos emergem do solo, água precipita do ar. Quanto mais preciso o nome e o conhecimento, mais perfeita a separação.</p>",
+      "range": "toque",
+      "target": "1 mochila ou garrafa",
+      "duration": "5 minutos",
+      "overcharge": "<p>Duas substâncias são extraídas ao mesmo tempo. Ou uma mochila de substância é peneirada ao longo de meia hora.</p>"
+    },
+
+    "Estate Key": {
+      "name": "Chave da Propriedade",
+      "description": "<p>Dia de sorte! Uma propriedade que vale €15/semana pode ser sua se você limpar a infestação de falschers. Fica a apenas 2d10 dias de viagem.</p>"
+    },
+
+    "Exoskelegolem": {
+      "name": "Exoesquelegolem",
+      "description": "<p>Tubos, cabos, carne sintética e mente insetoide. Carrega +1 saca.</p>",
+      "effects": {
+        "carry +1 sack": {
+          "name": "carrega +1 saca",
+          "description": "<p>carrega +1 saca (10 mochilas)</p>"
+        }
+      }
+    },
+
+    "Eye Solar": {
+      "name": "Olho Solar",
+      "description": "<p>O olho divino do Sol Duro castiga seus inimigos com mãos cruéis e luminosas.</p><p><strong>Características:</strong> médio, 2M, vital, petrificante</p>"
+    },
+
+    "Eyegun": {
+      "name": "Olho-Arma",
+      "description": "<p>Parece um olho, dispara como uma lança.</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]]</p>"
+    },
+
+    "Eyes of Akaula": {
+      "name": "Olhos de Akaula",
+      "description": "<p><em>Visões dos Queridos Partidos</em></p><p>Os olhos do buscador brilham em verde-limão pálido e enxergam coisas invisíveis, ocultas, ausentes e mortas.</p>",
+      "range": "médio, ~50 m",
+      "target": "si mesmo",
+      "duration": "1 dia",
+      "overcharge": "<p>O buscador ganha um ataque de olhar que paralisa as coisas mencionadas por [[/r 1d6]] rodadas (salvaguarda).</p>"
+    },
+
+    "Eyes of the Arrow": {
+      "name": "Olhos da Flecha",
+      "description": "<p><em>Projétil Panóptico</em></p><p>Vincule um fio da sua consciência a um projétil. Ele age como um olho remoto (ou outro sensor).</p>",
+      "range": "toque",
+      "target": "1 projétil",
+      "duration": "cerca de 1 minuto",
+      "overcharge": "<p>O projétil manobra em voo com a Rapidez de uma pomba.</p>"
+    },
+
+    "Face Crab": {
+      "name": "Caranguejo de Rosto",
+      "description": "<p>Use para parecer alguém simpático e respeitável — e nada parecido com você. O caranguejo precisa de 1 hora e 1d4 vida para substituir o rosto. Obviamente, também precisa de um rosto humano fresco. Extremamente ilegal.</p>"
+    },
+
+    "Fairy Key": {
+      "name": "Chave Feérica",
+      "description": "<p>Atravesse um portal de gato feérico.</p>"
+    },
+
+    "Fallen Empire Armor": {
+      "name": "Armadura do Império Caído",
+      "description": "<p>Placas de porcelana e olivina sobre malha organometálica escorregadia.</p>"
+    },
+
+    "Felix Whizz Six-Pack": {
+      "name": "Engradado Felix Whizz (6 latas)",
+      "description": "<p>A bebida energética concede [[/r 1d4]] vida temporária. Levemente viciante.</p><p><em>Use o efeito ativo para conceder a vida temporária.</em></p>",
+      "effects": {
+        "Temporary Life": {
+          "name": "Vida Temporária"
+        }
+      }
+    },
+
+    "ggUAeAA9W7BYMU2e": {
+      "name": "Felix Whizz",
+      "description": "<p>Bebida energética popular. Ganha +[[/r 1d4]] vida, mas deixa você um pouco irritante.</p><p>Fracamente viciante — abstinência causa comportamento rabugento, irritadiço e desfocado.</p><p><em>(edite e use o efeito ativo para conceder a vida bônus)</em></p>",
+      "effects": {
+        "+ life": {
+          "name": "+ vida"
+        }
+      }
+    },
+
+    "Field Glove": {
+      "name": "Luva de Campo",
+      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p><p><strong>Características:</strong> mãos livres</p>",
+      "effects": {
+        "Boost Defense Field": {
+          "name": "Campo de Defesa Aprimorada",
+          "description": "<p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>"
+        }
+      }
+    },
+
+    "Fireward Circlet": {
+      "name": "Diadema Antichamas",
+      "description": "<p>O aro semissenciente de joias de matriz demoníaca protege sua identidade. Gaste 1 vida para bloquear sua mente por 1 rodada.</p>"
+    },
+
+    "Flarestick": {
+      "name": "Bastão Incendiário",
+      "description": "<p>Fruto da árvore flambén, preservado em resina. Arremessado, explode em luz intensa. Como combustível, queima por uma hora com chama de baixo calor.</p><p><strong>Características:</strong> calor</p>"
+    },
+
+    "Flasher": {
+      "name": "Piscador",
+      "description": "<p>O olho sinalizador de um mevo defeituoso ajustado para São Vito.</p><p>Causa cegueira, náusea e/ou dança robótica.</p><p><strong>Características:</strong> área P</p>"
+    },
+
+    "Flesh Pocket": {
+      "name": "Bolso de Carne",
+      "description": "<p>Este simbionte permite esconder objetos (1 mo) dentro de você! O objeto oculto conta como roupa — não ocupa espaço de inventário.</p>",
+      "effects": {
+        "Conceal 1st": {
+          "name": "Esconder 1 mo"
+        }
+      }
+    },
+
+    "Flesh Soil": {
+      "name": "Solo de Carne",
+      "description": "<p>Substrato biomágico que nutre um órgão, como um fígado, uma mão ou uma cabeça, por um mês. Ótimo para manter um amigo decapitado vivo até alcançar uma instalação de reencarnação. Frasco vendido separadamente.</p>"
+    },
+
+    "Floating Disc": {
+      "name": "Disco Flutuante",
+      "description": "<p><em>Escudo do Justo, Mula do Mago</em></p><p>O mago cria um disco côncavo de força presa com 1 m de diâmetro. O disco paira, pode ser empurrado à velocidade de caminhada e inclinado para criar uma barreira quase impenetrável. O disco desaparece se ficar a mais de 30 m do mago.</p>",
+      "range": "30m",
+      "target": "ponto",
+      "duration": "1 hora",
+      "overcharge": "<p>o disco pode ter até 5m de diâmetro e se move ao comando falado do mago.</p>"
+    },
+
+    "Flower Pot of the Living Avatar": {
+      "name": "Vaso do Avatar Vivo",
+      "description": "<p>Mantém qualquer planta viva. Quem precisa de dedo verde?</p>"
+    },
+
+    "Fold-Field Array": {
+      "name": "Arranjo de Campo de Dobra",
+      "description": "<p>Levi-drive rachado reaproveitado. Reduz as dimensões espaciais da área-alvo em 50%. Alvos ficam lentos e enfraquecidos (salvaguarda).</p><p>Em um 2 natural, o crânio de um alvo se dobra sobre si mesmo.</p><p><strong>Características:</strong> curto, área P, recarga 10 [[/r 1d20]], Velhatec</p>"
+    },
+
+    "Folding Boat": {
+      "name": "Barco Dobrável",
+      "description": "<p>Remo incluído.</p><p>capacidade 4</p>"
+    },
+
+    "Folding Chair": {
+      "name": "Cadeira Dobrável",
+      "description": "<p>Tubos de vime, malha, canos e porta-copos. Muito confortável para vigilâncias.</p>"
+    },
+
+    "Folk Hero Source Code": {
+      "name": "Código-Fonte do Herói Popular",
+      "description": "<p>Um conjunto de cartões-fonte que ensina uma máquina-mãe a reencarnar um herói popular dos tempos pré-felinos.</p>",
+      "effects": {
+        "+1 Thought": {
+          "name": "+1 Inteligência"
+        }
+      }
+    },
+
+    "Force Harness": {
+      "name": "Arreio de Força",
+      "description": "<p>Defesa reativa. Gaste 1 dado heróico para negar um ataque.</p>"
+    },
+
+    "c0H7EAxKMb1Ni1Oq": {
+      "name": "Bastão de Urânio de Quarenta Libras",
+      "description": "<p>Cajado de Heavy Metal para um mago de Heavy Metal.</p><p>Atordoa por 1 rodada ao igualar dados de dano.</p><p><strong>Características:</strong> 2M, lento</p>"
+    },
+
+    "Fresh Face": {
+      "name": "Rosto Fresco",
+      "description": "<p>Alimente com sangue diariamente (1 vida) para mantê-lo rosado.</p>"
+    },
+
+    "Friend Horse": {
+      "name": "Cavalo Amigo",
+      "description": "<p>Ele fala, mas não revela seu nome.</p><p>L4, capacidade 2</p>"
+    },
+
+    "Friend Spider “Sooty”": {
+      "name": "Aranha Amiga “Fuligem”",
+      "description": "<p>Pode ser um elemental de carvão? Ou um golem de carbono? Certamente é muito resistente ao fogo. Gosta de flores.</p><p>L0, minúscula (1 sp)</p>"
+    },
+
+    "Friendly Anklet": {
+      "name": "Tornozeleira Amigável",
+      "description": "<p>Para que seu mestre sempre possa encontrar e salvar você!</p>"
+    },
+
+    "Full Archaic": {
+      "name": "Arcaico Completo",
+      "description": "<p>Este traje inteligente pode lutar sem você dentro (veja modo de destruição automática total).</p><p>Aviso: pode desenvolver personalidade.</p><p>Modo de queimar [[/r 1d20]]: ganha +4 Força ou um campo de força de 20 vida (<em>efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], semi-senciente</p><p>@UUID[Compendium.sdm.macros.Macro.uUshgTy0nsMeCznq]{Arcaico Completo – Destruição Automática}</p>",
+      "effects": {
+        "Burn (+4 str)": {
+          "name": "Queima (+4 for)"
+        },
+        "Burn (+20 life)": {
+          "name": "Queima (+20 vida)"
+        }
+      }
+    },
+
+    "Full-Heal Kit": {
+      "name": "Kit de Cura Total",
+      "description": "<p>Regeneradores de amplo espectro reconstroem um membro perdido em poucos minutos. Atualizações OTA disponíveis para reconstruir órgãos adicionais.</p>"
+    },
+
+    "Full-Spectrum Suit": {
+      "name": "Traje de Espectro Total",
+      "description": "<p>Alfaiataria confusional radiante em 8 bits.</p><p><strong>Características:</strong> restritivo, brilho</p>"
+    },
+
+    "Fungal Harness": {
+      "name": "Arreio Fúngico",
+      "description": "<p>Sua umidade reduz pela metade dano de fogo e sustenta você em locais secos.</p>"
+    },
+
+    "Fur Kilt": {
+      "name": "Kilt de Pele",
+      "description": "<p>Impressionante. Concede +1 Carisma.</p>",
+      "effects": {
+        "+1 Charisma": {
+          "name": "+1 Carisma"
+        }
+      }
+    },
+
+    "Garden Jezail": {
+      "name": "Jezail de Jardim",
+      "description": "<p>Matou um Vile One no Long Ago? Carregado por Builders, longo alcance.</p><p><strong>Características:</strong> 2M, recarga 2 [[/r 1d20]]</p>"
+    },
+
+    "Gate Daemon Actuator": {
+      "name": "Atuador de Demônio de Portal",
+      "description": "<p>Antes usado para acelerar portais de viagem, agora funciona como um par de tesouras gravitacionais.</p><p>Bissecta o alvo em um 13 natural. Também reorienta a gravidade em uma pequena área.</p><p><strong>Características:</strong> med, recarga 13 [[/r 1d20]], 2M, vorpal, velhatec</p>"
+    },
+
+    "Gem Bomb": {
+      "name": "Bomba de Gema",
+      "description": "<p><em>Bola de Fogo do Joalheiro, Flor Explosiva de Pedra de Uzud (RSDC)</em></p><p>O mago entalha um campo de força explosivo em uma gema valendo ao menos €20. Ela explode ao impacto, causando [[/r 2d6]] de dano a todos os próximos.</p>",
+      "range": "toque",
+      "target": "gema",
+      "duration": "0",
+      "overcharge": "<p>explode como uma Bola de Fogo.</p>"
+    },
+
+    "Gentleman’s Cane": {
+      "name": "Bengala de Cavalheiro",
+      "description": "<p>Uma espada curta dentro de uma bengala. Perfeita para passear pela avenida dos portais ou dar um corretivo em malandros.</p><p><strong>Características:</strong> ocultar</p>"
+    },
+
+    "Ghost Bone Axe": {
+      "name": "Machado de Osso Fantasma",
+      "description": "<p>Armas feitas de osso de noödæmon ignoram imunidades de mortos-vivos.</p><p>Causa dano total a fantasmas.</p><p>Sua natureza perturbadora inflige pesadelos (salvaguarda) em portadores e vítimas.</p><p><strong>Características:</strong> 2M, perturbador</p>"
+    },
+
+    "Ghost Bone Sabre": {
+      "name": "Sabre de Osso Fantasma",
+      "description": "<p>Os ossos noösféricos causam dano total a espíritos.</p>"
+    },
+
+    "Glass Cannon": {
+      "name": "Canhão de Vidro",
+      "description": "<p>Dispara seu próprio sangue como estilhaços tóxicos. Alvos ficam nauseados (salvaguarda) e sofrem penalidade em ações físicas. Gaste 3 vida para recarregar.</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]], 2M</p>"
+    },
+
+    "Glass Skull": {
+      "name": "Crânio de Vidro",
+      "description": "<p>Pode conter três poderes. Canta ao amanhecer. De quem será que era?</p>",
+      "effects": {
+        "+1 Ward": {
+          "name": "+1 Égide"
+        }
+      }
+    },
+
+    "Glitchvidy": {
+      "name": "Glitchvídeo",
+      "description": "<p>Neurotransformador direto absorvido via óculos de comunicação. Originalmente um reprogramador humano, agora usado para estimulação direta de prazer. Viciante — a abstinência bloqueia acesso a habilidades e traços aleatórios.</p>"
+    },
+
+    "Glitter Ball": {
+      "name": "Bola de Glitter",
+      "description": "<p>Orbe disco flutuante do Long Ago. Segue instruções simples.</p><p>L0</p>"
+    },
+
+    "Glo Paint": {
+      "name": "Tinta Brilhante",
+      "description": "<p>Com bico aplicador. Marque seu caminho. Brilha o suficiente para ler.</p>"
+    },
+
+    "Goat Bricks": {
+      "name": "Tijolos de Cabra",
+      "description": "<p>Aveia, pão anão esmagado, água desidratada e eletrólitos. Tudo que sua cargofera precisa. Favor adicionar água.</p>"
+    },
+
+    "Godbone Exoskeleton": {
+      "name": "Exoesqueleto de Osso Divino",
+      "description": "<p>Armadura de golem grotesca, reabastecida com seus dados heróicos.</p><p><strong>Queima:</strong> ganhe +20 vida temporária e +3 força.</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]]</p><p><em>Como ação livre, você pode ativar o modo queima pelo resto da cena fazendo um teste de uso [[/r d20]]. Ative o efeito ativo Modo de Queima para receber os bônus.</em></p>",
+      "effects": {
+        "Burn Mode": {
+          "name": "Modo de Queima",
+          "description": "<p>Como ação livre, você pode ativar o modo de queima do golem pelo restante da cena realizando um teste de uso com d20.</p>"
+        }
+      }
+    },
+
+    "Godskin Mask": {
+      "name": "Máscara de Pele Divina",
+      "description": "<p>Ornamentada. Gaste 1 dado heroico para aterrorizar cidadãos e fazê-los fugir (salvaguarda).</p>",
+      "effects": {
+        "+1 Armor": {
+          "name": "+1 Armadura"
+        }
+      }
+    },
+
+    "Gold Leaf": {
+      "name": "Folha de Ouro",
+      "description": "<p>Suficiente para se revestir três vezes! Pareça um golem protocolar.</p>"
+    },
+
+    "Golden Horn": {
+      "name": "Chifre Dourado",
+      "description": "<p>Uma faca feita dos chifres metálicos de uma cabra dourada. Chique.</p>"
+    },
+
+    "Golem Carcass": {
+      "name": "Carcaça de Golem",
+      "description": "<p>Você chama isso de “amigo”.</p>"
+    },
+
+    "Golem Grenade": {
+      "name": "Granada de Golem",
+      "description": "<p>Inteligente o bastante para você ter que convencê-la a explodir. Área grande.</p>"
+    },
+
+    "Golem Killer": {
+      "name": "Matador de Golem",
+      "description": "<p>Emissor antimecânico cinza-alaranjado.</p><p>Rolagem de dano 13: o mecanismo-alvo desliga por uma hora.</p><p><strong>Características:</strong> med, recarga 4 [[/r 1d20]], 2M, silencioso</p>"
+    },
+
+    "Golem Lance": {
+      "name": "Lança de Golem",
+      "description": "<p>Pegue o braço de um golem de guerra inativo, remova o golem, e você terá um raio térmico eficaz.</p><p><strong>Características:</strong> curto, recarga 6 [[/r 1d20]], 2M, calor</p>"
+    },
+
+    "Golem Steed": {
+      "name": "Corcel Golem",
+      "description": "<p>Cuspindo fogo, queimando como um elemental de cinzas. Avança como um caminhão.</p><p>L3, capacidade 3</p>"
+    },
+
+    "Golemechanic Kit": {
+      "name": "Kit de Golemechanic",
+      "description": "<p>Tudo o que você precisa para se reparar e se manter.</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]]</p>"
+    },
+
+    "Gorotorok": {
+      "name": "Gorotorok",
+      "description": "<p>Espada-motosserra ominosa e semi-senciente de duas mãos, montada por engenheiros da fonte em uma estrela distante de uma era distante.</p><p><strong>Características:</strong> 2M</p>"
+    },
+
+    "Grappling Hook": {
+      "name": "Gancho de Escalada",
+      "description": "<p>E 50 cúbitos de corda.</p>"
+    },
+
+    "GRD Combat Harness": {
+      "name": "Arreio de Combate GRD",
+      "description": "<p>Traje semi-orgânico feio com tentáculos preênseis para manter equipamentos sempre à mão.</p><p><strong>Características:</strong> volumoso, quente, vivo</p>"
+    },
+
+    "Great Weapon": {
+      "name": "Arma Grande",
+      "description": "<p>Você empunha uma arma épica, maciça, de duas mãos [[/r 1d6]]: (1) machado de ferro vermelho (2d6), (2) espada de aço azul (2d6), (3) bastão amarelo reluzente (2d10), (4) motosserra prateada rugidora (2d6), (5) mangual negro com gancho (2d6), ou (6) lança branca flamejante (1d12*). Seus acertos críticos sempre causam no mínimo x3 de dano. Gaste um dado heroico para arrombar uma porta, despedaçar um baú, destruir um motor, arrancar uma árvore, etc.</p>",
+      "effects": {
+        "Critical Damage Bonus": {
+          "name": "Bônus de Dano Crítico"
+        }
+      }
+    },
+
+    "Green Figurine": {
+      "name": "Estatueta Verde",
+      "description": "<p>Diz ser um deus verdadeiro? Promete que você é especial.</p>"
+    },
+
+    "Green Haven": {
+      "name": "Refúgio Verde",
+      "description": "<p><em>Santuário Arbóreo</em></p><p>Convença arbustos, gramíneas, sarças e outras plantas a formar um domo de sebes, um santuário para descansar e se esconder. Inimigos precisam de pelo menos um turno para atravessar a sebe. Eles ficam vulneráveis enquanto estão na parede vegetal. Após uma noite ou um dia, as plantas retornam ao normal.</p>",
+      "range": "próximo",
+      "target": "uma esfera de 7m de diâmetro",
+      "duration": "uma noite ou um dia",
+      "overcharge": "<p>esculpa uma muralha de sebes espinhosas medindo 200 metros quadrados e 1 metro de espessura. Os espinhos cortam quem tentar atravessar como adagas ([[/r 1d4]] de dano).</p>"
+    },
+
+    "Green Ortholentils": {
+      "name": "Ortolentilhas Verdes",
+      "description": "<p>Ignore 1 fardo mental por horas, reduza dissonância cognitiva por um dia e obedeça autoridades com mais facilidade. Produto em wafer não contém ancestrais.</p>",
+      "effects": {
+        "-1 burden": {
+          "name": "-1 fardo"
+        }
+      }
+    },
+
+    "Guide Book": {
+      "name": "Livro-Guia",
+      "description": "<p>As folhas finas rendem muito papel higiênico. Além disso, gaste um dado heroico para arrancar um fato útil ou atalho deste tijolo.</p>"
+    },
+
+    "Hard Leash": {
+      "name": "Correia Rígida",
+      "description": "<p>Fibras de velhatec tão fortes que nunca se rompem. 6m de comprimento.</p>"
+    },
+
+    "Hard Light Scepter": {
+      "name": "Cetro de Luz Sólida",
+      "description": "<p>Antigamente, magos fuzileiros do vazio chamavam isso de lazgun. Hoje sabemos melhor. Recarrega com omnibateria. Saída de energia ajustável.</p><p><strong>Características:</strong> recarga 1 [[/r 1d20]]</p>"
+    },
+
+    "Hard Light Shield": {
+      "name": "Escudo de Luz Sólida",
+      "description": "<p>Pulseira projetora com escudo de força cintilante. Borda vorpal.</p>",
+      "effects": {
+        "+3 Armor": {
+          "name": "+3 Armadura"
+        }
+      }
+    },
+
+    "Hard Light Targe": {
+      "name": "Broquel de Luz Sólida",
+      "description": "<p>Escudo de força com botão de acionamento.</p><p>Em combate corpo a corpo, causa [[/r 1d4]] de dano e decepa membros em um 17 natural.</p><p><strong>Características:</strong> arma, vorpal</p><p><em>armaduras com a característica arma são armas com efeito ativo de bônus de armadura</em></p>",
+      "effects": {
+        "armor +3": {
+          "name": "armadura +3"
+        }
+      }
+    },
+
+    "Harshfield Uniform": {
+      "name": "Uniforme Harshfield",
+      "description": "<p>Macacão robusto listrado de trabalho externo com controle climático embutido para calor e frio extremos.</p><p><strong>Características:</strong> ambiente.</p>"
+    },
+
+    "Hazviral Suit": {
+      "name": "Traje Hazviral",
+      "description": "<p>Traje de pele sintética projetado pela deusa Haz-Maat.</p><p><strong>Características:</strong> ambiente, quente</p>"
+    },
+
+    "Healmachine": {
+      "name": "Máquina de Cura",
+      "description": "<p>Restaura [[/r 2d8]] de vida a uma máquina. Repara danos cosméticos em veículos.</p>"
+    },
+
+    "Hedonic Accumulator": {
+      "name": "Acumulador Hedônico",
+      "description": "<p>Este vestível soma o quanto você custou à comunidade! Também calcula quantos anos de trabalho útil você fornecerá após a morte.</p>"
+    },
+
+    "Hellfire Hand Cannon": {
+      "name": "Canhão de Mão de Fogo Infernal",
+      "description": "<p>Projeta parte da mente do alvo no inferno. Ele é onerado pelo fogo da dor, o ácido do desespero, a depredação do tempo (salvaguarda).</p><p>O fardo se dissipa após [[/r 1d6x]] dias.</p><p><strong>Características:</strong> med, recarga 5 [[/r 1d20]], 2M, sintonizar, onerante, fantasciência</p>"
+    },
+
+    "Heretech Scribbles": {
+      "name": "Rabiscos Heretec",
+      "description": "<p>Equações de fratura da realidade em um pergaminho de pele sintética.</p><p><strong>Características:</strong> herético</p>"
+    },
+
+    "Highway Cruiser": {
+      "name": "Cruzeiro de Estrada",
+      "description": "<p><em>Autotolo Dirigente</em></p><p>Conjure um daemon motorista da noösfera e o vincule ao seu veículo ou montaria por um dia. Eis que a carruagem dirige sozinha! Espera-se que o daemon entenda sua língua para receber comandos de voz.</p>",
+      "range": "toque",
+      "target": "veículo ou montaria",
+      "duration": "1 dia",
+      "overcharge": "<p>o daemon é capaz de manobras mais complexas e de se adaptar a situações mutáveis da estrada, como lanceiros vagarosos bloqueando a estrada.</p>"
+    },
+
+    "Hlod Person": {
+      "name": "Imolibizar Pessoa",
+      "description": "<p><em>Enlace do Demônio Disléxico, Constrição Imprevista de Leshnik</em></p><p>Agite a mão como uma folha dobrada ao meio pela sexta vez e veja seu alvo se tornar como um tronco de madeira (salvaguarda). Duro, rígido, imóvel, receptivo à carpintaria.</p>",
+      "range": "curto",
+      "target": "uma pessoa",
+      "duration": "1 hora",
+      "overcharge": "<p>A mudança é permanente.</p>"
+    },
+
+    "Holomap": {
+      "name": "Holomapa",
+      "description": "<p>Esqueça mapear enquanto rasteja por instalações! Rastreamento automático 4D. Alcance médio.</p>"
+    },
+
+    "Holy Arrow": {
+      "name": "Flecha Sagrada",
+      "description": "<p>Isso te matou. Causa dano dobrado àqueles que negam os Deuses. Mantém um vínculo etéreo com seu algoz.</p>"
+    },
+
+    "Holy Human Herbs": {
+      "name": "Ervas Humanas Sagradas",
+      "description": "<p>Queime-as para criar um espaço sagrado e expulsar demônios.</p>"
+    },
+
+    "Hunting Lance": {
+      "name": "Lança de Caça",
+      "description": "<p>Lança-feixe precisa de velhatec. Em combate corpo a corpo causa [[/r 1d8]] de dano e não consome carga.</p><p><strong>Características:</strong> recarga 7 [[/r 1d20]]</p>"
+    },
+
+    "Hyper Adhesive": {
+      "name": "Hiperadesivo",
+      "description": "<p>Sele portas ou imobilize inimigos (salvaguarda). recarga 4 [[/r 1d20]].</p>"
+    },
+
+    "Illusion Gun": {
+      "name": "Arma de Ilusão",
+      "description": "<p>Um alvo “morto” por esta arma velhatec de curto alcance faz uma salvaguarda contra morte. Se tiver sucesso, em vez disso fica com 1 vida e inconsciente.</p>"
+    },
+
+    "Imbue Edge": {
+      "name": "Imbuir Lâmina",
+      "description": "<p><em>Lança Fatiadora de Seka, Vorpalizar</em></p><p>O mago sussurra para uma arma, imbuindo-a de astúcia, luxúria e humor. Ela causa +2 de dano e pode ferir espíritos, daemons e outros seres intangíveis pela duração da magia.</p>",
+      "range": "toque",
+      "target": "arma cortante",
+      "duration": "6 horas",
+      "overcharge": "<p>em um acerto crítico, o alvo deve passar em uma salvaguarda ou morrer.</p>"
+    },
+
+    "In-Arm Pistol": {
+      "name": "Pistola no Braço",
+      "description": "<p>Raio EM velhatec oculto (emmaray no patoá local). Gaste 1 vida para recarregar.</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]]</p>"
+    },
+
+    "Indigo Face": {
+      "name": "Rosto Índigo",
+      "description": "<p>Uma máscara de cristal puro, o semblante de um nobre perdido. Chave de acesso ou dinheiro?</p>"
+    },
+
+    "Inflatable Raft": {
+      "name": "Bote Inflável",
+      "description": "<p>Leve.</p><p>Guardado: 1 st,</p><p>inflado: 10 st e carrega 5 sacas</p>"
+    },
+
+    "Injectable Fodder": {
+      "name": "Ração Injetável",
+      "description": "<p>Nutrição intravenosa para sua cargofera. O uso excessivo pode transformá-la em um zumbi carnívoro (salvaguarda fácil, uma vez por semana). Não certificado para uso humano.</p>"
+    },
+
+    "Inquisition  Squirtgun": {
+      "name": "Arminha da Inquisição",
+      "description": "<p>Originalmente um dispositivo eficaz de aplicação de tranquilizantes. Agora adaptado para todo tipo de fluido.</p><p><strong>Características:</strong> curto, recarga 5 [[/r 1d20]], intravenoso</p>"
+    },
+
+    "Interface Gauntlet": {
+      "name": "Manopla de Interface",
+      "description": "<p>Acesse dispositivos magi-elétricos usando suas portas locais da noösfera. Abra portas biomecânicas, converse com máquinas vivas, conte piadas para fantasmas de radiação.</p>"
+    },
+
+    "Invisibilly Bomb": {
+      "name": "Bomba de Invisibilidade",
+      "description": "<p>Torna todos os objetos em uma pequena área transparentes. Arremesso.</p>"
+    },
+
+    "Invoke Ub Dragon": {
+      "name": "Invocar Dragão Ub",
+      "description": "<p><em>Faísca de Erro da Realidade Local</em></p><p>O conjurador invoca o código Ub e condensa perturbações magitecnológicas acumuladas em um devorador. Seu poder depende do nível de perturbação (decidido pelo árbitro ou por um [[/r d10]]). Após a manifestação, a perturbação local diminui um nível; forças presas se soltam, emaranhados de energia se dissipam, fantasmas de radiação enfraquecem.</p><ul><li><p>&lt;1 não perturbado:</p><ul><li><p><strong>plâncton aéreo cintilante</strong> (L0, inofensivo)</p></li></ul></li><li><p>1–3 levemente perturbado:</p><ul><li><p><strong>limo purificador</strong> (L[[/r 1d4]], cáustico)</p></li></ul></li><li><p>4–7 estática temporal:</p><ul><li><p><strong>lagarto da destruição</strong> (L[[/r 2d4]], blindado)</p></li></ul></li><li><p>8–9 cicatriz espacial:</p><ul><li><p><strong>saltador flamejante</strong> (L[[/r 2d6]], espinhoso)</p></li></ul></li><li><p>10+ fratura da realidade:</p><ul><li><p><strong>ceifador de lâminas</strong> (L[[/r 3d4+2]], alado)</p></li></ul></li></ul>",
+      "range": "aqui",
+      "target": "grande área local de realidade perturbada",
+      "duration": "permanente",
+      "overcharge": "<p>Você tem controle temporário do devorador.</p>"
+    },
+
+    "Jade Mail": {
+      "name": "Cota de Jade",
+      "description": "<p>Elos entoados em pedra que também concedem resistência contra fantasmas e daemons imateriais.</p><p><strong>Características:</strong> volumoso</p>"
+    },
+
+    "Jade Mask": {
+      "name": "Máscara de Jade",
+      "description": "<p>Contas de jade tilintantes também concedem +1 carisma <em>(efeito ativo)</em></p><p><strong>Características:</strong> jade</p>",
+      "effects": {
+        "Jade (+1 cha)": {
+          "name": "Jade (+1 car)"
+        }
+      }
+    },
+
+    "Jet Credit Ring": {
+      "name": "Anel de Crédito Jet",
+      "description": "<p>Gaste €1.000 agora, pague depois. Ou ignore a jurisdição corporativa.</p>"
+    },
+
+    "Jetolene Igniter": {
+      "name": "Ignitor de Jetolene",
+      "description": "<p>Lança-chamas das guerras anti-anti-zumbi. Incendeia corações (e cabeças).</p><p><strong>Características:</strong> curto, recarga 15 [[/r 1d20]], 2M, calor intenso</p>"
+    },
+
+    "Jousting Staff": {
+      "name": "Bastão de Justa",
+      "description": "<p>Bastão de combate robusto feito de autêntica madeira sintética.</p>"
+    },
+
+    "Keep It Up Cha": {
+      "name": "Chá Sustenta-Aí",
+      "description": "<p>Chá feito do micélio do Deus Azul. Reduz insatisfação, tremedeira e iniciativa. Oferece contentamento, pertencimento e obediência. Rumorado afrodisíaco.</p>"
+    },
+
+    "Kingshead Flask": {
+      "name": "Frasco Cabeça de Rei",
+      "description": "<p>Frasco de poção ornamentado feito da cabeça de um rei.</p><p><strong>Características:</strong> recipiente, assustador</p>"
+    },
+
+    "Knock / Lock": {
+      "name": "Abrir / Trancar",
+      "description": "<p><em>Lamento do Chaveiro, Selo de Hashoon</em></p><p>O mago invoca um fragmento de consciência dentro de uma fechadura-alvo. Eufórico, o objeto fracamente senciente murmura nas bordas da mente do mago, implorando para agradar. Ele se destranca ou se tranca sozinho. Fechaduras mágicas fazem salvaguarda com bônus igual ao Nível de seu mago.</p>",
+      "range": "10m",
+      "target": "fechadura",
+      "duration": "permanente",
+      "overcharge": "<p>a porta ou portal é escancarado ou selado, soldado ou fundido.</p>",
+      "roll_formula": ""
+    },
+
+    "Lamarckian Needler": {
+      "name": "Agulhador Lamarckiano",
+      "description": "<p>Esta varinha-arma verde e carnosa transforma seu sangue em soro corruptor.</p><p>Dano máximo: corrompido.</p><p><strong>Características:</strong> curto, sintonizar, vital, intravenoso, corruptor</p>"
+    },
+
+    "Leather Harness": {
+      "name": "Arreio de Couro",
+      "description": "<p>Exibe o físico oleado. +2 espaços de itens livres para armas.</p>",
+      "effects": {
+        "+2 weapon slots": {
+          "name": "+2 espaços de itens para armas"
+        }
+      }
+    },
+
+    "Leatherman Suit": {
+      "name": "Traje de Couro-Homem",
+      "description": "<p>Esconde seus ossos. Parecer um golem de couro é melhor?</p>"
+    },
+
+    "Lemma Worm": {
+      "name": "Verme do Lema",
+      "description": "<p>Droga memética apreciada por estímulo auditivo e tátil. Traz sensação de sentido. Uso excessivo causa crenças estranhas. Levemente viciante — abstinência causa paranoia.</p>"
+    },
+
+    "Lifestealer Syringe": {
+      "name": "Seringa Roubavida",
+      "description": "<p>Extrai 1 vida por rodada de uma criatura dócil. Função de transferência curativa não instalada. Onde armazenar a força vital…</p>"
+    },
+
+    "Limousine Golem": {
+      "name": "Golem Limusine",
+      "description": "<p>Máquina viva elegante para projetar gravitas. Apenas estradas.</p><p>L4, capacidade 6</p>"
+    },
+
+    "Linked Portals": {
+      "name": "Portais Vinculados",
+      "description": "<p><em>Viagem Astral Menor, Túnel Conveniente de Nilbreg o Tecnoduque</em></p><p>O mago desenha dois círculos de 3 metros de raio no ar. Os círculos são ligados por uma ponte de irrealidade astral. Tudo que entra em um arco sai pelo outro inalterado, mas com seu vetor de movimento ajustado pela posição dos portais. Dois arcos posicionados um acima do outro permitem que um objeto caia em velocidade terminal.</p>",
+      "range": "toque",
+      "target": "área",
+      "duration": "30 minutos",
+      "overcharge": "<p>a orientação dos portais pode ser ajustada à vontade. Os portais também podem ser arremessados até 10 metros.</p>"
+    },
+
+    "Little Pyramid": {
+      "name": "Pequena Pirâmide",
+      "description": "<p>Uma pequena múmia (L6, gemendo) dentro! Quebre a pirâmide para libertá-la…</p>"
+    },
+
+    "Living Coffin": {
+      "name": "Caixão Vivo",
+      "description": "<p>Proteção de campo dos ghouls revolucionários da 3ª Era do Junípero. Funciona melhor quando alimentado com um humano fresco.</p><p><strong>Características:</strong> automático, alimentado por cadáver, fixo</p>"
+    },
+
+    "Living Shoes": {
+      "name": "Sapatos Vivos",
+      "description": "<p>Cheiram e lambem, facilitam rastreamento, avisam sobre perigos.</p>"
+    },
+
+    "Living Suit": {
+      "name": "Traje Vivo",
+      "description": "<p>Carne antropoide sintética para proteger seu endoesqueleto.</p>",
+      "effects": {
+        "+5 Life": {
+          "name": "+5 Vida"
+        }
+      }
+    },
+
+    "Lucky Bone Orb": {
+      "name": "Orbe Ósseo da Sorte",
+      "description": "<p>Você suspeita que foi de seu criador. Anos no seu bolso de memória o poliram até virar uma esfera. Acometido por más vibrações.</p>"
+    },
+
+    "Machete": {
+      "name": "Facão",
+      "description": "<p>A lâmina que derrubou a selva do túnel do vazio e abriu passagem para o Novo Solo.</p><p><strong>Características:</strong> corta madeira</p>"
+    },
+
+    "Machination Kit": {
+      "name": "Kit de Maquinações",
+      "description": "<p>Chaves, alicates, fios, soldas, pergaminhos do príncipe azul, mantras de máquina e mais — tudo para manter um velho fabricador funcionando.</p>"
+    },
+
+    "Magic Jar": {
+      "name": "Frasco Mágico",
+      "description": "<p><em>Ba Engarrafado de Abned, Mente Cristalizada</em></p><p>O mago transfere a personalidade de uma criatura inconsciente para um cristal delicado no valor de €1.000. O procedimento apaga a personalidade original. O processo leva 30 minutos.</p>",
+      "range": "toque",
+      "target": "criatura",
+      "duration": "permanente",
+      "overcharge": "<p>a personalidade da criatura é copiada, não apagada. Há 50% de chance de conflito de ego catastrófico ou partição moral.</p>"
+    },
+
+    "Magnificent Fireball Wandpistol": {
+      "name": "Pistola-Bastão da Bola de Fogo Magnífica",
+      "description": "<p>Converte a escória da vida mortal em bolas de fogo. Pouco justo aos olhos dos barões terranobres hobnobres.</p><p>Drena 1 vida do usuário por disparo.</p><p><strong>Características:</strong> curta, área P, vital, sintonizar, velhatec</p>"
+    },
+
+    "Maintain Bracelet": {
+      "name": "Bracelete de Manutenção",
+      "description": "<p>Marca o usuário como morto-vivo para criaturas mortas-vivas.</p>"
+    },
+
+    "Malachite Swirl": {
+      "name": "Espiral de Malaquita",
+      "description": "<p>Pedra polida e linhas de força entrelaçadas para resistir a ataques de alta velocidade e energia.</p><p>Modo de queima [[/r 1d20]]: ganhe +5 força ou 30 vida em campo de força (<em>alternar efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]], à prova de balas, resistente a energia</p>",
+      "effects": {
+        "Burn (+5 str)": {
+          "name": "Queima (+5 for)",
+          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 vida</p>"
+        },
+        "Burn (+30 life)": {
+          "name": "Queima (+30 vida)",
+          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 vida</p>"
+        }
+      }
+    },
+
+    "Master Eyeball": {
+      "name": "Olho-Mestre",
+      "description": "<p>Em um frasco conservante. Permite que você passe por alguém de classe mais alta.</p>",
+      "effects": {
+        "+1 Charisma": {
+          "name": "+1 Carisma"
+        }
+      }
+    },
+
+    "Mazing Crown": {
+      "name": "Coroa Labiríntica",
+      "description": "<p>Raios de sua joia-labirinto causam confusão (salvaguarda).</p><p>Dano mínimo: o alvo cai em uma dimensão de bolha-labirinto por uma semana.</p><p><strong>Características:</strong> curta, recarga 3 [[/r 1d20]], mãos-livres, sintonizar, fantasciência</p>"
+    },
+
+    "Mechatronic Picks": {
+      "name": "Gazuas Mecatrônicas",
+      "description": "<p>Abrem qualquer porta que não tenha mente própria. Essas exigem palavras.</p>"
+    },
+
+    "Mental Shackles": {
+      "name": "Grilhões Mentais",
+      "description": "<p>Implantes cranianos cravejados de glifos que protegem contra controle mental… e contra pensamentos de não obedecer.</p>"
+    },
+
+    "Mermaid's Kiss": {
+      "name": "Beijo da Sereia",
+      "description": "<p>Você o guarda em um pequeno frasco. Mantém todos os seus medos afastados.</p>"
+    },
+
+    "Metal Steed": {
+      "name": "Corcel Metálico",
+      "description": "<p>Ruge como trovão, brilha como um elemental de cromo.<br />L2, cap 2, rápido</p>"
+    },
+
+    "Metapills": {
+      "name": "Metapílulas",
+      "description": "<p>Tome diariamente. Reduz a vida máxima em 1, mas concede bônus em salvaguardas contra doenças.</p><p><strong>Características:</strong> recarga 1 [[/r 1d20]]</p>"
+    },
+
+    "Metempsychosis": {
+      "name": "Metempsicose",
+      "description": "<p><em>Tradução Ka-Ba de Serapefti</em></p><p>Transfere a essência de um paciente para um novo hospedeiro físico. Uma réplica perfeita do corpo original é ideal, mas hospedeiros alternativos como golems rudes, animais, cristais ou até cubas de líquido memorial podem servir. A mudança de forma pode causar estresse psicofísico temporário.</p>",
+      "range": "toque",
+      "target": "1 paciente e 1 hospedeiro",
+      "duration": "1 dia e noite",
+      "overcharge": "<p>Tentar sobrescrever a mente de um hospedeiro não cooperativo. Alternativamente, reduzir o estresse psicofísico da transferência.</p>"
+    },
+
+    "Microgolem": {
+      "name": "Microgolem",
+      "description": "<p>Rastreador de vigilância remota. Voador custa €200. Longo alcance.</p>"
+    },
+
+    "Mightier Pen": {
+      "name": "Caneta Mais Poderosa",
+      "description": "<p>Bônus em pergaminhos legais e de velhatec. Também abre portas de ministérios.</p>"
+    },
+
+    "Mindvault Helm": {
+      "name": "Elmo Cofre-Mental",
+      "description": "<p>Elmo tradicional de osso-divino e metal de nave, bloqueia os ataques mentais do Vil. Quebre-o para anular todo o dano de um acerto crítico.</p>",
+      "effects": {
+        "+3 Ward": {
+          "name": "+3 Égide"
+        }
+      }
+    },
+
+    "Mindwipers": {
+      "name": "Apagadores Mentais",
+      "description": "<p>Pense em um pensamento que você gostaria de esquecer, depois coma estas pílulas.</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]]</p>"
+    },
+
+    "vxMN6WVgHmzQtiTx": {
+      "name": "Espelho Monocromático",
+      "description": "<p>Este espelho frágil reduz à metade o dano de todas as fontes que não sejam monocromáticas: preto, cinza ou branco.</p><p><strong>Características:</strong> fixo</p>"
+    },
+
+    "Mosswear": {
+      "name": "Traje de Musgo",
+      "description": "<p>Uma trama viva de fios miceliais e amigos musgosos, perfeita para se ocultar nas florestas antigas profundas. Protege contra toxinas e gases.</p>"
+    },
+
+    "Mother of Bullets": {
+      "name": "Mãe das Balas",
+      "description": "<p><em>Sangue Tornado Chumbo</em></p><p>Recarrega sua arma como ação livre, convertendo força vital em projéteis semi-reais.</p>",
+      "range": "toque",
+      "target": "arma âncora",
+      "duration": "instantâneo",
+      "overcharge": "<p>o primeiro projétil semi-real que atingir um alvo causa dano extra igual ao seu nível mais o custo do poder (2 + nível).</p>"
+    },
+
+    "Motogolem": {
+      "name": "Motogolem",
+      "description": "<p>Chamado Harm. Elétrico — alimente com omnibaterias.</p><p>L2, cap 2, rápido</p>"
+    },
+
+    "Motor Chung": {
+      "name": "Motor Chung",
+      "description": "<p>Seis frascos cintilantes. Consuma no máximo uma hora antes do uso. Gaste 1 vida para ganhar uma ação bônus neste turno.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+    },
+
+    "Motor Fixative": {
+      "name": "Fixador Motor",
+      "description": "<p><em>Iniciativa de Requalificação de Aluguel</em></p><p>Queima temporariamente uma habilidade prática observada no cérebro. Após assistir um nadador, piloto ou atirador em ação, a criatura pode executar o mesmo.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "1 dia",
+      "overcharge": "<p>Dura uma semana.</p>"
+    },
+
+    "Mouth of the Void": {
+      "name": "Boca do Vazio",
+      "description": "<p>Ouça a canção do cosmos, funda-se com seu terror existencial.</p><p>Criaturas adjacentes sofrem [[/r 1d6]] de dano. Para um coração em um 13 natural.</p><p><strong>Características:</strong> curta, recarga 4 [[/r 1d20]], sintonizar, fantasciência, mortífero, aterrador</p>"
+    },
+
+    "Multi-Auto Tool": {
+      "name": "Ferramenta Multi-Auto",
+      "description": "<p>75 ferramentas mecânicas em uma. Desarma armadilhas, monta móveis. recarga 2 [[/r 1d20]].</p>"
+    },
+
+    "Musical Instrument": {
+      "name": "Instrumento Musical",
+      "description": "<p>Guitarra, oud, pipa, qanbus, rubab ou tambur. Solta línguas e eleva humores.</p>"
+    },
+
+    "Nanopear Spray": {
+      "name": "Spray de Nanopérolas",
+      "description": "<p>Repara qualquer item em uma hora. recarga 5 [[/r 1d20]]</p>"
+    },
+
+    "Nasal Filters": {
+      "name": "Filtros Nasais",
+      "description": "<p>Barram odores horríveis e náusea. Também protegem contra algumas toxinas inaláveis.</p>"
+    },
+
+    "Necrolexicon NEC": {
+      "name": "Necroléxico NEC",
+      "description": "<p>Tomo não-vivo de magias ilegais da morte.</p><p><strong>Características:</strong> alimentado por cadáver, tomo</p><p><em><span style=\"text-decoration:underline\">Esta égide é um álbum de poder com bônus de efeito ativo</span></em></p>",
+      "effects": {
+        "ward +5": {
+          "name": "Égide +5"
+        }
+      }
+    },
+
+    "Nihil Est!": {
+      "name": "Nihil Est!",
+      "description": "<p><em>O Fim da Vida Tornado Presente, Vínculo de Autoimolação de Hadi</em></p><p>Entre um passo e outro, você cintila entre existência e não-existência, envelhece um ano e uma criatura que você toca desaparece no nada do espaço-verme por um ano. Sem salvaguarda.</p><p>Perigoso: independentemente de quão poderoso você seja.</p>",
+      "range": "toque",
+      "target": "um alvo senciente",
+      "duration": "1 ano",
+      "overcharge": "<p>você envelhece sete anos e uma esfera de um quilômetro de diâmetro, centrada na sua alma, desaparece no nada do espaço-verme por um ano. Sobrecarregue novamente para permanecer e observar a esfera desaparecer (tenha algum meio de levitação preparado).</p>"
+    },
+
+    "Nip Lotion": {
+      "name": "Loção de Erva-Gato",
+      "description": "<p>Faz você cheirar bem para os Senhores-Gato.</p><p><strong>Características:</strong> recarga 7 [[/r 1d20]]</p>",
+      "effects": {
+        "+2 Charisma": {
+          "name": "+2 Carisma"
+        }
+      }
+    },
+
+    "Noöjack": {
+      "name": "Noöjack",
+      "description": "<p>Conector de extensão para a noösfera local. Também armazena 3 vídeos (3 slots extras de traço)</p><p><strong>Características:</strong> implante</p>",
+      "effects": {
+        "+3 trait slots": {
+          "name": "+3 espaços de traços"
+        }
+      }
+    },
+
+    "Noble Riding Gear": {
+      "name": "Equipamento de Montaria Nobre",
+      "description": "<p>Elegante, e o casaco foi anunciado como bastante à prova de balas.</p>"
+    },
+
+    "Noetic Blade": {
+      "name": "Lâmina Noética",
+      "description": "<p>O punho de ônix e marfim projeta uma lâmina de pura energia psíquica, cortando barreiras mentais e físicas.</p><p>Gaste 1 aura para causar dano triplo.</p><p><strong>Características:</strong> fantasciência, perfurante de armadura</p>"
+    },
+
+    "Nomad Robes": {
+      "name": "Vestes Nômades",
+      "description": "<p>Excelentes no deserto quente.</p><p><strong>Características:</strong> fresco</p>"
+    },
+
+    "Nu-Face Mk III": {
+      "name": "Nu-Face Mk III",
+      "description": "<p>Um rosto perfeitamente esculpido e composto. Remova-o para revelar seu crânio, músculos sintéticos e pontos rígidos de titânio.</p>",
+      "effects": {
+        "+1 Cha": {
+          "name": "+1 Car"
+        }
+      }
+    },
+
+    "Null Thermos": {
+      "name": "Garrafa Nula",
+      "description": "<p>Quase nenhuma perda de calor!</p>"
+    },
+
+    "Nulla Charger": {
+      "name": "Carregador Nulla",
+      "description": "<p>Usa energia zero para recarregar qualquer item em uma hora. recarga 5 [[/r 1d20]].</p>"
+    },
+
+    "Objective Telekinesis": {
+      "name": "Telecinese Objetiva",
+      "description": "<p><em>O Garfo Curvo, a Mão Invisível de Made</em></p><p>Fragmentos da sua forma se corroem, sublimam e se tornam uma mão ectoplásmica com a qual você pode acariciar, segurar, esmagar e descartar. Ela é tão forte quanto um humano fraco. Ao golpear, causa [[/r 1d3]] de dano.</p>",
+      "range": "próximo",
+      "target": "objeto",
+      "duration": "alguns minutos",
+      "overcharge": "mais forte que a maioria dos humanos (força 3), causa [[/r 1d3]]+3 de dano."
+    },
+
+    "Octarine Oil": {
+      "name": "Óleo Octarino",
+      "description": "<p>Colírio iridescente que revela um espectro mais amplo, de micro-ondas a raios gama.</p>"
+    },
+
+    "Oculars": {
+      "name": "Oculares",
+      "description": "<p>Óptica tecno com zoom 25x, telêmetro e bloqueador de anúncios integrado.</p>"
+    },
+
+    "Odd Lock Picks": {
+      "name": "Gazuas Estranhas",
+      "description": "<p>Bem gastas. Abrem portas e quebram cérebros de roteamento de autômatos-golem.</p>"
+    },
+
+    "Old Friend's Head": {
+      "name": "Cabeça de um Velho Amigo",
+      "description": "<p>Conservada em picles por feitiçaria sombria. Possui uma perícia que você não tem. Uma vez por dia, gaste um dado heróico e ela devora uma magia — impedindo que um poder nocivo o afete. Para todos, exceto você, é apenas a perturbadora cabeça encolhida de algum bárbaro fracassado sem nome.</p>",
+      "effects": {
+        "+1 Ward": {
+          "name": "+1 Égide"
+        }
+      }
+    },
+
+    "Old Friend's Poem": {
+      "name": "Poema de um Velho Amigo",
+      "description": "<p>Em um pergaminho dentro de um amuleto peitoral de pele divina sacrificial.</p>"
+    },
+
+    "Old Key": {
+      "name": "Chave Antiga",
+      "description": "<p>Parece banal, mas você sabe que é uma chave transcendental para uma fechadura omni. O endereço fica em uma cidade em ruínas. O que ela esconde?</p>"
+    },
+
+    "Oldtech Dagger-Axe": {
+      "name": "Machado-Adaga Velhatec",
+      "description": "<p>Um símbolo de poder. Gaste 1 vida para causar dano x2. Concede +2 de carisma.</p><p><strong>Características:</strong> 2M</p>",
+      "effects": {
+        "+2 Charisma": {
+          "name": "+2 Carisma"
+        }
+      }
+    },
+
+    "Omni-Utilitool": {
+      "name": "Omni-Ferramenta",
+      "description": "<p>Cortador a laser, micro-soldador, feixe de plasma e outras sete pequenas ferramentas de energia.</p>"
+    },
+
+    "Omnibatteries": {
+      "name": "Omnibaterias",
+      "description": "<p>12 baterias NRFB de uso único. Recarregam qualquer item de 1 espaço. Explodem se perfuradas ou arremessadas contra algo duro.</p><p><strong>Características:</strong> arremesso, área P, recarga 2</p>"
+    },
+
+    "Omnifleisch": {
+      "name": "Omnicarne",
+      "description": "<p>Alimento universal para mortos-vivos da marca Syntetik™. Mantém todos com aparência fresca!</p><p><strong>Características:</strong> recarga 3</p>"
+    },
+
+    "One Pound of Living Flesh": {
+      "name": "Meio Quilo de Carne Viva",
+      "description": "<p>A luz do sol a mantém viva, mas ela precisa se alimentar de tecido vivo contorcido para crescer e recobrir completamente seus ossos.</p>",
+      "effects": {
+        "+4 Life": {
+          "name": "+4 Vida"
+        }
+      }
+    },
+
+    "Onyx Ghost": {
+      "name": "Fantasma de Ônix",
+      "description": "<p>Serpentes de ônix entrelaçadas e pedras espirituais mutantes sussurram sobre vidas desperdiçadas e sonhos destruídos.</p><p>Modo de queima [[/r 1d20]]: ganhe +3 aura ou um campo de força de 50 vida (<em>efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], ambiente</p>",
+      "effects": {
+        "Burn (+3 aur)": {
+          "name": "Queima (+3 aur)",
+          "description": "<p>Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 vida</p>"
+        },
+        "Burn (+50 life)": {
+          "name": "Queima (+50 vida)",
+          "description": "Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 vida"
+        }
+      }
+    },
+
+    "Open Person": {
+      "name": "Abrir Pessoa",
+      "description": "<p><em>Ritual Preparatório de Hsu Doru</em></p><p>Ativa as costuras de construção de um humano padrão™, desdobrando-o sem dor como uma flor para facilitar tratamento médico. Uma pessoa aberta pode se ferir gravemente se não tomar cuidado ([[/r 3d6]] de dano por ação). Tratamentos são significativamente mais fáceis; o custo de magias médicas é reduzido à metade.</p>",
+      "range": "toque",
+      "target": "1 humano padrão™",
+      "duration": "1 hora",
+      "overcharge": "<p>Os órgãos individuais são desenrolados e suspensos em ectoplasma protetor. Atividade nesse estado pode ser letal (salvaguarda ou morte). Tratamentos se tornam triviais; custos de magias médicas caem para um quarto.</p>"
+    },
+
+    "Orange Dream": {
+      "name": "Sonho Laranja",
+      "description": "<p><em>Os Trabalhos da Aranha Esquecida</em></p><p>Uma criatura neutra ou amigável concorda em fazer o que você pedir por uma hora (sem salvaguarda), desde que não pareça imediatamente perigoso ou arriscado.</p>",
+      "range": "sussurro",
+      "target": "uma criatura",
+      "duration": "uma hora",
+      "overcharge": "<p>até uma criatura hostil ou violenta escuta, desde que você consiga sussurrar em seu ouvido.</p>"
+    },
+
+    "Orange Ratgum": {
+      "name": "Chiclete de Rato Laranja",
+      "description": "<p>Resistência a efeitos telepáticos e controle mental enquanto mastiga. Contém menos de 3% de rato do vazio.</p>"
+    },
+
+    "Organic Paste": {
+      "name": "Pasta Orgânica",
+      "description": "<p>Vida humana processada em um tubo! 10 vida para ativar poderes.</p><p>10 vida</p>"
+    },
+
+    "Otherface Cream": {
+      "name": "Creme Outra-Face",
+      "description": "<p>Fique parecido com sua estrela procedimental favorita! Deixa seu rosto macio e maleável.</p>"
+    },
+
+    "Parasoma Transference": {
+      "name": "Transferência Parasômica",
+      "description": "<p><em>Desvio Vital de Hsu Doru</em></p><p>Manipula padrões energéticos subjacentes para transferir vida de uma criatura para outra, ou diretamente das reservas do conjurador.</p>",
+      "range": "toque",
+      "target": "2 criaturas",
+      "duration": "instantâneo",
+      "overcharge": "<p>A amplificação restaura [[/r 1d4]] vida adicional por ponto transferido.</p>"
+    },
+
+    "Pass Person": {
+      "name": "Passe de Pessoa",
+      "description": "<p>Documento mágico que concede bônus para contornar oficiais e guardas.</p>"
+    },
+
+    "Patchflesh Parasite": {
+      "name": "Parasita Remenda-Carne",
+      "description": "<p>Conserto temporário. Recupere [[/r 2d8]] + nível de vida ou [[/r 1d4]]+1 de dano em atributo, mas sofra 1 fardo. Remove-se com sal. Viciante.</p><p><strong>Características:</strong> uso único</p>"
+    },
+
+    "Pectoral of Red": {
+      "name": "Peitoral do Vermelho",
+      "description": "<p>Adiciona +2 de bônus ao dano ou efeitos de itens vermelhos.</p><p><strong>Características:</strong> amplificador</p>"
+    },
+
+    "Personal Daemon": {
+      "name": "Daemon Pessoal",
+      "description": "<p>Sabe coisas que não deveria, dá conselhos que você não pode seguir. Gaste 1 vida para receber um despejo rápido de informações sobre a área local.</p>"
+    },
+
+    "Pet Bird": {
+      "name": "Pássaro de Estimação",
+      "description": "<p>De espécie desconhecida. Linguagem imunda.</p>"
+    },
+
+    "Phase Handgun": {
+      "name": "Pistola de Fase",
+      "description": "<p>Desloca o alvo (ou uma esfera de 3 cúbitos) para fora de fase com a matéria normal por 1 rodada (salvaguarda).</p><p><strong>Características:</strong> curto, recarga 6 [[/r 1d20]], sintonizar, velhatec</p>"
+    },
+
+    "Philip Juice": {
+      "name": "Suco de Philip",
+      "description": "<p>Transforme-se! Troque dois atributos.</p>"
+    },
+
+    "Photomeme": {
+      "name": "Fotomeme",
+      "description": "<p>Cristal demoníaco registra o que você vê. Seu cérebro magnético armazena 360 imagens.</p>"
+    },
+
+    "Photosynth Sap": {
+      "name": "Seiva Fotossintética",
+      "description": "<p>O suco condensado da árvore dourada permite que a luz do sol o alimente por uma semana.</p>"
+    },
+
+    "Phylake Clavus": {
+      "name": "Clavo do Guardião",
+      "description": "<p>Uma chave que permite passar despercebido diante de um anjo. Ou daemon.</p>"
+    },
+
+    "Piezo Mace": {
+      "name": "Maça Piezo",
+      "description": "<p>Integra-se aos seus biocircuitos. Como ação livre, gaste [[/r 1d6]] de vida para causar dano dobrado no ataque.</p>"
+    },
+
+    "Plantation Pick": {
+      "name": "Picareta de Plantação",
+      "description": "<p>Essa ferramenta de campo também esmaga crânios de mevos (crítico x4).</p><p><em>Use o efeito ativo para habilitar o bônus de dano crítico x4 contra Mevos (ajuste o multiplicador no diálogo de dano)</em></p>",
+      "effects": {
+        "x4 crit damage vs vomes": {
+          "name": "x4 dano crítico contra mevos"
+        }
+      }
+    },
+
+    "Pleasure Thorn": {
+      "name": "Espinho do Prazer",
+      "description": "<p>Relacionado ao chicote neural, mas mais agradável. Incapacita com êxtase.</p><p>Paroxismos por 1 rodada em um 7 natural.</p><p><strong>Características:</strong> próximo, recarga 5 [[/r 1d20]], velhatec</p>"
+    },
+
+    "Plug-In Chimeric": {
+      "name": "Quimérico Plugável",
+      "description": "<p>Animal de carga híbrido com cabeça em cúpula e descarga elétrica.</p><p>N5, capacidade 3</p>"
+    },
+
+    "Pointy Helmet": {
+      "name": "Elmo Pontudo",
+      "description": "<p>Sacrifique para anular um acerto crítico. Cabeçada causa [[/r 1d8]] de dano.</p>"
+    },
+
+    "Pointy Slippers": {
+      "name": "Pantufas Pontudas",
+      "description": "<p>Pontas muito afiadas — seus chutes causam [[/r 1d6]] de dano.</p><p><strong>Características:</strong> arma</p>"
+    },
+
+    "Polishing Kit": {
+      "name": "Kit de Polimento",
+      "description": "<p>Perfeito para manter joias e armas com aparência impressionante.</p>"
+    },
+
+    "Poly-Ocular Visor": {
+      "name": "Visor Poliocular",
+      "description": "<p>Com três olhos removíveis. Role-os, pose-os, cole-os na parede.</p><p>alcance longo</p>"
+    },
+
+    "HVbDfQ9tCQZ4CGOi": {
+      "name": "Andarilho de Porcelana",
+      "description": "<p>O melhor da tecnologia principesca, com placas cerâmicas policromadas reluzentes.</p><p>Modo de queima [[/r 1d20]]: anda sozinho por várias horas.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]], volumoso, frio, intravenoso</p>"
+    },
+
+    "Porcelain Death Mask": {
+      "name": "Máscara Mortuária de Porcelana",
+      "description": "<p>Headset de microfoguetes. Gera munição do tamanho de vespas usando fabricadores integrados ([[/r 1d4]] de vida para recarregar). Projetada para drones de poliforma.<br /><strong>Características:</strong> médio, recarga 7 [[/r 1d20]], mãos-livres</p>"
+    },
+
+    "Portable EM Pulser": {
+      "name": "Pulso EM Portátil",
+      "description": "<p>Desativa temporariamente golems e sintéticos (salvaguarda). Alcance curto, recarga 4 [[/r 1d20]].</p>"
+    },
+
+    "Portable Illusion": {
+      "name": "Ilusão Portátil",
+      "description": "<p>Projetor de cristal vidy de experiência 9D. Engana não-magos. Recarga 4 [[/r 1d20]].</p>"
+    },
+
+    "Portable Shadow": {
+      "name": "Sombra Portátil",
+      "description": "<p>Sombra de guerra calejada, clonada e vinculada a partir da luta eterna. Não perca a coleira. Metade do dano sofrido por fantasmas, daemons e outros etéricos.</p>"
+    },
+
+    "Potted Plant": {
+      "name": "Planta em Vaso",
+      "description": "<p>A primeira forma de vida que você encontrou após despertar em uma estrela morta e veloz.</p><p><strong>Características:</strong> senciente</p>"
+    },
+
+    "Pouch of Rubies": {
+      "name": "Bolsa de Rubis",
+      "description": "<p>Bastante ilegal. Onde você conseguiu isso?</p>",
+      "effects": {
+        "+2 Charisma": {
+          "name": "+2 Carisma"
+        }
+      }
+    },
+
+    "Power Broker Amulet": {
+      "name": "Amuleto do Corretor de Poder",
+      "description": "<p>Gaste [[/r 1d6]] de vida para absorver um poder usado contra você. Use o poder gratuitamente — uma vez. Reiniciar o amuleto requer uma ação.</p>"
+    },
+
+    "Power Scroll Printer": {
+      "name": "Impressora de Pergaminhos de Poder",
+      "description": "<p>Insira uma mão humana maleável para extrair vida (e sangue) e imbuir poder em um pergaminho de pele sintética. Sacrifique [[/r 1d6]] de vida para reabastecer.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+    },
+
+    "Prayer Engine": {
+      "name": "Motor de Preces",
+      "description": "<p>Dispara cânticos sagrados de alto BPM. Aterroriza demônios.</p><p><strong>Características:</strong> fixo</p>"
+    },
+
+    "Pre-Fall Firemaker": {
+      "name": "Fazedor de Fogo Pré-Queda",
+      "description": "<p>Marca Sippo. Inclui fluido inflamável.</p>"
+    },
+
+    "Primary Desenescence": {
+      "name": "Desenescência Primária",
+      "description": "<p><em>Fonte de Rejuvenescimento™ de Wissa</em></p><p>Restaura uma criatura ao seu estado biológico de um ano atrás, preservando a maioria de suas memórias atuais.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "uma semana",
+      "overcharge": "<p>Restaura a criatura ao estado de seis anos atrás.</p>"
+    },
+
+    "Process Food": {
+      "name": "Processar Alimento",
+      "description": "<p><em>Gerar Gosma Rosa, Maná do Criador</em></p><p>Após um ritual de 1 hora, o mago transforma uma saca de matéria orgânica intragável em comida nutritiva (1 saca de suprimentos). Causa câncer mágico se consumido por longos períodos.</p>",
+      "range": "toque",
+      "target": "matéria bruta",
+      "duration": "permanente",
+      "overcharge": "<p>cria comida a partir de matéria inorgânica.</p>"
+    },
+
+    "Purple Haze": {
+      "name": "Névoa Púrpura",
+      "description": "<p>A tragada preferida dos errantes do UV. A aromatizada “essensa de mors” entorpece dor e emoções. Um longo baseado ajuda com dor, luto, medo e sofrimento, mas torna a pessoa lenta e de vontade fraca. Levemente viciante, abstinência causa boca seca e névoa mental.</p>"
+    },
+
+    "Purple Memories": {
+      "name": "Memórias Púrpuras",
+      "description": "<p><em>Exibição Emocional Cômica</em></p><p>O alvo torna-se suscetível à influência. A menor palavra ou sensação dispara memórias, pensamentos e emoções vívidas. Como alguém poderia manter pensamentos ou fatos em segredo nesse estado? Ou resistir a uma boa canção empolgante?</p>",
+      "range": "toque",
+      "target": "uma criatura",
+      "duration": "vários minutos",
+      "overcharge": "<p>afeta um número de criaturas igual ao dobro do seu nível.</p>"
+    },
+
+    "Purple Worm Sausages": {
+      "name": "Salsichas de Verme Púrpura",
+      "description": "<p>Energia suficiente para um dia de trabalho pesado e ignore 1 fardo físico ou ferimento por várias horas. Não feitas de vermes gigantes.</p>"
+    },
+
+    "Pyreball": {
+      "name": "Bola de Fogo",
+      "description": "<p><em>Incendiário Instantâneo, Inferno Plácido de Damora</em></p><p>Você retira uma brasa do tamanho de uma bola de uma pira ou fogueira e recita fórmulas apaziguadoras para aprisionar todo o fogo dentro dela. Quando a bola atinge uma superfície dura (ou é atingida), todos os fogos aprisionados irrompem de uma vez, causando [[/r 5d6]] de dano a todas as criaturas no raio da explosão. Uma bola não detonada se dissipa inofensivamente após um dia.</p>",
+      "range": "toque ou arremesso",
+      "target": "diâmetro de 10m",
+      "duration": "um dia, depois instantâneo",
+      "overcharge": "<p>a bola causa [[/r 10d6]] de dano, ou seus fogos se conservam por um mês.</p>"
+    },
+
+    "Radioactive Rodent Skull": {
+      "name": "Crânio de Roedor Radioativo",
+      "description": "<p>Uma noite, seu dono te mordeu e você teve uma epifania.</p>"
+    },
+    "Radiothermal Horn": {
+      "name": "Chifre Radiotérmico",
+      "description": "<p>Emite radiação dura. Causa doença (salvaguarda difícil). Falha crítica em um resultado natural 1. Funciona como um fogão portátil.</p><p><strong>Características:</strong> curto, recarga 2 [[/r 1d20]], brilhante, velhatec</p>"
+    },
+    "Radiothermal Stove": {
+      "name": "Fogão Radiotérmico",
+      "description": "<p>Provê calor para sempre (ou pelo menos 100 anos). Atenção! Não abra de forma alguma!</p>"
+    },
+    "Raise Dead": {
+      "name": "Ressuscitar Morto",
+      "description": "<p><em>A Sétima Abominação, A Hakaba Sombria</em></p><p>Após um ritual de 6 horas, o mago chama de volta a alma de uma criatura e a prende ao seu cadáver, criando uma abominação morta-viva e uma paródia da vida. Se a criatura está morta há mais de 24 horas, apenas ecos de sua personalidade e memórias (Ba) permanecem. Esta magia deve ser sobrecarregada para chamar de volta a alma de qualquer criatura de valor e potência.</p>",
+      "range": "toque",
+      "target": "cadáver",
+      "duration": "permanente",
+      "overcharge": "<p>o mago pode dar à criatura ressuscitada um comando curto, que a criatura tentará obedecer da melhor forma possível.</p>"
+    },
+    "Rational Helm": {
+      "name": "Elmo da Razão",
+      "description": "<p>Bloqueia empatia, esmaga piedade, HUD útil.</p>"
+    },
+    "Ray Banes": {
+      "name": "Banimento de Raios",
+      "description": "<p>Óculos de sol velhatec que bloqueiam UV. Símbolo de status para viajantes e mercadores.</p>"
+    },
+    "Reading Monocle": {
+      "name": "Monóculo de Leitura",
+      "description": "<p>Traduz 72 idiomas suportados. Módulo de censura incluído.</p>"
+    },
+    "Real-time Rebuild": {
+      "name": "Reconstrução em Tempo Real",
+      "description": "<p><em>Cura Rápida de Zdarovar</em></p><p>Invoca os oneiroi Quiscus e Sanatus para alcançar a essência de uma criatura e substituir código danificado por uma versão imaculada. Este processo doloroso causa dano igual ao poder da magia.</p><p>Variável: (2) remove imperfeições cosméticas, (4) expulsa toxinas ou aflições, (6) restaura um órgão danificado para as configurações de fábrica, (10) regenera um membro, (16) regenera uma cabeça ou torso, (25) reconstrói um corpo inteiro a partir de pó e fragmentos.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "minutos",
+      "overcharge": "<p>O processo de cura é acelerado para apenas alguns segundos, mas isso dobra a dor experimentada pelo alvo.</p>"
+    },
+    "Reality Flense": {
+      "name": "Esfolamento da Realidade",
+      "description": "<p>O alvo vislumbra a verdadeira natureza subjacente da realidade.</p><p>Em um resultado natural 20, sua mente quebra. Em um resultado natural 7, ele permanentemente ganha 1 ponto de aura.</p><p><strong>Características:</strong> curto, recarga 3 [[/r 1d20]], sintonizar, loucura, psíquico</p>"
+    },
+    "Reason’s Harvest": {
+      "name": "Colheita da Razão",
+      "description": "<p><em>Interface da Biblioteca-Total</em></p><p>O protocolo de colheita desliza sobre a nuvem de infotronium ambiente de um objeto—essencialmente, copia o equivalente a um livro de informação diretamente para a mente do usuário.</p>",
+      "range": "toque",
+      "target": "1 item ou livro",
+      "duration": "1 minuto",
+      "overcharge": "<p>Equivalente a dez livros, mas isso é doloroso.</p>"
+    },
+    "Rebreather": {
+      "name": "Respirificador",
+      "description": "<p>Respire debaixo d'água (assumindo que a água contenha oxigênio dissolvido)</p>"
+    },
+    "Recall Soul": {
+      "name": "Recuperar Alma",
+      "description": "<p><em>Necroflama, Roubo de Ka</em></p><p>Após um ritual de 1 hora, o mago chama de volta a alma de uma criatura, que irrompe do cadáver como uma serpente serpentina de fogo ectoplasmático. A alma pode ser capturada em um golem, usada para alimentar artefatos obscenos, ou meramente usada para efeito teatral. Esta magia deve ser sobrecarregada para chamar de volta a alma de qualquer criatura de valor e potência.</p>",
+      "range": "toque",
+      "target": "cadáver",
+      "duration": "0",
+      "overcharge": "<p>a alma é presa em um globo etéreo portátil por até 3 horas.</p>"
+    },
+    "Red Juice": {
+      "name": "Suco Vermelho",
+      "description": "<p>Mestre secreta todo dia de manhã. Diz que faz bem. Concede +[[/r 1d8]] de vida temporária e +2 de força. Abstinência: após um dia sem, reduza força e inteligência em 2.</p><p><em>(use efeitos ativos para a abstinência e para configurar a vida temporária concedida)</em></p>"
+    },
+    "Red Mist": {
+      "name": "Névoa Vermelha",
+      "description": "<p><em>Aumento de Agressão Tática</em></p><p>A necessidade de Rubra supera o alvo. Raiva e paixão fervem, ameaçando quebrar sua compostura (salvaguarda). Ele joga novamente sua rolagem de reação com um único d8. Escolha se eles adicionam ou subtraem seu carisma.<br />(<em>jogue novamente a reação usando a fórmula customizada </em><span style=\"text-decoration:underline\"><em><span style=\"text-decoration:underline\">1d8)</span></em></span></p>",
+      "range": "curto, ~20m",
+      "target": "uma criatura",
+      "duration": "alguns minutos",
+      "overcharge": "<p>afeta um número de criaturas igual ao seu nível + 1.</p>"
+    },
+    "Red Nutrislurry": {
+      "name": "Nutrilama Vermelha",
+      "description": "<p>Revigora como um descanso curto. Ótimo para sentinelas! Pode conter vampiro processado.</p>"
+    },
+    "Redland District Submachine Gun": {
+      "name": "Submetralhadora do Distrito da Terra Vermelha",
+      "description": "<p>A arma de fogo produzida em massa do povo. Rara fora da TRV, restrita dentro.</p><p><strong>Características:</strong> médio, recarga 1 [[/r 1d20]], 2M, rajada</p>"
+    },
+    "Replacer Rod": {
+      "name": "Bastão de Substituição",
+      "description": "<p>Substitui o alvo por uma cópia quase idêntica de (salvaguarda). Para sempre mais, eles se sentem alienígenas para si mesmos.</p><p><strong>Damage:</strong> [[/r 2d4x]] &amp; <code>1 int</code></p><p><strong>Características:</strong> curto, recarga 7 [[/r 1d20]], atrofia, fantasciência</p>"
+    },
+    "Restorative Slumber": {
+      "name": "Sonho Restaurador",
+      "description": "<p><em>Ritual do Sonho Curador de Medeorita</em></p><p>A forma-sonho do conjurador guia o paciente para um sono profundo e curativo. Enquanto dorme, o paciente parece sem vida. Após a conclusão da magia, o paciente acorda rejuvenescido, com um atributo restaurado ou um fardo removido.</p>",
+      "range": "toque",
+      "target": "1 criatura",
+      "duration": "3 dias e noites",
+      "overcharge": "<p>Restaure um atributo adicional ou remova um segundo fardo. Alternativamente, reduza o sono do paciente em três vezes.</p>"
+    },
+    "Rib Bow": {
+      "name": "Arco de Costela",
+      "description": "<p>Besta feita de partes de máquina morta. Não vai te decepcionar.</p><p>Características: recarga 20</p>"
+    },
+    "Ring of Divisibility": {
+      "name": "Anel da Divisibilidade",
+      "description": "<p>Gaste 1 ponto de vida para se dividir em duas cópias de meio-tamanho. Dura vários minutos. Parece estranho.</p>"
+    },
+    "Ring of Lead": {
+      "name": "Anel de Chumbo",
+      "description": "<p><em>Ciclo Rápido de Giro de Metal</em></p><p>Use a postura da serra circular para descarregar toda sua munição de uma vez, atacando toda* criatura adjacente com uma ação.</p>",
+      "range": "adjacente",
+      "target": "todas as criaturas",
+      "duration": "uma ação",
+      "overcharge": "<p>nenhuma rolagem de ataque necessária. *sujeito à quantidade de munição que sua arma âncora comporta.</p>"
+    },
+    "Riot Pleather Suit": {
+      "name": "Traje de Couro Sintético de Motim",
+      "description": "<p>Com pontos de fixação destacáveis para espinhos, capa e crânio.</p><p><strong>Características:</strong> quente, espinhoso</p>"
+    },
+    "Roadfinder": {
+      "name": "Encontra-Estradas",
+      "description": "<p><em>Farejador de Asfalto</em></p><p>Fareje os campos rodoviários do mundo, 'guarde as linhas do caminho astral. Detecte a estrada mais próxima a um dia de marcha ou menos.</p>",
+      "range": "um dia de marcha",
+      "target": "si mesmo",
+      "duration": "1 hora",
+      "overcharge": "<p>o alcance de detecção é dobrado ou o sentido dura um dia.</p>"
+    },
+    "Roadmaker": {
+      "name": "Cria-Estradas",
+      "description": "<p><em>Motor da Civilidade de Stradograd</em></p><p>Pelos poderes canalizados do grande conversor, Chem Caoutchouc, a realidade base é reorganizada. Ao longo de um dia, uma estrada de pedra-rápida cresce da terra, reta como um teodolito, abaulada e elevada, com a fortuna de 7 metros de largura e uma milha métrica de comprimento. A estrada atravessa pântanos, balança sobre vales e perfura túneis através de cumes. Sem fixadores e preparação adicionais, a superfície da estrada de pedra-rápida se deteriora em um mês.</p>",
+      "range": "uma milha métrica",
+      "target": "rocha e solo",
+      "duration": "1 dia",
+      "overcharge": "<p>a pedra-rápida se fixa em pedra-padrão durante a noite, criando uma superfície que durará um século sem manutenção.</p>"
+    },
+    "Robe of Eyes": {
+      "name": "Manto de Olhos",
+      "description": "<p>Bônus contra surpresas, ataques furtivos e coisas do tipo.</p><p><strong>Características:</strong> vigilante</p>"
+    },
+    "Rotblood Scent": {
+      "name": "Perfume de Sangue Podre",
+      "description": "<p>Perfume para cheirar pouco atraente para ghouls e vampiros.</p>"
+    },
+    "Rotting Angel's Ring": {
+      "name": "Anel do Anjo Apodrecido",
+      "description": "<p>Tirado de um guardião moribundo, ele abre portais espirituais.</p>"
+    },
+    "Round Door Shield": {
+      "name": "Escudo Porta Redonda",
+      "description": "<p>Tecido vivo sobre nervuras de cristal translúcido. Ele sempre se regenera dentro de uma semana após ser destruído. Colocado em uma porta, forma uma vedação hermética. Provavelmente de um navio do vácuo morto.</p>"
+    },
+    "Ruffle Coat": {
+      "name": "Casaco de Babados",
+      "description": "<p>O casaco socialmente aceitável, seu silksteel protege como couro. Os bolsos de estilo de vida refinado oferecem 7 mochilas de inventário grátis.</p>"
+    },
+    "Rustbeast Cloak": {
+      "name": "Manto da Fera da Ferrugem",
+      "description": "<p>Esconda-se nos ermos enferrujados. Reduza pela metade o dano de armas de ferro.</p>"
+    },
+
+    "Sacribracers": {
+      "name": "Braçadeiras do Sacro",
+      "description": "<p>Jogue um dado heróico para sofrer o dobro desse dano no lugar de um aliado.</p>"
+    },
+    "Sacrificial Robes": {
+      "name": "Vestes Sacrificiais",
+      "description": "<p>Para enfrentar deuses no templo e demônios no campo de batalha.</p>",
+      "effects": {
+        "+2 Ward": {
+          "name": "+2 Égide"
+        }
+      }
+    },
+    "Safety Blanket": {
+      "name": "Manta de Segurança",
+      "description": "<p>Possivelmente uma toalha grande. Concede invisibilidade contra predadores muito grandes e estúpidos.</p>"
+    },
+    "Safety Scarab": {
+      "name": "Escaravelho de Segurança",
+      "description": "<p>Mevo besouro morto-vivo com seu nome nele.</p><p><strong>Características:</strong> alimentado por cadáver</p>"
+    },
+    "Saffron Snuf": {
+      "name": "Rapé de Açafrão",
+      "description": "<p>Inale para clarear a mente ou ganhar [[/r 1d4]] de aura por uma hora.</p><p><strong>Características:</strong> recarga 1</p><p><em>(use o efeito ativo para configurar o bônus de aura)</em></p>"
+    },
+    "Sand Dragon Scale": {
+      "name": "Escama de Dragão de Areia",
+      "description": "<p>Incrivelmente dura, pode moer qualquer coisa, exceto ur-diamante.</p>"
+    },
+    "NSwwFk4kLam16ioG": {
+      "name": "Arma Radiante do Sátrapa",
+      "description": "<p>Arma laser semi-sensiente que se comunica através de seu display de alma de cristal.</p><p><strong>Características:</strong> longo, recarga 7 [[/r 1d20]], 2M, cegante, radiante</p>"
+    },
+    "Savehead Jar": {
+      "name": "Jarra Salva-Cabeça",
+      "description": "<p>Parece um capacete. Se você for morrer, ela salva sua cabeça e sai correndo como uma aranha assustadora.</p><p><strong>Características:</strong> autônomo, devorador de magias (gaste [[/r 1d4+1]] de vida para capturar uma magia)</p>"
+    },
+    "Scale Suit": {
+      "name": "Traje de Escamas",
+      "description": "<p>Feito de escamas de pangolim de ferro des-extintas.</p><p><strong>Características:</strong> volumoso, quente</p>"
+    },
+    "Scave Bolter": {
+      "name": "Bólter de Catador",
+      "description": "<p>Uma arma elegante e de longo alcance de uma era mais simples.</p><p><strong>Características:</strong> recarga 2, 2M</p>"
+    },
+    "Scavenger Bolter": {
+      "name": "Bólter de Sucateiro",
+      "description": "<p>Robusto, resistente, notoriamente fácil de modificar. Não é o mais preciso, porém.</p><p><strong>Características:</strong> médio, recarga 10 [[/r 1d20]], 2M, desajeitado</p>"
+    },
+    "Scroll Disk Belt": {
+      "name": "Cinto de Disco de Pergaminho",
+      "description": "<p>Armazene 3 disquetes de poder flexíveis e ative com um botão!</p>",
+      "effects": {
+        "3 power slots": {
+          "name": "3 espaços bônus de poderes"
+        }
+      }
+    },
+    "Second Face": {
+      "name": "Segunda Face",
+      "description": "<p>Outro rosto, armazenado em um gel nutritivo em uma bolsa preservativa.</p>"
+    },
+    "Second Heart": {
+      "name": "Segundo Coração",
+      "description": "<p>Um coração de reserva. Armazena vida roubada igual ao seu nível.</p><p><em>Use o efeito ativo para configurar system.temporary_life.max para o nível do seu personagem, toda vez que ele subir de nível.</em></p>",
+      "effects": {
+        "Temporary Life": {
+          "name": "Vida Temporária",
+          "description": "<p>Ajuste <em>system.temporary_life.max</em> para o nível do seu personagem, toda vez que subir de nível.</p>"
+        }
+      }
+    },
+    "Second Skin": {
+      "name": "Segunda Pele",
+      "description": "<p>Sin-tecido ligado por força, capaz de suportar o vácuo. Usável por baixo de outra armadura.</p>"
+    },
+    "Second Soul": {
+      "name": "Segunda Alma",
+      "description": "<p>Aparência fantasmagórica radiante que aumenta o dano de todos os seus ataques mentais e energéticos.</p><p><strong>Características:</strong> auto, amplificador</p>"
+    },
+    "Sensory Overloader": {
+      "name": "Sobrecarregador Sensorial",
+      "description": "<p>Arma velhatec chamativa. Muito visível no escuro. O alvo perde uma ação quando atingido (salvaguarda).</p><p><strong>Características:</strong> recarga 4</p>"
+    },
+    "Shadow Shawl": {
+      "name": "Xale das Sombras",
+      "description": "<p>Tecido a partir da seda da aranha do vácuo. Come luz e som.</p><p><strong>Características:</strong> furtivo</p>"
+    },
+    "Shapeless Hat": {
+      "name": "Chapéu Amorfo",
+      "description": "<p>Protege da chuva, sol, moscas e esporos. Bônus para desaparecer numa multidão.</p>"
+    },
+    "Shield Mk74c": {
+      "name": "Escudo Mk74c",
+      "description": "<p>Clássico moderno de vime e couro sintético.</p><p><strong>Características:</strong> despedaçar</p>"
+    },
+    "Shipgun": {
+      "name": "Arma de Nave",
+      "description": "<p>Destroçador de carne de curto alcance que não danifica um casco do vácuo. Causa triplo de dano em alvos desarmados.</p><p><strong>Características:</strong> recarga 3</p>"
+    },
+    "Shipmetal Shirt": {
+      "name": "Camisa de Metal de Nave",
+      "description": "<p>Leve como uma camisa de barco, resistente como aço.</p><p><strong>Características:</strong> clarão 8, fresco</p>"
+    },
+    "Shipsteel Stiletto": {
+      "name": "Estilete de Aço de Nave",
+      "description": "<p>Lâmina longa, fina e afiada de metal perfeito. Facilmente ocultável.</p>"
+    },
+    "Shipstone Skull": {
+      "name": "Crânio de Pedra de Nave",
+      "description": "<p>Um ancestral tornado metamórfico. Ele sussurra, às vezes mente.</p>",
+      "effects": {
+        "+1 Thought": {
+          "name": "+1 Inteligência"
+        }
+      }
+    },
+    "Shiv": {
+      "name": "Faquinha",
+      "description": "<p>Um garfo-colher de manteiga afiado.<br /><strong>Características</strong>: ocultar</p>"
+    },
+    "Shrunken Head": {
+      "name": "Cabeça Encolhida",
+      "description": "<p>Pertencia ao portador anterior? Armazena um único poder.</p>",
+      "effects": {
+        "+2 Ward": {
+          "name": "+2 Égide"
+        }
+      }
+    },
+    "Signal Jammer": {
+      "name": "Bloqueador de Sinal",
+      "description": "<p>Configure para bloquear comunicações eletromagnéticas e psíquicas. Alcance e área médios.</p>"
+    },
+    "Silk Vest": {
+      "name": "Colete de Seda",
+      "description": "<p>Proteção elegante para o herói na cidade.</p><p><strong>Características:</strong> à prova de balas, estiloso</p>"
+    },
+    "Simmersuit": {
+      "name": "Macacão de Fermentação",
+      "description": "<p>Macacão tradicional que exibe claramente seu status e deveres.</p>"
+    },
+    "Skin Glove": {
+      "name": "Luva de Pele",
+      "description": "<p>Uma luva de carne sintética assustadora. É para as impressões digitais, entende.</p>"
+    },
+    "Skip Knife": {
+      "name": "Faca do Salto",
+      "description": "<p>Corta através do tempo, salta o alvo para frente em 1d6 rodadas (salvaguarda difícil). </p><p>Sua massa é aumentada por suas âncoras futuras.</p><p><strong>Características:</strong> recarga 1 [[/r 1d20]], fantasciência</p>"
+    },
+    "Skull Garland": {
+      "name": "Guirlanda de Crânios",
+      "description": "<p>Adicione o crânio de um amigo para aumentar os bônus em +1!</p><p><strong>Características:</strong> armadura +2 (efeito ativo)</p>",
+      "effects": {
+        "Skull (+2 armor)": {
+          "name": "Crânio (+2 armadura)"
+        }
+      }
+    },
+    "Slowtime": {
+      "name": "Tempo Lento",
+      "description": "<p>Cria uma bolha de espaço-tempo alterado que dura várias rodadas. Aqueles dentro (salvaguarda) só agem a cada duas rodadas. Ataques à distância através da bolha sofrem uma penalidade.</p><p><strong>Características:</strong> área M, velhatec</p>"
+    },
+    "Smart Lubricants": {
+      "name": "Lubrificantes Inteligentes",
+      "description": "<p>Minúsculos animalculos sintéticos lubrificam suas juntas e reduzem o desgaste. Cada dose remove 1 fardo de golem.</p><p><strong>Características:</strong> recarga 4</p>"
+    },
+    "DRXGqZHIoZtTqWVm": {
+      "name": "Corda Inteligente",
+      "description": "<p>Desata conforme necessário. Quer estrangular seu criador. 20 metros.</p>"
+    },
+    "IlzXc8yjw6NbeJlD": {
+      "name": "Corda Inteligente",
+      "description": "<p>20 metros. Amarra e desamarra sob comando. Não está claro se pode falar.</p>"
+    },
+    "Snakeskin Shoes": {
+      "name": "Sapatos de Pele de Cobra",
+      "description": "<p>Mostre que você tem classe. Faça mangustos amarem você, mas não as cobras.</p>",
+      "effects": {
+        "+1 Charisma": {
+          "name": "+1 Carisma"
+        }
+      }
+    },
+    "Social Credit Tattoo": {
+      "name": "Tatuagem de Crédito Social",
+      "description": "<p>Prova de quão boa pessoa você é. Acesso gratuito a dormitórios corporativos e distribuidores de slurry alimentar! Não reanimar!</p>"
+    },
+    "Soft-Hands Gloves": {
+      "name": "Luvas de Mãos Suaves",
+      "description": "<p>Grave e replique impressões digitais.</p>"
+    },
+    "Solar Lamp": {
+      "name": "Lâmpada Solar",
+      "description": "<p>Lâmpada Magia de Outrora que come a luz do sol para emitir um feixe curto de luz quente.</p>"
+    },
+    "Solaris Disc": {
+      "name": "Disco Solaris",
+      "description": "<p>Artefato de cabeça chique usa luz e fogo para bloquear poderes hostis. Além disso, absorve energia solar para recarregar 1 omnibateria por dia.</p>"
+    },
+    "Solipsism Shotgun": {
+      "name": "Espingarda do Solipsismo",
+      "description": "<p>Sonhe uma vida em um dia! Esta velha arma de oração é útil para colocar inimigos para dormir (salvaguarda).</p><p><strong>Características:</strong> curto, recarga 2 [[/r 1d20]], 2M, sintonizar, sono, fantasciência</p>"
+    },
+    "Song-Ghost Fuel": {
+      "name": "Combustível de Fantasma da Canção",
+      "description": "<p>Emanações de daemon preso liquefeitas. Combustível limpo e denso para sua máquina. Pode deixar fenômenos parapsíquicos para trás após a queima.</p>"
+    },
+    "Soul-Eater Nightblade": {
+      "name": "Lâmina Noturna Devoradora de Almas",
+      "description": "<p>O espírito tagarela do Devorador na Escuridão habita esta lâmina. Cada golpe reduz o nível do seu alvo em 1. Se isso reduzir seu nível abaixo de 0, ele morre.</p>"
+    },
+    "Soul Juice": {
+      "name": "Suco de Alma",
+      "description": "<p>Alma destilada. Remove 1 fardo mental permanentemente. Também, uma fonte de energia.</p>"
+    },
+    "Soup Thermos": {
+      "name": "Termos de Sopa",
+      "description": "<p>Nutrilama e outros fluidos da categoria ensopado permanecem comestíveis para sempre.</p>"
+    },
+    "Speak With Husk": {
+      "name": "Falar com a Casca",
+      "description": "<p><em>Ecos da Mente, Necrofone</em></p><p>Os ecos de personalidade presos em um cadáver respondem a três perguntas feitas pelo mago. O cadáver pode mentir.</p>",
+      "range": "3m",
+      "target": "cadáver",
+      "duration": "10 minutos",
+      "overcharge": "<p>o cadáver mantém uma conversa completa pela duração da magia. Ele não pode mentir, mas pode evadir.</p>"
+    },
+    "Spear": {
+      "name": "Lança",
+      "description": "<p>Uma lâmina em uma vara. Combina bem com escudos e outros portadores de lança.</p><p><strong>Características:</strong> versátil, arremessável</p>"
+    },
+    "Spectral Combat Suit": {
+      "name": "Traje de Combate Espectral",
+      "description": "<p>Escamas de aço-vidro da Sátrapa com simbionte atmosférico. Esfregadores, filtros e bexigas mantêm o ambiente por algumas horas.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+    },
+    "Spectral Parasite": {
+      "name": "Parasita Espectral",
+      "description": "<p>Escamas de aço-vidro Sátrapa e um parasita criador de ambiente.</p><p>Modo queima [[/r 1d20]]: ganhe +2 de força (efeito ativo)</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]], volumoso, fresco, ambiente</p>",
+      "effects": {
+        "Burn (+2 str)": {
+          "name": "Queima (+2 for)",
+          "description": "<p>Modo de Queima 1d20: ganhe +2 de força</p>"
+        }
+      }
+    },
+    "Spirit Hand": {
+      "name": "Mão Espiritual",
+      "description": "<p>Terceira mão ectoplasmática ancorada em sua aura. Ocupa um espaço de traço.</p><p><strong>Cost:</strong> €375</p>"
+    },
+    "Splinter Suit": {
+      "name": "Traje de Estilhaços",
+      "description": "<p>Escamas de madeira-sol sobre tecidos fibrosos. Flutua surpreendentemente bem até ficar encharcado.</p><p><strong>Características:</strong> volumoso, quente</p>"
+    },
+    "Spotted Lion's Cloak": {
+      "name": "Manto do Leão Malhado",
+      "description": "<p>Concede a bravura de um leão, afasta o medo. Também, camuflagem da estepe.</p>"
+    },
+    "Spotted Lion's Paw": {
+      "name": "Pata do Leão Malhado",
+      "description": "<p>Imbuída com o poder de um leão</p>",
+      "effects": {
+        "+1 Strength": {
+          "name": "+1 Força"
+        }
+      }
+    },
+    "Stakehammer": {
+      "name": "Martelo-estaca",
+      "description": "<p>Racha armaduras e perfura corações não-vivos. Dano duplo em vampiros.</p>"
+    },
+    "Standard Corpsolene": {
+      "name": "Cadavrolina Padrão",
+      "description": "<p>Dinossauros mortos sintéticos básicos. Combustível para seus veículos.</p>"
+    },
+    "Standing Bed": {
+      "name": "Cama de Pé",
+      "description": "<p>Uma armação de aço tubular para se apoiar e descansar enquanto 'fica de vigia'.</p>"
+    },
+    "Starting Kit": {
+      "name": "Kit Inicial",
+      "description": "<p>O kit mede uma saca inteira (10 mochilas) em peso e inclui até 10 itens individuais. Você não precisa escolher antecipadamente exatamente o que está no kit do seu personagem—os itens estão em uma superposição quântica até você defini-los durante o jogo.<br /><br />O kit não inclui nada melhor do que uma arma civil ([[/r 1d6]] dano) e nenhuma armadura.</p>"
+    },
+    "Stone": {
+      "name": "Pedra",
+      "description": "<p>A primeira arma do homem. Pode ser sintética.</p>"
+    },
+    "Stoyevod’s Irreducible Crystallization of the Ego Complex": {
+      "name": "Cristalização Irredutível do Complexo Egoico, por Stoyevod",
+      "description": "<p><em>Restauração do Inestimável</em></p><p>Este ritual profundamente imoral arranca uma psique partida da consciência cósmica da Mente-Total. Rouba a alma perdoada do Fogo-Total da Criação-Preservação-Destruição. Desfaz a decadência do corpo no Verde-Total da Vida-Morte-Renascimento. Num turbilhão extático, o herói é recriado de fogo sagrado, sopro sagrado e solo perfeito. Eles fazem sua rolagem de reviver com vantagem. Tudo que este ritual requer é o sacrifício amoroso de outro humano, e mais um para cada nível do herói.</p><p>Perigoso: O especialista sacrificial provavelmente será corrompido por esta magia.</p>",
+      "range": "aqui",
+      "target": "um herói morto",
+      "duration": "permanente",
+      "overcharge": "<p>O herói adiciona +20 à sua rolagem de reviver ou aumenta um de seus atributos em 1.</p>"
+    },
+    "Stranger in a Bottle": {
+      "name": "Estranho numa Garrafa",
+      "description": "<p>Uma pessoa sintética com memórias falsas presa em uma superposição de improbabilidade. Use-a para injetar alguma personalidade em uma casca oca ou golem básico. É uma pessoa falsa, certo? Certo?!</p>"
+    },
+    "Strapguard": {
+      "name": "Guarda-Pulso",
+      "description": "<p>Latão e plaz presos ao seu antebraço.</p><p><strong>Características:</strong> mãos-livres</p>"
+    },
+    "Stun Baton Wand": {
+      "name": "Varinha-Bastão de Atordoamento",
+      "description": "<p>Gaste 1 ponto de vida para atordoar (salvaguarda). Retrátil.</p><p><strong>Características:</strong> ocultar</p>"
+    },
+    "Sturdy Stick": {
+      "name": "Bastão Resistente",
+      "description": "<p>Concede um bônus em longas caminhadas para lá (ou de volta).</p>"
+    },
+    "Sun's Caress": {
+      "name": "Carícia do Sol",
+      "description": "<p>Um protetor solar especial que cura você enquanto você fica com uma linda tonalidade de frito. Recupere [[/r 1d6]] de vida após algumas horas no sol.</p><p><strong>Características:</strong> recarga 3</p>"
+    },
+    "Sungwood Shield": {
+      "name": "Escudo de Madeira-Sol",
+      "description": "<p>Escudo leve de madeira simbiótica viva. Seu sangue pode regenerá-lo.</p>"
+    },
+
+    "Supplicate the Rotting God": {
+      "name": "Suplicar ao Deus Apodrecido",
+      "description": "<p><em>Retroceder a Roda do Amor e da Morte</em></p><p>O mago sacrifica pelo menos uma criatura senciente para restaurar uma criatura recentemente morta à vida. O nível total do alvo e do(s) sacrifício(s) deve ser aproximadamente igual. O ritual leva 1 hora por sacrifício e dará terrivelmente errado se for interrompido. O alvo é restaurado à vida e a uma semelhança de saúde por um ano e um dia.</p>",
+      "range": "toque",
+      "target": "cadáver",
+      "duration": "0"
+    },
+
+    "Suspended in the Light": {
+      "name": "Suspenso na Luz",
+      "description": "<p><em>Agarramento Luminoso, Controle de Luz Sólida</em></p><p>Você brilha, a mão do portador brilha, o ar brilha, e você ergue seu alvo um palmo do chão enquanto a luz sólida o estrangula. Eles sofrem [[/r 1d4]] de dano e perdem sua próxima ação.</p>",
+      "range": "próximo",
+      "target": "criatura ou objeto",
+      "duration": "instantâneo",
+      "overcharge": "<p>eles sofrem [[/r 1d8]] de dano em vez disso.</p>"
+    },
+
+    "Suspended Insight": {
+      "name": "Insight Suspenso",
+      "description": "<p><em>Revelações da Dor</em></p><p>O mago se pendura numa árvore de espinhos e ganha +1 em um atributo pelo resto do dia e uma resposta enigmática a uma única pergunta feita ao vácuo indiferente. A resposta tem 1 chance em 6 de ser imediatamente útil.</p><p><em>(use um efeito ativo para conceder o bônus de atributo)</em></p>",
+      "range": "si mesmo",
+      "target": "árvore de espinhos",
+      "duration": "1 hora",
+      "overcharge": "<p>Ganhe +2 em um atributo e a resposta tem 1 chance em 4 de ser imediatamente útil.</p>",
+      "roll_formula": ""
+    },
+    "Swagger Stick (*BILI Brand)": {
+      "name": "Bengala de Postura (*Marca BILI)",
+      "description": "<p>Um tradutor de microfissão espiritual permite que você gaste 1 ponto de vida para causar [[/r 1d12]] de dano com esta elegante bengala.</p>"
+    },
+    "Syncsuit": {
+      "name": "Traje de Sincronia",
+      "description": "<p>Spandex antigo e fio vivo para controle proprioceptivo direto de um veículo ou nave do vácuo.</p><p><strong>Características:</strong> interface</p>"
+    },
+    "Synthetic Blood": {
+      "name": "Sangue Sintético",
+      "description": "<p>Solo Vermelho Fino safra. Para cirurgia ou para alimentar um vampiro por uma semana.</p>"
+    },
+    "Synthetic Subsystem": {
+      "name": "Subsistema Sintético",
+      "description": "<p>Este órgão movido a bateria mantém funções vitais quando comida, água e ar ficam escassos. Conecta-se à maioria dos fenótipos humanos.</p><p><strong>Características:</strong> recarga 5</p>"
+    },
+
+    "Telempathy Blaster": {
+      "name": "Disparador de Telempatia",
+      "description": "<p>Dispositivo psiquimédico reaproveitado. Dano mínimo: o alvo para de lutar por um round e tenta parlamentar.</p><p><strong>Características:</strong> curto, recarga 6 [[/r 1d20]], sintonizar, fantasciência, psíquico</p>"
+    },
+    "The Hard Ring": {
+      "name": "O Anel Duro",
+      "description": "<p>Você é um anel e não ocupa inventário. Você é feito de (role [[/r 1d6]]): (1) lágrimas petrificadas, (2) marfim gravado, (3) ouro cintilante, (4) gelo negro, (5) prata sangrenta, ou (6) luz capturada. Você não causa dano sozinho, mas pode usar a vida e habilidades do seu portador para alimentar seus poderes ou causar dano diretamente. Você ganha o poder @UUID[Compendium.sdm.equipment.Item.qryBY1xnpWKC9NSk]{Suspenso na Luz}. Liste-o no seu inventário de itens.</p>"
+    },
+    "The Humblest of Tools": {
+      "name": "A Mais Humilde das Ferramentas",
+      "description": "<p>Você parece uma ferramenta ou implemento agrícola simples (role [[/r 1d6]]): (1) foice (1d4), (2) martelo (1d4), (3) panela de ferro fundido (1d4), (4) samovar pesado (1d3), (5) enxada (1d4), ou (6) pá (1d6). Dado um dia e uma noite, seu ferro frio pode fluir como cera macia e se tornar uma ferramenta diferente de tamanho e eficácia similares (ex.: uma chave inglesa, um cano, um ferro de passar, etc.). Além disso, seu portador tem um bônus em testes relevantes quando usa você como ferramenta, permitindo-lhe colher quantidades incríveis de trigo em pouco tempo, ou cozinhar uma sopa incrivelmente boa para impressionar um chef mestre local.</p>"
+    },
+    "The Spear Named Blood Drinker": {
+      "id": "0jY9JnzOpHLrn4Rk",
+      "name": "A Lança Chamada Bebedora de Sangue",
+      "description": "<p>Cada vez que fere um inimigo, ela ruge e ganha +3 em seu próximo ataque. Reinicia quando você troca de inimigo. Usada com duas mãos, causa 1d12 de dano.<br /><em>(Edite o efeito ativo para o bônus de ataque)</em></p><p><strong>Características:</strong> alcance, versátil</p>"
+    },
+    "Third Ear": {
+      "name": "Terceira Orelha",
+      "description": "<p>Ouça a voz do mestre à distância. Bem legal.</p>"
+    },
+    "This Old Thing": {
+      "name": "Essa Coisa Velha",
+      "description": "<p>Uma camiseta de baixo prateada e surrada de eras atrás. Provavelmente não vale muito.</p>"
+    },
+    "Thornstone Obelisk": {
+      "name": "Obelisco de Espinhopedra",
+      "description": "<p><em>Árvore de Lâminas</em></p><p>O petromante derrama seu sangue vital, forçando a semente de coral-terrestre a um crescimento súbito e explosivo. Uma árvore de calcário de 5–8 metros de altura irrompe do chão, causando [[/r 2d6]] de dano a criaturas adjacentes. Qualquer um que se mova através de seu matagal de galhos cortantes sofre [[/r 1d4]] de dano. A velocidade do crescimento mata o coral-terrestre.</p>",
+      "range": "curto (~10m)",
+      "target": "semente de coral-terrestre plantada",
+      "duration": "permanente",
+      "overcharge": "<p>o crescimento é ainda mais violento, causando [[/r 6d6]] de dano a criaturas em um pequeno raio e espalhando o chão com estilhaços de coral-terrestre como aljôfares.</p>"
+    },
+    "Three-Point Immobility": {
+      "name": "Imobilidade de Três Pontos",
+      "description": "<p><em>Escada Celestial, Criar Plataforma Flutuante</em></p><p>O mago ancora manualmente um objeto a três pontos físicos com fios de força-presas. Uma vez ancorado, o objeto fica imóvel—mesmo se suspenso no ar.</p>",
+      "range": "toque",
+      "target": "objeto sólido",
+      "duration": "1 hora",
+      "overcharge": "<p>a amarra é permanente.</p>"
+    },
+    "Throwing Knife": {
+      "name": "Faca de Arremesso",
+      "description": "<p>O clássico shuriken de combate dos Povos da Ferrugem, moradores de becos e outros malandros.</p><p><strong>Características:</strong> oculto</p>"
+    },
+    "Tikker Clicker": {
+      "name": "Clicador Tikker",
+      "description": "<p>Um relógio antigo que vibra e zumbida quando detecta energias corruptoras. Concede bônus contra corrupção.</p>"
+    },
+    "Tinkling Shoes": {
+      "name": "Sapatos Tinindantes",
+      "description": "<p>Sininhos bonitos garantem que você não passará despercebido.</p>"
+    },
+    "Tome of Metal B": {
+      "name": "Tomos do Metal B",
+      "description": "<p>Tomos de poderes inscritos em aço e trovão.</p><p><strong>Características:</strong> álbum</p><p><em><span style=\"text-decoration:underline\">Esta Égide é um álbum de poder com um efeito ativo de bônus de égide</span></em></p>"
+    },
+    "Tonic Harmony": {
+      "name": "Harmonia Tônica",
+      "description": "<p>Aprecie mais sua música! Adquira afinação perfeita e uma garganta dourada.</p>"
+    },
+    "Tooth of the Root Worm": {
+      "name": "Dente do Verme-Raiz",
+      "description": "<p>Você é um pequeno (role [[/r d6]]): (1) canivete, (2) espeto, (3) garra, (4) presa, (5) espinho, ou (6) gancho, feito de osso primordial. Dentro de sua estrutura de favo de mel você pode armazenar uma dose de veneno. Células-servas ou máquinas sussurram, insinuam e empurram dentro de você. Seu portador pode implantá-lo em seu corpo. Agora eles nunca podem perdê-lo! Além disso, ninguém precisa saber que você existe.</p>"
+    },
+    "Toxin Render": {
+      "name": "Destilador de Toxina",
+      "description": "<p><em>Destilação a Diesel do Anão</em></p><p>O mago usa um ritual de 1 hora para convencer animalculas ligadas à noösfera ambiente a juntarem uma saca de resíduos tóxicos e convertê-los em combustível utilizável para veículos ou golems. Corrói motores se usado por períodos prolongados.</p>",
+      "range": "10m",
+      "target": "resíduos tóxicos",
+      "duration": "1 hora",
+      "overcharge": "<p>converte material que não é tóxico ou não é resíduo.</p>"
+    },
+    "Tragic Missile": {
+      "name": "Míssil Trágico",
+      "description": "<p><em>Bólide de Força Guiada Antipessoal, Penetrador Craniano de Cupido</em></p><p>Você visualiza um canal conectando os campos de energia ambiente com o ka-ba de uma entidade que você pode ver. Quando você libera sua visualização, as energias atingem o nexo do espaço mental da entidade, como um míssil teleguiado noösférico. O efeito doloroso causa [[/r 2d4]] de dano mais 2 por nível do alvo. Quanto mais forte ele é, mais duramente a tragédia o atinge. O míssil não deixa marca. Míssil Trágico não pode afetar alvos sem mente e alma.</p>",
+      "range": "médio, ~30–50m",
+      "target": "qualquer coisa com mente e alma",
+      "duration": "instantâneo",
+      "overcharge": "<p>Você visualiza três canais de uma vez, atingindo um único alvo três vezes ou três alvos diferentes.</p>"
+    },
+    "Transfer Gun": {
+      "name": "Arma de Transferência",
+      "description": "<p>Originalmente um dispositivo médico. Transfere um fardo do usuário para o alvo (salvaguarda).</p><p><strong>Características:</strong> curto, recarga 5 [[/r 1d20]], sintonizar, velhatec</p>"
+    },
+    "Travel Deck": {
+      "name": "Baralho de Viagem",
+      "description": "<p>Cartas de portal privadas para 54 grandes casas. Muitas agora são cascas tóxicas.</p>"
+    },
+    "Traveler Kit": {
+      "name": "Kit do Viajante",
+      "description": "<p>Fogão portátil, samovar, cantil, panela de ferro, óleos, sais, especiarias, conchas, pinças, facas e tábua de cortar. Chega de caça crua!</p>"
+    },
+    "Tree-Plug": {
+      "name": "Plugue de Árvore",
+      "description": "<p>Unidade de carregamento fungo-mecânica que extrai energia de árvores inteligentes para alimentar omnibaterias e outros dispositivos. [[/r 1d4]] horas por carga.</p>"
+    },
+    "Tree-Reader": {
+      "name": "Lê-Árvores",
+      "description": "<p>Fale com mais de 30 tipos de árvore!</p>"
+    },
+    "Twelve Sleepy Coins": {
+      "name": "Doze Moedas Sonolentas",
+      "description": "<p>Parecem ouro embrulhado em plástico. Expostas ao ar, sublimam em uma nuvem soporífica. Salvaguarda ou durma.</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]]</p>"
+    },
+    "Twilight Shades": {
+      "name": "Óculos do Crepúsculo",
+      "description": "<p>Wraparounds de visão noturna 360° para boates e florestas profundas.</p>"
+    },
+    "Ultra Ba \"Leapfrog\"": {
+      "name": "Ba Ultra \"Pula-Sapo\"",
+      "description": "<p>Combo de raio-laser e gorrinho que traduz sua personalidade para outro corpo após reduzir o alvo a 0 de vida.</p><p><strong>Características:</strong> curto, recarga 10 [[/r 1d20]], 2M, sintonizar, fantasciência</p>"
+    },
+    "Ultra Blaster": {
+      "name": "Disparador Ultra",
+      "description": "<p>Para uso no vácuo, com bobinas de partículas totalmente blindadas que funcionam até no subespaço das vias-entediantes.<br /><strong>Características:</strong> curto, recarga 1 [[/r 1d20]], cegante, radiante</p>"
+    },
+    "Ultra-Purga": {
+      "name": "Ultrapurgante",
+      "description": "<p>Purgante terrivelmente eficaz. Perda [[/r 2d4]] de vida ou pontos de atributo e igual número de infecções, demônios possuidores e outras afecções danosas.</p>"
+    },
+    "Umbral Panoply": {
+      "name": "Panóplia Umbral",
+      "description": "<p>Tecido de sombra sólida e synthseda.</p><p><strong>Características:</strong> volumoso, fresco, camuflagem</p>"
+    },
+    "Umbrella Gun": {
+      "name": "Guarda-Chuva-Arma",
+      "description": "<p>Protege da chuva e tem um único tiro surpresa.</p><p><strong>Características:</strong> recarga 20.</p>"
+    },
+    "Unarmed Damage": {
+      "name": "Dano Desarmado",
+      "description": "<p><em>(Este item não ocupa espaços de item se estiver equipado)</em></p><p>Se você não tem um item adequado para um tipo de ataque, você pode [quase] sempre fazer um ataque desarmado.</p><p>Exemplos de ataques desarmados: <strong>Corpo a Corpo</strong> - um soco, um chute, uma cabeçada. <strong>À Distância</strong> - um torrão, pedra ou barra de sabão arremessados. <strong>Velhatec</strong> ou outro ataque de inteligência - um truque conveniente, um subterfúgio, uma surpresa mecânica. <strong>Fantasciência</strong> ou outro ataque de carisma - uma fanfarrona terrível, uma maldição severa, um olhar do mal, uma invocação falsa.</p>",
+      "effects": {
+        "Weapon Slot Bonus": {
+          "name": "Bonus de Espaço de Arma"
+        }
+      }
+    },
+    "Unnoticeability Mask": {
+      "name": "Máscara da Imperceptibilidade",
+      "description": "<p>Passe despercebido. Vem com seis rostos predefinidos, incluindo advogado de regras.</p>"
+    },
+    "Ur Gun": {
+      "name": "Ur-Arma",
+      "description": "<p>Você é o ideal platônico da arma. Sua precisão é incomparável. Você se encaixa em qualquer mão como se tivesse sido feito para ela—porque foi. Suas balas condensam-se do reino cármico insubstancial entre o aqui e o não-aqui. Você é o julgamento dos deuses. Você se importa que seu portador perecerá por sua bala providencial? Pode? O que é um mortal comparado ao grande propósito? Qualquer ataque rolado com você é um acerto crítico em um resultado natural 13 ou um natural 20. Se um natural 13 erraria seu alvo pretendido, o acerto crítico atinge o alvo razoável mais próximo (incluindo aliados) em seu lugar.</p>"
+    },
+    "UV Lotion": {
+      "name": "Loção UV",
+      "description": "<p>Protege de radiação astral e concede resistência a dano radiante.</p>"
+    },
+    "Vicious Bird": {
+      "name": "Perverso",
+      "description": "<p>Este pet não é amigo de ninguém. Xinga como um marinheiro estelar.</p><p>@UUID[Compendium.sdm.creatures.Actor.NmWt8PHA0INeZhnO]{Vicious Bird} N1, 6 de vida</p>"
+    },
+    "Vidy Unity Box": {
+      "name": "Caixa de Unidade Vidy",
+      "description": "<p>Holo-peças de Há Muito Muito Tempo, como *O Muro do Lobo Chorão* e *O Templo do Rei Serpente*. Reúne o povo em um brilho azul suave.</p>"
+    },
+    "Vile Recorder": {
+      "name": "Gravador Vil",
+      "description": "<p>Para seu backup atualizado. Implantável.</p><p><strong>Características:</strong> herético</p>"
+    },
+    "Violet Cat Egg": {
+      "name": "Ovo de Gato Violeta",
+      "description": "<p>Purrova do grande favor de um senhor-gato. E de maestria.</p><p><strong>Características:</strong> terra púrpura</p>"
+    },
+    "Violet City Healotion": {
+      "name": "Curaloção da Cidade Violeta",
+      "description": "<p>Restaura [[/r 2d6]] de vida ou 1 ponto de atributo físico.</p>"
+    },
+    "Voice Modulator": {
+      "name": "Modulador de Voz",
+      "description": "<p>Este escaravelho se prende ao seu pescoço com tarsais agarradinhos.</p>"
+    },
+    "Void-Certified Sleeping Bag": {
+      "name": "Saco de Dormir Certificado para Vácuo",
+      "description": "<p>Durma tranquilo, mesmo se sua estrela rápida tiver um vazamento! Roubado.</p>"
+    },
+    "Void Gun": {
+      "name": "Arma do Vácuo",
+      "description": "<p>Fragmentos de navalha de baixo impacto destroçam a carne mas deixam cascos do vácuo intactos. Inútil contra trajes com armadura +5 ou melhor.</p><p><strong>Características:</strong> recarga 3</p>"
+    },
+    "Void Infantry Dissipator": {
+      "name": "Dissipador de Infantaria do Vácuo",
+      "description": "<p>Pavese imponente de cerâmica, aerólito e bobinas crípticas. Qualquer dano acima de 10 se dissipa inofensivamente como um clarão policromático.</p><p><strong>Características:</strong> clarão 10, despedaçar</p>"
+    },
+    "Void Paste": {
+      "name": "Pasta do Vácuo",
+      "description": "<p>Pacotes de comida sempre-fresca™ embalada a vácuo produzida para os viajantes do vácuo de outrora. Absorve umidade ambiente quando aberto. Qualquer umidade.</p>"
+    },
+    "Void Thermos": {
+      "name": "Termos do Vácuo",
+      "description": "<p>Vedações de vácuo perfeito mantêm chá, sopa ou biopasta™ da MÃE quente por uma semana.</p>"
+    },
+    "Voidsuit": {
+      "name": "Traje do Vácuo",
+      "description": "<p>Uma aranha do vácuo lobotomizada, tecida e escavada em uma forma adequada para carregar um humano. </p><p>Ar para 3 dias.</p><p><strong>Características:</strong> volumoso, grande, ambiente, vácuo</p>"
+    },
+
+    "Voyager Supplies": {
+      "name": "Suprimentos de Viajante",
+      "description": "<p>Carne enlatada, cerveja de viagem, aguardente para matar germes e memórias, tralhas inúteis, jornais mal-impressos, meias, goma de mascar e profiláticos. Coisas humanas. Nada além disso.</p>"
+    },
+
+    "Walking Bed": {
+      "name": "Cama Andante",
+      "description": "<p>Uma espécie de golem.</p><p>N1, capacidade 1</p>"
+    },
+    "Walking Stick Sword": {
+      "name": "Espada Bengala",
+      "description": "<p>Elegante. Ajuda a andar. Também, oculta.</p><p><strong>Características:</strong> oculto</p>"
+    },
+    "Wall-Blender": {
+      "name": "Liquidificador de Parede",
+      "description": "<p>Traje camaleão. Quinze tons de cinza e vinte tons de marrom.</p>"
+    },
+    "War Furs": {
+      "name": "Pelagens de Guerra",
+      "description": "<p>Listradas para mostrar força.</p>"
+    },
+    "War Mask": {
+      "name": "Máscara de Guerra",
+      "description": "<p>Uma visão aterradora para assustar inimigos. Um bônus contra medo, também.</p>"
+    },
+    "Water Extractor": {
+      "name": "Extrator de Água",
+      "description": "<p>Extrai toda a umidade de um decímetro cúbico de matéria em menos de um minuto. Garrafa não inclusa. Reutilizável.</p>"
+    },
+    "Water Pills": {
+      "name": "Pílulas de Água",
+      "description": "<p>Purifica o suprimento de água de um dia. Mata insetos. Remove algumas toxinas. Recarrega 2.</p>"
+    },
+    "Watersuit": {
+      "name": "Traje Aquático",
+      "description": "<p>Traje refrigerante de synthpele sobre malha de osso tecida, com sistema de refrigeração e filtração vascular.</p><p><strong>Características:</strong> volumoso, ambiente</p>"
+    },
+    "Weapon of Nobility": {
+      "name": "Arma da Nobreza",
+      "description": "<p>Você representa majestade, cintilante e cruel (role [[/r 1d6]]): (1) espada dourada (1d8), (2) arco brilhante (1d8), (3) cetro de lápis-lazúli (1d8), (4) mangual farpado (1d8), (5) lança de jade (1d10), ou (6) adaga-machado de bronze (1d8). Seu portador é resistente a tudo que é baixo e ignóbil, sofrendo metade do dano da ralé camponesa ou de bandidos. Dito isso, a nobreza está nos olhos de quem vê, então cuidado — seu portador sofre dano duplo de qualquer um que ele acredite ser legitimamente seu superior. Além disso, qualquer criatura baixa ou vil que tocar em você sofre 1d4 de dano e horríveis bolhas se espalham por sua pele.</p>"
+    },
+    "Whiskers": {
+      "name": "Bigodes",
+      "description": "<p>Expandem a mente, aumentam a percepção (inteligência +1), causam um efeito fraco de levitação e coordenação reduzida. Um tanto viciantes—a abstinência causa tremores fortes.</p><p><em>(use efeito ativo para aumentar inteligência)</em></p>"
+    },
+    "White City Matter Creator": {
+      "name": "Criador de Matéria da Cidade Branca",
+      "description": "<p>Este dispositivo espiralado e ondulado duplica [[/r 1d6]] mochilas de matéria à distância.</p><p><strong>Características:</strong> curto, recarga 5 [[/r 1d20]], 2M, sintonizar</p>"
+    },
+    "Wing And Prayer": {
+      "name": "Asa e Prece",
+      "description": "<p><em>Conserto Porco</em></p><p>Use sua fé para consertar um eixo ou tala uma perna. Seu veículo ou montaria ganha temporariamente [[/r 1d8]] de vida e ignora um fardo por um dia, mas depois o dano é pior.</p>",
+      "range": "toque",
+      "target": "veículo ou montaria",
+      "duration": "1 dia",
+      "overcharge": "<p>o conserto dura uma semana; mas o dano depois é ainda pior.</p>"
+    },
+    "S0zXIOaxG7DxgjGo": {
+      "name": "Machado-Martelo do Ghoul de Fios",
+      "description": "<p>Uma coisa de biomáquina morta-viva, coberta de flagelos contorcidos e vômito-ácido. Dano duplo em inimigos fortemente blindados.</p><p><strong>Características:</strong> necrótico</p>"
+    },
+    "Wratosek": {
+      "name": "Wratosek",
+      "description": "<p>Grande espada de duas mãos forjada em metal de nave numa era distante.</p>"
+    },
+    "Wrench Hammer": {
+      "name": "Martelo-Chave Inglesa",
+      "description": "<p>Ferramenta da casta dos mantenedores para portas divinas e escotilhas sagradas. Hoje, uma insígnia do ofício sacerdotal.</p><p><strong>Características:</strong> duas mãos</p>"
+    },
+    "Yellow Cloud": {
+      "name": "Nuvem Amarela",
+      "description": "<p><em>Areias dos Tempos Perdidos</em></p><p>Uma poeira amarela fina e obscurecedora ergue-se do chão e paira no ar. Um véu que nenhuma visão pode perfurar. A poeira irrita os pulmões de respiradores de ar. Após alguns minutos, é levada pelo vento.</p>",
+      "range": "próximo",
+      "target": "um cubo de 9m",
+      "duration": "alguns minutos",
+      "overcharge": "<p>convoca uma parede de poeira cintilante e imóvel medindo 200 metros cúbicos.</p>"
+    },
+    "Yellow Dart": {
+      "name": "Dardo Amarelo",
+      "description": "<p>Lança de metal e osso. Gaste 1 de vida para fazê-la brilhar por uma hora.</p><p><strong>Características:</strong> alcance, 2M</p>"
+    },
+    "Yellow Foresight": {
+      "name": "Previsão Amarela",
+      "description": "<p><em>Visões do Mercador Cauteloso</em></p><p>O mago consome uma saboneteira de açafrão (€10) e medita por 1 hora para escanear as auras na área-alvo. Ele tem uma ideia geral do número de sencientes e do humor geral. Se os sencientes forem muito diferentes do mago, ler o humor pode ser impossível.</p>",
+      "range": "1km",
+      "target": "círculo de 100m de diâmetro",
+      "duration": "0",
+      "overcharge": "<p>consumir uma quantidade perigosa (€100) de açafrão permite ao mago implantar uma atitude positiva em alguns sencientes.</p>"
+    },
+    "Yellow Poncho": {
+      "name": "Poncho Amarelo",
+      "description": "<p>Protege do sol, calor e raios que afetam a mente.</p>"
+    },
+    "OITROVjjKTWaG6Xx": {
+      "name": "Choux Crême de Cérebro-Amarelo",
+      "description": "<p>Concede bônus ao contatar alienígenas, demônios e outras criaturas mentais da noösfera. Pode induzir sonhos visionários. Pode conter tecido cerebral de mentes-estelares.</p>"
+    },
+    "You Go": {
+      "name": "Vai Lá",
+      "description": "<p>Bebida gasosa que permite ignorar um fardo por um dia. Consumo excessivo pode causar petrificação (salvaguarda fácil depois da 2ª lata, médio depois da 3ª, etc.)!</p>"
+    },
+    "Zu Helmet": {
+      "name": "Elmo Zu",
+      "description": "<p>Ele recebe vozes do além. Geme com as vozes do deserto e da montanha. Permite que você fale com fantasmas e aparições.</p>"
+    },
+    "Zunkwaffel Wandgun": {
+      "name": "Varinha-Arma Zunkwaffel",
+      "description": "<p>A pistola de supressão de mortos-vivos interrompe temporariamente sua força animadora (salvaguarda ou nocauteado por um minuto).</p><p><strong>Características:</strong> recarga 3</p>"
+    }
+  }
 }
