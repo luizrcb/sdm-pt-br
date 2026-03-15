@@ -22,7 +22,7 @@
         "id": "sdm",
         "type": "system",
         "compatibility": {
-          "minimum": "0.5.6"
+          "minimum": "0.13.0"
         }
       }
     ],

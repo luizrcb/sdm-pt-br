@@ -1,0 +1,57 @@
+{
+  "label": "Fardos",
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
+  },
+  "entries": {
+    "Nauseating": {
+      "name": "Nauseante",
+      "description": "<p>-1 rapidez</p>",
+      "effects": {
+        "-1 agility": {
+          "name": "-1 rapidez"
+        }
+      }
+    },
+    "Defacing": {
+      "name": "Desfigurante",
+      "description": "<p>-1 carisma</p>",
+      "effects": {
+        "-1 charisma": {
+          "name": "-1 carisma"
+        }
+      }
+    },
+    "Weakness": {
+      "name": "Fraqueza",
+      "description": "<p>-1 força</p>",
+      "effects": {
+        "-1 strength": {
+          "name": "-1 força"
+        }
+      }
+    },
+    "Brain injury": {
+      "name": "Lesão cerebral",
+      "description": "<p>-1 inteligência</p>",
+      "effects": {
+        "-1 thought": {
+          "name": "-1 inteligência"
+        }
+      }
+    },
+    "Wear and tear": {
+      "name": "Desgaste",
+      "description": "<p>Sua vida máxima é reduzida pelo seu nível.<br />(<em>Edite o valor com seu nível na aba de efeitos ativos)</em></p>",
+      "effects": {
+        "Wear and tear": {
+          "name": "Desgaste"
+        }
+      }
+    }
+  }
+}

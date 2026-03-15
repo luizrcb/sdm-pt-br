@@ -1,0 +1,223 @@
+{
+  "label": "Tabelas de Corrupção Mágica",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "customTableResults"
+    }
+  },
+  "entries": {
+    "Severe Corruption": {
+      "name": "Corrupção Severa",
+      "description": "Violentemente doente. Perde [[/r 1d6]] pontos de atributo. Ao longo de algumas horas, reduz permanentemente um atributo em 1 e ganha um novo traço.",
+      "results": {
+        "1-1": {
+          "name": "Apenas ossos restam. Você agora é um esqueleto do caos."
+        },
+        "2-2": {
+          "name": "Ossos tornam-se moles ou quebradiços. Prognóstico gelatinoso."
+        },
+        "3-3": {
+          "name": "Olhos colapsam e evaporam, deixando órbitas que veem a luz astral."
+        },
+        "4-4": {
+          "name": "Costas encurvam, fundem-se, transformando-se em uma carapaça semelhante a uma concha ao longo de algumas semanas."
+        },
+        "5-5": {
+          "name": "Ossos estranhos erupcionam em espinhos e agulhas, perfurando a pele."
+        },
+        "6-6": {
+          "name": "Cabelo desenvolve-se em tentáculos queratinosos semelhantes a cordas. Não exatamente cobras."
+        },
+        "7-7": {
+          "name": "Infundido com o vazio, sombras permanentemente envolvem o personagem."
+        },
+        "8-8": {
+          "name": "Dentes caem ou tornam-se afiados como agulhas. Clique-claque."
+        },
+        "9-9": {
+          "name": "A mão murcha e se transforma em uma garra semelhante a adaga (1d4 de dano)."
+        },
+        "10-10": {
+          "name": "A pele apodrece e desenvolve furúnculos supurantes. Seus fluidos podem servir como tinta."
+        },
+        "11-11": {
+          "name": "Cérebro secundário. Ele lentamente desenvolve pensamento independente."
+        },
+        "12-12": {
+          "name": "Extremidades inferiores transformam-se em cascos, patas ou pés de ave."
+        },
+        "13-13": {
+          "name": "Personalidade torna-se alienígena, oblíqua, ortogonal à humanidade."
+        },
+        "14-14": {
+          "name": "Asas ou flagelos. Eles crescem capazes de voar ao longo de algumas semanas."
+        },
+        "15-15": {
+          "name": "Secreta fluidos corrosivos, arruinando roupas e corroendo metais."
+        },
+        "16-16": {
+          "name": "Metabolismo vampírico estranho. Consuma órgãos incomuns para prosperar."
+        },
+        "17-17": {
+          "name": "Forma secundária. Como o Hyde de Jekyll ou o lobisomem."
+        },
+        "18-18": {
+          "name": "Vomite três órgãos remotos. Um vê, um ouve, um é mais estranho. Se um for destruído, perca permanentemente 1 vida."
+        },
+        "19-19": {
+          "name": "Imortal. Mas não indecaindo. Isso se torna terrível em algumas décadas sem peças de reposição."
+        },
+        "20-20": {
+          "name": "Evolução psiônica. Adquira um poder mágico como traço inato."
+        }
+      }
+    },
+    "Moderate Corruption": {
+      "name": "Corrupção Moderada",
+      "description": "Visões terríveis. Perde [[/r 1d6]] de vida. Ao longo de um dia e uma noite, ganha um novo traço.",
+      "results": {
+        "1-1": {
+          "name": "O rosto cai... Deixando um crânio vivo e sorridente."
+        },
+        "2-2": {
+          "name": "Carne e pele tornam-se cerosas e translúcidas."
+        },
+        "3-3": {
+          "name": "Articulações tornam-se mais fracas, porém hipermóveis."
+        },
+        "4-4": {
+          "name": "Orelhas murcham ou transformam-se em chifres ósseos. Ou tentáculos."
+        },
+        "5-5": {
+          "name": "Língua fundida à mandíbula ou coberta por rádulas afiadas. A fala é estranha."
+        },
+        "6-6": {
+          "name": "Novo braço vestigial ou cauda. Torna-se funcional ao longo de algumas semanas."
+        },
+        "7-7": {
+          "name": "Olhos tornam-se leitosos e cegos. Apenas a luz ultravioleta permanece visível."
+        },
+        "8-8": {
+          "name": "Dedos murcham, tornam-se crus, até que apenas ossos mortos-vivos restem."
+        },
+        "9-9": {
+          "name": "Brânquias ou órgãos respiratórios gasosos. Eles são funcionais após algumas semanas."
+        },
+        "10-10": {
+          "name": "Cresce mais alto ou mais baixo. Possivelmente muito mais alto ou mais baixo."
+        },
+        "11-11": {
+          "name": "Voz torna-se pós-humana. Uma cascata de cores e sensações."
+        },
+        "12-12": {
+          "name": "Pele torna-se padronizada, cambiante, como camaleão ou lula."
+        },
+        "13-13": {
+          "name": "Pequenos chifres ou placas cobrem a pele, como armadura."
+        },
+        "14-14": {
+          "name": "Traços e crânio tornam-se bestiais. Lupino, vulpino, ursino, o que seja."
+        },
+        "15-15": {
+          "name": "Corpo torna-se mais volumoso ou grácil, como se adaptando a uma gravidade alienígena."
+        },
+        "16-16": {
+          "name": "Órgão alienígena. Ativa-se na morte, revivendo uma versão do personagem."
+        },
+        "17-17": {
+          "name": "Sentido estranho: vibração, ecolocalização, eletricidade ou magnetismo."
+        },
+        "18-18": {
+          "name": "Aumento laboral: não se aborrece mais com tarefas maçantes e repetitivas."
+        },
+        "19-19": {
+          "name": "Mula. Pode carregar o dobro do normal. Pode também parecer um pouco asinino."
+        },
+        "20-20": {
+          "name": "Infundido com esporos cintilantes, você agora brilha."
+        }
+      }
+    },
+    "Mild Corruption": {
+      "name": "Corrupção Leve",
+      "description": "Você se sente bem. Possivelmente eufórico. Ao longo de uma semana e um dia, ganha um novo traço.",
+      "results": {
+        "1-1": {
+          "name": "Separada de você, sua carne rasteja como algo com vontade própria (Nv1, proteano)."
+        },
+        "2-2": {
+          "name": "Boca alarga-se de orelha a orelha ou quase desaparece."
+        },
+        "3-3": {
+          "name": "Dedos das mãos e pés vestigiais crescem. Tornam-se funcionais em algumas semanas."
+        },
+        "4-4": {
+          "name": "Cor da pele ou cabelo torna-se estranha e não natural."
+        },
+        "5-5": {
+          "name": "Crânio torna-se mais redondo ou mais alongado. Olhos crescem."
+        },
+        "6-6": {
+          "name": "Lábios, nariz ou orelhas crescem ou desaparecem."
+        },
+        "7-7": {
+          "name": "Uma bioarma oculta cresce em seu corpo (ataque for ou rapidez, 1d6 dano)."
+        },
+        "8-8": {
+          "name": "Olhos mudam de cor ou forma, tornando-se radicalmente esquisitos."
+        },
+        "9-9": {
+          "name": "Um dedo ou outro pequeno apêndice desaparece e você ganha 1 vida. Sacrifique mais dois para ganhar +1 vida."
+        },
+        "10-10": {
+          "name": "Cabelo desaparece ou torna-se volumoso e onipresente."
+        },
+        "11-11": {
+          "name": "Dedos tornam-se conjuntos de ferramentas alongados de quitina e osso."
+        },
+        "12-12": {
+          "name": "Pode digerir todas as substâncias orgânicas e ganha imunidade à maioria das toxinas."
+        },
+        "13-13": {
+          "name": "Sangue muda de cor, tornando-se azul ou verde. Ganha 1 de resistência."
+        },
+        "14-14": {
+          "name": "Músculos tornam-se extremamente esguios ou volumosos. Ganha 1 de força ou rapidez."
+        },
+        "15-15": {
+          "name": "Um sentido torna-se incrivelmente aguçado e sensível. E vulnerável."
+        },
+        "16-16": {
+          "name": "Tele-empata, como um gato. Ganha 1 de aura."
+        },
+        "17-17": {
+          "name": "Rotinas secundárias de raciocínio, como um golem. Ganha 1 de inteligência."
+        },
+        "18-18": {
+          "name": "Aumento nobre: saúde, beleza e autoridade. Ganha 1 de carisma."
+        },
+        "19-19": {
+          "name": "Lampejos precognitivos. Inofensivos, mas pode gastar 1 dado de herói por sessão para anular completamente qualquer rolagem."
+        },
+        "20-20": {
+          "name": "Visões de uma verdade superior. Você sabe que vive em um inferno sintético, não um verdadeiro céu. Ganha +1 em todas as salvaguardas."
+        }
+      }
+    },
+    "Corruption Intensity": {
+      "name": "Intensidade da Corrupção",
+      "results": {
+        "1-1": {
+          "name": "Corrupção Severa"
+        },
+        "2-3": {
+          "name": "Corrupção Moderada"
+        },
+        "4-6": {
+          "name": "Corrupção Leve"
+        }
+      }
+    }
+  }
+}

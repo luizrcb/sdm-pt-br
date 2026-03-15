@@ -1,0 +1,167 @@
+{
+  "label": "Tabela de Motivos",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "customTableResults"
+    }
+  },
+  "entries": {
+    "QNrZVnSF2iayOOIy": {
+      "name": "Motivos",
+      "description": "<p>Por que deixar para trás o adorável sobretudo de cimento da tradição e da cidade?</p><p>Por que abandonar o abraço da hierarquia e o rigor da etiqueta?</p><p>Por que partir para as terras devastadas, as terras estranhas, as Terras Vastas?</p>",
+      "results": {
+        "1-1": {
+          "name": "Enviado por uma corporação sinistra."
+        },
+        "2-2": {
+          "name": "Glória, como nos grandes romances românticos."
+        },
+        "3-3": {
+          "name": "Memórias de sangue de um grande patrimônio."
+        },
+        "4-4": {
+          "name": "Rastreando um livro-caixa perdido."
+        },
+        "5-5": {
+          "name": "Buscando novos conversos."
+        },
+        "6-6": {
+          "name": "Rumores de uma fábrica automática fabulosa."
+        },
+        "7-7": {
+          "name": "Encontrou pista sobre abmortalidade."
+        },
+        "8-8": {
+          "name": "Ordenado por uma voz desencarnada ameaçadora."
+        },
+        "9-9": {
+          "name": "Mapa para um aerólito não reivindicado."
+        },
+        "10-10": {
+          "name": "Alma de um ente querido roubada por um horror."
+        },
+        "11-11": {
+          "name": "Histórias de um vegetal curativo secreto."
+        },
+        "12-12": {
+          "name": "Presságios de um demônio máquina mortal."
+        },
+        "13-13": {
+          "name": "Pinturas de um litoral ciano deslumbrante."
+        },
+        "14-14": {
+          "name": "Perseguido por inimigos amorosos."
+        },
+        "15-15": {
+          "name": "O autocarro perdido da avó."
+        },
+        "16-16": {
+          "name": "Irmão foi transformado em um ba-zumbi."
+        },
+        "17-17": {
+          "name": "Mestre ossuário enviou um convite."
+        },
+        "18-18": {
+          "name": "Entregando uma carta de herança a um conde."
+        },
+        "19-19": {
+          "name": "Cura para uma praga que matou seu filho."
+        },
+        "20-20": {
+          "name": "Bíblia biomântica em uma biblioteca perdida."
+        },
+        "21-21": {
+          "name": "Paganco dívidas ao banco açougueiro."
+        },
+        "22-22": {
+          "name": "Visões de um mundo acabando em fogo caindo."
+        },
+        "23-23": {
+          "name": "Carregando uma pérola inestimável para uma princesa."
+        },
+        "24-24": {
+          "name": "Rastreando um intruso vil do vácuo."
+        },
+        "25-25": {
+          "name": "Mente entrelaçada com uma senciência morrendo."
+        },
+        "26-26": {
+          "name": "Sonhos noturnos de um mundo perdido."
+        },
+        "27-27": {
+          "name": "Buscando um corpo protético para a mãe."
+        },
+        "28-28": {
+          "name": "Ordenado pelo golem de missões do clã."
+        },
+        "29-29": {
+          "name": "Monitorando um explorador rival."
+        },
+        "30-30": {
+          "name": "Explorando pistas para o grande esquecimento."
+        },
+        "31-31": {
+          "name": "Possuído por um demônio na infância."
+        },
+        "32-32": {
+          "name": "Buscando aliados para uma revolução."
+        },
+        "33-33": {
+          "name": "Procurando novas terras para uma tribo perdida."
+        },
+        "34-34": {
+          "name": "Compulsão após conhecer uma vidente."
+        },
+        "35-35": {
+          "name": "Pura ganância industrial."
+        },
+        "36-36": {
+          "name": "Determinado a acabar com uma doença debilitante."
+        },
+        "37-37": {
+          "name": "Encontrou o testamento de um deus morto."
+        },
+        "38-38": {
+          "name": "Perseguido por fúrias e um destino sombrio."
+        },
+        "39-39": {
+          "name": "Visões de glória e renascimento."
+        },
+        "40-40": {
+          "name": "Desconforto estranho após ler um livro de metal."
+        },
+        "41-41": {
+          "name": "Experiência de um surto trágico de vômito."
+        },
+        "42-42": {
+          "name": "Seu clone envelhecido sussurrou profecias."
+        },
+        "43-43": {
+          "name": "Estrela alucinatória, guiando, levando para o Oeste."
+        },
+        "44-44": {
+          "name": "Canções no sangue de um herdeiro do Deus da Carne."
+        },
+        "45-45": {
+          "name": "Manual místico falava de uma oficina divina."
+        },
+        "46-46": {
+          "name": "Mensageiro pós-mortal deu uma chave portal."
+        },
+        "47-47": {
+          "name": "Tédio profundo em uma ordem imutável."
+        },
+        "48-48": {
+          "name": "Juramento de um avô moribundo a uma rainha de laca."
+        },
+        "49-49": {
+          "name": "Promessa de levar as cinzas de um amigo ao último mar."
+        },
+        "50-50": {
+          "name": "Ordem de busca onírica para destruir um anel invisível."
+        }
+      }
+    }
+  }
+}

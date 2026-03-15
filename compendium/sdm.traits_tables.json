@@ -1,0 +1,425 @@
+{
+  "label": "Tabelas de Traços",
+  "folders": {
+    "Background Traits": "Traços de Antecedente",
+    "Path Traits": "Traços de Caminho"
+  },
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "customTableResults"
+    }
+  },
+  "entries": {
+    "Background Traits 1d40": {
+      "name": "Traços de Antecedente 1d40",
+      "results": {
+        "1-1": {
+          "name": "Terras Azuis narco boticário",
+          "description": "Tarefa: misturar poções, venenos, drogas|Ênfase: viagem onírica movida a drogas"
+        },
+        "2-2": {
+          "name": "Deus Morto erudito do Longínquo Passado",
+          "description": "Tarefa: explorar o falso passado dos tempos perdidos|Ênfase: acrobacias psicocinéticas"
+        },
+        "3-3": {
+          "name": "Pacificador caça grossa turista",
+          "description": "Tarefa: encontrar e apreciar feras estranhas|Ênfase: orar, amar, comer monstros?"
+        },
+        "4-4": {
+          "name": "Lua bio mecânico",
+          "description": "Tarefa: modificar e criar seres vivos|Ênfase: tecnomagia de horror corporal"
+        },
+        "5-5": {
+          "name": "Costeiro tratador de gatos",
+          "description": "Tarefa: fazer gatos [ou outros mestres] felizes|Ênfase: guarda-costas mascote contratado"
+        },
+        "6-6": {
+          "name": "Catador químico universal",
+          "description": "Tarefa: manipular os iks básicos da matéria|Ênfase: filosofias explosivas"
+        },
+        "7-7": {
+          "name": "Terras Púrpuras terapeuta barista",
+          "description": "Tarefa: fazer café e fazer paz|Ênfase: expertise de pequenos negócios"
+        },
+        "8-8": {
+          "name": "Felino censor de erros",
+          "description": "Tarefa: prevenir maus‑pensamentos, corrigir erros|Ênfase: táticas inquisitoriais"
+        },
+        "9-9": {
+          "name": "Plantação performer de marionetes",
+          "description": "Tarefa: desfazer o tédio, criar alegria moderada|Ênfase: distração ou destruição?"
+        },
+        "10-10": {
+          "name": "Estepe cantor da madeira",
+          "description": "Tarefa: moldar plantas, esculpir móveis|Ênfase: falar com árvores, ouvir ervas"
+        },
+        "11-11": {
+          "name": "Cidade Violeta lapidário vivo",
+          "description": "Tarefa: moldar pedra, cantar casas|Ênfase: carregar coral‑terra na pele"
+        },
+        "12-12": {
+          "name": "Terras Vermelhas agricultor aquático",
+          "description": "Tarefa: proteínas e frutos das águas|Ênfase: falar com peixes estranhos"
+        },
+        "13-13": {
+          "name": "Vampiro invocador da nöosfera",
+          "description": "Tarefa: falar com os demônios do arquivo oculto|Ênfase: acessar comunicações divinas"
+        },
+        "14-14": {
+          "name": "Ferrugem fabricante de armas",
+          "description": "Tarefa: forjar ferramentas proibidas do Longínquo Passado|Ênfase: reconstruir dispositivos ilegais"
+        },
+        "15-15": {
+          "name": "Vinicultor trabalhador da terra",
+          "description": "Tarefa: otimizar a produção primária|Ênfase: entender os fundamentos da sobrevivência"
+        },
+        "16-16": {
+          "name": "Distrito das Terras Vermelhas gerador de vida",
+          "description": "Tarefa: criar conteúdo humano envolvente|Ênfase: girar histórias e mentiras"
+        },
+        "17-17": {
+          "name": "Hexad sanitarista da cidade",
+          "description": "Tarefa: manter a cidade limpa e viva|Ênfase: viajar oculto nas entranhas urbanas"
+        },
+        "18-18": {
+          "name": "Cabeça de Cão invocador de daimons",
+          "description": "Tarefa: interagir com mentes desencarnadas|Ênfase: manipular as velhas mentes"
+        },
+        "19-19": {
+          "name": "Terras Laranjas encantador de mulas",
+          "description": "Tarefa: interagir com mentes de corpos animais|Ênfase: elevar animais oprimidos"
+        },
+        "20-20": {
+          "name": "Meio‑linga oficial herbalista",
+          "description": "Tarefa: garantir a harmonia pública adequada|Ênfase: nublar mentes para objetivos comuns"
+        },
+        "21-21": {
+          "name": "Conselho advogado necromante",
+          "description": "Tarefa: defender os direitos legais pós‑morte|Ênfase: assegurar a reencarnação adequada"
+        },
+        "22-22": {
+          "name": "Ancestral técnico antigo",
+          "description": "Tarefa: entoar os mantras da manutenção|Ênfase: usar ferramentas do Longínquo Passado"
+        },
+        "23-23": {
+          "name": "Agente engenheiro golem",
+          "description": "Tarefa: manter os humanos‑máquina funcionando|Ênfase: servir os senhores elétricos"
+        },
+        "24-24": {
+          "name": "Pirata gerente intermediário",
+          "description": "Tarefa: atribuir designações designadas|Ênfase: navegar em burocracias cruéis"
+        },
+        "25-25": {
+          "name": "Planalto andarilho da estrada",
+          "description": "Tarefa: manter as estradas vivas e respeitadas|Ênfase: viajar seguro fora da rede"
+        },
+        "26-26": {
+          "name": "Terras Amarelas detetive particular",
+          "description": "Tarefa: observar, ouvir e relatar às autoridades|Ênfase: descobrir e guardar segredos sombrios"
+        },
+        "27-27": {
+          "name": "Anã Volkan a Diesel mercador licenciado",
+          "description": "Tarefa: transportar e barganhar pelo bem maior|Ênfase: maximizar ganhos imediatos"
+        },
+        "28-28": {
+          "name": "Decapolitano soldado do protocolo",
+          "description": "Tarefa: manter vivas as tradições marciais|Ênfase: cruzar etiqueta minuciosa e rigor militar"
+        },
+        "29-29": {
+          "name": "Safraniano general astrólogo",
+          "description": "Tarefa: divinar estratégias a partir das estrelas|Ênfase: manter ordem e disciplina"
+        },
+        "30-30": {
+          "name": "Cavaleiro de Contas monge contador",
+          "description": "Tarefa: garantir que os números sagrados subam|Ênfase: manter a flor de engrenagem girando"
+        },
+        "31-31": {
+          "name": "Deserto Dourado pastor de máquinas",
+          "description": "Tarefa: manter os rebanhos sintéticos em ordem|Ênfase: lubrificar e multiplicar máquinas"
+        },
+        "32-32": {
+          "name": "Terras Verdes promotor de conteúdo",
+          "description": "Tarefa: popularizar o mais novo entretenimento|Ênfase: apagar ideias falsas"
+        },
+        "33-33": {
+          "name": "Metropolitano servo publicitário",
+          "description": "Tarefa: promover o lucro corporativo|Ênfase: subterfúgio subversivo"
+        },
+        "34-34": {
+          "name": "Elfeiro enfermeiro autodoc",
+          "description": "Tarefa: apoiar um golem mais esperto que você|Ênfase: parasitar mentes‑máquina"
+        },
+        "35-35": {
+          "name": "Falsário consumidor profissional",
+          "description": "Tarefa: encarnar a ética apropriada|Ênfase: desenvolver gosto requintado"
+        },
+        "36-36": {
+          "name": "Perdido no Tempo maximizador do lazer",
+          "description": "Tarefa: aproveitar os frutos da civilização|Ênfase: socialite bajulador e espião"
+        },
+        "37-37": {
+          "name": "Astral comerciante ladino",
+          "description": "Tarefa: contornar as regras pelo lucro|Ênfase: raspar moedas por memórias"
+        },
+        "38-38": {
+          "name": "Ministério andarilho espetacular",
+          "description": "Tarefa: servir de aviso aos preguiçosos|Ênfase: rato de túnel apagado"
+        },
+        "39-39": {
+          "name": "Bárbaro nobre primário",
+          "description": "Tarefa: focar aspirações e desejos sociais|Ênfase: subverter a ordem estabelecida"
+        },
+        "40-40": {
+          "name": "Andarilho do Vazio parente público",
+          "description": "Tarefa: compartilhar amor social e vibrações|Ênfase: abrir portas com seu sangue"
+        }
+      }
+    },
+    "Background Traits 5d40": {
+      "name": "Traços de Antecedente 5d40",
+      "results": {
+        "C6FCSpPl9SWcAOVC": {
+          "name": "Temas"
+        },
+        "GvypELuGagApRtZK": {
+          "name": "Papel 1"
+        },
+        "bNjewWCwMUAHVXoE": {
+          "name": "Papel 2"
+        },
+        "4yGXitbYbDm9ULVE": {
+          "name": "Tarefas"
+        },
+        "5qt64pxqGMz4tvaa": {
+          "name": "Ênfases"
+        }
+      }
+    },
+    "Flavors": {
+      "name": "Temas",
+      "results": {
+        "1-1": { "name": "Terras Azuis" },
+        "2-2": { "name": "Deus Morto" },
+        "3-3": { "name": "Pacificador" },
+        "4-4": { "name": "Lua" },
+        "5-5": { "name": "Costeiro" },
+        "6-6": { "name": "Catador" },
+        "7-7": { "name": "Terras Púrpuras" },
+        "8-8": { "name": "Felino" },
+        "9-9": { "name": "Plantação" },
+        "10-10": { "name": "Estepe" },
+        "11-11": { "name": "Cidade Violeta" },
+        "12-12": { "name": "Terras Vermelhas" },
+        "13-13": { "name": "Vampiro" },
+        "14-14": { "name": "Ferrugem" },
+        "15-15": { "name": "Vinicultor" },
+        "16-16": { "name": "Distrito das Terras Vermelhas" },
+        "17-17": { "name": "Hexad" },
+        "18-18": { "name": "Cabeça de Cão" },
+        "19-19": { "name": "Terras Laranjas" },
+        "20-20": { "name": "Meio‑linga" },
+        "21-21": { "name": "Conselho" },
+        "22-22": { "name": "Ancestral" },
+        "23-23": { "name": "Agente" },
+        "24-24": { "name": "Pirata" },
+        "25-25": { "name": "Planalto" },
+        "26-26": { "name": "Terras Amarelas" },
+        "27-27": { "name": "Anã Volkan a Diesel" },
+        "28-28": { "name": "Decapolitano" },
+        "29-29": { "name": "Safraniano" },
+        "30-30": { "name": "Cavaleiro de Contas" },
+        "31-31": { "name": "Deserto Dourado" },
+        "32-32": { "name": "Terras Verdes" },
+        "33-33": { "name": "Metropolitano" },
+        "34-34": { "name": "Elfeiro" },
+        "35-35": { "name": "Falsário" },
+        "36-36": { "name": "Perdido no Tempo" },
+        "37-37": { "name": "Astral" },
+        "38-38": { "name": "Ministério" },
+        "39-39": { "name": "Bárbaro" },
+        "40-40": { "name": "Andarilho do Vazio" }
+      }
+    },
+    "Role 1": {
+      "name": "Papel 1",
+      "results": {
+        "1-1": { "name": "narco" },
+        "2-2": { "name": "erudito" },
+        "3-3": { "name": "caça grossa" },
+        "4-4": { "name": "bio" },
+        "5-5": { "name": "tratador" },
+        "6-6": { "name": "químico" },
+        "7-7": { "name": "terapeuta" },
+        "8-8": { "name": "censor" },
+        "9-9": { "name": "performer" },
+        "10-10": { "name": "cantor" },
+        "11-11": { "name": "lapidário" },
+        "12-12": { "name": "agricultor" },
+        "13-13": { "name": "invocador" },
+        "14-14": { "name": "fabricante" },
+        "15-15": { "name": "trabalhador" },
+        "16-16": { "name": "gerador" },
+        "17-17": { "name": "sanitarista" },
+        "18-18": { "name": "invocador" },
+        "19-19": { "name": "encantador" },
+        "20-20": { "name": "oficial" },
+        "21-21": { "name": "advogado" },
+        "22-22": { "name": "técnico" },
+        "23-23": { "name": "engenheiro" },
+        "24-24": { "name": "gerente" },
+        "25-25": { "name": "andarilho" },
+        "26-26": { "name": "detetive" },
+        "27-27": { "name": "mercador" },
+        "28-28": { "name": "soldado" },
+        "29-29": { "name": "general" },
+        "30-30": { "name": "monge" },
+        "31-31": { "name": "pastor" },
+        "32-32": { "name": "promotor" },
+        "33-33": { "name": "servo" },
+        "34-34": { "name": "enfermeiro" },
+        "35-35": { "name": "consumidor" },
+        "36-36": { "name": "maximizador" },
+        "37-37": { "name": "comerciante" },
+        "38-38": { "name": "andarilho" },
+        "39-39": { "name": "nobre" },
+        "40-40": { "name": "parente" }
+      }
+    },
+    "Role 2": {
+      "name": "Papel 2",
+      "results": {
+        "1-1": { "name": "boticário" },
+        "2-2": { "name": "do Longínquo Passado" },
+        "3-3": { "name": "turista" },
+        "4-4": { "name": "mecânico" },
+        "5-5": { "name": "de gatos" },
+        "6-6": { "name": "universal" },
+        "7-7": { "name": "barista" },
+        "8-8": { "name": "de erros" },
+        "9-9": { "name": "de marionetes" },
+        "10-10": { "name": "da madeira" },
+        "11-11": { "name": "vivo" },
+        "12-12": { "name": "aquático" },
+        "13-13": { "name": "da nöosfera" },
+        "14-14": { "name": "de armas" },
+        "15-15": { "name": "da terra" },
+        "16-16": { "name": "de vida" },
+        "17-17": { "name": "da cidade" },
+        "18-18": { "name": "de daimons" },
+        "19-19": { "name": "de mulas" },
+        "20-20": { "name": "herbalista" },
+        "21-21": { "name": "necromante" },
+        "22-22": { "name": "antigo" },
+        "23-23": { "name": "golem" },
+        "24-24": { "name": "intermediário" },
+        "25-25": { "name": "da estrada" },
+        "26-26": { "name": "particular" },
+        "27-27": { "name": "licenciado" },
+        "28-28": { "name": "do protocolo" },
+        "29-29": { "name": "astrólogo" },
+        "30-30": { "name": "contador" },
+        "31-31": { "name": "de máquinas" },
+        "32-32": { "name": "de conteúdo" },
+        "33-33": { "name": "publicitário" },
+        "34-34": { "name": "autodoc" },
+        "35-35": { "name": "profissional" },
+        "36-36": { "name": "do lazer" },
+        "37-37": { "name": "ladino" },
+        "38-38": { "name": "espetacular" },
+        "39-39": { "name": "primário" },
+        "40-40": { "name": "público" }
+      }
+    },
+    "Spins": {
+      "name": "Ênfases",
+      "results": {
+        "1-1": { "name": "viagem onírica movida a drogas" },
+        "2-2": { "name": "acrobacias psicocinéticas" },
+        "3-3": { "name": "orar, amar, comer monstros?" },
+        "4-4": { "name": "tecnomagia de horror corporal" },
+        "5-5": { "name": "guarda-costas mascote contratado" },
+        "6-6": { "name": "filosofias explosivas" },
+        "7-7": { "name": "expertise de pequenos negócios" },
+        "8-8": { "name": "táticas inquisitoriais" },
+        "9-9": { "name": "distração ou destruição?" },
+        "10-10": { "name": "falar com árvores, ouvir ervas" },
+        "11-11": { "name": "carregar coral‑terra na pele" },
+        "12-12": { "name": "falar com peixes estranhos" },
+        "13-13": { "name": "acessar comunicações divinas" },
+        "14-14": { "name": "reconstruir dispositivos ilegais" },
+        "15-15": { "name": "entender os fundamentos da sobrevivência" },
+        "16-16": { "name": "girar histórias e mentiras" },
+        "17-17": { "name": "viajar oculto nas entranhas urbanas" },
+        "18-18": { "name": "manipular as velhas mentes" },
+        "19-19": { "name": "elevar animais oprimidos" },
+        "20-20": { "name": "nublar mentes para objetivos comuns" },
+        "21-21": { "name": "assegurar a reencarnação adequada" },
+        "22-22": { "name": "usar ferramentas do Longínquo Passado" },
+        "23-23": { "name": "servir os senhores elétricos" },
+        "24-24": { "name": "navegar em burocracias cruéis" },
+        "25-25": { "name": "viajar seguro fora da rede" },
+        "26-26": { "name": "descobrir e guardar segredos sombrios" },
+        "27-27": { "name": "maximizar ganhos imediatos" },
+        "28-28": { "name": "cruzar etiqueta minuciosa e rigor militar" },
+        "29-29": { "name": "manter ordem e disciplina" },
+        "30-30": { "name": "manter a flor de engrenagem girando" },
+        "31-31": { "name": "lubrificar e multiplicar máquinas" },
+        "32-32": { "name": "apagar ideias falsas" },
+        "33-33": { "name": "subterfúgio subversivo" },
+        "34-34": { "name": "parasitar mentes‑máquina" },
+        "35-35": { "name": "desenvolver gosto requintado" },
+        "36-36": { "name": "socialite bajulador e espião" },
+        "37-37": { "name": "raspar moedas por memórias" },
+        "38-38": { "name": "rato de túnel apagado" },
+        "39-39": { "name": "subverter a ordem estabelecida" },
+        "40-40": { "name": "abrir portas com seu sangue" }
+      }
+    },
+    "Tasks": {
+      "name": "Tarefas",
+      "results": {
+        "1-1": { "name": "misturar poções, venenos, drogas" },
+        "2-2": { "name": "explorar o falso passado dos tempos perdidos" },
+        "3-3": { "name": "encontrar e apreciar feras estranhas" },
+        "4-4": { "name": "modificar e criar seres vivos" },
+        "5-5": { "name": "fazer gatos [ou outros mestres] felizes" },
+        "6-6": { "name": "manipular os iks básicos da matéria" },
+        "7-7": { "name": "fazer café e fazer paz" },
+        "8-8": { "name": "prevenir maus‑pensamentos, corrigir erros" },
+        "9-9": { "name": "desfazer o tédio, criar alegria moderada" },
+        "10-10": { "name": "moldar plantas, esculpir móveis" },
+        "11-11": { "name": "moldar pedra, cantar casas" },
+        "12-12": { "name": "proteínas e frutos das águas" },
+        "13-13": { "name": "falar com os demônios do arquivo oculto" },
+        "14-14": { "name": "forjar ferramentas proibidas do Longínquo Passado" },
+        "15-15": { "name": "otimizar a produção primária" },
+        "16-16": { "name": "criar conteúdo humano envolvente" },
+        "17-17": { "name": "manter a cidade limpa e viva" },
+        "18-18": { "name": "interagir com mentes desencarnadas" },
+        "19-19": { "name": "interagir com mentes de corpos animais" },
+        "20-20": { "name": "garantir a harmonia pública adequada" },
+        "21-21": { "name": "defender os direitos legais pós‑morte" },
+        "22-22": { "name": "entoar os mantras da manutenção" },
+        "23-23": { "name": "manter os humanos‑máquina funcionando" },
+        "24-24": { "name": "atribuir designações designadas" },
+        "25-25": { "name": "manter as estradas vivas e respeitadas" },
+        "26-26": { "name": "observar, ouvir e relatar às autoridades" },
+        "27-27": { "name": "transportar e barganhar pelo bem maior" },
+        "28-28": { "name": "manter vivas as tradições marciais" },
+        "29-29": { "name": "divinar estratégias a partir das estrelas" },
+        "30-30": { "name": "garantir que os números sagrados subam" },
+        "31-31": { "name": "manter os rebanhos sintéticos em ordem" },
+        "32-32": { "name": "popularizar o mais novo entretenimento" },
+        "33-33": { "name": "promover o lucro corporativo" },
+        "34-34": { "name": "apoiar um golem mais esperto que você" },
+        "35-35": { "name": "encarnar a ética apropriada" },
+        "36-36": { "name": "aproveitar os frutos da civilização" },
+        "37-37": { "name": "contornar as regras pelo lucro" },
+        "38-38": { "name": "servir de aviso aos preguiçosos" },
+        "39-39": { "name": "focar aspirações e desejos sociais" },
+        "40-40": { "name": "compartilhar amor social e vibrações" }
+      }
+    }
+  }
+}
