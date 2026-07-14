@@ -1,11 +1,5 @@
 {
   "label": "Tabelas de Corrupção Mágica",
-  "mapping": {
-    "results": {
-      "path": "results",
-      "converter": "customTableResults"
-    }
-  },
   "entries": {
     "Severe Corruption": {
       "name": "Corrupção Severa",

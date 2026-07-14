@@ -28,6 +28,7 @@
     "Path of the Traveler": "Caminho do Viajante"
   },
   "mapping": {
+    "description": "system.description",
     "effects": {
       "path": "effects",
       "converter": "effectCollection"

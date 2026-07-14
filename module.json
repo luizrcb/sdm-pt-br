@@ -1,12 +1,12 @@
 {
   "id": "sdm-pt-br",
-  "title": "SDM: Português (Brasil)",
-  "description": "Modulo de tradução Babele em Português do Brasil para Synthetic Dream Machine",
+  "title": "WTF: Português (Brasil)",
+  "description": "Modulo de tradução Babele em Português do Brasil para When Time Fades",
   "version": "#{VERSION}#",
   "library": "false",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "authors": [
     {
@@ -22,7 +22,7 @@
         "id": "sdm",
         "type": "system",
         "compatibility": {
-          "minimum": "0.13.0"
+          "minimum": "0.18.0"
         }
       }
     ],
@@ -44,15 +44,11 @@
     ]
   },
   "esmodules": ["main.js"],
-  "languages": [
-   {
-      "lang": "pt-BR",
-      "name": "Português Brasileiro",
-      "path": "lang/pt-BR.json"
-    }
-  ],
   "url": "https://github.com/luizrcb/sdm-pt-br",
   "bugs": "https://github.com/luizrcb/sdm-pt-br/issues",
+  "flags": {
+    "allowBugReporter": true
+  },
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",

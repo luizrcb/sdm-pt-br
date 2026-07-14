@@ -22,7 +22,7 @@
 
     "Amber Cuirass": {
       "name": "Couraça de Âmbar",
-      "description": "<p>Fios de memórias ancestrais presos em âmbar.</p><p>Memórias espectrais concedem +1 Inteligência.</p><p><strong>Características:</strong> volumoso</p>",
+      "description": "<p>Fios de memórias ancestrais presos em âmbar.</p><p>Memórias espectrais concedem +1 Inteligência.</p>",
       "effects": {
         "Ghostly memories": {
           "name": "Memórias espectrais",
@@ -32,13 +32,13 @@
     },
 
     "Artyhide": {
-      "name": "Couro Artístico",
-      "description": "<p>Barato, brilhante quando oleado.</p><p><strong>Características:</strong> quente</p>"
+      "name": "Couro Artificial",
+      "description": "<p>Barato, brilhante quando lubrificado, ótimo com um chapéu de caubói de aba larga e topo reto.</p>"
     },
 
     "Assault Suit": {
       "name": "Traje de Assalto",
-      "description": "<p>Tendões prateados, placas de porcelana, tecidos desmortos.</p><p><strong>Características:</strong> quente, Força +1, Resistência +1</p>",
+      "description": "<p>Tendões prateados, placas de porcelana, tecidos desmortos.</p><p>Força +1, Resistência +1</p>",
       "effects": {
         "Assault Suit": {
           "name": "Traje de Assalto",
@@ -49,7 +49,7 @@
 
     "Ballistic Linen Suit": {
       "name": "Traje de Linho Balístico",
-      "description": "<p>O traje do aventureiro gentil. Bolso secreto para mamilo.</p><p><strong>Características:</strong> fresco, bolso 3</p>",
+      "description": "<p>O traje do aventureiro gentil. Bolso secreto para mamilo.</p>",
       "effects": {
         "pocket 3": {
           "name": "bolsos 3"
@@ -59,17 +59,17 @@
 
     "Blazeglass": {
       "name": "Vidro Ígneo",
-      "description": "<p>Permite disparar armas de feixe através deste escudo de vidro polarizado.</p><p><strong>Características:</strong> lúcido, quebrável</p>"
+      "description": "<p>Permite disparar armas de feixe através deste escudo de vidro polarizado.</p>"
     },
 
     "Bone Mesh": {
       "name": "Malha Óssea",
-      "description": "<p>Produto registrado do mago dos ossos.</p><p><strong>Características:</strong> volumoso, fresco</p>"
+      "description": "<p>Produto registrado do mago dos ossos.</p>"
     },
 
     "Brazen Minotaur": {
       "name": "Minotauro de Bronze",
-      "description": "<p>Monstruosidade de carne divina e bronze astral cozida nos tanques criptas do Deus da Carne Viva. Causa [[/r 1d10]] dano com ataques desarmados.</p><p>Vincula-se ao usuário; remoção exige um dia de oração ou [[/r 3d6]] vida.</p><p>Modo de queima [[/r 1d20]]: ganha +6 Força e um campo de força de 30 vida (efeitos ativos).</p><p><strong>Características:</strong> grande, recarga 3 [[/r 1d20]], vinculado, arma</p>",
+      "description": "<p>Monstruosidade de carne divina e bronze astral cozida nos tanques criptas do Deus da Carne Viva. Causa [[/r 1d10]] dano com ataques desarmados.</p><p>Vincula-se ao usuário; remoção exige um dia de oração ou [[/r 3d6]] vida.</p><p>Modo de queima [[/r 1d20]]: ganha +6 Força e um campo de força de 30 vida (efeitos ativos).</p>",
       "effects": {
         "Burn (+6 str)": {
           "name": "Queima (+6 for)",
@@ -84,22 +84,22 @@
 
     "Bullet Plate Weave": {
       "name": "Trama de Placas Balísticas",
-      "description": "<p>Forja moderna com alfaiataria antiga. Suas partes metálicas ruidosas prejudicam furtividade, mas tornam a investida mais intimidadora.</p><p><strong>Características:</strong> volumoso, barulhento, quente</p>"
+      "description": "<p>Forja moderna com alfaiataria antiga. Suas partes metálicas ruidosas prejudicam furtividade, mas tornam a investida mais intimidadora.</p>"
     },
 
     "Bunker Crawler": {
       "name": "Rastejador de Bunker",
-      "description": "<p>Traje de pedra viva moldada, com tentáculos de ancoragem para subir e descer túneis.</p><p><strong>Características:</strong> quente, espinhoso, intravenoso</p>"
+      "description": "<p>Traje de pedra viva moldada, com tentáculos de ancoragem para subir e descer túneis.</p>"
     },
 
     "Dryland Weave": {
       "name": "Tecido de Terra Seca",
-      "description": "<p>Tecido a partir dos cílios de híbridos especiais de coral terrestre, surpreendentemente respirável.</p><p><strong>Características:</strong> fresco</p>"
+      "description": "<p>Tecido a partir dos cílios de híbridos especiais de coral terrestre, surpreendentemente respirável.</p>"
     },
 
     "Field Glove": {
       "name": "Luva de Campo",
-      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p><p><strong>Características:</strong> mãos livres</p>",
+      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>",
       "effects": {
         "Boost Defense Field": {
           "name": "Campo de Defesa Aprimorada",
@@ -110,7 +110,7 @@
 
     "Full Archaic": {
       "name": "Arcaico Completo",
-      "description": "<p>Este traje inteligente pode lutar sem você dentro (veja modo de destruição automática total).</p><p>Aviso: pode desenvolver personalidade.</p><p>Modo de queimar [[/r 1d20]]: ganha +4 Força ou um campo de força de 20 vida (<em>efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], semi-senciente</p><p>@UUID[Compendium.sdm.macros.Macro.uUshgTy0nsMeCznq]{Arcaico Completo – Destruição Automática}</p>",
+      "description": "<p>Este traje inteligente pode lutar sem você dentro (veja modo de destruição automática total).</p><p>Aviso: pode desenvolver personalidade.</p><p>Modo de queima [[/r 1d20]]: ganha +4 Força ou um campo de força de 20 vida (<em>efeitos ativos</em>)</p><p>@UUID[Compendium.sdm.macros.Macro.uUshgTy0nsMeCznq]{Arcaico Completo – Destruição Automática}</p>",
       "effects": {
         "Burn (+4 str)": {
           "name": "Queima (+4 for)"
@@ -123,12 +123,12 @@
 
     "GRD Combat Harness": {
       "name": "Arreio de Combate GRD",
-      "description": "<p>Traje semi-orgânico feio com tentáculos preênseis para manter equipamentos sempre à mão.</p><p><strong>Características:</strong> volumoso, quente, vivo</p>"
+      "description": "<p>Traje semi-orgânico feio com tentáculos preênseis para manter equipamentos sempre à mão.</p>"
     },
 
     "Hard Light Targe": {
       "name": "Broquel de Luz Sólida",
-      "description": "<p>Escudo de força com botão de acionamento.</p><p>Em combate corpo a corpo, causa [[/r 1d4]] de dano e decepa membros em um 17 natural.</p><p><strong>Características:</strong> arma, vorpal</p><p><em>armaduras com a característica arma são armas com efeito ativo de bônus de armadura</em></p>",
+      "description": "<p>Escudo de força com botão de acionamento.</p><p>Em combate corpo a corpo, causa [[/r 1d4]] de dano e decepa membros em um 17 natural.</p>",
       "effects": {
         "armor +3": {
           "name": "armadura +3"
@@ -138,17 +138,17 @@
 
     "Hazviral Suit": {
       "name": "Traje Hazviral",
-      "description": "<p>Traje de pele sintética projetado pela deusa Haz-Maat.</p><p><strong>Características:</strong> ambiente, quente</p>"
+      "description": "<p>Traje de pele sintética projetado pela deusa Haz-Maat.</p>"
     },
 
     "Jade Mail": {
       "name": "Cota de Jade",
-      "description": "<p>Elos entoados em pedra que também concedem resistência contra fantasmas e daemons imateriais.</p><p><strong>Características:</strong> volumoso</p>"
+      "description": "<p>Elos entoados em pedra que também concedem resistência contra fantasmas e daemons imateriais.</p>"
     },
 
     "Malachite Swirl": {
       "name": "Espiral de Malaquita",
-      "description": "<p>Pedra polida e linhas de força entrelaçadas para resistir a ataques de alta velocidade e energia.</p><p>Modo de queima [[/r 1d20]]: ganhe +5 força ou 30 vida em campo de força (<em>alternar efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]], à prova de balas, resistente a energia</p>",
+      "description": "<p>Pedra polida e linhas de força entrelaçadas para resistir a ataques de alta velocidade e energia.</p><p>Modo de queima [[/r 1d20]]: ganhe +5 força ou 30 vida em campo de força (<em>alternar efeitos ativos</em>)</p>",
       "effects": {
         "Burn (+5 str)": {
           "name": "Queima (+5 for)",
@@ -163,12 +163,12 @@
 
     "Nomad Robes": {
       "name": "Vestes Nômades",
-      "description": "<p>Excelentes no deserto quente.</p><p><strong>Características:</strong> fresco</p>"
+      "description": "<p>Excelentes no deserto quente.</p>"
     },
 
     "Onyx Ghost": {
       "name": "Fantasma de Ônix",
-      "description": "<p>Serpentes de ônix entrelaçadas e pedras espirituais mutantes sussurram sobre vidas desperdiçadas e sonhos destruídos.</p><p>Modo de queima [[/r 1d20]]: ganhe +3 aura ou um campo de força de 50 vida (<em>efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], ambiente</p>",
+      "description": "<p>Serpentes de ônix entrelaçadas e pedras espirituais mutantes sussurram sobre vidas desperdiçadas e sonhos destruídos.</p><p>Modo de queima [[/r 1d20]]: ganhe +3 aura ou um campo de força de 50 vida (<em>efeitos ativos</em>)</p>",
       "effects": {
         "Burn (+3 aur)": {
           "name": "Queima (+3 aur)",
@@ -183,37 +183,37 @@
 
     "HVbDfQ9tCQZ4CGOi": {
       "name": "Andarilho de Porcelana",
-      "description": "<p>O melhor da tecnologia principesca, com placas cerâmicas policromadas reluzentes.</p><p>Modo de queima [[/r 1d20]]: anda sozinho por várias horas.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]], volumoso, frio, intravenoso</p>"
+      "description": "<p>O melhor da tecnologia principesca, com placas cerâmicas policromadas reluzentes.</p><p>Modo de queima [[/r 1d20]]: anda sozinho por várias horas.</p>"
     },
 
     "Riot Pleather Suit": {
       "name": "Traje de Couro Sintético de Motim",
-      "description": "<p>Com pontos de fixação destacáveis para espinhos, capa e crânio.</p><p><strong>Características:</strong> quente, espinhoso</p>"
+      "description": "<p>Com pontos de fixação destacáveis para espinhos, capa e crânio.</p>"
     },
 
     "Scale Suit": {
       "name": "Traje de Escamas",
-      "description": "<p>Feito de escamas de pangolim de ferro des-extintas.</p><p><strong>Características:</strong> volumoso, quente</p>"
+      "description": "<p>Feito de escamas de pangolim de ferro desextinto.</p>"
     },
 
     "Shield Mk74c": {
       "name": "Escudo Mk74c",
-      "description": "<p>Clássico moderno de vime e couro sintético.</p><p><strong>Características:</strong> despedaçar</p>"
+      "description": "<p>Clássico moderno de vime e couro sintético.</p>"
     },
 
     "Shipmetal Shirt": {
-      "name": "Camisa de Metal de Nave",
-      "description": "<p>Leve como uma camisa de barco, resistente como aço.</p><p><strong>Características:</strong> clarão 8, fresco</p>"
+      "name": "Camisa de Aço Naval",
+      "description": "<p>Leve como a vela de um barco, resistente como o aço.</p>"
     },
 
     "Silk Vest": {
       "name": "Colete de Seda",
-      "description": "<p>Proteção elegante para o herói na cidade.</p><p><strong>Características:</strong> à prova de balas, estiloso</p>"
+      "description": "<p>Proteção elegante para o herói na cidade.</p>"
     },
 
     "Spectral Parasite": {
       "name": "Parasita Espectral",
-      "description": "<p>Escamas de aço-vidro Sátrapa e um parasita criador de ambiente.</p><p>Modo queima [[/r 1d20]]: ganhe +2 de força (efeito ativo)</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]], volumoso, fresco, ambiente</p>",
+      "description": "<p>Escamas de aço-vidro Sátrapa e um parasita criador de ambiente.</p><p>Modo queima [[/r 1d20]]: ganhe +2 de força (efeito ativo)</p>",
       "effects": {
         "Burn (+2 str)": {
           "name": "Queima (+2 for)",
@@ -224,37 +224,37 @@
 
     "Splinter Suit": {
       "name": "Traje de Estilhaços",
-      "description": "<p>Escamas de madeira-sol sobre tecidos fibrosos. Flutua surpreendentemente bem até ficar encharcado.</p><p><strong>Características:</strong> volumoso, quente</p>"
+      "description": "<p>Escamas de madeira-sol sobre tecidos fibrosos. Flutua surpreendentemente bem até ficar encharcado.</p>"
     },
 
     "Strapguard": {
       "name": "Guarda-Pulso",
-      "description": "<p>Latão e plaz presos ao seu antebraço.</p><p><strong>Características:</strong> mãos-livres</p>"
+      "description": "<p>Latão e plaz presos ao seu antebraço.</p>"
     },
 
     "Syncsuit": {
       "name": "Traje de Sincronia",
-      "description": "<p>Spandex antigo e fio vivo para controle proprioceptivo direto de um veículo ou nave do vácuo.</p><p><strong>Características:</strong> interface</p>"
+      "description": "<p>Spandex antigo e fio vivo para controle proprioceptivo direto de um veículo ou nave do vácuo.</p>"
     },
 
     "Umbral Panoply": {
       "name": "Panóplia Umbral",
-      "description": "<p>Tecido de sombra sólida e synthseda.</p><p><strong>Características:</strong> volumoso, fresco, camuflagem</p>"
+      "description": "<p>Tecido de sombra sólida e synthseda.</p>"
     },
 
     "Void Infantry Dissipator": {
       "name": "Dissipador de Infantaria do Vácuo",
-      "description": "<p>Pavese imponente de cerâmica, aerólito e bobinas crípticas. Qualquer dano acima de 10 se dissipa inofensivamente como um clarão policromático.</p><p><strong>Características:</strong> clarão 10, despedaçar</p>"
+      "description": "<p>Pavese imponente de cerâmica, aerólito e bobinas crípticas. Qualquer dano acima de 10 se dissipa inofensivamente como um clarão policromático.</p>"
     },
 
     "Voidsuit": {
       "name": "Traje do Vácuo",
-      "description": "<p>Uma aranha do vácuo lobotomizada, tecida e escavada em uma forma adequada para carregar um humano. </p><p>Ar para 3 dias.</p><p><strong>Características:</strong> volumoso, grande, ambiente, vácuo</p>"
+      "description": "<p>Uma aranha do vácuo lobotomizada, tecida e escavada em uma forma adequada para carregar um humano. </p><p>Ar para 3 dias.</p>"
     },
 
     "Watersuit": {
       "name": "Traje Aquático",
-      "description": "<p>Traje refrigerante de synthpele sobre malha de osso tecida, com sistema de refrigeração e filtração vascular.</p><p><strong>Características:</strong> volumoso, ambiente</p>"
+      "description": "<p>Traje refrigerante de synthpele sobre malha de osso tecida, com sistema de refrigeração e filtração vascular.</p>"
     }
   }
 }

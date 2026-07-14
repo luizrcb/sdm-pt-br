@@ -4,12 +4,6 @@
     "Background Traits": "Traços de Antecedente",
     "Path Traits": "Traços de Caminho"
   },
-  "mapping": {
-    "results": {
-      "path": "results",
-      "converter": "customTableResults"
-    }
-  },
   "entries": {
     "Background Traits 1d40": {
       "name": "Traços de Antecedente 1d40",

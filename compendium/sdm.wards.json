@@ -78,19 +78,9 @@
     }
   },
   "entries": {
-    "(0) Soul Siphon Spear": {
-      "name": "(0) Lança Sifão de Almas",
-      "description": "<p>Açoita como uma cobra, bebendo almas e deixando cascas vazias. Armazena três almas.</p><p>Gaste uma para animá-la como uma @UUID[Compendium.sdm.creatures.Actor.RrHPo1p4xq14BKO3]{Serpente-Lança} (N3/12 vida) ou para recuperar [[/r 1d6x]] vida.</p><p><strong>Características:</strong> 2M, sintonizar, fantasciência</p>"
-    },
-
     "Abominable Paw": {
       "name": "Pata Abominável",
       "description": "<p>A pata preservada de algum fenótipo humano sombrio do extremo norte distante. Dobra os efeitos de suas maldições.</p>"
-    },
-
-    "Access Flenser": {
-      "name": "Acesso ao Esfolador",
-      "description": "<p>Esta lâmina fantasma menos letal corta camadas de ego e id.</p><p>Dano máximo: impõe uma ordem direta à alma do alvo (salvaguarda contra ordens extremas).</p><p><strong>Características:</strong> alcance, recarga 5 [[/r 1d20]], sintonizar, Velhatec, subjugação</p>"
     },
 
     "Access Noötree": {
@@ -117,11 +107,6 @@
       "description": "<p>Dispara uma semente de aerólito que reduz o peso do alvo em 1 saca por acerto.</p><p>O efeito dura 10 minutos.</p><p><strong>Características:</strong> médio, recarga 4 [[/r 1d20]], Velhatec</p>"
     },
 
-    "Agon Whip": {
-      "name": "Chicote de Agonia",
-      "description": "<p>Implanta no alvo um homúnculo de sua personalidade (salvaguarda).</p><p>A cada rodada, cada personalidade implantada tenta assumir o controle (rolagens de Aura).</p><p><strong>Características:</strong> alcance, recarga 13 [[/r 1d20]], sintonizar, fantasciência, oneroso</p>"
-    },
-
     "Air Compressor": {
       "name": "Compressor de Ar",
       "description": "<p>Máscara biomecânica para respirar em condições de baixa pressão.</p><p><strong>Características:</strong> barulhento</p>"
@@ -144,17 +129,6 @@
       "target": "si mesmo",
       "duration": "1 hora",
       "overcharge": "<p>os efeitos tornam-se permanentes.</p>"
-    },
-
-    "Amber Cuirass": {
-      "name": "Couraça de Âmbar",
-      "description": "<p>Fios de memórias ancestrais presos em âmbar.</p><p>Memórias espectrais concedem +1 Inteligência.</p><p><strong>Características:</strong> volumoso</p>",
-      "effects": {
-        "Ghostly memories": {
-          "name": "Memórias espectrais",
-          "description": "<p>Memórias espectrais concedem +1 Inteligência.</p>"
-        }
-      }
     },
 
     "Amber Suit": {
@@ -224,27 +198,6 @@
       "description": "<p>Seis rodas, sete marchas e uma omnibateria solar.</p><p>N4, capacidade 5</p>"
     },
 
-    "Artyhide": {
-      "name": "Couro Artístico",
-      "description": "<p>Barato, brilhante quando oleado.</p><p><strong>Características:</strong> quente</p>"
-    },
-
-    "Arzax Lance": {
-      "name": "Lança Arzax",
-      "description": "<p>Lança de energia ultraleve. Pode colapsar em uma haste curta.</p><p>Atordoa em 13 natural.</p><p><strong>Características:</strong> alcance, cavalaria</p>"
-    },
-
-    "Assault Suit": {
-      "name": "Traje de Assalto",
-      "description": "<p>Tendões prateados, placas de porcelana, tecidos desmortos.</p><p><strong>Características:</strong> quente, Força +1, Resistência +1</p>",
-      "effects": {
-        "Assault Suit": {
-          "name": "Traje de Assalto",
-          "description": "<p>for +1, res +1</p>"
-        }
-      }
-    },
-
     "Astral Compass": {
       "name": "Bússola Astral",
       "description": "<p>Direções, latitude, longitude e mapa arcaico. Requer linha de visão astral.</p>"
@@ -275,16 +228,6 @@
       "description": "<p>Dispara a si mesmo e ao usuário através de si, emergindo no destino com um estrondo. Em 13 natural ocorre atraso na rematerialização (role d6).</p><p><strong>Características:</strong> longo, área M, recarga 7 [[/r 1d20]], 2M, sintonizar, lento, Velhatec</p>"
     },
 
-    "Ballistic Linen Suit": {
-      "name": "Traje de Linho Balístico",
-      "description": "<p>O traje do aventureiro gentil. Bolso secreto para mamilo.</p><p><strong>Características:</strong> fresco, bolso 3</p>",
-      "effects": {
-        "pocket 3": {
-          "name": "bolsos 3"
-        }
-      }
-    },
-
     "Basic Homunculo": {
       "name": "Homúnculo Básico",
       "description": "<p>Pequeno falso humano. Sacrifique-o para absorver um efeito tecnomágico ou para alimentar seus poderes.</p><p><strong>Características:</strong> automático</p>"
@@ -293,11 +236,6 @@
     "Battle Briefcase": {
       "name": "Maleta de Batalha",
       "description": "<p>Protege magidocs e pergaminhos do Príncipe Azul. Funciona como escudo.</p>"
-    },
-
-    "Battle Stick": {
-      "name": "Cassetete de Batalha",
-      "description": "<p>Madeira dura para pancadas duras.</p><p><strong>Características:</strong> Força ou Rapidez</p>"
     },
 
     "Better Life Pamphlets": {
@@ -328,11 +266,6 @@
       "description": "<p>Detecta vestígios de indivíduos e espécies. O banco de dados pode estar desatualizado.</p>"
     },
 
-    "Black City Blade": {
-      "name": "Lâmina da Cidade Negra",
-      "description": "<p>Feita de obsidiana, sombra e erro. Sussurra histórias perdidas.</p><p><strong>Características:</strong> ignora resistências a dano</p>"
-    },
-
     "Black Light Lotus": {
       "name": "Lótus de Luz Negra",
       "description": "<p>Brilha no escuro, adorada por gatos. Ingerida, permite ignorar aflições mentais por uma semana. Fumada, induz sono profundo e restaura [[/r 1d6]] vida. Aplicada à pele, libera feromônios alteradores da mente, concedendo +1 Carisma por um dia. Viciante  abstinência causa câimbras e fome.</p><p><em>(use efeito ativo para Carisma)</em></p>",
@@ -346,11 +279,6 @@
     "Black Mandible": {
       "name": "Mandíbula Negra",
       "description": "<p>Você sabe que este osso metálico veio de um Construtor. Um deus, de certo modo.</p>"
-    },
-
-    "Blazeglass": {
-      "name": "Vidro Ígneo",
-      "description": "<p>Permite disparar armas de feixe através deste escudo de vidro polarizado.</p><p><strong>Características:</strong> lúcido, quebrável</p>"
     },
 
     "Blindgod": {
@@ -407,16 +335,6 @@
       "description": "<p>Fale com máquinas como se fossem seus irmãos.</p>"
     },
 
-    "Bola": {
-      "name": "Boleadeira",
-      "description": "<p>Pesos com cordas para enredar um alvo. Popular entre pastores e nômades.</p><p><strong>Características:</strong> enredar</p>"
-    },
-
-    "Bone Mesh": {
-      "name": "Malha Óssea",
-      "description": "<p>Produto registrado do mago dos ossos.</p><p><strong>Características:</strong> volumoso, fresco</p>"
-    },
-
     "Bone Necklace": {
       "name": "Colar de Ossos",
       "description": "<p>Ossos mortos-vivos vivos! Não ingerir.</p><p><strong>Características:</strong> mortífero</p>"
@@ -447,11 +365,6 @@
       "description": "<p>Quebre-a para anular um ataque.</p>"
     },
 
-    "Bow": {
-      "name": "Arco",
-      "description": "<p>Pena recurvada de metalave e tiras de quitina laminada. Sua falta de características é uma característica.</p><p><strong>Características:</strong> médio, 2M</p>"
-    },
-
     "Box of Eyes": {
       "name": "Caixa de Olhos",
       "description": "<p>Permite cultivar olhos funcionais por todo o corpo. Nojento.</p><p><strong>Características:</strong> implante</p>"
@@ -460,21 +373,6 @@
     "Bravery Goggles": {
       "name": "Óculos da Coragem",
       "description": "<p>Ocultam visões aterradoras. Podem impor uma penalidade severa.</p>"
-    },
-
-    "Brazen Minotaur": {
-      "name": "Minotauro de Bronze",
-      "description": "<p>Monstruosidade de carne divina e bronze astral cozida nos tanques criptas do Deus da Carne Viva. Causa [[/r 1d10]] dano com ataques desarmados.</p><p>Vincula-se ao usuário; remoção exige um dia de oração ou [[/r 3d6]] vida.</p><p>Modo de queima [[/r 1d20]]: ganha +6 Força e um campo de força de 30 vida (efeitos ativos).</p><p><strong>Características:</strong> grande, recarga 3 [[/r 1d20]], vinculado, arma</p>",
-      "effects": {
-        "Burn (+6 str)": {
-          "name": "Queima (+6 for)",
-          "description": "<p>Modo de queima 1d20: ganha +6 Força</p>"
-        },
-        "Burn (+30 life)": {
-          "name": "Queima (+30 vida)",
-          "description": "<p>Modo de queima 1d20: ganha um campo de força de 30 vida</p>"
-        }
-      }
     },
 
     "Buffer Harness II": {
@@ -492,24 +390,9 @@
       "description": "<p>4 de 6 disparos restantes. O daemon de licença foi exorcizado. Precisa de uma porta buildertech para recarregar.</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]], 2M</p>"
     },
 
-    "Builderbang": {
-      "name": "Explosão do Construtor",
-      "description": "<p>A granada sagrada de fragmentação dos tempos antigos, estimada pelos granadeiros da inquisição.</p><p><strong>Características:</strong> área G</p>"
-    },
-
     "Builderhorse": {
       "name": "Cavalo do Construtor",
       "description": "<p>Oito pernas, pele sintética, ossos compostos, cérebro-relógio à moda antiga.</p><p>N3, capacidade 4, rápido</p>"
-    },
-
-    "Bullet Plate Weave": {
-      "name": "Trama de Placas Balísticas",
-      "description": "<p>Forja moderna com alfaiataria antiga. Suas partes metálicas ruidosas prejudicam furtividade, mas tornam a investida mais intimidadora.</p><p><strong>Características:</strong> volumoso, barulhento, quente</p>"
-    },
-
-    "Bunker Crawler": {
-      "name": "Rastejador de Bunker",
-      "description": "<p>Traje de pedra viva moldada, com tentáculos de ancoragem para subir e descer túneis.</p><p><strong>Características:</strong> quente, espinhoso, intravenoso</p>"
     },
 
     "Bunker Pass": {
@@ -533,11 +416,6 @@
       "target": "criatura",
       "duration": "permanente",
       "overcharge": "<p></p>"
-    },
-
-    "Burdenbeast Whip": {
-      "name": "Chicote de Cargofera",
-      "description": "<p>Pode ser usado para se balançar.</p><p><strong>Características:</strong> Força ou Rapidez, alcance</p>"
     },
 
     "Cad Bird": {
@@ -623,11 +501,6 @@
       }
     },
 
-    "Chain Sword": {
-      "name": "Espada de Corrente",
-      "description": "<p>Uma arma elegante da época do grande erro de reencarnação.</p><p>Decapita com 20 Natural.</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], versátil, vorpal</p>"
-    },
-
     "Chronometer": {
       "name": "Cronômetro",
       "description": "<p>Cravejado de joias, com funções de data, temporizador, alarme, fuso horário e anotações.</p>"
@@ -688,11 +561,6 @@
       "description": "<p>Exiba suas meias enquanto caminha com estilo!</p>"
     },
 
-    "Concussive": {
-      "name": "Concussiva",
-      "description": "<p>Um pote de argila cheio de pólvora negra. Uma granada que qualquer artesão moderno pode fazer.</p><p><strong>Características:</strong> área P</p>"
-    },
-
     "Control Choke": {
       "name": "Estrangulamento de Controle",
       "description": "<p>Controle remoto humano (salvaguarda difícil). Não funciona em magos. recarga 19 [[/r 1d20]].</p>"
@@ -725,11 +593,6 @@
     "Credenticard": {
       "name": "Credencicard",
       "description": "<p>ID gerativa simpática. A opção de falsificação sempre convincente. recarga 3 [[/r 1d20]].</p>"
-    },
-
-    "Crossbow": {
-      "name": "Besta",
-      "description": "<p>Tecnomecânica simples e silenciosa. Recarregue após cada disparo.</p><p><strong>Características:</strong> médio</p>"
     },
 
     "Crow Armor": {
@@ -876,10 +739,6 @@
       "duration": "permanente"
     },
 
-    "Dryland Weave": {
-      "name": "Tecido de Terra Seca",
-      "description": "<p>Tecido a partir dos cílios de híbridos especiais de coral terrestre, surpreendentemente respirável.</p><p><strong>Características:</strong> fresco</p>"
-    },
 
     "Drywood Gourd": {
       "name": "Cabaça de Madeira Seca",
@@ -1098,30 +957,9 @@
       }
     },
 
-    "Field Glove": {
-      "name": "Luva de Campo",
-      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p><p><strong>Características:</strong> mãos livres</p>",
-      "effects": {
-        "Boost Defense Field": {
-          "name": "Campo de Defesa Aprimorada",
-          "description": "<p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>"
-        }
-      }
-    },
-
     "Fireward Circlet": {
       "name": "Diadema Antichamas",
       "description": "<p>O aro semissenciente de joias de matriz demoníaca protege sua identidade. Gaste 1 vida para bloquear sua mente por 1 rodada.</p>"
-    },
-
-    "Flarestick": {
-      "name": "Bastão Incendiário",
-      "description": "<p>Fruto da árvore flambén, preservado em resina. Arremessado, explode em luz intensa. Como combustível, queima por uma hora com chama de baixo calor.</p><p><strong>Características:</strong> calor</p>"
-    },
-
-    "Flasher": {
-      "name": "Piscador",
-      "description": "<p>O olho sinalizador de um mevo defeituoso ajustado para São Vito.</p><p>Causa cegueira, náusea e/ou dança robótica.</p><p><strong>Características:</strong> área P</p>"
     },
 
     "Flesh Pocket": {
@@ -1183,11 +1021,6 @@
       "description": "<p>Defesa reativa. Gaste 1 dado heróico para negar um ataque.</p>"
     },
 
-    "c0H7EAxKMb1Ni1Oq": {
-      "name": "Bastão de Urânio de Quarenta Libras",
-      "description": "<p>Cajado de Heavy Metal para um mago de Heavy Metal.</p><p>Atordoa por 1 rodada ao igualar dados de dano.</p><p><strong>Características:</strong> 2M, lento</p>"
-    },
-
     "Fresh Face": {
       "name": "Rosto Fresco",
       "description": "<p>Alimente com sangue diariamente (1 vida) para mantê-lo rosado.</p>"
@@ -1206,19 +1039,6 @@
     "Friendly Anklet": {
       "name": "Tornozeleira Amigável",
       "description": "<p>Para que seu mestre sempre possa encontrar e salvar você!</p>"
-    },
-
-    "Full Archaic": {
-      "name": "Arcaico Completo",
-      "description": "<p>Este traje inteligente pode lutar sem você dentro (veja modo de destruição automática total).</p><p>Aviso: pode desenvolver personalidade.</p><p>Modo de queimar [[/r 1d20]]: ganha +4 Força ou um campo de força de 20 vida (<em>efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], semi-senciente</p><p>@UUID[Compendium.sdm.macros.Macro.uUshgTy0nsMeCznq]{Arcaico Completo – Destruição Automática}</p>",
-      "effects": {
-        "Burn (+4 str)": {
-          "name": "Queima (+4 for)"
-        },
-        "Burn (+20 life)": {
-          "name": "Queima (+20 vida)"
-        }
-      }
     },
 
     "Full-Heal Kit": {
@@ -1263,16 +1083,6 @@
       "target": "gema",
       "duration": "0",
       "overcharge": "<p>explode como uma Bola de Fogo.</p>"
-    },
-
-    "Gentleman’s Cane": {
-      "name": "Bengala de Cavalheiro",
-      "description": "<p>Uma espada curta dentro de uma bengala. Perfeita para passear pela avenida dos portais ou dar um corretivo em malandros.</p><p><strong>Características:</strong> ocultar</p>"
-    },
-
-    "Ghost Bone Axe": {
-      "name": "Machado de Osso Fantasma",
-      "description": "<p>Armas feitas de osso de noödæmon ignoram imunidades de mortos-vivos.</p><p>Causa dano total a fantasmas.</p><p>Sua natureza perturbadora inflige pesadelos (salvaguarda) em portadores e vítimas.</p><p><strong>Características:</strong> 2M, perturbador</p>"
     },
 
     "Ghost Bone Sabre": {
@@ -1361,11 +1171,6 @@
       "description": "<p>Emissor antimecânico cinza-alaranjado.</p><p>Rolagem de dano 13: o mecanismo-alvo desliga por uma hora.</p><p><strong>Características:</strong> med, recarga 4 [[/r 1d20]], 2M, silencioso</p>"
     },
 
-    "Golem Lance": {
-      "name": "Lança de Golem",
-      "description": "<p>Pegue o braço de um golem de guerra inativo, remova o golem, e você terá um raio térmico eficaz.</p><p><strong>Características:</strong> curto, recarga 6 [[/r 1d20]], 2M, calor</p>"
-    },
-
     "Golem Steed": {
       "name": "Corcel Golem",
       "description": "<p>Cuspindo fogo, queimando como um elemental de cinzas. Avança como um caminhão.</p><p>L3, capacidade 3</p>"
@@ -1384,11 +1189,6 @@
     "Grappling Hook": {
       "name": "Gancho de Escalada",
       "description": "<p>E 50 cúbitos de corda.</p>"
-    },
-
-    "GRD Combat Harness": {
-      "name": "Arreio de Combate GRD",
-      "description": "<p>Traje semi-orgânico feio com tentáculos preênseis para manter equipamentos sempre à mão.</p><p><strong>Características:</strong> volumoso, quente, vivo</p>"
     },
 
     "Great Weapon": {
@@ -1450,24 +1250,9 @@
       }
     },
 
-    "Hard Light Targe": {
-      "name": "Broquel de Luz Sólida",
-      "description": "<p>Escudo de força com botão de acionamento.</p><p>Em combate corpo a corpo, causa [[/r 1d4]] de dano e decepa membros em um 17 natural.</p><p><strong>Características:</strong> arma, vorpal</p><p><em>armaduras com a característica arma são armas com efeito ativo de bônus de armadura</em></p>",
-      "effects": {
-        "armor +3": {
-          "name": "armadura +3"
-        }
-      }
-    },
-
     "Harshfield Uniform": {
       "name": "Uniforme Harshfield",
       "description": "<p>Macacão robusto listrado de trabalho externo com controle climático embutido para calor e frio extremos.</p><p><strong>Características:</strong> ambiente.</p>"
-    },
-
-    "Hazviral Suit": {
-      "name": "Traje Hazviral",
-      "description": "<p>Traje de pele sintética projetado pela deusa Haz-Maat.</p><p><strong>Características:</strong> ambiente, quente</p>"
     },
 
     "Healmachine": {
@@ -1567,11 +1352,6 @@
       "description": "<p>Nutrição intravenosa para sua cargofera. O uso excessivo pode transformá-la em um zumbi carnívoro (salvaguarda fácil, uma vez por semana). Não certificado para uso humano.</p>"
     },
 
-    "Inquisition  Squirtgun": {
-      "name": "Arminha da Inquisição",
-      "description": "<p>Originalmente um dispositivo eficaz de aplicação de tranquilizantes. Agora adaptado para todo tipo de fluido.</p><p><strong>Características:</strong> curto, recarga 5 [[/r 1d20]], intravenoso</p>"
-    },
-
     "Interface Gauntlet": {
       "name": "Manopla de Interface",
       "description": "<p>Acesse dispositivos magi-elétricos usando suas portas locais da noösfera. Abra portas biomecânicas, converse com máquinas vivas, conte piadas para fantasmas de radiação.</p>"
@@ -1589,11 +1369,6 @@
       "target": "grande área local de realidade perturbada",
       "duration": "permanente",
       "overcharge": "<p>Você tem controle temporário do devorador.</p>"
-    },
-
-    "Jade Mail": {
-      "name": "Cota de Jade",
-      "description": "<p>Elos entoados em pedra que também concedem resistência contra fantasmas e daemons imateriais.</p><p><strong>Características:</strong> volumoso</p>"
     },
 
     "Jade Mask": {
@@ -1715,11 +1490,6 @@
       "description": "<p>Você suspeita que foi de seu criador. Anos no seu bolso de memória o poliram até virar uma esfera. Acometido por más vibrações.</p>"
     },
 
-    "Machete": {
-      "name": "Facão",
-      "description": "<p>A lâmina que derrubou a selva do túnel do vazio e abriu passagem para o Novo Solo.</p><p><strong>Características:</strong> corta madeira</p>"
-    },
-
     "Machination Kit": {
       "name": "Kit de Maquinações",
       "description": "<p>Chaves, alicates, fios, soldas, pergaminhos do príncipe azul, mantras de máquina e mais — tudo para manter um velho fabricador funcionando.</p>"
@@ -1742,21 +1512,6 @@
     "Maintain Bracelet": {
       "name": "Bracelete de Manutenção",
       "description": "<p>Marca o usuário como morto-vivo para criaturas mortas-vivas.</p>"
-    },
-
-    "Malachite Swirl": {
-      "name": "Espiral de Malaquita",
-      "description": "<p>Pedra polida e linhas de força entrelaçadas para resistir a ataques de alta velocidade e energia.</p><p>Modo de queima [[/r 1d20]]: ganhe +5 força ou 30 vida em campo de força (<em>alternar efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]], à prova de balas, resistente a energia</p>",
-      "effects": {
-        "Burn (+5 str)": {
-          "name": "Queima (+5 for)",
-          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 vida</p>"
-        },
-        "Burn (+30 life)": {
-          "name": "Queima (+30 vida)",
-          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 vida</p>"
-        }
-      }
     },
 
     "Master Eyeball": {
@@ -1940,16 +1695,6 @@
       "description": "<p>Elegante, e o casaco foi anunciado como bastante à prova de balas.</p>"
     },
 
-    "Noetic Blade": {
-      "name": "Lâmina Noética",
-      "description": "<p>O punho de ônix e marfim projeta uma lâmina de pura energia psíquica, cortando barreiras mentais e físicas.</p><p>Gaste 1 aura para causar dano triplo.</p><p><strong>Características:</strong> fantasciência, perfurante de armadura</p>"
-    },
-
-    "Nomad Robes": {
-      "name": "Vestes Nômades",
-      "description": "<p>Excelentes no deserto quente.</p><p><strong>Características:</strong> fresco</p>"
-    },
-
     "Nu-Face Mk III": {
       "name": "Nu-Face Mk III",
       "description": "<p>Um rosto perfeitamente esculpido e composto. Remova-o para revelar seu crânio, músculos sintéticos e pontos rígidos de titânio.</p>",
@@ -2045,21 +1790,6 @@
       "effects": {
         "+4 Life": {
           "name": "+4 Vida"
-        }
-      }
-    },
-
-    "Onyx Ghost": {
-      "name": "Fantasma de Ônix",
-      "description": "<p>Serpentes de ônix entrelaçadas e pedras espirituais mutantes sussurram sobre vidas desperdiçadas e sonhos destruídos.</p><p>Modo de queima [[/r 1d20]]: ganhe +3 aura ou um campo de força de 50 vida (<em>efeitos ativos</em>)</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]], ambiente</p>",
-      "effects": {
-        "Burn (+3 aur)": {
-          "name": "Queima (+3 aur)",
-          "description": "<p>Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 vida</p>"
-        },
-        "Burn (+50 life)": {
-          "name": "Queima (+50 vida)",
-          "description": "Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 vida"
         }
       }
     },
@@ -2171,11 +1901,6 @@
       }
     },
 
-    "Pleasure Thorn": {
-      "name": "Espinho do Prazer",
-      "description": "<p>Relacionado ao chicote neural, mas mais agradável. Incapacita com êxtase.</p><p>Paroxismos por 1 rodada em um 7 natural.</p><p><strong>Características:</strong> próximo, recarga 5 [[/r 1d20]], velhatec</p>"
-    },
-
     "Plug-In Chimeric": {
       "name": "Quimérico Plugável",
       "description": "<p>Animal de carga híbrido com cabeça em cúpula e descarga elétrica.</p><p>N5, capacidade 3</p>"
@@ -2199,11 +1924,6 @@
     "Poly-Ocular Visor": {
       "name": "Visor Poliocular",
       "description": "<p>Com três olhos removíveis. Role-os, pose-os, cole-os na parede.</p><p>alcance longo</p>"
-    },
-
-    "HVbDfQ9tCQZ4CGOi": {
-      "name": "Andarilho de Porcelana",
-      "description": "<p>O melhor da tecnologia principesca, com placas cerâmicas policromadas reluzentes.</p><p>Modo de queima [[/r 1d20]]: anda sozinho por várias horas.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]], volumoso, frio, intravenoso</p>"
     },
 
     "Porcelain Death Mask": {
@@ -2387,10 +2107,6 @@
       "name": "Nutrilama Vermelha",
       "description": "<p>Revigora como um descanso curto. Ótimo para sentinelas! Pode conter vampiro processado.</p>"
     },
-    "Redland District Submachine Gun": {
-      "name": "Submetralhadora do Distrito da Terra Vermelha",
-      "description": "<p>A arma de fogo produzida em massa do povo. Rara fora da TRV, restrita dentro.</p><p><strong>Características:</strong> médio, recarga 1 [[/r 1d20]], 2M, rajada</p>"
-    },
     "Replacer Rod": {
       "name": "Bastão de Substituição",
       "description": "<p>Substitui o alvo por uma cópia quase idêntica de (salvaguarda). Para sempre mais, eles se sentem alienígenas para si mesmos.</p><p><strong>Damage:</strong> [[/r 2d4x]] &amp; <code>1 int</code></p><p><strong>Características:</strong> curto, recarga 7 [[/r 1d20]], atrofia, fantasciência</p>"
@@ -2418,10 +2134,6 @@
       "target": "todas as criaturas",
       "duration": "uma ação",
       "overcharge": "<p>nenhuma rolagem de ataque necessária. *sujeito à quantidade de munição que sua arma âncora comporta.</p>"
-    },
-    "Riot Pleather Suit": {
-      "name": "Traje de Couro Sintético de Motim",
-      "description": "<p>Com pontos de fixação destacáveis para espinhos, capa e crânio.</p><p><strong>Características:</strong> quente, espinhoso</p>"
     },
     "Roadfinder": {
       "name": "Encontra-Estradas",
@@ -2501,17 +2213,9 @@
       "name": "Jarra Salva-Cabeça",
       "description": "<p>Parece um capacete. Se você for morrer, ela salva sua cabeça e sai correndo como uma aranha assustadora.</p><p><strong>Características:</strong> autônomo, devorador de magias (gaste [[/r 1d4+1]] de vida para capturar uma magia)</p>"
     },
-    "Scale Suit": {
-      "name": "Traje de Escamas",
-      "description": "<p>Feito de escamas de pangolim de ferro des-extintas.</p><p><strong>Características:</strong> volumoso, quente</p>"
-    },
     "Scave Bolter": {
       "name": "Bólter de Catador",
       "description": "<p>Uma arma elegante e de longo alcance de uma era mais simples.</p><p><strong>Características:</strong> recarga 2, 2M</p>"
-    },
-    "Scavenger Bolter": {
-      "name": "Bólter de Sucateiro",
-      "description": "<p>Robusto, resistente, notoriamente fácil de modificar. Não é o mais preciso, porém.</p><p><strong>Características:</strong> médio, recarga 10 [[/r 1d20]], 2M, desajeitado</p>"
     },
     "Scroll Disk Belt": {
       "name": "Cinto de Disco de Pergaminho",
@@ -2556,17 +2260,9 @@
       "name": "Chapéu Amorfo",
       "description": "<p>Protege da chuva, sol, moscas e esporos. Bônus para desaparecer numa multidão.</p>"
     },
-    "Shield Mk74c": {
-      "name": "Escudo Mk74c",
-      "description": "<p>Clássico moderno de vime e couro sintético.</p><p><strong>Características:</strong> despedaçar</p>"
-    },
     "Shipgun": {
       "name": "Arma de Nave",
       "description": "<p>Destroçador de carne de curto alcance que não danifica um casco do vácuo. Causa triplo de dano em alvos desarmados.</p><p><strong>Características:</strong> recarga 3</p>"
-    },
-    "Shipmetal Shirt": {
-      "name": "Camisa de Metal de Nave",
-      "description": "<p>Leve como uma camisa de barco, resistente como aço.</p><p><strong>Características:</strong> clarão 8, fresco</p>"
     },
     "Shipsteel Stiletto": {
       "name": "Estilete de Aço de Nave",
@@ -2581,10 +2277,6 @@
         }
       }
     },
-    "Shiv": {
-      "name": "Faquinha",
-      "description": "<p>Um garfo-colher de manteiga afiado.<br /><strong>Características</strong>: ocultar</p>"
-    },
     "Shrunken Head": {
       "name": "Cabeça Encolhida",
       "description": "<p>Pertencia ao portador anterior? Armazena um único poder.</p>",
@@ -2598,10 +2290,6 @@
       "name": "Bloqueador de Sinal",
       "description": "<p>Configure para bloquear comunicações eletromagnéticas e psíquicas. Alcance e área médios.</p>"
     },
-    "Silk Vest": {
-      "name": "Colete de Seda",
-      "description": "<p>Proteção elegante para o herói na cidade.</p><p><strong>Características:</strong> à prova de balas, estiloso</p>"
-    },
     "Simmersuit": {
       "name": "Macacão de Fermentação",
       "description": "<p>Macacão tradicional que exibe claramente seu status e deveres.</p>"
@@ -2609,10 +2297,6 @@
     "Skin Glove": {
       "name": "Luva de Pele",
       "description": "<p>Uma luva de carne sintética assustadora. É para as impressões digitais, entende.</p>"
-    },
-    "Skip Knife": {
-      "name": "Faca do Salto",
-      "description": "<p>Corta através do tempo, salta o alvo para frente em 1d6 rodadas (salvaguarda difícil). </p><p>Sua massa é aumentada por suas âncoras futuras.</p><p><strong>Características:</strong> recarga 1 [[/r 1d20]], fantasciência</p>"
     },
     "Skull Garland": {
       "name": "Guirlanda de Crânios",
@@ -2622,10 +2306,6 @@
           "name": "Crânio (+2 armadura)"
         }
       }
-    },
-    "Slowtime": {
-      "name": "Tempo Lento",
-      "description": "<p>Cria uma bolha de espaço-tempo alterado que dura várias rodadas. Aqueles dentro (salvaguarda) só agem a cada duas rodadas. Ataques à distância através da bolha sofrem uma penalidade.</p><p><strong>Características:</strong> área M, velhatec</p>"
     },
     "Smart Lubricants": {
       "name": "Lubrificantes Inteligentes",
@@ -2692,31 +2372,13 @@
       "duration": "10 minutos",
       "overcharge": "<p>o cadáver mantém uma conversa completa pela duração da magia. Ele não pode mentir, mas pode evadir.</p>"
     },
-    "Spear": {
-      "name": "Lança",
-      "description": "<p>Uma lâmina em uma vara. Combina bem com escudos e outros portadores de lança.</p><p><strong>Características:</strong> versátil, arremessável</p>"
-    },
     "Spectral Combat Suit": {
       "name": "Traje de Combate Espectral",
       "description": "<p>Escamas de aço-vidro da Sátrapa com simbionte atmosférico. Esfregadores, filtros e bexigas mantêm o ambiente por algumas horas.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
     },
-    "Spectral Parasite": {
-      "name": "Parasita Espectral",
-      "description": "<p>Escamas de aço-vidro Sátrapa e um parasita criador de ambiente.</p><p>Modo queima [[/r 1d20]]: ganhe +2 de força (efeito ativo)</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]], volumoso, fresco, ambiente</p>",
-      "effects": {
-        "Burn (+2 str)": {
-          "name": "Queima (+2 for)",
-          "description": "<p>Modo de Queima 1d20: ganhe +2 de força</p>"
-        }
-      }
-    },
     "Spirit Hand": {
       "name": "Mão Espiritual",
       "description": "<p>Terceira mão ectoplasmática ancorada em sua aura. Ocupa um espaço de traço.</p><p><strong>Cost:</strong> €375</p>"
-    },
-    "Splinter Suit": {
-      "name": "Traje de Estilhaços",
-      "description": "<p>Escamas de madeira-sol sobre tecidos fibrosos. Flutua surpreendentemente bem até ficar encharcado.</p><p><strong>Características:</strong> volumoso, quente</p>"
     },
     "Spotted Lion's Cloak": {
       "name": "Manto do Leão Malhado",
@@ -2763,14 +2425,6 @@
       "name": "Estranho numa Garrafa",
       "description": "<p>Uma pessoa sintética com memórias falsas presa em uma superposição de improbabilidade. Use-a para injetar alguma personalidade em uma casca oca ou golem básico. É uma pessoa falsa, certo? Certo?!</p>"
     },
-    "Strapguard": {
-      "name": "Guarda-Pulso",
-      "description": "<p>Latão e plaz presos ao seu antebraço.</p><p><strong>Características:</strong> mãos-livres</p>"
-    },
-    "Stun Baton Wand": {
-      "name": "Varinha-Bastão de Atordoamento",
-      "description": "<p>Gaste 1 ponto de vida para atordoar (salvaguarda). Retrátil.</p><p><strong>Características:</strong> ocultar</p>"
-    },
     "Sturdy Stick": {
       "name": "Bastão Resistente",
       "description": "<p>Concede um bônus em longas caminhadas para lá (ou de volta).</p>"
@@ -2813,10 +2467,6 @@
     "Swagger Stick (*BILI Brand)": {
       "name": "Bengala de Postura (*Marca BILI)",
       "description": "<p>Um tradutor de microfissão espiritual permite que você gaste 1 ponto de vida para causar [[/r 1d12]] de dano com esta elegante bengala.</p>"
-    },
-    "Syncsuit": {
-      "name": "Traje de Sincronia",
-      "description": "<p>Spandex antigo e fio vivo para controle proprioceptivo direto de um veículo ou nave do vácuo.</p><p><strong>Características:</strong> interface</p>"
     },
     "Synthetic Blood": {
       "name": "Sangue Sintético",
@@ -2867,10 +2517,6 @@
       "target": "objeto sólido",
       "duration": "1 hora",
       "overcharge": "<p>a amarra é permanente.</p>"
-    },
-    "Throwing Knife": {
-      "name": "Faca de Arremesso",
-      "description": "<p>O clássico shuriken de combate dos Povos da Ferrugem, moradores de becos e outros malandros.</p><p><strong>Características:</strong> oculto</p>"
     },
     "Tikker Clicker": {
       "name": "Clicador Tikker",
@@ -2948,22 +2594,9 @@
       "name": "Ultrapurgante",
       "description": "<p>Purgante terrivelmente eficaz. Perda [[/r 2d4]] de vida ou pontos de atributo e igual número de infecções, demônios possuidores e outras afecções danosas.</p>"
     },
-    "Umbral Panoply": {
-      "name": "Panóplia Umbral",
-      "description": "<p>Tecido de sombra sólida e synthseda.</p><p><strong>Características:</strong> volumoso, fresco, camuflagem</p>"
-    },
     "Umbrella Gun": {
       "name": "Guarda-Chuva-Arma",
       "description": "<p>Protege da chuva e tem um único tiro surpresa.</p><p><strong>Características:</strong> recarga 20.</p>"
-    },
-    "Unarmed Damage": {
-      "name": "Dano Desarmado",
-      "description": "<p><em>(Este item não ocupa espaços de item se estiver equipado)</em></p><p>Se você não tem um item adequado para um tipo de ataque, você pode [quase] sempre fazer um ataque desarmado.</p><p>Exemplos de ataques desarmados: <strong>Corpo a Corpo</strong> - um soco, um chute, uma cabeçada. <strong>À Distância</strong> - um torrão, pedra ou barra de sabão arremessados. <strong>Velhatec</strong> ou outro ataque de inteligência - um truque conveniente, um subterfúgio, uma surpresa mecânica. <strong>Fantasciência</strong> ou outro ataque de carisma - uma fanfarrona terrível, uma maldição severa, um olhar do mal, uma invocação falsa.</p>",
-      "effects": {
-        "Weapon Slot Bonus": {
-          "name": "Bonus de Espaço de Arma"
-        }
-      }
     },
     "Unnoticeability Mask": {
       "name": "Máscara da Imperceptibilidade",
@@ -3009,10 +2642,6 @@
       "name": "Arma do Vácuo",
       "description": "<p>Fragmentos de navalha de baixo impacto destroçam a carne mas deixam cascos do vácuo intactos. Inútil contra trajes com armadura +5 ou melhor.</p><p><strong>Características:</strong> recarga 3</p>"
     },
-    "Void Infantry Dissipator": {
-      "name": "Dissipador de Infantaria do Vácuo",
-      "description": "<p>Pavese imponente de cerâmica, aerólito e bobinas crípticas. Qualquer dano acima de 10 se dissipa inofensivamente como um clarão policromático.</p><p><strong>Características:</strong> clarão 10, despedaçar</p>"
-    },
     "Void Paste": {
       "name": "Pasta do Vácuo",
       "description": "<p>Pacotes de comida sempre-fresca™ embalada a vácuo produzida para os viajantes do vácuo de outrora. Absorve umidade ambiente quando aberto. Qualquer umidade.</p>"
@@ -3020,10 +2649,6 @@
     "Void Thermos": {
       "name": "Termos do Vácuo",
       "description": "<p>Vedações de vácuo perfeito mantêm chá, sopa ou biopasta™ da MÃE quente por uma semana.</p>"
-    },
-    "Voidsuit": {
-      "name": "Traje do Vácuo",
-      "description": "<p>Uma aranha do vácuo lobotomizada, tecida e escavada em uma forma adequada para carregar um humano. </p><p>Ar para 3 dias.</p><p><strong>Características:</strong> volumoso, grande, ambiente, vácuo</p>"
     },
 
     "Voyager Supplies": {
@@ -3059,10 +2684,6 @@
       "name": "Pílulas de Água",
       "description": "<p>Purifica o suprimento de água de um dia. Mata insetos. Remove algumas toxinas. Recarrega 2.</p>"
     },
-    "Watersuit": {
-      "name": "Traje Aquático",
-      "description": "<p>Traje refrigerante de synthpele sobre malha de osso tecida, com sistema de refrigeração e filtração vascular.</p><p><strong>Características:</strong> volumoso, ambiente</p>"
-    },
     "Weapon of Nobility": {
       "name": "Arma da Nobreza",
       "description": "<p>Você representa majestade, cintilante e cruel (role [[/r 1d6]]): (1) espada dourada (1d8), (2) arco brilhante (1d8), (3) cetro de lápis-lazúli (1d8), (4) mangual farpado (1d8), (5) lança de jade (1d10), ou (6) adaga-machado de bronze (1d8). Seu portador é resistente a tudo que é baixo e ignóbil, sofrendo metade do dano da ralé camponesa ou de bandidos. Dito isso, a nobreza está nos olhos de quem vê, então cuidado — seu portador sofre dano duplo de qualquer um que ele acredite ser legitimamente seu superior. Além disso, qualquer criatura baixa ou vil que tocar em você sofre 1d4 de dano e horríveis bolhas se espalham por sua pele.</p>"
@@ -3083,17 +2704,9 @@
       "duration": "1 dia",
       "overcharge": "<p>o conserto dura uma semana; mas o dano depois é ainda pior.</p>"
     },
-    "S0zXIOaxG7DxgjGo": {
-      "name": "Machado-Martelo do Ghoul de Fios",
-      "description": "<p>Uma coisa de biomáquina morta-viva, coberta de flagelos contorcidos e vômito-ácido. Dano duplo em inimigos fortemente blindados.</p><p><strong>Características:</strong> necrótico</p>"
-    },
     "Wratosek": {
       "name": "Wratosek",
       "description": "<p>Grande espada de duas mãos forjada em metal de nave numa era distante.</p>"
-    },
-    "Wrench Hammer": {
-      "name": "Martelo-Chave Inglesa",
-      "description": "<p>Ferramenta da casta dos mantenedores para portas divinas e escotilhas sagradas. Hoje, uma insígnia do ofício sacerdotal.</p><p><strong>Características:</strong> duas mãos</p>"
     },
     "Yellow Cloud": {
       "name": "Nuvem Amarela",

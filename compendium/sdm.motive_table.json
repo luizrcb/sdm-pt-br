@@ -1,13 +1,7 @@
 {
   "label": "Tabela de Motivos",
-  "mapping": {
-    "results": {
-      "path": "results",
-      "converter": "customTableResults"
-    }
-  },
   "entries": {
-    "QNrZVnSF2iayOOIy": {
+    "Motive": {
       "name": "Motivos",
       "description": "<p>Por que deixar para trás o adorável sobretudo de cimento da tradição e da cidade?</p><p>Por que abandonar o abraço da hierarquia e o rigor da etiqueta?</p><p>Por que partir para as terras devastadas, as terras estranhas, as Terras Vastas?</p>",
       "results": {
