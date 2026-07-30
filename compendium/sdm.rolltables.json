@@ -312,6 +312,44 @@
           "description": "<b>abençoado</b>: 2 / 2 / 2 / 2 / 2 / 2"
         }
       }
+    },
+    "Desorienting Creature": {
+      "name": "Criatura Desorientada",
+      "description": "Uma criatura desorientada",
+      "results": {
+        "1-1": {
+          "name": "ataca a si mesma"
+        },
+        "2-2": {
+          "name": "ataca um aliado"
+        },
+        "3-3": {
+          "name": "se senta"
+        },
+        "4-4": {
+          "name": "se distancia"
+        },
+        "5-5": {
+          "name": "faz o que havia planejado"
+        },
+        "6-6": {
+          "name": "pára e ganha 1d6 de vida"
+        }
+      }
+    }, 
+    "Re-materialization delay": {
+      "name": "Atraso de rematerialização",
+      "results": {
+        "1-3": {
+          "name": "1-6 rodadas atrasado"
+        },
+        "4-5": {
+          "name": "10-60 minutos"
+        },
+        "6-6": {
+          "name": "1-6 horas"
+        }
+      }
     }
   }
 }

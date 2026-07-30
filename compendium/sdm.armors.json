@@ -9,10 +9,6 @@
   },
   "mapping": {
     "description": "system.description",
-    "range": "system.power.range",
-    "target": "system.power.target",
-    "duration": "system.power.duration",
-    "overcharge": "system.power.overcharge",
     "effects": {
       "path": "effects",
       "converter": "effectCollection"

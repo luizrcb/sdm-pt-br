@@ -10,10 +10,6 @@
   },
   "mapping": {
     "description": "system.description",
-    "range": "system.power.range",
-    "target": "system.power.target",
-    "duration": "system.power.duration",
-    "overcharge": "system.power.overcharge",
     "effects": {
       "path": "effects",
       "converter": "effectCollection"
@@ -150,34 +146,28 @@
       "description": "<p>Revigora como um descanso curto. Ótimo para sentinelas! Pode conter vampiro processado.</p>"
     },
 
-
     "Song-Ghost Fuel": {
       "name": "Combustível de Fantasma da Canção",
       "description": "<p>Emanações de daemon preso liquefeitas. Combustível limpo e denso para sua máquina. Pode deixar fenômenos parapsíquicos para trás após a queima.</p>"
     },
 
-
     "Soul Juice": {
       "name": "Suco de Alma",
       "description": "<p>Alma destilada. Remove 1 fardo mental permanentemente. Também, uma fonte de energia.</p>"
     },
-
     "Standard Corpsolene": {
       "name": "Cadavrolina Padrão",
       "description": "<p>Dinossauros mortos sintéticos básicos. Combustível para seus veículos.</p>"
     },
-
     "Synthetic Blood": {
       "name": "Sangue Sintético",
-      "description": "<p>Solo Vermelho Fino safra. Para cirurgia ou para alimentar um vampiro por uma semana.</p>"
+      "description": "<p>Solo Vermelho Fino de Reserva. Para cirurgia ou para alimentar um vampiro por uma semana.</p>"
     },
-
 
     "Tonic Harmony": {
       "name": "Harmonia Tônica",
       "description": "<p>Aprecie mais sua música! Adquira afinação perfeita e uma garganta dourada.</p>"
     },
-
 
     "Ultra-Purga": {
       "name": "Ultrapurgante",
@@ -193,7 +183,6 @@
       "name": "Curaloção da Cidade Violeta",
       "description": "<p>Restaura [[/r 2d6]] de vida ou 1 ponto de atributo físico.</p>"
     },
-
 
     "Void Paste": {
       "name": "Pasta do Vácuo",
@@ -211,7 +200,7 @@
     },
 
     "OITROVjjKTWaG6Xx": {
-      "name": "Choux Crême de Cérebro-Amarelo",
+      "name": "Profiteroles de Cérebro-Amarelo",
       "description": "<p>Concede bônus ao contatar alienígenas, demônios e outras criaturas mentais da noösfera. Pode induzir sonhos visionários. Pode conter tecido cerebral de mentes-estelares.</p>"
     },
 
