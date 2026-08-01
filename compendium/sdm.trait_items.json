@@ -1,43 +1,6 @@
 {
   "label": "Itens de Traços",
   "folders": {
-    "Armors": "Armaduras",
-    "Gears": "Equipamentos",
-    "Powers": "Poderes",
-    "Trait Items": "Equipamentos de Traços",
-    "Wards": "Égides",
-    "Weapons": "Armas",
-    "Unarmed Attack": "Ataque Desarmado",
-    "Modern and Ancient Shields": "Escudos Modernos e Antigos",
-    "Light Armors": "Armaduras Leves",
-    "Medium Armors": "Armaduras Médias",
-    "Classic Golem Armor": "Armadura Golem Clássica",
-    "Heavy Armors": "Armaduras Pesadas",
-    "Traditional Melee Weapons": "Armas Corpo a Corpo Tradicionais",
-    "Long Ago Melee Weapons": "Armas Corpo a Corpo de Muito Tempo Atrás",
-    "Ranged Weapons": "Armas de Longo Alcance",
-    "Throwing Weapons": "Armas de Arremesso",
-    "Terrible Ranged Weapons of the Long Ago": "Terríveis Armas de Longo Alcance de Muito Tempo Atrás",
-    "Gadgets": "Dispositivos",
-
-    "Climbing & Mobility": "Escalada e Mobilidade",
-    "Stealth & Disguise": "Furtividade e Disfarce",
-    "Security & Infiltration": "Segurança e Infiltração",
-    "Protection & Safety": "Proteção e Segurança",
-    "Magielectronics & Power": "Magieletrônica e Energia",
-    "Communication & Control": "Comunicação e Controle",
-    "Travel & Outdoors": "Viagem e Vida ao Ar Livre",
-    "Surveillance & Tracking": "Vigilância e Rastreamento",
-    "Rest & Recreation": "Descanso e Recreação",
-
-    "Consumables": "Consumíveis",
-    "Foods": "Alimentos",
-    "Drinks": "Bebidas",
-    "Medicines": "Medicamentos",
-    "Drugs": "Drogas",
-    "Potions": "Poções",
-    "Supplies": "Suprimentos",
-
     "Barbarian": "Bárbaro",
     "Bluelander": "Azulita",
     "Bourgeois": "Burguês",
@@ -60,11 +23,7 @@
     "Bearer Items": "Itens de Portador",
     "Weapon Form": "Forma de Arma",
     "Yellowlander": "Safraniano",
-    "Weapon Trait": "Traço de Arma",
-    "Trinkets": "Berloques",
-    "Wearable Wards": "Égides Vestíveis",
-    "Portable Wards": "Égides Portáteis",
-    "Bulky Wards": "Égides Volumosos"
+    "Weapon Trait": "Traço de Arma"
   },
   "mapping": {
     "description": "system.description",
@@ -101,7 +60,7 @@
 
     "Amber Wandgun": {
       "name": "Varinhola de Âmbar",
-      "description": "<p>Dispara descargas arqueadas de dor e fogo. Curto alcance.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+      "description": "<p>Dispara descargas arqueadas de dor e fogo. Curto alcance.</p>"
     },
 
     "Ancient Jezail": {
@@ -182,7 +141,7 @@
 
     "Book of Hellaesthetics": {
       "name": "Livro de Infernoestética",
-      "description": "<p>Palavras para causar dor ou removê-la. Gaste 2 vida para restaurar ou remover (salvaguarda) [[/r 1d6]]+1 vida. Sele para recarregar durante a noite.</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]]</p>",
+      "description": "<p>Palavras para causar dor ou removê-la. Gaste 2 vida para restaurar ou remover (salvaguarda) [[/r 1d6]]+1 vida. Sele para recarregar durante a noite.</p>",
       "effects": {
         "+1 Thought": {
           "name": "+1 Inteligência"
@@ -222,7 +181,7 @@
 
     "Builder Blaster": {
       "name": "Detonador do Construtor",
-      "description": "<p>4 de 6 disparos restantes. O daemon de licença foi exorcizado. Precisa de uma porta buildertech para recarregar.</p><p><strong>Características:</strong> recarga 4 [[/r 1d20]], 2M</p>"
+      "description": "<p>4 de 6 disparos restantes. O daemon de licença foi exorcizado. Precisa de uma porta construtec para recarregar.</p>"
     },
 
     "Builderhorse": {
@@ -307,7 +266,7 @@
 
     "Coffee Bonbons": {
       "name": "Bombons de Café",
-      "description": "<p>Doce que oculta um fardo por um dia. Pode causar tremores.</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]]</p>",
+      "description": "<p>Doce que oculta um fardo por um dia. Pode causar tremores.</p>",
       "effects": {
         "-1 burden": {
           "name": "-1 fardo"
@@ -317,7 +276,7 @@
 
     "Collar of Happiness": {
       "name": "Coleira da Felicidade",
-      "description": "<p>Injeta você com suco da felicidade quando se sente triste.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+      "description": "<p>Injeta você com suco da felicidade quando se sente triste.</p>"
     },
 
     "Collar of Life": {
@@ -382,7 +341,7 @@
 
     "Dale Four-Four": {
       "name": "Dale Quatro-Quatro",
-      "description": "<p>Bolter senciente dos Tempos Muito Antigos, de quatro disparos e muitas cores. Três ajustes: atordoar por [[/r 1d4]] rodadas (salvaguarda), queimar ([[/r 1d6]]), ou desintegrar ([[/r 4d4]]).</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]]</p>"
+      "description": "<p>Bolter senciente do Há Muito Muito Tempo, de quatro disparos e muitas cores. Três ajustes: atordoar por [[/r 1d4]] rodadas (salvaguarda), queimar ([[/r 1d6]]), ou desintegrar ([[/r 4d4]]).</p>"
     },
 
     "Dead God Tooth": {
@@ -486,7 +445,7 @@
 
     "Face Crab": {
       "name": "Caranguejo de Rosto",
-      "description": "<p>Use para parecer alguém simpático e respeitável — e nada parecido com você. O caranguejo precisa de 1 hora e 1d4 vida para substituir o rosto. Obviamente, também precisa de um rosto humano fresco. Extremamente ilegal.</p>"
+      "description": "<p>Use para parecer alguém simpático e respeitável — e nada parecido com você. O caranguejo precisa de 1 hora e [[/r 1d4]] vida para substituir o rosto. Obviamente, também precisa de um rosto humano fresco. Extremamente ilegal.</p>"
     },
 
     "Fairy Key": {
@@ -586,7 +545,7 @@
 
     "Garden Jezail": {
       "name": "Jezail de Jardim",
-      "description": "<p>Matou um Maligno no Há Muito Tempo? Energizado pelo Construtor, longo alcance.</p>"
+      "description": "<p>Matou um Vil no Há Muito Tempo? Energizado pelo Construtor, longo alcance.</p>"
     },
 
     "Ghost Bone Sabre": {
@@ -596,7 +555,7 @@
 
     "Glass Cannon": {
       "name": "Canhão de Vidro",
-      "description": "<p>Dispara seu próprio sangue como estilhaços tóxicos. Alvos ficam nauseados (salvaguarda) e sofrem penalidade em ações físicas. Gaste 3 vida para recarregar.</p><p><strong>Características:</strong> recarga 5 [[/r 1d20]], 2M</p>"
+      "description": "<p>Dispara seu próprio sangue como estilhaços tóxicos. Alvos ficam nauseados (salvaguarda) e sofrem penalidade em ações físicas. Gaste 3 de vida para recarregar.</p>"
     },
 
     "Glass Skull": {
@@ -616,7 +575,7 @@
 
     "Glitter Ball": {
       "name": "Bola de Glitter",
-      "description": "<p>Orbe disco flutuante do Long Ago. Segue instruções simples.</p><p>L0</p>"
+      "description": "<p>Orbe disco flutuante do Há Muito Tempo. Segue instruções simples.</p><p>L0</p>"
     },
 
     "Godbone Exoskeleton": {
@@ -717,7 +676,7 @@
 
     "Harshfield Uniform": {
       "name": "Uniforme Harshfield",
-      "description": "<p>Macacão robusto listrado de trabalho externo com controle climático embutido para calor e frio extremos.</p><p><strong>Características:</strong> ambiente.</p>"
+      "description": "<p>Macacão robusto listrado de trabalho externo com controle climático embutido para calor e frio extremos.</p>"
     },
 
     "Healmachine": {
@@ -831,7 +790,7 @@
 
     "Master Eyeball": {
       "name": "Olho-Mestre",
-      "description": "<p>Em um frasco conservante. Permite que você passe por alguém de classe mais alta.</p>",
+      "description": "<p>Em um frasco de conserva. Permite que você passe por alguém de classe mais alta.</p>",
       "effects": {
         "+1 Charisma": {
           "name": "+1 Carisma"
@@ -856,7 +815,7 @@
 
     "Metapills": {
       "name": "Metapílulas",
-      "description": "<p>Tome diariamente. Reduz a vida máxima em 1, mas concede bônus em salvaguardas contra doenças.</p><p><strong>Características:</strong> recarga 1 [[/r 1d20]]</p>"
+      "description": "<p>Tome diariamente. Reduz a vida máxima em 1, mas concede bônus em salvaguardas contra doenças.</p>"
     },
 
     "Mightier Pen": {
@@ -891,12 +850,12 @@
 
     "Motor Chung": {
       "name": "Motor Chung",
-      "description": "<p>Seis frascos cintilantes. Consuma no máximo uma hora antes do uso. Gaste 1 vida para ganhar uma ação bônus neste turno.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+      "description": "<p>Seis frascos cintilantes. Consuma no máximo uma hora antes do uso. Gaste 1 vida para ganhar uma ação bônus neste turno.</p>"
     },
 
     "Nip Lotion": {
       "name": "Loção de Erva-Gato",
-      "description": "<p>Faz você cheirar bem para os Senhores-Gato.</p><p><strong>Características:</strong> recarga 7 [[/r 1d20]]</p>",
+      "description": "<p>Faz você cheirar bem para os Senhores-Gato.</p>",
       "effects": {
         "+2 Charisma": {
           "name": "+2 Carisma"
@@ -1092,7 +1051,6 @@
       "name": "Fazedor de Fogo Pré-Queda",
       "description": "<p>Marca Sippo. Inclui fluido inflamável.</p>"
     },
-
     "Radioactive Rodent Skull": {
       "name": "Crânio de Roedor Radioativo",
       "description": "<p>Uma noite, seu dono te mordeu e você teve uma epifania.</p>"
@@ -1119,7 +1077,7 @@
     },
     "Rib Bow": {
       "name": "Arco de Costela",
-      "description": "<p>Besta feita de partes de máquina morta. Não vai te decepcionar.</p><p>Características: recarga 20</p>"
+      "description": "<p>Besta feita de partes de máquina morta. Não vai te decepcionar.</p>"
     },
     "Ring of Divisibility": {
       "name": "Anel da Divisibilidade",
@@ -1170,7 +1128,7 @@
     },
     "Saffron Snuf": {
       "name": "Rapé de Açafrão",
-      "description": "<p>Inale para clarear a mente ou ganhar [[/r 1d4]] de aura por uma hora.</p><p><strong>Características:</strong> recarga 1</p><p><em>(use o efeito ativo para configurar o bônus de aura)</em></p>"
+      "description": "<p>Inale para clarear a mente ou ganhar [[/r 1d4]] de aura por uma hora.</p><p><em>(use o efeito ativo para configurar o bônus de aura)</em></p>"
     },
     "Sand Dragon Scale": {
       "name": "Escama de Dragão de Areia",
@@ -1178,7 +1136,7 @@
     },
     "Scave Bolter": {
       "name": "Bólter de Catador",
-      "description": "<p>Uma arma elegante e de longo alcance de uma era mais simples.</p><p><strong>Características:</strong> recarga 2, 2M</p>"
+      "description": "<p>Uma arma elegante e de longo alcance de uma era mais simples.</p>"
     },
     "Scroll Disk Belt": {
       "name": "Cinto de Disco de Pergaminho",
@@ -1268,7 +1226,7 @@
     },
     "Social Credit Tattoo": {
       "name": "Tatuagem de Crédito Social",
-      "description": "<p>Prova de quão boa pessoa você é. Acesso gratuito a dormitórios corporativos e distribuidores de slurry alimentar! Não reanimar!</p>"
+      "description": "<p>Prova de quão boa pessoa você é. Acesso gratuito a dormitórios corporativos e distribuidores de lama alimentar! Não reanimar!</p>"
     },
     "Solaris Disc": {
       "name": "Disco Solaris",
@@ -1284,7 +1242,7 @@
     },
     "Spectral Combat Suit": {
       "name": "Traje de Combate Espectral",
-      "description": "<p>Escamas de aço-vidro da Sátrapa com simbionte atmosférico. Esfregadores, filtros e bexigas mantêm o ambiente por algumas horas.</p><p><strong>Características:</strong> recarga 3 [[/r 1d20]]</p>"
+      "description": "<p>Escamas de aço-vidro da Sátrapa com simbionte atmosférico. Esfregadores, filtros e bexigas mantêm o ambiente por algumas horas.</p>"
     },
     "Spirit Hand": {
       "name": "Mão Espiritual",
@@ -1308,7 +1266,7 @@
       "description": "<p>Racha armaduras e perfura corações não-vivos. Dano duplo em vampiros.</p>"
     },
     "Standing Bed": {
-      "name": "Cama de Pé",
+      "name": "Cama Vertical",
       "description": "<p>Uma armação de aço tubular para se apoiar e descansar enquanto 'fica de vigia'.</p>"
     },
     "Stone": {
@@ -1325,7 +1283,7 @@
     },
     "Sun's Caress": {
       "name": "Carícia do Sol",
-      "description": "<p>Um protetor solar especial que cura você enquanto você fica com uma linda tonalidade de frito. Recupere [[/r 1d6]] de vida após algumas horas no sol.</p><p><strong>Características:</strong> recarga 3</p>"
+      "description": "<p>Um protetor solar especial que cura você enquanto você fica com uma linda tonalidade de frito. Recupere [[/r 1d6]] de vida após algumas horas no sol.</p>"
     },
     "Sungwood Shield": {
       "name": "Escudo de Madeira-Sol",
@@ -1366,7 +1324,7 @@
       "description": "<p>Um relógio antigo que vibra e zumbida quando detecta energias corruptoras. Concede bônus contra corrupção.</p>"
     },
     "Tinkling Shoes": {
-      "name": "Sapatos Tinindantes",
+      "name": "Sapatos Tilintantes",
       "description": "<p>Sininhos bonitos garantem que você não passará despercebido.</p>"
     },
     "Tooth of the Root Worm": {
@@ -1391,7 +1349,7 @@
     },
     "Twelve Sleepy Coins": {
       "name": "Doze Moedas Sonolentas",
-      "description": "<p>Parecem ouro embrulhado em plástico. Expostas ao ar, sublimam em uma nuvem soporífica. Salvaguarda ou durma.</p><p><strong>Características:</strong> recarga 2 [[/r 1d20]]</p>"
+      "description": "<p>Parecem ouro embrulhado em plástico. Expostas ao ar, sublimam em uma nuvem soporífica. Salvaguarda ou durma.</p>"
     },
     "Twilight Shades": {
       "name": "Óculos do Crepúsculo",
@@ -1399,7 +1357,7 @@
     },
     "Umbrella Gun": {
       "name": "Guarda-Chuva-Arma",
-      "description": "<p>Protege da chuva e tem um único tiro surpresa.</p><p><strong>Características:</strong> recarga 20.</p>"
+      "description": "<p>Protege da chuva e tem um único tiro surpresa.</p>"
     },
     "Ur Gun": {
       "name": "Ur-Arma",
@@ -1414,8 +1372,8 @@
       "description": "<p>Holo-peças de Há Muito Muito Tempo, como *O Muro do Lobo Chorão* e *O Templo do Rei Serpente*. Reúne o povo em um brilho azul suave.</p>"
     },
     "Void-Certified Sleeping Bag": {
-      "name": "Saco de Dormir Certificado para Vácuo",
-      "description": "<p>Durma tranquilo, mesmo se sua estrela rápida tiver um vazamento! Roubado.</p>"
+      "name": "Saco de Dormir com Certificação de Vácuo",
+      "description": "<p>Descanse em paz, mesmo se a sua nave estelar vazar! Roubado.</p>"
     },
     "Void Gun": {
       "name": "Arma do Vácuo",
@@ -1431,7 +1389,12 @@
     },
     "War Furs": {
       "name": "Pelagens de Guerra",
-      "description": "<p>Listradas para mostrar força.</p>"
+      "description": "<p>Listradas para mostrar força.</p>",
+      "effects": {
+        "+1 Strength": {
+          "name": "+1 Força"
+        }
+      }
     },
     "War Mask": {
       "name": "Máscara de Guerra",
@@ -1451,7 +1414,7 @@
     },
     "Yellow Dart": {
       "name": "Dardo Amarelo",
-      "description": "<p>Lança de metal e osso. Gaste 1 de vida para fazê-la brilhar por uma hora.</p><p><strong>Características:</strong> alcance, 2M</p>"
+      "description": "<p>Lança de metal e osso. Gaste 1 de vida para fazê-la brilhar por uma hora.</p>"
     },
     "Yellow Poncho": {
       "name": "Poncho Amarelo",

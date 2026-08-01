@@ -8,6 +8,7 @@
     "Heavy Armors": "Armaduras Pesadas"
   },
   "mapping": {
+    "resistant": "system.resistant.value",
     "description": "system.description",
     "effects": {
       "path": "effects",
@@ -15,7 +16,6 @@
     }
   },
   "entries": {
-
     "Amber Cuirass": {
       "name": "Couraça de Âmbar",
       "description": "<p>Fios de memórias ancestrais presos em âmbar.</p><p>Memórias espectrais concedem +1 Inteligência.</p>",
@@ -145,6 +145,7 @@
     "Malachite Swirl": {
       "name": "Espiral de Malaquita",
       "description": "<p>Pedra polida e linhas de força entrelaçadas para resistir a ataques de alta velocidade e energia.</p><p>Modo de queima [[/r 1d20]]: ganhe +5 força ou 30 vida em campo de força (<em>alternar efeitos ativos</em>)</p>",
+      "resistant": "energia",
       "effects": {
         "Burn (+5 str)": {
           "name": "Queima (+5 for)",
@@ -198,7 +199,7 @@
     },
 
     "Shipmetal Shirt": {
-      "name": "Camisa de Aço Naval",
+      "name": "Camisa de Metal de Nave",
       "description": "<p>Leve como a vela de um barco, resistente como o aço.</p>"
     },
 
