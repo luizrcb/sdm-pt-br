@@ -670,7 +670,12 @@
     },
     "6. Telempath": {
       "name": "6. Telempata",
-      "description": "<p>Você pode transmitir mentalmente avisos gerais, sentimentos e impressões para outras criaturas a uma distância média. Ganhe +1 de égide.</p>"
+      "description": "<p>Você pode transmitir mentalmente avisos gerais, sentimentos e impressões para outras criaturas a uma distância média. Ganhe +1 de égide.</p>",
+      "effects": {
+        "+1 Ward": {
+          "name": "+1 Égide"
+        }
+      }
     },
     "6. Terrifying": {
       "name": "6. Aterrorizante",
