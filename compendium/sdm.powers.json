@@ -33,7 +33,7 @@
     },
     "Alter Self": {
       "name": "Alterar o Eu",
-      "description": "<p><em>Beleza Interior Manifestada, Mente Sobre a Carne</em></p><p>A mente do mago reesculta seus próprios traços. Ele pode assumir a aparência de uma pessoa específica, desde que a tenha estudado de perto, ou de um tipo geral. Nenhuma habilidade é alterada. Alternativamente, o mago pode escolher ganhar guelras, visão em pouca luz, ou outra habilidade natural menor, a critério do árbitro.</p>",
+      "description": "<p><em>Beleza Interior Manifestada, Mente Sobre a Carne</em></p><p>A mente do mago reesculpe seus próprios traços. Ele pode assumir a aparência de uma pessoa específica, desde que a tenha estudado de perto, ou de um tipo geral. Nenhuma habilidade é alterada. Alternativamente, o mago pode escolher ganhar guelras, visão em pouca luz, ou outra habilidade natural menor, a critério do mediador.</p>",
       "range": "toque",
       "target": "si mesmo",
       "duration": "1 hora",
@@ -256,7 +256,7 @@
     },
     "Invoke Ub Dragon": {
       "name": "Invocar Dragão Ub",
-      "description": "<p><em>Faísca de Erro da Realidade Local</em></p><p>O conjurador invoca o código Ub e condensa perturbações magitecnológicas acumuladas em um devorador. Seu poder depende do nível de perturbação (decidido pelo árbitro ou por um [[/r d10]]). Após a manifestação, a perturbação local diminui um nível; forças presas se soltam, emaranhados de energia se dissipam, fantasmas de radiação enfraquecem.</p><ul><li><p>&lt;1 não perturbado:</p><ul><li><p><strong>plâncton aéreo cintilante</strong> (L0, inofensivo)</p></li></ul></li><li><p>1–3 levemente perturbado:</p><ul><li><p><strong>limo purificador</strong> (L[[/r 1d4]], cáustico)</p></li></ul></li><li><p>4–7 estática temporal:</p><ul><li><p><strong>lagarto da destruição</strong> (L[[/r 2d4]], blindado)</p></li></ul></li><li><p>8–9 cicatriz espacial:</p><ul><li><p><strong>saltador flamejante</strong> (L[[/r 2d6]], espinhoso)</p></li></ul></li><li><p>10+ fratura da realidade:</p><ul><li><p><strong>ceifador de lâminas</strong> (L[[/r 3d4+2]], alado)</p></li></ul></li></ul>",
+      "description": "<p><em>Faísca de Erro da Realidade Local</em></p><p>O conjurador invoca o código Ub e condensa perturbações magitecnológicas acumuladas em um devorador. Seu poder depende do nível de perturbação (decidido pelo mediador ou por um [[/r d10]]). Após a manifestação, a perturbação local diminui um nível; forças presas se soltam, emaranhados de energia se dissipam, fantasmas de radiação enfraquecem.</p><ul><li><p>&lt;1 não perturbado:</p><ul><li><p><strong>plâncton aéreo cintilante</strong> (L0, inofensivo)</p></li></ul></li><li><p>1–3 levemente perturbado:</p><ul><li><p><strong>limo purificador</strong> (L[[/r 1d4]], cáustico)</p></li></ul></li><li><p>4–7 estática temporal:</p><ul><li><p><strong>lagarto da destruição</strong> (L[[/r 2d4]], blindado)</p></li></ul></li><li><p>8–9 cicatriz espacial:</p><ul><li><p><strong>saltador flamejante</strong> (L[[/r 2d6]], espinhoso)</p></li></ul></li><li><p>10+ fratura da realidade:</p><ul><li><p><strong>ceifador de lâminas</strong> (L[[/r 3d4+2]], alado)</p></li></ul></li></ul>",
       "range": "aqui",
       "target": "grande área local de realidade perturbada",
       "duration": "permanente",

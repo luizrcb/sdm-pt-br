@@ -210,7 +210,7 @@
     },
     "1. Escapist": {
       "name": "1. Escapista",
-      "description": "<p>Você é habilidoso em ter sorte. Isso é um bônus de +3 em todos os testes de resistência.</p>"
+      "description": "<p>Você é habilidoso em ter sorte. Isso é um bônus de +3 em todos os testes de salvaguarda.</p>"
     },
     "1. Glowing Skeleton": {
       "name": "1. Esqueleto Brilhante",
@@ -234,7 +234,7 @@
     },
     "1. Personal Daimon": {
       "name": "1. Daemon Pessoal",
-      "description": "<p>Essência nímbica de um aureano dos tempos mais distantes, onde futuro e passado se encontram. Ele conhece histórias estranhas e, uma vez por sessão, permite que você narre uma reviravolta ou descoberta surpresa (\"havia uma bateria extra na mala vazia!\"). O árbitro tem um veto suave se algo for muito absurdo.</p>"
+      "description": "<p>Essência nímbica de um aureano dos tempos mais distantes, onde futuro e passado se encontram. Ele conhece histórias estranhas e, uma vez por sessão, permite que você narre uma reviravolta ou descoberta surpresa (\"havia uma bateria extra na mala vazia!\"). O mediador tem um veto suave se algo for muito absurdo.</p>"
     },
     "2. Blastermaster": {
       "name": "2. Mestre dos Disparadores",
@@ -346,7 +346,7 @@
     },
     "3. Culling": {
       "name": "3. Abate",
-      "description": "<p>Quando você elimina um inimigo, você ganha uma ação livre imediata. O árbitro pode limitar o número de ações livres, se elas fugirem do controle.</p>"
+      "description": "<p>Quando você elimina um inimigo, você ganha uma ação livre imediata. O mediador pode limitar o número de ações livres, se elas fugirem do controle.</p>"
     },
     "3. Death Hunger": {
       "name": "3. Fome da Morte",
