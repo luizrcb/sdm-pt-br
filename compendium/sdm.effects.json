@@ -1,0 +1,286 @@
+{
+  "label": "Efeitos",
+  "folders": {
+    "Any Gear Mods": "Mods de Qualquer Equipamento",
+    "Armor and Ward Mods": "Mods de Armadura e Égide",
+    "Common Upgrades": "Melhorias Comuns",
+    "Post Scarcity Customizations": "Customizações Pós-Escassez",
+    "Weapon Mods": "Mods de Arma",
+    "Standard Upgrades": "Melhorias Padrão",
+    "Postreality Customizations": "Customizações Pós-Realidade"
+  },
+  "mapping": {
+    "changes": {
+      "path": "system.changes",
+      "converter": "activeEffectChanges"
+    }
+  },
+  "entries": {
+    "Medium Actor": {
+      "name": "Ator Médio",
+      "description": "<p>Efeito Ativo para Atores que pesam a metade (5 mochilas) de um humano padrão (1 saca ou 10 mochilas).</p>"
+    },
+    "Small Actor": {
+      "name": "Ator Pequeno",
+      "description": "<p>Efeito Ativo para Atores que pesam um décimo (1 mochila) de um humano padrão (1 saca ou 10 mochilas).</p>"
+    },
+    "Giant Actor": {
+      "name": "Ator Gigante",
+      "description": "<p>Efeito Ativo para Atores que pesam o dobro (2 sacas) de um humano padrão (1 saca).</p>"
+    },
+    "1 - Styling": {
+      "name": "1 - Estilização",
+      "description": "<p>Inscrição, douramento, gravação, coloração etc. Mais difícil de roubar e penhorar.</p><p><strong>Custo do Mod</strong>: €5, <strong>Repetível</strong></p>",
+      "changes": {
+        "system.description": "<p>Inscrição, douramento, gravação, coloração etc. Mais difícil de roubar e penhorar.</p>"
+      }
+    },
+    "2 - Glow": {
+      "name": "2 - Brilho",
+      "description": "<p>Um brilho radioativo sinistro, personalizado para seu personagem. Brilhante como uma tocha.</p><p><strong>Custo do Mod</strong>: €25</p>"
+    },
+    "3 - Hammerspace": {
+      "name": "3 - Espaço Hiperdimensional",
+      "description": "<p>O item não ocupa mais um espaço de inventário. Ele é parte de você, por assim dizer.</p><p><strong>Custo do Mod</strong>: €150</p>"
+    },
+    "4 - Area Boost": {
+      "name": "4 - Aumento de Área",
+      "description": "<p>Ajustada magitecnicamente para aproximadamente dobrar sua área de efeito.</p><p><strong>Custo do Mod</strong>: €150, <strong>Repetível</strong></p>"
+    },
+    "5 - Range Boost": {
+      "name": "5 - Aumento de Alcance",
+      "description": "<p>Maior alcance sem sacrificar a precisão exige modificação completa do material.</p><p><strong>Custo do Mod</strong>: €200, <strong>Repetível</strong></p>"
+    },
+    "1 - Hardened": {
+      "name": "1 - Reforçado",
+      "description": "<p>Placas melhoradas, tecidos reativos e absorvedores aumentam a defesa da armadura em +1.</p><p><strong>Custo do Mod</strong>: €10, <strong>Repetível</strong></p>"
+    },
+    "2 - Cooling": {
+      "name": "2 - Resfriamento",
+      "description": "<p>Aletas, ventoinhas e aberturas de ventilação. Adequado para ambientes quentes.</p><p><strong>Custo do Mod</strong>: €25</p>"
+    },
+    "3 - Heating": {
+      "name": "3 - Aquecimento",
+      "description": "<p>Forro, vedações e acolchoamento. Adequado para ambientes frios.</p><p><strong>Custo do Mod</strong>: €25</p>"
+    },
+    "4 - Waterproof": {
+      "name": "4 - Impermeável",
+      "description": "<p>Óleos, borrachas e lãs. Mantém você seco e concede um bônus contra ataques elétricos. Este bônus não é automatizado.</p><p><strong>Custo do Mod</strong>: €25</p>",
+      "changes": {
+        "system.description": "<p>Óleos, borrachas e lãs. Mantém você seco e concede um bônus contra ataques elétricos. Este bônus não é automatizado.</p>"
+      }
+    },
+    "5 - Fashionable": {
+      "name": "5 - Elegante",
+      "description": "<p>Gravuras em relevo, filigranas, incrustações etc. Declara audaciosamente quem você é. Concede +1 de Carisma.</p><p><strong>Custo do Mod</strong>: €50</p>"
+    },
+    "6 - Pocketses": {
+      "name": "6 - Bolsos",
+      "description": "<p>Compartimentos secretos escondem uma quantidade de itens pequenos (1 crt) igual ao seu nível. Esses itens não ocupam espaço adicional de inventário.</p><p><strong>Custo do Mod</strong>: €50</p>"
+    },
+    "7 - Gas-Tight": {
+      "name": "7 - Hermético a Gás",
+      "description": "<p>Máscara, respiradores e polímeros para proteger contra perigos ambientais.</p><p><strong>Custo do Mod</strong>: €75</p>"
+    },
+    "8 - Silent": {
+      "name": "8 - Silencioso",
+      "description": "<p>Envolvido e acolchoado para abafar o som. Sem penalidade ao se esgueirar.</p><p><strong>Custo do Mod</strong>: €100</p>"
+    },
+    "(1) - Skull-Warded": {
+      "name": "(1) - Protegido pelo Crânio",
+      "description": "<p>Proteção contra magias sombrias aumenta as salvaguardas. Concede égide +1.</p><p><strong>Custo do Mod</strong>: €20, <strong>Repetível</strong></p>"
+    },
+    "(2) - Life Field": {
+      "name": "(2) - Campo de Vida",
+      "description": "<p>Concede ao usuário vida temporária: 5 ou seu nível, o que for maior.</p><p><strong>Custo do Mod</strong>: €100, <strong>Repetível</strong></p>"
+    },
+    "(3) - Resistant": {
+      "name": "(3) - Resistente",
+      "description": "<p>Recebe metade do dano de um tipo de dano (ex.: fogo, ácido, necrótico)<br>Edite o tipo de dano (#) na aba de mudanças.</p><p><strong>Custo do Mod</strong>: €150</p>"
+    },
+    "(4) - Absorbing": {
+      "name": "(4) - Absorção",
+      "description": "<p>Reduza seu bônus de armadura em 1 para negar o dano de um ataque (reduza a armadura usando as mudanças deste efeito ativo). A menos que seja armadura viva, gaste €50 para reparar cada ponto de armadura.</p><p><strong>Custo do Mod</strong>: €200</p>",
+      "changes": {
+        "system.description": "<p>Reduza seu bônus de armadura em 1 para negar o dano de um ataque (reduza a armadura usando as mudanças deste efeito ativo). A menos que seja armadura viva, gaste €50 para reparar cada ponto de armadura.</p>"
+      }
+    },
+    "(5) - Golem Servos (agi)": {
+      "name": "(5) - Servos de Golem (rap)",
+      "description": "<p>Aumenta a rapidez do usuário em 1.</p><p><strong>Custo do Mod</strong>: €400, <strong>Repetível</strong></p>"
+    },
+    "(5) - Golem Servos (end)": {
+      "name": "(5) - Servos de Golem (res)",
+      "description": "<p>Aumenta a resistência do usuário em 1.</p><p><strong>Custo do Mod</strong>: €400, <strong>Repetível</strong></p>"
+    },
+    "(5) - Golem Servos (str)": {
+      "name": "(5) - Servos de Golem (for)",
+      "description": "<p>Aumenta a força do usuário em 1.</p><p><strong>Custo do Mod</strong>: €400, <strong>Repetível</strong></p>"
+    },
+    "(6) - Limited Flare": {
+      "name": "(6) - Clarão Limitado",
+      "description": "<p>Campos dissipadores limitam o dano de um ataque por rodada a 10.</p><p><strong>Custo do Mod</strong>: €500, <strong>Repetível</strong></p>"
+    },
+    "(7) - Jade-Marked": {
+      "name": "(7) - Marcado com Jade",
+      "description": "<p>Absorve um fardo por semana para o portador.</p><p><strong>Custo do Mod</strong>: €700, <strong>Repetível</strong></p>",
+      "changes": {
+        "system.description": "<p>Absorve um fardo por semana para o portador.</p>"
+      }
+    },
+    "(8) - Aetherial": {
+      "name": "(8) - Etéreo",
+      "description": "<p>Também concede sua defesa contra ataques noösféricos, fantasmas e ultras.</p><p><strong>Custo do Mod</strong>: €800</p>",
+      "changes": {
+        "system.description": "<p>Também concede sua defesa contra ataques noösféricos, fantasmas e ultras.</p>"
+      }
+    },
+    "(9) - Living": {
+      "name": "(9) - Vivo",
+      "description": "<p>Está vivo. Reduza seu bônus de armadura em 1 para recuperar 1d4 de vida. Alimentado e autorizado a descansar, recupera 1 de armadura por semana. Use as mudanças deste efeito ativo para reduzir o valor da armadura.</p><p><strong>Custo do Mod</strong>: €900</p>",
+      "changes": {
+        "system.description": "<p>Está vivo. Reduza seu bônus de armadura em 1 para recuperar 1d4 de vida. Alimentado e autorizado a descansar, recupera 1 de armadura por semana. Use as mudanças deste efeito ativo para reduzir o valor da armadura.</p>"
+      }
+    },
+    "10 - Urbanweave": {
+      "name": "10 - Trama Urbana",
+      "description": "<p>Miniaturizado (-1 mo, mínimo 1 mo) e estilizado para parecer mais com roupas civis.</p><p><strong>Custo do Mod</strong>: €1000</p>"
+    },
+    "11 - Sentience": {
+      "name": "11 - Senciência",
+      "description": "<p>A armadura/égide ganha uma mente e +1d4 de carisma, aura e inteligência.</p><p><strong>Custo do Mod</strong>: €1000, <strong>Repetível</strong></p>",
+      "changes": {
+        "system.description": "<p>A armadura/égide ganha uma mente e +1d4 de carisma, aura e inteligência.</p>"
+      }
+    },
+    "12 - Automaton": {
+      "name": "12 - Autômato",
+      "description": "<p>Segue instruções simples, mas não tem mente própria. Use o mod de senciência para dar-lhe um cérebro. Pode 'carregar' o portador, tornando alguns desafios de resistência triviais.</p><p>Modo de autocombate: ganha +1d4 de força, rapidez e resistência. Vida: 10 × nível. Defesa: 7 + armadura + nível. Ataque: bônus = nível. Dano: 1d6 + armadura + nível.</p><p><strong>Custo do Mod</strong>: €1500, <strong>Repetível</strong></p>",
+       "changes": {
+        "system.description": "<p>Segue instruções simples, mas não tem mente própria. Use o mod de senciência para dar-lhe um cérebro. Pode 'carregar' o portador, tornando alguns desafios de resistência triviais.</p><p>Modo de autocombate: ganha +1d4 de força, rapidez e resistência. Vida: 10 × nível. Defesa: 7 + armadura + nível. Ataque: bônus = nível. Dano: 1d6 + armadura + nível.</p>"
+      }
+    },
+    "1 - Damage Boost": {
+      "name": "1 - Aumento de Dano",
+      "description": "<p>O mais básico dos mods de arma. Bônus de +1 por dado de dano (2d4 → 2d4+2)</p><p><strong>Custo do Mod</strong>: €5, <strong>Repetível</strong></p>"
+    },
+    "2 - Styling": {
+      "name": "2 - Estilização",
+      "description": "<p>Inscrição, douramento, gravação, coloração etc. Mais difícil de roubar e penhorar.</p><p><strong>Custo do Mod</strong>: €5, <strong>Repetível</strong></p>",
+      "changes": {
+        "system.description": "<p>Inscrição, douramento, gravação, coloração etc. Mais difícil de roubar e penhorar.</p>"
+      }
+    },
+    "3 - Glow": {
+      "name": "3 - Brilho",
+      "description": "<p>Um brilho radioativo sinistro, personalizado para seu personagem. Brilhante como uma tocha.</p><p><strong>Custo do Mod</strong>: €25</p>"
+    },
+    "4 - Bane Coat": {
+      "name": "4 - Revestimento do Flagelo",
+      "description": "<p>Revestimento exótico (ultravioleta, ouro) causa dano dobrado a um tipo de alvo.</p><p><strong>Custo do Mod</strong>: €50</p>",
+      "changes": {
+        "system.description": "<p>Revestimento exótico (ultravioleta, ouro) causa dano dobrado a um tipo de alvo.</p>"
+      }
+    },
+    "5 - Resistance": {
+      "name": "5 - Resistência",
+      "description": "<p>A arma recebe um bônus de +[[/r 1d6]] em testes de salvaguarda e ignora um tipo de resistência. Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €75</p>",
+      "changes": {
+        "system.description": "<p>A arma recebe um bônus de +[[/r 1d6]] em testes de salvaguarda e ignora um tipo de resistência. Isso não é automatizado.</p>"
+      }
+    },
+    "6 - Precision": {
+      "name": "6 - Precisão",
+      "description": "<p>Demônios precognitivos guiam a arma, concedendo um bônus de +1 nos ataques.</p><p><strong>Custo do Mod</strong>: €100, <strong>Repetível</strong></p>"
+    },
+    "7 - Area Boost": {
+      "name": "7 - Aumento de Área",
+      "description": "<p>Ajustada magitecnicamente para aproximadamente dobrar sua área de efeito.</p><p><strong>Custo do Mod</strong>: €150, <strong>Repetível</strong></p>"
+    },
+    "8 - Range Boost": {
+      "name": "8 - Aumento de Alcance",
+      "description": "<p>Maior alcance sem sacrificar a precisão exige modificação completa do material.</p><p><strong>Custo do Mod</strong>: €200, <strong>Repetível</strong></p>"
+    },
+    "(1) - Damage Upgrade": {
+      "name": "(1) - Aumento de Dano",
+      "description": "<p>Aumenta o dado de dano em um passo (2d4 → 2d6 → 2d8)</p><p><strong>Custo do Mod</strong>: €100, <strong>Repetível</strong></p>"
+    },
+    "(2) - Hammerspace": {
+      "name": "(2) - Espaço Hiperdimensional",
+      "description": "<p>O item não ocupa mais um espaço de inventário. Ele é parte de você, por assim dizer.</p><p><strong>Custo do Mod</strong>: €150</p>"
+    },
+    "(3) - Crippling": {
+      "name": "(3) - Incapacitante",
+      "description": "<p>O alvo fica lento (salvaguarda). O segundo golpe imobiliza por 1d6 rodadas (salvaguarda). Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €200</p>",
+      "changes": {
+        "system.description": "<p>O alvo fica lento (salvaguarda). O segundo golpe imobiliza por 1d6 rodadas (salvaguarda). Isso não é automatizado.</p>"
+      }
+    },
+    "(4.0) - Draining (Temporary Life)": {
+      "name": "(4.0) - Dreno (Vida Temporária)",
+      "description": "<p>Quando causa dano, o portador ganha 1 ponto de vida temporária. Dura algumas horas. (Adicione o efeito Dreno (Drenar Vida) para automatizar o ganho de vida ao causar dano).</p><p><strong>Custo do Mod</strong>: €200, <strong>Repetível</strong></p>"
+    },
+    "(4.1) - Draining (Life Drain)": {
+      "name": "(4.1) - Dreno (Drenar Vida)",
+      "description": "<p>Quando causa dano, o portador ganha 1 ponto de vida temporária. Dura algumas horas. (Adicione o efeito Dreno (Drenar Vida) para automatizar o ganho de vida ao causar dano).</p>"
+    },
+    "(5) - Saboteur": {
+      "name": "(5) - Sabotador",
+      "description": "<p>Em vez de dano: o alvo é derrubado, desacelerado, empurrado ou bloqueado (salvaguarda difícil). Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €250</p>",
+      "changes": {
+        "system.description": "<p>Em vez de dano: o alvo é derrubado, desacelerado, empurrado ou bloqueado (salvaguarda difícil). Isso não é automatizado.</p>"
+      }
+    },
+    "(6) - Streetfighter": {
+      "name": "(6) - Brigão de Rua",
+      "description": "<p>Fiação macabra aumenta os dados de dano desarmado (1d3 → 1d6 → 1d8 → 1d10).</p><p><strong>Custo do Mod</strong>: €300, <strong>Repetível</strong></p>"
+    },
+    "(7) - Integrated": {
+      "name": "(7) - Integrado",
+      "description": "<p>Tamanho reduzido em um passo (1 sc → 1 mo → 1 crt) e os ataques podem ser tratados como desarmados.</p><p><strong>Custo do Mod</strong>: €350, <strong>Repetível</strong></p>"
+    },
+    "(8) - Remapped": {
+      "name": "(8) - Remapeado",
+      "description": "<p>Usa um atributo diferente para seus bônus de combate (ex.: aura para ataques corpo a corpo). Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €450</p>",
+      "changes": {
+        "system.description": "<p>Usa um atributo diferente para seus bônus de combate (ex.: aura para ataques corpo a corpo). Isso não é automatizado.</p>"
+      }
+    },
+    "(9.0) - Vorpalization": {
+      "name": "(9.0) - Vorpalização",
+      "description": "<p>Corta ou destrói uma extremidade em um acerto crítico, ou causa dano crítico dobrado.</p><p><strong>Custo do Mod</strong>: €500</p>"
+    },
+    "(9.1) - Vorpalization (Double Critical)": {
+      "name": "(9.1) - Vorpalização (Crítico Duplo)",
+      "description": "<p>Em um acerto crítico, causa dano crítico dobrado.</p><p><em><br>(Adicione este efeito ao mesmo item que possui o mod de item Vorpalização)</em></p>"
+    },
+    "10 - Atrophic": {
+      "name": "10 - Atrófico",
+      "description": "<p>Causa 1 de dano de atributo por acerto. Escolha o atributo alvo (força, rapidez etc.). Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €600, <strong>Repetível</strong></p>",
+      "changes": {
+        "system.description": "<p>Causa 1 de dano de atributo por acerto. Escolha o atributo alvo (força, rapidez etc.). Isso não é automatizado.</p>"
+      }
+    },
+    "11 - Stunning": {
+      "name": "11 - Atordoante",
+      "description": "<p>Golpes com um clarão ou rugido chocante. O alvo perde 1 ação (salvaguarda). Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €850</p>",
+      "changes": {
+        "system.description": "<p>Golpes com um clarão ou rugido chocante. O alvo perde 1 ação (salvaguarda). Isso não é automatizado.</p>"
+      }
+    },
+    "12 - Sentience": {
+      "name": "12 - Senciência",
+      "description": "<p>A arma ganha uma mente e +1d4 de carisma, aura e inteligência.</p><p><strong>Custo do Mod</strong>: €1000, <strong>Repetível</strong></p>",
+      "changes": {
+        "system.description": "<p>A arma ganha uma mente e +1d4 de carisma, aura e inteligência.</p>"
+      }
+    },
+    "13 - Projector": {
+      "name": "13 - Projetor",
+      "description": "<p>Ganha a habilidade de usar um poder (ou magia). Usa seu próprio nível e atributos.</p><p><strong>Custo do Mod</strong>: €1250, <strong>Repetível</strong></p>",
+      "changes": {
+        "system.description": "<p>Ganha a habilidade de usar um poder (ou magia). Usa seu próprio nível e atributos.</p>"
+      }
+    }
+  }
+}

@@ -208,7 +208,7 @@
     },
     "Floating Disc": {
       "name": "Disco Flutuante",
-      "description": "<p><em>Escudo do Justo, Mula do Mago</em></p><p>O mago cria um disco côncavo de força presa com 1 m de diâmetro. O disco paira, pode ser empurrado à velocidade de caminhada e inclinado para criar uma barreira quase impenetrável. O disco desaparece se ficar a mais de 30 m do mago.</p>",
+      "description": "<p><em>Escudo do Justo, Mula do Mago</em></p><p>O mago cria um disco côncavo de forçafixa com 1 m de diâmetro. O disco paira, pode ser empurrado à velocidade de caminhada e inclinado para criar uma barreira quase impenetrável. O disco desaparece se ficar a mais de 30 m do mago.</p>",
       "range": "30m",
       "target": "ponto",
       "duration": "1 hora",
@@ -256,7 +256,7 @@
     },
     "Invoke Ub Dragon": {
       "name": "Invocar Dragão Ub",
-      "description": "<p><em>Faísca de Erro da Realidade Local</em></p><p>O conjurador invoca o código Ub e condensa perturbações magitecnológicas acumuladas em um devorador. Seu poder depende do nível de perturbação (decidido pelo mediador ou por um [[/r d10]]). Após a manifestação, a perturbação local diminui um nível; forças presas se soltam, emaranhados de energia se dissipam, fantasmas de radiação enfraquecem.</p><ul><li><p>&lt;1 não perturbado:</p><ul><li><p><strong>plâncton aéreo cintilante</strong> (L0, inofensivo)</p></li></ul></li><li><p>1–3 levemente perturbado:</p><ul><li><p><strong>limo purificador</strong> (L[[/r 1d4]], cáustico)</p></li></ul></li><li><p>4–7 estática temporal:</p><ul><li><p><strong>lagarto da destruição</strong> (L[[/r 2d4]], blindado)</p></li></ul></li><li><p>8–9 cicatriz espacial:</p><ul><li><p><strong>saltador flamejante</strong> (L[[/r 2d6]], espinhoso)</p></li></ul></li><li><p>10+ fratura da realidade:</p><ul><li><p><strong>ceifador de lâminas</strong> (L[[/r 3d4+2]], alado)</p></li></ul></li></ul>",
+      "description": "<p><em>Faísca de Erro da Realidade Local</em></p><p>O conjurador invoca o código Ub e condensa perturbações magitecnológicas acumuladas em um devorador. Seu poder depende do nível de perturbação (decidido pelo mediador ou por um [[/r d10]]). Após a manifestação, a perturbação local diminui um nível; forçafixas se soltam, emaranhados de energia se dissipam, fantasmas de radiação enfraquecem.</p><ul><li><p>&lt;1 não perturbado:</p><ul><li><p><strong>plâncton aéreo cintilante</strong> (L0, inofensivo)</p></li></ul></li><li><p>1–3 levemente perturbado:</p><ul><li><p><strong>limo purificador</strong> (L[[/r 1d4]], cáustico)</p></li></ul></li><li><p>4–7 estática temporal:</p><ul><li><p><strong>lagarto da destruição</strong> (L[[/r 2d4]], blindado)</p></li></ul></li><li><p>8–9 cicatriz espacial:</p><ul><li><p><strong>saltador flamejante</strong> (L[[/r 2d6]], espinhoso)</p></li></ul></li><li><p>10+ fratura da realidade:</p><ul><li><p><strong>ceifador de lâminas</strong> (L[[/r 3d4+2]], alado)</p></li></ul></li></ul>",
       "range": "aqui",
       "target": "grande área local de realidade perturbada",
       "duration": "permanente",
@@ -505,7 +505,7 @@
     },
     "Three-Point Immobility": {
       "name": "Imobilidade de Três Pontos",
-      "description": "<p><em>Escada Celestial, Criar Plataforma Flutuante</em></p><p>O mago ancora manualmente um objeto a três pontos físicos com fios de força-presas. Uma vez ancorado, o objeto fica imóvel—mesmo se suspenso no ar.</p>",
+      "description": "<p><em>Escada Celestial, Criar Plataforma Flutuante</em></p><p>O mago ancora manualmente um objeto a três pontos físicos com fios de forçafixas. Uma vez ancorado, o objeto fica imóvel—mesmo se suspenso no ar.</p>",
       "range": "toque",
       "target": "objeto sólido",
       "duration": "1 hora",

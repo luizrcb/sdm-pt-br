@@ -70,6 +70,20 @@ Hooks.on("init", () => {
 
         return collection;
       },
+      activeEffectChanges: (originalChanges, translationChanges) => {
+        return originalChanges.map((change) => {
+          if (
+            translationChanges &&
+            translationChanges[change.key] !== undefined
+          ) {
+            return {
+              ...change,
+              value: translationChanges[change.key],
+            };
+          }
+          return change;
+        });
+      },
     });
   }
 });
