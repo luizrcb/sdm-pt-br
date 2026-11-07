@@ -1,0 +1,9 @@
+{
+  "label": "Tabela de Itens Estranhos",
+  "entries": {
+    "Strange Items": {
+      "name": "Itens Estranhos",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Itens Estranhos.</p>"
+    }
+  }
+}

@@ -115,7 +115,12 @@
     },
     "Tome of Metal B": {
       "name": "Tomo do Metal B",
-      "description": "<p>Tomo de poderes inscrito em aço e trovão.</p><p><em><span style=\"text-decoration:underline\">Esta égide é um álbum de poder com um efeito ativo de bônus de égide</span></em></p>"
+      "description": "<p>Tomo de poderes inscrito em aço e trovão.</p><p><em><span style=\"text-decoration:underline\">Esta égide é um álbum de poder com um efeito ativo de bônus de égide</span></em></p>",
+      "effects": {
+        "+3 ward": {
+          "name": "+3 égide"
+        }
+      }
     },
     "Vile Recorder": {
       "name": "Gravador Vil",

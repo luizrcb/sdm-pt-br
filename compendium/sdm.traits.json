@@ -13,7 +13,7 @@
     "Orangelander": "Laranjenha",
     "Purplelander": "Violetense",
     "Redlander": "Rúbreo",
-    "Scion": "Herdeiro de Legado",
+    "Scion": "Herdeiro do Legado",
     "Servant": "Servo",
     "Skeleton": "Esqueleto",
     "Tourist": "Turista",
@@ -94,11 +94,21 @@
     },
     "0. Scion": {
       "name": "0. Herdeiro do Legado",
-      "description": "<p>Você é o filho de um ancestral divino. Seu sangue guarda habilidades e chaves para poderes divinos, costumes antigos e dispositivos construtec. Gaste 1 de vida para mergulhar em memórias ancestrais por um fato sobre o Há Muito Muito Tempo. Além disso, gaste um dado heroico para aumentar um atributo em 1d6 por cerca de uma hora.</p><p><em>Use o efeito ativo do Herdeiro do Legado para o aumento de atributo</em></p>"
+      "description": "<p>Você é o filho de um ancestral divino. Seu sangue guarda habilidades e chaves para poderes divinos, costumes antigos e dispositivos construtec. Gaste 1 de vida para mergulhar em memórias ancestrais por um fato sobre o Há Muito Muito Tempo. Além disso, gaste um dado heroico para aumentar um atributo em 1d6 por cerca de uma hora.</p><p><em>Use o efeito ativo do Herdeiro do Legado para o aumento de atributo</em></p>",
+      "effects": {
+        "Scion": {
+          "name": "Herdeiro do Legado"
+        }
+      }
     },
     "0. Servant": {
       "name": "0. Servo",
-      "description": "<p>Você nasceu, ou foi feito, para servir. Você é habilidoso em um ofício de colarinho azul, mas também em relações, enganações e lisonjas. Você ganha +1 de vida por ponto de resistência. Além disso, gaste um dado heroico para fazer as classes superiores ignorá-lo ou subestimá-lo.</p><p><em>Use o efeito ativo para atualizar sua vida bônus (+1 vida por ponto de resistência)</em></p>"
+      "description": "<p>Você nasceu, ou foi feito, para servir. Você é habilidoso em um ofício de colarinho azul, mas também em relações, enganações e lisonjas. Você ganha +1 de vida por ponto de resistência. Além disso, gaste um dado heroico para fazer as classes superiores ignorá-lo ou subestimá-lo.</p><p><em>Use o efeito ativo para atualizar sua vida bônus (+1 de vida por ponto de resistência)</em></p>",
+      "effects": {
+        "Bonus Life": {
+          "name": "Vida Bônus"
+        }
+      }
     },
     "0. Skeleton": {
       "name": "0. Esqueleto",
@@ -106,7 +116,15 @@
     },
     "0. Soldier": {
       "name": "0. Soldado",
-      "description": "<p>Você serviu nas não-guerras na fronteira do tempo. Você conhece as armas e armaduras do regulamento; varinha-arma e escudo, lâmina e traje de combate. Você ganha +2 de defesa (+4 como especialista, +6 como mestre). <em>Atualize o efeito ativo de <strong>Bônus de Defesa</strong> quando este nível de perícia subir.</em></p><p>Além disso, quando um aliado fica ao seu lado, ele adiciona seu carisma à sua pontuação de defesa.</p><p><em>Seus aliados devem usar um efeito ativo para aumentar sua defesa com seu valor de carisma atual. (Edite o efeito ativo <strong>Bônus de Defesa de Aliado</strong> e deixe-o inativo em sua ficha. Arraste e solte o efeito ativo <strong>Bônus de Defesa de Aliado</strong> na ficha do personagem de seu Aliado).</em></p>"
+      "description": "<p>Você serviu nas não-guerras na fronteira do tempo. Você conhece as armas e armaduras do regulamento; varinha-arma e escudo, lâmina e traje de combate. Você ganha +2 de defesa (+4 como especialista, +6 como mestre). <em>Atualize o efeito ativo de <strong>Bônus de Defesa</strong> quando este nível de perícia subir.</em></p><p>Além disso, quando um aliado fica ao seu lado, ele adiciona seu carisma à sua pontuação de defesa.</p><p><em>Seus aliados devem usar um efeito ativo para aumentar sua defesa com seu valor de carisma atual. (Edite o efeito ativo <strong>Bônus de Defesa de Aliado</strong> e deixe-o inativo em sua ficha. Arraste e solte o efeito ativo <strong>Bônus de Defesa de Aliado</strong> na ficha do personagem de seu Aliado).</em></p>",
+      "effects": {
+        "Defense Bonus": {
+          "name": "Bônus de Defesa"
+        },
+        "Ally Defense Bonus": {
+          "name": "Bônus de Defesa de Aliado"
+        }
+      }
     },
     "0. Tourist": {
       "name": "0. Turista",
@@ -126,7 +144,12 @@
     },
     "0. Wizard": {
       "name": "0. Mago",
-      "description": "<p>Você se chama mago, criador ou mecânico. Você é habilidoso em lançar magias (usando <strong>poderes velhatec</strong>). Talvez você apenas saiba ler os manuais do Há Muito Tempo e os códigos Zero-Um?</p><p><em>(altere o valor do <span style=\"text-decoration:underline\"><em><span style=\"text-decoration:underline\">custo de poder</span></em></span> do personagem para 1 no modo de edição da ficha de personagem)</em></p>"
+      "description": "<p>Você se chama mago, criador ou mecânico. Você é habilidoso em lançar magias (usando <strong>poderes velhatec</strong>). Talvez você apenas saiba ler os manuais do Há Muito Tempo e os códigos Zero-Um?</p><p><em>(altere o valor do <span style=\"text-decoration:underline\"><em><span style=\"text-decoration:underline\">custo de poder</span></em></span> do personagem para 1 no modo de edição da ficha de personagem)</em></p>",
+      "effects": {
+        "Reduced Power Cost": {
+          "name": "Custo de Poder Reduzido"
+        }
+      }
     },
     "0. Yellowlander": {
       "name": "0. Safraniano",
@@ -158,15 +181,30 @@
     },
     "1. Arboreal": {
       "name": "1. Arborícola",
-      "description": "<p>Seu fenótipo é adaptado à vida nas árvores—ou nos biodutos de uma megaestrutura. Escale, balance e pule como um gibão. Ganhe +1 de força.</p>"
+      "description": "<p>Seu fenótipo é adaptado à vida nas árvores—ou nos biodutos de uma megaestrutura. Escale, balance e pule como um gibão. Ganhe +1 de força.</p>",
+      "effects": {
+        "+1 Strength": {
+          "name": "+1 Força"
+        }
+      }
     },
     "1. Armiger": {
       "name": "1. Armígero",
-      "description": "<p>Carregue um número de armas igual ao seu nível de graça, ignorando inventário.</p><p><em>(atualize este valor de bônus na aba de efeitos a cada nível)</em></p>"
+      "description": "<p>Carregue um número de armas igual ao seu nível de graça, ignorando inventário.</p><p><em>(atualize este valor de bônus na aba de efeitos a cada nível)</em></p>",
+      "effects": {
+        "weapon bonus slots": {
+          "name": "espaços bônus para armas"
+        }
+      }
     },
     "1. Armorborn": {
       "name": "1. Nascido da Armadura",
-      "description": "<p>Qualquer armadura que você vista não ocupa espaço no inventário. A armadura lhe dá um bônus de defesa igual ao seu tamanho em mochilas.</p><p><em>(crie um efeito ativo em seus itens de armadura para adicionar um bônus de defesa igual ao seu tamanho em mochilas)</em></p>"
+      "description": "<p>Qualquer armadura que você vista não ocupa espaço no inventário. A armadura lhe dá um bônus de defesa igual ao seu tamanho em mochilas.</p><p><em>(crie um efeito ativo em seus itens de armadura para adicionar um bônus de defesa igual ao seu tamanho em mochilas)</em></p>",
+      "effects": {
+        "Armsborn": {
+          "name": "Nascido da Armadura"
+        }
+      }
     },
     "1. Backstabber": {
       "name": "1. Facada nas Costas",
@@ -186,7 +224,12 @@
     },
     "1. Cad": {
       "name": "1. Canalha",
-      "description": "<p>Você definitivamente não é um gato. Pelagem lustrosa o protege dos raios dos sóis severos e do frio do ar rarefeito superior. Seus dois braços secundários permitem que você carregue mais itens prontos.</p>"
+      "description": "<p>Você definitivamente não é um gato. Pelagem lustrosa o protege dos raios dos sóis severos e do frio do ar rarefeito superior. Seus dois braços secundários permitem que você carregue mais itens prontos.</p>",
+      "effects": {
+        "+2 Readied Items": {
+          "name": "+2 Itens Equipados"
+        }
+      }
     },
     "1. Cleanser": {
       "name": "1. Purificador",
@@ -198,7 +241,12 @@
     },
     "1. Diesel Dwarf": {
       "name": "1. Anão Diesel",
-      "description": "<p>Seus ancestrais foram adaptados para servir aos deuses como refinadores de terras devastadas, reciclando depósitos de cadáveres do Há Muito Muito Tempo por um futuro mais brilhante. Além de uma afinidade natural por engenharia, direção e perfuração, você pode substituir suas necessidades alimentares por produtos petrolíferos por até um mês. Ganhe 1 de rapidez.</p>"
+      "description": "<p>Seus ancestrais foram adaptados para servir aos deuses como refinadores de terras devastadas, reciclando depósitos de cadáveres do Há Muito Muito Tempo por um futuro mais brilhante. Além de uma afinidade natural por engenharia, direção e perfuração, você pode substituir suas necessidades alimentares por produtos petrolíferos por até um mês. Ganhe 1 de rapidez.</p>",
+      "effects": {
+        "+1 Agility": {
+          "name": "+1 Rapidez"
+        }
+      }
     },
     "1. Double-Platinum Deathless Backup": {
       "name": "1. Backup Imortal Duplo-Platina",
@@ -206,11 +254,21 @@
     },
     "1. Dreamwalker": {
       "name": "1. Andarilho dos Sonhos",
-      "description": "<p>Quando você entra na noösfera, leva seu corpo junto, deixando nada além de um aroma de amêndoas na hiloesfera. Ganhe +1 de resistência.</p>"
+      "description": "<p>Quando você entra na noösfera, leva seu corpo junto, deixando nada além de um aroma de amêndoas na hiloesfera. Ganhe +1 de resistência.</p>",
+      "effects": {
+        "+1 Endurance": {
+          "name": "+1 Resistência"
+        }
+      }
     },
     "1. Escapist": {
       "name": "1. Escapista",
-      "description": "<p>Você é habilidoso em ter sorte. Isso é um bônus de +3 em todas as salvaguardas.</p>"
+      "description": "<p>Você é habilidoso em ter sorte. Isso é um bônus de +3 em todas as salvaguardas.</p>",
+      "effects": {
+        "all saves +3": {
+          "name": "todas as salvaguardas +3"
+        }
+      }
     },
     "1. Glowing Skeleton": {
       "name": "1. Esqueleto Brilhante",
@@ -218,7 +276,12 @@
     },
     "1. Grounded": {
       "name": "1. Aterrado",
-      "description": "<p>Uma vida sólida deixou você capaz de se livrar das pedradas e flechadas do infortúnio ultrajante. Ganhe +1 de aura ou inteligência.</p><p>Além disso, remova 1 fardo mental adicional quando você descansar.</p>"
+      "description": "<p>Uma vida sólida deixou você capaz de se livrar das pedradas e flechadas do infortúnio ultrajante. Ganhe +1 de aura ou inteligência.</p><p>Além disso, remova 1 fardo mental adicional quando você descansar.</p>",
+      "effects": {
+        "Grounded": {
+          "name": "Aterrado"
+        }
+      }
     },
     "1. Hardened": {
       "name": "1. Endurecido",
@@ -238,15 +301,30 @@
     },
     "2. Blastermaster": {
       "name": "2. Mestre dos Disparadores",
-      "description": "<p>Você é habilidoso com os disparadores, varinhas, bastões e rifles da antiga infantaria do trovão.</p><p>Adicione seu bônus de perícia ao dano; recarregue como uma ação livre. (ao rolar dano, selecione a habilidade Mestre dos Disparadores no diálogo de rolagem).</p><p>Além disso, se você gastar uma ação para firmar sua mira, aumente seu alcance e multiplicador de crítico em 1.<br />Ative o efeito ativo para aumentar seu multiplicador de crítico em 1.</p>"
+      "description": "<p>Você é habilidoso com os disparadores, varinhas, bastões e rifles da antiga infantaria do trovão.</p><p>Adicione seu bônus de perícia ao dano; recarregue como uma ação livre. (ao rolar dano, selecione a habilidade Mestre dos Disparadores no diálogo de rolagem).</p><p>Além disso, se você gastar uma ação para firmar sua mira, aumente seu alcance e multiplicador de crítico em 1.<br />Ative o efeito ativo para aumentar seu multiplicador de crítico em 1.</p>",
+      "effects": {
+        "+1 to critical multiplier": {
+          "name": "+1 no multiplicador de crítico"
+        }
+      }
     },
     "2. Blessed": {
       "name": "2. Abençoado",
-      "description": "<p>Quando apenas a sorte resolve, você tem vantagem. Isso também é um bônus em todas as salvaguardas.</p>"
+      "description": "<p>Quando apenas a sorte resolve, você tem vantagem. Isso também é um bônus em todas as salvaguardas.</p>",
+      "effects": {
+        "All save bonus": {
+          "name": "Bônus em todas as salvaguardas"
+        }
+      }
     },
     "2. Blood Clad": {
       "name": "2. Revestido de Sangue",
-      "description": "<p>Ganhe um dado de sangue quando for ferido. Gaste um dado de sangue para absorver [[/r 1d6]] de dano ou aumentar seu dano em [[/r 1d6]]. Você pode armazenar um número de dados de sangue igual ao seu nível. Cura, descanso ou um banho quente removem seus dados de sangue.</p>"
+      "description": "<p>Ganhe um dado de sangue quando for ferido. Gaste um dado de sangue para absorver [[/r 1d6]] de dano ou aumentar seu dano em [[/r 1d6]]. Você pode armazenar um número de dados de sangue igual ao seu nível. Cura, descanso ou um banho quente removem seus dados de sangue.</p>",
+      "effects": {
+        "Blood Clad": {
+          "name": "Revestido de Sangue"
+        }
+      }
     },
     "2. Cheesemaker": {
       "name": "2. Queijeiro",
@@ -254,7 +332,12 @@
     },
     "2. Citizen Living": {
       "name": "2. Vida do Cidadão",
-      "description": "<p>Criado para o hedonismo e o prazer máximo, você é a alma de toda festa, o espírito de toda conversa, o glutão de todo deleite. Ganhe +1 de carisma e resistência.</p>"
+      "description": "<p>Criado para o hedonismo e o prazer máximo, você é a alma de toda festa, o espírito de toda conversa, o glutão de todo deleite. Ganhe +1 de carisma e resistência.</p>",
+      "effects": {
+        "Citizen Living": {
+          "name": "Vida do Cidadão"
+        }
+      }
     },
     "2. Clueless Outsider": {
       "name": "2. Forasteiro Desligado",
@@ -262,7 +345,12 @@
     },
     "2. Colonist": {
       "name": "2. Colonista",
-      "description": "<p>Você vem de um dos antigos grupos de colonos A.N.T., projetados como um organismo colonial. Designe até cinco outras criaturas como membros de sua hexade. <span style=\"text-decoration:underline\">Cada uma ganha vida temporária igual ao seu nível se passar a noite em sua vizinhança</span>. Ganhe +1 de carisma.</p>"
+      "description": "<p>Você vem de um dos antigos grupos de colonos A.N.T., projetados como um organismo colonial. Designe até cinco outras criaturas como membros de sua hexade. <span style=\"text-decoration:underline\">Cada uma ganha vida temporária igual ao seu nível se passar a noite em sua vizinhança</span>. Ganhe +1 de carisma.</p>",
+      "effects": {
+        "+1 Charisma": {
+          "name": "+1 Carisma"
+        }
+      }
     },
     "2. Cronic": {
       "name": "2. Crônico",
@@ -278,7 +366,12 @@
     },
     "2. Defender": {
       "name": "2. Defensor",
-      "description": "<p>Você é habilidoso em defesa física e todos os tipos de equipamento defensivo. Além disso, mesmo sem armadura, ganhe um bônus de armadura +3. Especialista: +6 de armadura; mestre: +9 de armadura.</p><p><em>(atualize o bônus de armadura na aba de efeitos quando este nível de perícia aumentar)</em></p>"
+      "description": "<p>Você é habilidoso em defesa física e todos os tipos de equipamento defensivo. Além disso, mesmo sem armadura, ganhe um bônus de armadura +3. Especialista: +6 de armadura; mestre: +9 de armadura.</p><p><em>(atualize o bônus de armadura na aba de efeitos quando este nível de perícia aumentar)</em></p>",
+      "effects": {
+        "armor bonus": {
+          "name": "bônus de armadura"
+        }
+      }
     },
     "2. Doombringer": {
       "name": "2. Arauto da Perdição",
@@ -286,7 +379,12 @@
     },
     "2. Dust Rat": {
       "name": "2. Rato da Poeira",
-      "description": "<p>Adaptado à terra seca, você precisa da metade da água de um humano normal. Ganhe 1 ponto de resistência. Além disso, você sabe se virar em biomas áridos.</p>"
+      "description": "<p>Adaptado à terra seca, você precisa da metade da água de um humano normal. Ganhe 1 ponto de resistência. Além disso, você sabe se virar em biomas áridos.</p>",
+      "effects": {
+        "+1 Endurance": {
+          "name": "+1 Resistência"
+        }
+      }
     },
     "2. Enterprising": {
       "name": "2. Empreendedor",
@@ -318,11 +416,21 @@
     },
     "2. Knight Reflexes": {
       "name": "2. Reflexos de Cavaleiro",
-      "description": "<p>Nervos e glândulas sobrecarregados permitem que você gaste vida para aumentar sua iniciativa (1-por-1). Além disso, ganhe +1 de rapidez.</p>"
+      "description": "<p>Nervos e glândulas sobrecarregados permitem que você gaste vida para aumentar sua iniciativa (1-por-1). Além disso, ganhe +1 de rapidez.</p>",
+      "effects": {
+        "Agility +1": {
+          "name": "Rapidez +1"
+        }
+      }
     },
     "2. My Bones Engraved": {
       "name": "2. Meus Ossos Gravados",
-      "description": "<p>Você falou com o guardião dos pensamentos, que lhe deu um cinzel mágico para gravar seus ossos. Ganhe cinco espaços de inventário de osso para poderes em seus braços, pernas e crânio. Gravar um poder leva um dia. Substituir um poder gravado reduz permanentemente sua resistência em 1, a menos que você também substitua ritualmente seus ossos (ai).</p>"
+      "description": "<p>Você falou com o guardião dos pensamentos, que lhe deu um cinzel mágico para gravar seus ossos. Ganhe cinco espaços de inventário de osso para poderes em seus braços, pernas e crânio. Gravar um poder leva um dia. Substituir um poder gravado reduz permanentemente sua resistência em 1, a menos que você também substitua ritualmente seus ossos (ai).</p>",
+      "effects": {
+        "5 Bone Power Slots": {
+          "name": "5 Espaços de Poder em Osso"
+        }
+      }
     },
     "2. Powered": {
       "name": "2. Alimentado",
@@ -342,7 +450,12 @@
     },
     "3. Citizen Maintainer": {
       "name": "3. Mantenedor de Cidadãos",
-      "description": "<p>Habilidoso em manter os cidadãos mortos. Repare e melhore os desmortos, converse com eles, conheça seus modos e necessidades. Além disso, um bônus em salvaguardas contra todos os ataques especiais de desmortos.</p><p><em>Ative o Efeito Ativo <strong>Mantenedor de Cidadãos</strong> para obter o bônus em testes.</em></p>"
+      "description": "<p>Habilidoso em manter os cidadãos mortos. Repare e melhore os desmortos, converse com eles, conheça seus modos e necessidades. Além disso, um bônus em salvaguardas contra todos os ataques especiais de desmortos.</p><p><em>Ative o Efeito Ativo <strong>Mantenedor de Cidadãos</strong> para obter o bônus em testes.</em></p>",
+      "effects": {
+        "Citizen Maintainer": {
+          "name": "Mantenedor de Cidadãos"
+        }
+      }
     },
     "3. Culling": {
       "name": "3. Abate",
@@ -350,7 +463,12 @@
     },
     "3. Death Hunger": {
       "name": "3. Fome da Morte",
-      "description": "<p>Você sabe tudo sobre desmontar mortais. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 nas rolagens de ataque até o final da batalha. Após a primeira morte, você rosna e ruge até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Ative o efeito ativo <strong>Fome da Morte</strong> durante a batalha e atualize seu valor após inimigo morto. Quando este nível de perícia subir, modifique o efeito ativo pelo modificador da habilidade para cada inimigo morto.</em></p>"
+      "description": "<p>Você sabe tudo sobre desmontar mortais. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 nas rolagens de ataque até o final da batalha. Após a primeira morte, você rosna e ruge até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Ative o efeito ativo <strong>Fome da Morte</strong> durante a batalha e atualize seu valor após inimigo morto. Quando este nível de perícia subir, modifique o efeito ativo pelo modificador da habilidade para cada inimigo morto.</em></p>",
+      "effects": {
+        "Death Hunger": {
+          "name": "Fome da Morte"
+        }
+      }
     },
     "3. Devastator": {
       "name": "3. Devastador",
@@ -358,7 +476,15 @@
     },
     "3. Dissipated": {
       "name": "3. Dissipado",
-      "description": "<p>Coquetéis químicos o movem, mas sem eles você é fraco e pálido.</p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Gaste €5 x nível por semana para ganhar +2 de força e rapidez.</span></span></p><p><strong>Sem eles</strong>: sofra -2 de força e resistência.</p><p><em>Ative ou desative manualmente os efeitos ativos Com Produtos Químicos e Sem Produtos Químicos. Os bônus alterarão os valores totais das habilidades, ajuste os valores atuais de acordo.</em></p>"
+      "description": "<p>Coquetéis químicos o movem, mas sem eles você é fraco e pálido.</p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Gaste €5 x nível por semana para ganhar +2 de força e rapidez.</span></span></p><p><strong>Sem eles</strong>: sofra -2 de força e resistência.</p><p><em>Ative ou desative manualmente os efeitos ativos Com Produtos Químicos e Sem Produtos Químicos. Os bônus alterarão os valores totais das habilidades, ajuste os valores atuais de acordo.</em></p>",
+      "effects": {
+        "With Chemical": {
+          "name": "Com Químicos"
+        },
+        "Without Chemical": {
+          "name": "Sem Químicos"
+        }
+      }
     },
     "3. Expensive Training": {
       "name": "3. Treinamento Caro",
@@ -366,7 +492,12 @@
     },
     "3. Exuberant": {
       "name": "3. Exuberante",
-      "description": "<p>Cada um dos seus pontos de vida vale o dobro ao pagar por poderes.</p><p>(<em>reduza pela metade seu custo de poder no modo de edição da ficha</em>)</p>"
+      "description": "<p>Cada um dos seus pontos de vida vale o dobro ao pagar por poderes.</p><p>(<em>reduza pela metade seu custo de poder no modo de edição da ficha</em>)</p>",
+      "effects": {
+        "Reduced Power Cost": {
+          "name": "Custo de Poder Reduzido"
+        }
+      }
     },
     "3. Fake Out": {
       "name": "3. Finta",
@@ -378,7 +509,12 @@
     },
     "3. Grit": {
       "name": "3. Determinação",
-      "description": "<p>Ganhe 1 de vida por nível (<em>atualize o valor na aba de efeitos a cada nível</em>) e <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">vantagem quando você rolar resistência</span></span> (<em>não automatizado</em>).</p><p><em>(bônus de vida só se aplicará ao valor máximo de vida, você precisa ajustar o valor atual de acordo)</em></p>"
+      "description": "<p>Ganhe 1 de vida por nível (<em>atualize o valor na aba de efeitos a cada nível</em>) e <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">vantagem quando você rolar resistência</span></span> (<em>não automatizado</em>).</p><p><em>(bônus de vida só se aplicará ao valor máximo de vida, você precisa ajustar o valor atual de acordo)</em></p>",
+      "effects": {
+        "bonus life": {
+          "name": "vida bônus"
+        }
+      }
     },
     "3. Holy Diver": {
       "name": "3. Mergulhador Sagrado",
@@ -386,11 +522,21 @@
     },
     "3. Human Library": {
       "name": "3. Biblioteca Humana",
-      "description": "<p>Um campo de conhecimento do Há Muito Muito Tempo está armazenado em sua mente. Você só pode acessá-lo subconscientemente. Ganhe +1 de inteligência.</p>"
+      "description": "<p>Um campo de conhecimento do Há Muito Muito Tempo está armazenado em sua mente. Você só pode acessá-lo subconscientemente. Ganhe +1 de inteligência.</p>",
+      "effects": {
+        "+1 Thought": {
+          "name": "+1 Inteligência"
+        }
+      }
     },
     "3. Hunter": {
       "name": "3. Caçador",
-      "description": "<p>Rastreie, prenda e atire em caça com arco, rifle e dardo. Esconda-se na natureza, mova-se despercebido. Quando você atira de uma emboscada, seus acertos críticos causam triplo em vez de dano duplo. Especialista: x4; mestre: x5.</p><p>(edite o valor na aba de efeitos para 4 ou 5 quando o nível de perícia aumentar)</p>"
+      "description": "<p>Rastreie, prenda e atire em caça com arco, rifle e dardo. Esconda-se na natureza, mova-se despercebido. Quando você atira de uma emboscada, seus acertos críticos causam triplo em vez de dano duplo. Especialista: x4; mestre: x5.</p><p>(edite o valor na aba de efeitos para 4 ou 5 quando o nível de perícia aumentar)</p>",
+      "effects": {
+        "improved critical": {
+          "name": "crítico aprimorado"
+        }
+      }
     },
     "3. Informant": {
       "name": "3. Informante",
@@ -398,7 +544,12 @@
     },
     "3. Noösphere Native": {
       "name": "3. Nativo da noösfera",
-      "description": "<p>Você nasceu em uma geração conectada à noösfera. Você pode acessá-la e usá-la, mas você também adiciona seu bônus de perícia a todas as defesas na noösfera... e contra daemons em geral.</p><p><em>Atualize o efeito ativo <strong>Nativo da noösfera</strong> quando este nível de perícia subir. Ative o efeito ativo <strong>Nativo da noösfera</strong> quando estiver na noösfera.</em></p>"
+      "description": "<p>Você nasceu em uma geração conectada à noösfera. Você pode acessá-la e usá-la, mas você também adiciona seu bônus de perícia a todas as defesas na noösfera... e contra daemons em geral.</p><p><em>Atualize o efeito ativo <strong>Nativo da noösfera</strong> quando este nível de perícia subir. Ative o efeito ativo <strong>Nativo da noösfera</strong> quando estiver na noösfera.</em></p>",
+      "effects": {
+        "Noösphere Native": {
+          "name": "Nativo da Noösfera"
+        }
+      }
     },
     "3. Of-World": {
       "name": "3. Do-Mundo",
@@ -410,7 +561,12 @@
     },
     "3. Rancher": {
       "name": "3. Rancheiro",
-      "description": "<p>Você sabe como manter rebanhos bem oleados e carregados, gerenciar pastores e cães, cavalgar corcéis solares, localizar poços de água e roubar cargoferas. Ganhe 1 de força ou carisma.</p><p><em>(use o efeito ativo <strong>Rancheiro</strong> para adicionar o bônus de força ou carisma)</em></p>"
+      "description": "<p>Você sabe como manter rebanhos bem oleados e carregados, gerenciar pastores e cães, cavalgar corcéis solares, localizar poços de água e roubar cargoferas. Ganhe 1 de força ou carisma.</p><p><em>(use o efeito ativo <strong>Rancheiro</strong> para adicionar o bônus de força ou carisma)</em></p>",
+      "effects": {
+        "Rancher": {
+          "name": "Rancheiro"
+        }
+      }
     },
     "3. Resourceful": {
       "name": "3. Engenhoso",
@@ -426,7 +582,12 @@
     },
     "3. Void Ward": {
       "name": "3. Égide do Vácuo",
-      "description": "<p>O vazio de sua alma o protege. Adicione sua aura à sua defesa.</p><p><em>(Edite o valor do efeito ativo <strong>Égide do Vácuo</strong> para adicionar seu valor de aura atual à sua defesa)</em></p>"
+      "description": "<p>O vazio de sua alma o protege. Adicione sua aura à sua defesa.</p><p><em>(Edite o valor do efeito ativo <strong>Égide do Vácuo</strong> para adicionar seu valor de aura atual à sua defesa)</em></p>",
+      "effects": {
+        "Add Aura to Defense": {
+          "name": "Somar Aura à Defesa"
+        }
+      }
     },
     "4. Phylake’s Child": {
       "name": "4. Filho do Guardião",
@@ -434,11 +595,21 @@
     },
     "4. Demolisher": {
       "name": "4. Demolidor",
-      "description": "<p>Seus acertos críticos são mais fortes (ex.: x2 se torna x3). Além disso, quando você atinge um objeto até o tamanho de um carro compacto, pode gastar 1 ponto de força ou resistência para simplesmente demoli-lo. Portas estouram abertas, paredes de tijolos explodem, paredes de madeira se estilhaçam em gravetos, cabanas de palha saem voando, golens pequenos amassam. Você também pode usar essa habilidade para transformar um acerto normal em um crítico, ou para dobrar um acerto crítico. Como uma arma (sem força ou resistência), simplesmente use as habilidades do seu portador como combustível para sua fúria.</p>"
+      "description": "<p>Seus acertos críticos são mais fortes (ex.: x2 se torna x3). Além disso, quando você atinge um objeto até o tamanho de um carro compacto, pode gastar 1 ponto de força ou resistência para simplesmente demoli-lo. Portas estouram abertas, paredes de tijolos explodem, paredes de madeira se estilhaçam em gravetos, cabanas de palha saem voando, golens pequenos amassam. Você também pode usar essa habilidade para transformar um acerto normal em um crítico, ou para dobrar um acerto crítico. Como uma arma (sem força ou resistência), simplesmente use as habilidades do seu portador como combustível para sua fúria.</p>",
+      "effects": {
+        "Demolisher Critical Bonus": {
+          "name": "Bônus de Crítico do Demolidor"
+        }
+      }
     },
     "4. Divine Blood": {
       "name": "4. Sangue Divino",
-      "description": "<p>Pequenas máquinas de código-fonte cantam em suas veias. Seu custo para ativar dispositivos ou poderes velhatec é reduzido em 2 (mínimo de 1).</p>"
+      "description": "<p>Pequenas máquinas de código-fonte cantam em suas veias. Seu custo para ativar dispositivos ou poderes velhatec é reduzido em 2 (mínimo de 1).</p>",
+      "effects": {
+        "Powers Total Cost -2": {
+          "name": "Custo Total de Poderes -2"
+        }
+      }
     },
     "4. Ducky": {
       "name": "4. Pato",
@@ -446,7 +617,12 @@
     },
     "4. Feral": {
       "name": "4. Feral",
-      "description": "<p>Você não é mole como os vermes da civilização. Sua intuição apurada o protege de dano. Adicione sua aura às suas salvaguardas e ao seu total de vida.</p><p><em>Atualize manualmente os valores do efeito ativo <strong>Feral</strong> quando sua Aura atual mudar.</em></p>"
+      "description": "<p>Você não é mole como os vermes da civilização. Sua intuição apurada o protege de dano. Adicione sua aura às suas salvaguardas e ao seu total de vida.</p><p><em>Atualize manualmente os valores do efeito ativo <strong>Feral</strong> quando sua Aura atual mudar.</em></p>",
+      "effects": {
+        "Feral": {
+          "name": "Feral"
+        }
+      }
     },
     "4. From Dust, Returning": {
       "name": "4. Do Pó, Retornando",
@@ -458,7 +634,12 @@
     },
     "4. Kaffetropist": {
       "name": "4. Cafetropista",
-      "description": "<p>Você metaboliza cafeína em outras drogas úteis. Beber um café pode colocá-lo para dormir, acordá-lo, purgá-lo de outras toxinas (perca [[/r 1d3]] de vida vomitando), ou dar-lhe visões (ganhe égide +5 mas suas habilidades motoras são prejudicadas).</p><p><em>(Ative o efeito ativo <strong>Visões</strong> para obter o bônus de égide +5)</em></p>"
+      "description": "<p>Você metaboliza cafeína em outras drogas úteis. Beber um café pode colocá-lo para dormir, acordá-lo, purgá-lo de outras toxinas (perca [[/r 1d3]] de vida vomitando), ou dar-lhe visões (ganhe égide +5 mas suas habilidades motoras são prejudicadas).</p><p><em>(Ative o efeito ativo <strong>Visões</strong> para obter o bônus de égide +5)</em></p>",
+      "effects": {
+        "Visions": {
+          "name": "Visões"
+        }
+      }
     },
     "4. Legal Immunity": {
       "name": "4. Imunidade Legal",
@@ -466,15 +647,30 @@
     },
     "4. Loyal": {
       "name": "4. Leal",
-      "description": "<p>Você nunca trai seus amigos (ou mestre) e sofreria tortura e tribulação por eles sem medo. Uma vez por cena, quando você sacrifica seus próprios melhores interesses para provar sua lealdade, você ganha imediatamente um dado heroico. Além disso, ganhe +1 de égide.</p>"
+      "description": "<p>Você nunca trai seus amigos (ou mestre) e sofreria tortura e tribulação por eles sem medo. Uma vez por cena, quando você sacrifica seus próprios melhores interesses para provar sua lealdade, você ganha imediatamente um dado heroico. Além disso, ganhe +1 de égide.</p>",
+      "effects": {
+        "+1 Ward": {
+          "name": "+1 Égide"
+        }
+      }
     },
     "4. Metropolitan": {
       "name": "4. Metropolitano",
-      "description": "<p>Seu senso cívico permite que você viaje infalivelmente pelos caminhos secretos de uma cidade, e você sabe como acessar fluxos civis de nutrientes e energia de graça. Seu senso inato de superioridade concede a você égide +1.</p>"
+      "description": "<p>Seu senso cívico permite que você viaje infalivelmente pelos caminhos secretos de uma cidade, e você sabe como acessar fluxos civis de nutrientes e energia de graça. Seu senso inato de superioridade concede a você égide +1.</p>",
+      "effects": {
+        "ward +1": {
+          "name": "égide +1"
+        }
+      }
     },
     "4. Mind Palace": {
       "name": "4. Palácio Mental",
-      "description": "<p>Memorize um número de poderes igual ao seu nível de graça, ignorando inventário.<br /><em>(edite a cada nível o valor na aba de efeitos)</em></p>"
+      "description": "<p>Memorize um número de poderes igual ao seu nível de graça, ignorando inventário.<br /><em>(edite a cada nível o valor na aba de efeitos)</em></p>",
+      "effects": {
+        "memorized powers": {
+          "name": "poderes memorizados"
+        }
+      }
     },
     "4. Motivational": {
       "name": "4. Motivacional",
@@ -482,7 +678,12 @@
     },
     "4. Perfect": {
       "name": "4. Perfeito",
-      "description": "<p>Sua forma é perfeita e imutável, ao contrário do corpo maleável natural aos humanos. Sua perfeição intimida e atrai igualmente. Você não pode ser corrompido ou bio-modificado. Ganhe +1 de carisma.</p>"
+      "description": "<p>Sua forma é perfeita e imutável, ao contrário do corpo maleável natural aos humanos. Sua perfeição intimida e atrai igualmente. Você não pode ser corrompido ou bio-modificado. Ganhe +1 de carisma.</p>",
+      "effects": {
+        "+1 Charisma": {
+          "name": "+1 Carisma"
+        }
+      }
     },
     "4. Pickpocket": {
       "name": "4. Batedor de Bolsos",
@@ -490,7 +691,12 @@
     },
     "4. Pleasant": {
       "name": "4. Agradável",
-      "description": "<p>Conversa charmosa e um comportamento fácil. Você faz as pessoas gostarem de você.</p><p>Isso é +2 em rolagens de reação. Especialista: +4; mestre: +6.</p><p>(atualize o valor do bônus de reação na aba de efeitos quando este nível de perícia aumentar)</p>"
+      "description": "<p>Conversa charmosa e um comportamento fácil. Você faz as pessoas gostarem de você.</p><p>Isso é +2 em rolagens de reação. Especialista: +4; mestre: +6.</p><p>(atualize o valor do bônus de reação na aba de efeitos quando este nível de perícia aumentar)</p>",
+      "effects": {
+        "reaction bonus": {
+          "name": "bônus de reação"
+        }
+      }
     },
     "4. Power Scroller": {
       "name": "4. Pergaminheiro",
@@ -498,7 +704,15 @@
     },
     "4. Rationalised": {
       "name": "4. Racionalizado",
-      "description": "<p>Imunidade ao pânico embutida de fábrica. Adicione sua força ou resistência à sua pontuação de égide.</p><p><em>(Use o efeito ativo <strong>Racionalizado</strong> para adicionar sua força ou resistência atual ao seu bônus de égide.)</em></p>"
+      "description": "<p>Imunidade ao pânico embutida de fábrica. Adicione sua força ou resistência à sua pontuação de égide.</p><p><em>(Use o efeito ativo <strong>Racionalizado</strong> para adicionar sua força ou resistência atual ao seu bônus de égide.)</em></p>",
+      "effects": {
+        "Rationalised (str)": {
+          "name": "Racionalizado (for)"
+        },
+        "Rationalised (end)": {
+          "name": "Racionalizado (res)"
+        }
+      }
     },
     "4. Reanimator": {
       "name": "4. Reanimador",
@@ -506,7 +720,12 @@
     },
     "4. Ruderalist": {
       "name": "4. Ruderalista",
-      "description": "<p>Jardine em ruínas velhatec, distinga hologramas de comedores de vazio e navegue pelos perigos do velhatec por intuição e tradição. Empunhe armas elétricas e magnéticas. Ganhe 1 de inteligência.</p>"
+      "description": "<p>Jardine em ruínas velhatec, distinga hologramas de comedores de vazio e navegue pelos perigos do velhatec por intuição e tradição. Empunhe armas elétricas e magnéticas. Ganhe 1 de inteligência.</p>",
+      "effects": {
+        "+1 Thought": {
+          "name": "+1 Inteligência"
+        }
+      }
     },
     "4. Shopstaff": {
       "name": "4. Funcionário de Loja",
@@ -522,7 +741,12 @@
     },
     "4. Vampire": {
       "name": "4. Vampiro",
-      "description": "<p>Drene a força vital de outras criaturas para alimentar seus próprios poderes e habilidades. Seu alvo deve estar disposto ou imóvel. Você drena 1 ponto de vida por minuto.<br />Desenhe uma caixa de \"vida emprestada\" em sua ficha de personagem. Armazene uma quantidade igual à sua própria vida.</p>"
+      "description": "<p>Drene a força vital de outras criaturas para alimentar seus próprios poderes e habilidades. Seu alvo deve estar disposto ou imóvel. Você drena 1 ponto de vida por minuto.<br />Desenhe uma caixa de \"vida emprestada\" em sua ficha de personagem. Armazene uma quantidade igual à sua própria vida.</p>",
+      "effects": {
+        "Borrowed Life": {
+          "name": "Vida Emprestada"
+        }
+      }
     },
     "5. Soul Fuel": {
       "name": "5. Combustível de Alma",
@@ -534,7 +758,12 @@
     },
     "5. Cold New Flesh": {
       "name": "5. Carne Nova e Fria",
-      "description": "<p>Sua carne é como pedra semipreciosa. Você ganha +1 de defesa natural e, bebendo sangue fresco, transfere vida de uma criatura disposta para si mesmo. Um pouco como, er, um vampiro?</p>"
+      "description": "<p>Sua carne é como pedra semipreciosa. Você ganha +1 de defesa natural e, bebendo sangue fresco, transfere vida de uma criatura disposta para si mesmo. Um pouco como, er, um vampiro?</p>",
+      "effects": {
+        "+1 Defense": {
+          "name": "+1 Defesa"
+        }
+      }
     },
     "5. Fatespun": {
       "name": "5. Tecido pelo Destino",
@@ -566,15 +795,30 @@
     },
     "5. Orange Half-Ling": {
       "name": "5. Meio-Linga Laranja",
-      "description": "<p>Seu tamanho pequeno reduz suas necessidades e estende sua vida. Você precisa apenas de um quarto da comida, água e bebida de um humano médio. Além disso, ganhe +1 de rapidez (até um máximo de 6).</p>"
+      "description": "<p>Seu tamanho pequeno reduz suas necessidades e estende sua vida. Você precisa apenas de um quarto da comida, água e bebida de um humano médio. Além disso, ganhe +1 de rapidez (até um máximo de 6).</p>",
+      "effects": {
+        "+1 Agility": {
+          "name": "+1 Rapidez"
+        }
+      }
     },
     "5. Pet Sidekick": {
       "name": "5. Mascote Coadjuvante",
-      "description": "<p>Você trata o mascote como seu mestre. Eles são do mesmo nível que você. Você pode trocar de papéis, tornando o mascote o PJ (gere seus atributos normalmente). Você capta os pensamentos e emoções de criaturas semelhantes ao mascote. Ganhe +1 de aura.</p>"
+      "description": "<p>Você trata o mascote como seu mestre. Eles são do mesmo nível que você. Você pode trocar de papéis, tornando o mascote o PJ (gere seus atributos normalmente). Você capta os pensamentos e emoções de criaturas semelhantes ao mascote. Ganhe +1 de aura.</p>",
+      "effects": {
+        "+1 Aura": {
+          "name": "+1 Aura"
+        }
+      }
     },
     "5. Pocketmaster": {
       "name": "5. Mestre dos Bolsos",
-      "description": "<p>Oculte um número de pequenos objetos igual ao seu nível de graça, ignorando inventário. Uma faca é pequena.</p><p><em>(a cada nível atualize o valor do bônus na aba de efeitos)</em></p>"
+      "description": "<p>Oculte um número de pequenos objetos igual ao seu nível de graça, ignorando inventário. Uma faca é pequena.</p><p><em>(a cada nível atualize o valor do bônus na aba de efeitos)</em></p>",
+      "effects": {
+        "concealed small items": {
+          "name": "itens pequenos ocultos"
+        }
+      }
     },
     "5. Revenant-in-Waiting": {
       "name": "5. Revenante em Espera",
@@ -582,11 +826,21 @@
     },
     "5. Saffron Eater": {
       "name": "5. Comedor de Açafrão",
-      "description": "<p>Exposição prolongada a venenos e poções exóticas deixou sua pele amarela brilhante e o tornou resistente à maioria das toxinas. Ganhe 1 de aura e um bônus para evitar se viciar.</p>"
+      "description": "<p>Exposição prolongada a venenos e poções exóticas deixou sua pele amarela brilhante e o tornou resistente à maioria das toxinas. Ganhe 1 de aura e um bônus para evitar se viciar.</p>",
+      "effects": {
+        "+1 Aura": {
+          "name": "+1 Aura"
+        }
+      }
     },
     "5. Sculpted Beauty": {
       "name": "5. Beleza Esculpida",
-      "description": "<p>Além da linhagem germinativa, você exala glamour sintético. Ganhe +2 de carisma.</p>"
+      "description": "<p>Além da linhagem germinativa, você exala glamour sintético. Ganhe +2 de carisma.</p>",
+      "effects": {
+        "Charisma +2": {
+          "name": "Carisma +2"
+        }
+      }
     },
     "5. Second Chance": {
       "name": "5. Segunda Chance",
@@ -602,23 +856,48 @@
     },
     "5. Spelunker": {
       "name": "5. Espeleólogo",
-      "description": "<p>Crescendo em uma perfuração de montanha, você se aventurou em lugares profundos. Escalou, rapelou, mergulhou, acampou, forrageou, marcou e mapeou-os. Além disso, ganhe um bônus ao lutar em lugares apertados.</p><p><em>Ative o efeito ativo Bônus de Luta quando lutando em um lugar apertado</em></p>"
+      "description": "<p>Crescendo em uma perfuração de montanha, você se aventurou em lugares profundos. Escalou, rapelou, mergulhou, acampou, forrageou, marcou e mapeou-os. Além disso, ganhe um bônus ao lutar em lugares apertados.</p><p><em>Ative o efeito ativo Bônus de Luta quando lutando em um lugar apertado</em></p>",
+      "effects": {
+        "Fight Bonus": {
+          "name": "Bônus de Luta"
+        }
+      }
     },
     "5. Strong": {
       "name": "5. Forte",
-      "description": "<p>Uma vida de trabalho e a boa dieta fornecida pelo establishment lhe deram um físico poderoso. Ganhe +2 de força ou resistência.</p><p><em>(Use o efeito ativo Forte e adicione 2 às linhas de força ou resistência.)</em></p>"
+      "description": "<p>Uma vida de trabalho e a boa dieta fornecida pelo establishment lhe deram um físico poderoso. Ganhe +2 de força ou resistência.</p><p><em>(Use o efeito ativo Forte e adicione 2 às linhas de força ou resistência.)</em></p>",
+      "effects": {
+        "Strong": {
+          "name": "Forte"
+        }
+      }
     },
     "5. Subconscious Decay": {
       "name": "5. Decaimento Subconsciente",
-      "description": "<p>Quando você está inconsciente ou dormindo, sua forma física decai rapidamente. Ela se reconstitui quando você acorda. Ganhe +1 de aura.</p>"
+      "description": "<p>Quando você está inconsciente ou dormindo, sua forma física decai rapidamente. Ela se reconstitui quando você acorda. Ganhe +1 de aura.</p>",
+      "effects": {
+        "+1 Aura": {
+          "name": "+1 Aura"
+        }
+      }
     },
     "5. Ur-War Program": {
       "name": "5. Programa da Guerra Ur",
-      "description": "<p>O legado da guerra eterna está codificado dentro de você. Aumente sua rapidez em 1 e os dados de seu @UUID[Compendium.sdm.weapons.Item.uKcbcZUs1jQZskQ4]{Dano Desarmado} em um nível (geralmente [[/r 1d4]])</p>"
+      "description": "<p>O legado da guerra eterna está codificado dentro de você. Aumente sua rapidez em 1 e os dados de seu @UUID[Compendium.sdm.weapons.Item.uKcbcZUs1jQZskQ4]{Dano Desarmado} em um nível (geralmente [[/r 1d4]])</p>",
+      "effects": {
+        "Agility Bonus": {
+          "name": "Bônus de Rapidez"
+        }
+      }
     },
     "5. Vintner": {
       "name": "5. Vinicultor",
-      "description": "<p>Seus ancestrais se modificaram para sobreviver fora da rede, extraindo sustento da flora profana dos deuses. Você é imune a toxinas vegetais. Beber uma dose de etanol puro concede a você 1 de vida temporária (até seu nível mais resistência). Álcool não é uma toxina vegetal.</p><p><em>(Atualize manualmente o valor do efeito ativo <strong>Vida Temporária</strong> para seu Nível + resistência atual)</em></p>"
+      "description": "<p>Seus ancestrais se modificaram para sobreviver fora da rede, extraindo sustento da flora profana dos deuses. Você é imune a toxinas vegetais. Beber uma dose de etanol puro concede a você 1 de vida temporária (até seu nível mais resistência). Álcool não é uma toxina vegetal.</p><p><em>(Atualize manualmente o valor do efeito ativo <strong>Vida Temporária</strong> para seu Nível + resistência atual)</em></p>",
+      "effects": {
+        "Temporary Life": {
+          "name": "Vida Temporária"
+        }
+      }
     },
     "6. Numbers Maximization Official": {
       "name": "6. Oficial de Maximização de Números",
@@ -626,11 +905,21 @@
     },
     "6. Hashtag Blessed": {
       "name": "6. #Abençoado",
-      "description": "<p>Cada vez que você visita um novo lugar, ganhe um dado de turista. Ele funciona como um dado heroico. Você pode segurar um número igual ao seu carisma.</p><p><em>Atualize a propriedade <span style=\"text-decoration:underline\">system.tourist_dice.max</span> do efeito ativo <strong>Dados de Turista</strong> com o valor do seu carisma atual.</em></p>"
+      "description": "<p>Cada vez que você visita um novo lugar, ganhe um dado de turista. Ele funciona como um dado heroico. Você pode segurar um número igual ao seu carisma.</p><p><em>Atualize a propriedade <span style=\"text-decoration:underline\">system.tourist_dice.max</span> do efeito ativo <strong>Dados de Turista</strong> com o valor do seu carisma atual.</em></p>",
+      "effects": {
+        "Tourist Dice": {
+          "name": "Dados de Turista"
+        }
+      }
     },
     "6. I Am Legion": {
       "name": "6. Eu Sou Legião",
-      "description": "<p>Você sabe tudo sobre exércitos. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 de dano até o final da batalha. Após a primeira morte, sangue jorra de você até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Ative e edite o efeito ativo <strong>Eu Sou Legião</strong> para adicionar o bônus de dano.</em></p>"
+      "description": "<p>Você sabe tudo sobre exércitos. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 de dano até o final da batalha. Após a primeira morte, sangue jorra de você até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Ative e edite o efeito ativo <strong>Eu Sou Legião</strong> para adicionar o bônus de dano.</em></p>",
+      "effects": {
+        "I Am Legion": {
+          "name": "Eu Sou Legião"
+        }
+      }
     },
     "6. Perfected Germline": {
       "name": "6. Linhagem Germinativa Perfeita",
@@ -642,7 +931,12 @@
     },
     "6. Shackleminded": {
       "name": "6. Mente-Acorrentada",
-      "description": "<p>Seu cérebro foi aprimorado com pregos inscritos com glifos e fios sagrados, imunizando-o contra ataques mentais, efeitos psíquicos e iniciativa individual. Ganhe +2 de égide e +1 de resistência, mas perca -1 de inteligência.</p>"
+      "description": "<p>Seu cérebro foi aprimorado com pregos inscritos com glifos e fios sagrados, imunizando-o contra ataques mentais, efeitos psíquicos e iniciativa individual. Ganhe +2 de égide e +1 de resistência, mas perca -1 de inteligência.</p>",
+      "effects": {
+        "Shackleminded": {
+          "name": "Mente-Acorrentada"
+        }
+      }
     },
     "6. Silver-Tongued": {
       "name": "6. Língua de Prata",
@@ -650,7 +944,12 @@
     },
     "6. Soiltwined": {
       "name": "6. Entrelaçado ao Solo",
-      "description": "<p>Broto do próprio solo, você é um ur-camponês, um com este Mundo Dado. Descalço no solo nu, você é mais sábio e forte, adicionando sua <strong>resistência</strong> às rolagens de <em>inteligência</em> e <em>força</em>.</p><p><em>Ajuste manualmente os valores do efeito ativo <strong>Entrelaçado ao Solo</strong>, adicionando seu valor de <span style=\"text-decoration:underline\">resistência</span> atual ao bônus de rolagem de inteligência e força e ao bônus de teste.</em></p>"
+      "description": "<p>Broto do próprio solo, você é um ur-camponês, um com este Mundo Dado. Descalço no solo nu, você é mais sábio e forte, adicionando sua <strong>resistência</strong> às rolagens de <em>inteligência</em> e <em>força</em>.</p><p><em>Ajuste manualmente os valores do efeito ativo <strong>Entrelaçado ao Solo</strong>, adicionando seu valor de <span style=\"text-decoration:underline\">resistência</span> atual ao bônus de rolagem de inteligência e força e ao bônus de teste.</em></p>",
+      "effects": {
+        "Soiltwined": {
+          "name": "Entrelaçado ao Solo"
+        }
+      }
     },
     "6. Soul Thief": {
       "name": "6. Ladrão de Almas",
@@ -683,15 +982,30 @@
     },
     "6. Thorny": {
       "name": "6. Espinhoso",
-      "description": "<p>Sua pele é coriácea e coberta de crescimentos espinhosos. Você precisa da metade da água de um humano normal e ganha +1 de armadura natural. Cause dano duplo ao agarrar.</p>"
+      "description": "<p>Sua pele é coriácea e coberta de crescimentos espinhosos. Você precisa da metade da água de um humano normal e ganha +1 de armadura natural. Cause dano duplo ao agarrar.</p>",
+      "effects": {
+        "+1 armor": {
+          "name": "+1 armadura"
+        }
+      }
     },
     "6. Tough": {
       "name": "6. Resistente",
-      "description": "<p>Sua vida dura significa que você pode aguentar mais punição que a maioria dos humanos. Cada dia, você acorda com [[/r 1d6]] + nível de pontos de punição temporários. Eles absorvem dano físico, mas não podem alimentar poderes ou traços.</p><p><em>Use vida temporária como pontos de punição. Ao usar poderes ou traços que custam pontos de vida, não use os pontos de vida temporários. Ajuste o efeito ativo <strong>Resistente</strong> para habilitar vida temporária.</em></p>"
+      "description": "<p>Sua vida dura significa que você pode aguentar mais punição que a maioria dos humanos. Cada dia, você acorda com [[/r 1d6]] + nível de pontos de punição temporários. Eles absorvem dano físico, mas não podem alimentar poderes ou traços.</p><p><em>Use vida temporária como pontos de punição. Ao usar poderes ou traços que custam pontos de vida, não use os pontos de vida temporários. Ajuste o efeito ativo <strong>Resistente</strong> para habilitar vida temporária.</em></p>",
+      "effects": {
+        "Tough": {
+          "name": "Resistente"
+        }
+      }
     },
     "6. Unfred": {
       "name": "6. Infred",
-      "description": "<p>Seus ancestrais reconstruíram seus cérebros. Você parece humano, mas é imune a efeitos de controle humano e sua mente conta como alienígena. Ganhe +1 de resistência.</p>"
+      "description": "<p>Seus ancestrais reconstruíram seus cérebros. Você parece humano, mas é imune a efeitos de controle humano e sua mente conta como alienígena. Ganhe +1 de resistência.</p>",
+      "effects": {
+        "+1 Endurance": {
+          "name": "+1 Resistência"
+        }
+      }
     },
     "6. Urbane": {
       "name": "6. Urbano",
@@ -699,7 +1013,12 @@
     },
     "6. Very Strong": {
       "name": "6. Muito Forte",
-      "description": "<p>Aumente sua força em 2. Ignore os limites humanos normais.</p>"
+      "description": "<p>Aumente sua força em 2. Ignore os limites humanos normais.</p>",
+      "effects": {
+        "Str +2": {
+          "name": "For +2"
+        }
+      }
     },
     "6. Veteran of the Psychic Wars": {
       "name": "6. Veterano das Guerras Psíquicas",
@@ -713,7 +1032,12 @@
     },
     "6. Wanderer": {
       "name": "6. Andarilho",
-      "description": "<p>Um dia você se afastou de sua vida. Anos de estrada endureceram seus pés e amoleceram seu coração. Aumente sua resistência e aura em 1.</p>"
+      "description": "<p>Um dia você se afastou de sua vida. Anos de estrada endureceram seus pés e amoleceram seu coração. Aumente sua resistência e aura em 1.</p>",
+      "effects": {
+        "Wanderer Bonus": {
+          "name": "Bônus de Andarilho"
+        }
+      }
     },
     "6. Werker": {
       "name": "6. Trabalhador",

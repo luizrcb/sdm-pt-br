@@ -11,6 +11,8 @@ Compatível com o sistema WTF v1.9.1.
 - Traduzidas as tabelas de traços Todos os Caminhos, Outros Caminhos, Traços de Caminho e Caminho da Arma
 - Traduzidos o folheto "Referência de Regras" e a macro "Gerador Aleatório de NPC"
 - Traduzidas as pastas de tabelas de rolagem que faltavam
+- Traduzidos os compêndios de Macros (mediador), Tabelas de Nomes e Tabela de Itens Estranhos
+- Traduzidos os nomes de todos os efeitos ativos de itens, traços e criaturas
 
 ### Correções
 
@@ -20,5 +22,6 @@ Compatível com o sistema WTF v1.9.1.
 - Corrigidos links quebrados entre compêndios
 - Tabelas Papel 1 e Papel 2 com a mesma ordem em todas as linhas, para combinar resultados de linhas diferentes
 - Ortografia "heroico"
+- Padronizado "N de vida" (ex.: "restaura [[/r 1d6]] de vida")
 - Removidas entradas de itens que não existem mais no sistema
 - Removido o arquivo de idioma do módulo; os textos da interface vêm do próprio sistema

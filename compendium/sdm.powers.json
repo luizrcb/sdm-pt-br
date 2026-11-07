@@ -113,11 +113,11 @@
     },
     "Cerebral Purge": {
       "name": "Expurgo Cerebral",
-      "description": "<p><em>Despertar Brutal, A Faca Fria da Realidade</em></p><p>O mago usa uma onda telecrônica para purificar o cérebro do alvo de quaisquer impurezas — drogas ou magias de alteração mental. O alvo perde [[/r 1d6]] vida e suas memórias recentes ficam turvas. Alvos não dispostos fazem salvaguarda.</p>",
+      "description": "<p><em>Despertar Brutal, A Faca Fria da Realidade</em></p><p>O mago usa uma onda telecrônica para purificar o cérebro do alvo de quaisquer impurezas — drogas ou magias de alteração mental. O alvo perde [[/r 1d6]] de vida e suas memórias recentes ficam turvas. Alvos não dispostos fazem salvaguarda.</p>",
       "range": "10 m",
       "target": "criatura",
       "duration": "0",
-      "overcharge": "<p>O alvo perde [[/r 2d6]] vida e esquece o que aconteceu na última hora. Alvos não dispostos ainda fazem salvaguarda.</p>"
+      "overcharge": "<p>O alvo perde [[/r 2d6]] de vida e esquece o que aconteceu na última hora. Alvos não dispostos ainda fazem salvaguarda.</p>"
     },
     "Counterfire": {
       "name": "Contrafogo",
@@ -349,7 +349,7 @@
       "range": "toque",
       "target": "2 criaturas",
       "duration": "instantâneo",
-      "overcharge": "<p>A amplificação restaura [[/r 1d4]] vida adicional por ponto transferido.</p>"
+      "overcharge": "<p>A amplificação restaura [[/r 1d4]] de vida adicional por ponto transferido.</p>"
     },
     "Primary Desenescence": {
       "name": "Desenescência Primária",

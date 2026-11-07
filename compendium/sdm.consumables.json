@@ -18,7 +18,7 @@
   "entries": {
     "Black Light Lotus": {
       "name": "Lótus de Luz Negra",
-      "description": "<p>Brilha no escuro, adorada por gatos. Ingerida, permite ignorar aflições mentais por uma semana. Fumada, induz sono profundo e restaura [[/r 1d6]] vida. Aplicada à pele, libera feromônios alteradores da mente, concedendo +1 Carisma por um dia. Viciante  abstinência causa câimbras e fome.</p><p><em>(use efeito ativo para Carisma)</em></p>",
+      "description": "<p>Brilha no escuro, adorada por gatos. Ingerida, permite ignorar aflições mentais por uma semana. Fumada, induz sono profundo e restaura [[/r 1d6]] de vida. Aplicada à pele, libera feromônios alteradores da mente, concedendo +1 de Carisma por um dia. Viciante — abstinência causa câimbras e fome.</p><p><em>(use o efeito ativo para aumentar o Carisma)</em></p>",
       "effects": {
         "+1 cha": {
           "name": "+1 car"
@@ -28,7 +28,12 @@
 
     "Blue Spacecake": {
       "name": "Bolo Espacial Azul",
-      "description": "<p>Aumenta percepção (Aura +1) e faz seu rosto brilhar como uma vela. Na verdade é um iogurte com cogumelos, não um bolo. Não contém esporos que alteram a mente.</p>"
+      "description": "<p>Aumenta percepção (Aura +1) e faz seu rosto brilhar como uma vela. Na verdade é um iogurte com cogumelos, não um bolo. Não contém esporos que alteram a mente.</p>",
+      "effects": {
+        "+1 aur": {
+          "name": "+1 aur"
+        }
+      }
     },
 
     "Cat Coffee": {
@@ -196,7 +201,12 @@
 
     "Whiskers": {
       "name": "Bigodes",
-      "description": "<p>Expandem a mente, aumentam a percepção (inteligência +1), causam um efeito fraco de levitação e coordenação reduzida. Um tanto viciantes—a abstinência causa tremores fortes.</p><p><em>(use efeito ativo para aumentar inteligência)</em></p>"
+      "description": "<p>Expandem a mente, aumentam a percepção (inteligência +1), causam um efeito fraco de levitação e coordenação reduzida. Um tanto viciantes—a abstinência causa tremores fortes.</p><p><em>(use efeito ativo para aumentar inteligência)</em></p>",
+      "effects": {
+        "+1 tho": {
+          "name": "+1 int"
+        }
+      }
     },
 
     "OITROVjjKTWaG6Xx": {
@@ -206,7 +216,12 @@
 
     "You Go": {
       "name": "Vai Lá",
-      "description": "<p>Bebida gasosa que permite ignorar um fardo por um dia. Consumo excessivo pode causar petrificação (salvaguarda fácil depois da 2ª lata, média depois da 3ª, etc.)!</p>"
+      "description": "<p>Bebida gasosa que permite ignorar um fardo por um dia. Consumo excessivo pode causar petrificação (salvaguarda fácil depois da 2ª lata, média depois da 3ª, etc.)!</p>",
+      "effects": {
+        "-1 burden": {
+          "name": "-1 fardo"
+        }
+      }
     }
   }
 }

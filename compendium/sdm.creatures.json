@@ -2,21 +2,40 @@
   "label": "Criaturas",
   "mapping": {
     "biography": "system.biography",
-    "tokenName": "prototypeToken.name"
+    "tokenName": "prototypeToken.name",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
   },
   "entries": {
     "Pet Bird": {
         "name": "Ave de Estimação",
-        "tokenName": "Ave de Estimação"
+        "tokenName": "Ave de Estimação",
+        "effects": {
+          "Small Actor": {
+            "name": "Ator Pequeno"
+          }
+        }
     },
     "Spear Snake": {
         "name": "Serpente-Lança",
-        "tokenName": "Serpente-Lança"
+        "tokenName": "Serpente-Lança",
+        "effects": {
+          "Medium Actor": {
+            "name": "Ator Médio"
+          }
+        }
     },
     "Vicious Bird": {
         "name": "Ave Cruel",
         "tokenName": "Ave Cruel",
-        "biography": "<p>Este mascote não é amigo de ninguém. Xinga como um marinheiro estelar.<br /></p>"
+        "biography": "<p>Este mascote não é amigo de ninguém. Xinga como um marinheiro estelar.<br /></p>",
+        "effects": {
+          "Small Actor": {
+            "name": "Ator Pequeno"
+          }
+        }
     }
   }
 }

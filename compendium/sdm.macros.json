@@ -1,0 +1,29 @@
+{
+  "label": "Macros",
+  "folders": {
+    "Armor Full Auto Destruction": "Autodestruição Total de Armadura"
+  },
+  "entries": {
+    "Full Archaic Auto Destruction": {
+      "name": "Autodestruição Total do Arcaico Completo"
+    },
+    "Group Initiative": {
+      "name": "Iniciativa em Grupo"
+    },
+    "Random NPC Generator": {
+      "name": "Gerador Aleatório de NPC"
+    },
+    "escalator die": {
+      "name": "Dado de Intensidade"
+    },
+    "give cash": {
+      "name": "Distribuir/Cobrar Dinheiro"
+    },
+    "give heroic dice": {
+      "name": "Distribuir Dado Heroico"
+    },
+    "give xp": {
+      "name": "Distribuir Experiência"
+    }
+  }
+}

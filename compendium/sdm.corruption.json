@@ -57,7 +57,7 @@
           "description": "Forma secundária. Como o Hyde de Jekyll ou o lobisomem."
         },
         "18-18": {
-          "description": "Vomite três órgãos remotos. Um vê, um ouve, um é mais estranho. Se um for destruído, perca permanentemente 1 vida."
+          "description": "Vomite três órgãos remotos. Um vê, um ouve, um é mais estranho. Se um for destruído, perca permanentemente 1 de vida."
         },
         "19-19": {
           "description": "Não morre. Mas apodrece. Isso se torna terrível em algumas décadas sem peças de reposição."
@@ -162,7 +162,7 @@
           "description": "Olhos mudam de cor ou forma, tornando-se radicalmente esquisitos."
         },
         "9-9": {
-          "description": "Um dedo ou outro pequeno apêndice desaparece e você ganha 1 vida. Sacrifique mais dois para ganhar +1 vida."
+          "description": "Um dedo ou outro pequeno apêndice desaparece e você ganha 1 de vida. Sacrifique mais dois para ganhar +1 de vida."
         },
         "10-10": {
           "description": "Cabelo desaparece ou torna-se volumoso e onipresente."

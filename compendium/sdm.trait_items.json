@@ -13,7 +13,7 @@
     "Orangelander": "Laranjenha",
     "Purplelander": "Violetense",
     "Redlander": "Rúbreo",
-    "Scion": "Herdeiro de Legado",
+    "Scion": "Herdeiro do Legado",
     "Servant": "Servo",
     "Skeleton": "Esqueleto",
     "Tourist": "Turista",
@@ -51,7 +51,7 @@
 
     "Amber Suit": {
       "name": "Traje de Âmbar",
-      "description": "<p>Traje completo de armadura cultivado a partir de um caranguejo-âmbar escravizado biomorficamente.</p>"
+      "description": "<p>Traje completo de armadura, cultivado a partir de um caranguejo-âmbar escravizado biomorficamente.</p>"
     },
 
     "Amber Wandgun": {
@@ -137,7 +137,7 @@
 
     "Book of Hellaesthetics": {
       "name": "Livro de Infernoestética",
-      "description": "<p>Palavras para causar dor ou removê-la. Gaste 2 vida para restaurar ou remover (salvaguarda) [[/r 1d6]]+1 vida. Sele para recarregar durante a noite.</p>",
+      "description": "<p>Palavras para causar dor ou removê-la. Gaste 2 de vida para restaurar ou remover (salvaguarda) [[/r 1d6]]+1 de vida. Sele para recarregar durante a noite.</p>",
       "effects": {
         "+1 Thought": {
           "name": "+1 Inteligência"
@@ -167,7 +167,7 @@
 
     "Buffer Harness II": {
       "name": "Arnês de Amortecimento II",
-      "description": "<p>Campos de força inteligentes permitem gastar 2 vida para limitar o dano máximo de qualquer ataque a 6 até o início do seu próximo turno.</p>"
+      "description": "<p>Campos de força inteligentes permitem gastar 2 de vida para limitar o dano máximo de qualquer ataque a 6 até o início do seu próximo turno.</p>"
     },
 
     "Builder Blade": {
@@ -277,7 +277,7 @@
 
     "Collar of Life": {
       "name": "Coleira da Vida",
-      "description": "<p>Armazena até 3 vida para poderes. Não se importa de onde você conseguiu.</p><p><em>(Um campo de Vida Emprestada limitado a 3 será exibido na ficha do personagem. Se o personagem também for um vampiro, use a chave de efeito ativo system.borrowed_life.max_limit para atualizar o máximo de vida emprestada para a vida máxima dele + 3.)</em></p>",
+      "description": "<p>Armazena até 3 de vida para poderes. Não se importa de onde você conseguiu.</p><p><em>(Um campo de Vida Emprestada limitado a 3 será exibido na ficha do personagem. Se o personagem também for um vampiro, use a chave de efeito ativo system.borrowed_life.max_limit para atualizar o máximo de vida emprestada para a vida máxima dele + 3.)</em></p>",
       "effects": {
         "LLt1NeiqWvOmC4rR": {
           "name": "Vida Emprestada"
@@ -350,7 +350,7 @@
     },
     "Declaration of Pause": {
       "name": "Declaração de Pausa",
-      "description": "<p>Cilindro de encantamento de suspensão de daemons, ligado a um alto-falante de corda. Gaste 1 vida: um daemon próximo perde sua ação (salvaguarda).</p>"
+      "description": "<p>Cilindro de encantamento de suspensão de daemons, ligado a um alto-falante de corda. Gaste 1 de vida: um daemon próximo perde sua ação (salvaguarda).</p>"
     },
 
     "Doormaker": {
@@ -395,7 +395,7 @@
 
     "Eisen Doppler Amulet": {
       "name": "Amuleto Eisen-Doppler",
-      "description": "<p>Gaste 1 dado heroico para projetar sua ilusão de ferro próxima (nível e perícias como PJ, defesa 19, dano 1d8, apenas 1 vida).</p>"
+      "description": "<p>Gaste 1 dado heroico para projetar sua ilusão de ferro próxima (nível e perícias como PJ, defesa 19, dano 1d8, apenas 1 de vida).</p>"
     },
 
     "Elegant Eater Sword": {
@@ -415,7 +415,7 @@
 
     "Empire Armor": {
       "name": "Armadura do Império",
-      "description": "<p>Placas sanguíneas sobre malha de carne. Alimente com 1 vida por dia ou receba apenas metade do bônus.</p><p><em>(ative o efeito ativo para obter o bônus completo da armadura)</em></p>",
+      "description": "<p>Placas sanguíneas sobre malha de carne. Alimente com 1 de vida por dia ou receba apenas metade do bônus.</p><p><em>(ative o efeito ativo para obter o bônus completo da armadura)</em></p>",
       "effects": {
         "Empire Armor bonus": {
           "name": "Bônus da Armadura do Império",
@@ -441,7 +441,7 @@
 
     "Face Crab": {
       "name": "Caranguejo de Rosto",
-      "description": "<p>Use para parecer alguém simpático e respeitável — e nada parecido com você. O caranguejo precisa de 1 hora e [[/r 1d4]] vida para substituir o rosto. Obviamente, também precisa de um rosto humano fresco. Extremamente ilegal.</p>"
+      "description": "<p>Use para parecer alguém simpático e respeitável — e nada parecido com você. O caranguejo precisa de 1 hora e [[/r 1d4]] de vida para substituir o rosto. Obviamente, também precisa de um rosto humano fresco. Extremamente ilegal.</p>"
     },
 
     "Fairy Key": {
@@ -456,7 +456,7 @@
 
     "Felix Whizz Six-Pack": {
       "name": "Engradado Felix Whizz (6 latas)",
-      "description": "<p>A bebida energética concede [[/r 1d4]] vida temporária. Levemente viciante.</p><p><em>Use o efeito ativo para conceder a vida temporária.</em></p>",
+      "description": "<p>A bebida energética concede [[/r 1d4]] de vida temporária. Levemente viciante.</p><p><em>Use o efeito ativo para conceder a vida temporária.</em></p>",
       "effects": {
         "Temporary Life": {
           "name": "Vida Temporária"
@@ -466,7 +466,7 @@
 
     "Fireward Circlet": {
       "name": "Diadema Antichamas",
-      "description": "<p>O aro semi-senciente de joias de matriz de daemon protege sua identidade. Gaste 1 vida para bloquear sua mente por 1 rodada.</p>"
+      "description": "<p>O aro semi-senciente de joias de matriz de daemon protege sua identidade. Gaste 1 de vida para bloquear sua mente por 1 rodada.</p>"
     },
 
     "Flesh Pocket": {
@@ -506,7 +506,7 @@
 
     "Fresh Face": {
       "name": "Rosto Fresco",
-      "description": "<p>Alimente com sangue diariamente (1 vida) para mantê-lo rosado.</p>"
+      "description": "<p>Alimente com sangue diariamente (1 de vida) para mantê-lo rosado.</p>"
     },
 
     "Friend Horse": {
@@ -572,7 +572,7 @@
 
     "Godbone Exoskeleton": {
       "name": "Exoesqueleto de Osso Divino",
-      "description": "<p>Armadura de golem grotesca, reabastecida com seus dados heroicos.</p><p><strong>Queima:</strong> ganhe +20 vida temporária e +3 força.</p><p><em>Ative o efeito ativo Modo de Queima para receber os bônus.</em></p>",
+      "description": "<p>Armadura de golem grotesca, reabastecida com seus dados heroicos.</p><p><strong>Queima:</strong> ganhe +20 de vida temporária e +3 força.</p><p><em>Ative o efeito ativo Modo de Queima para receber os bônus.</em></p>",
       "effects": {
         "Burn Mode": {
           "name": "Modo de Queima",
@@ -638,7 +638,12 @@
 
     "Green Figurine": {
       "name": "Estatueta Verde",
-      "description": "<p>Diz ser um deus verdadeiro? Promete que você é especial.</p>"
+      "description": "<p>Diz ser um deus verdadeiro? Promete que você é especial.</p>",
+      "effects": {
+        "+2 Aura": {
+          "name": "+2 Aura"
+        }
+      }
     },
 
     "Guide Book": {
@@ -693,17 +698,22 @@
 
     "Illusion Gun": {
       "name": "Arma de Ilusão",
-      "description": "<p>Um alvo “morto” por esta arma velhatec de curto alcance faz uma salvaguarda contra morte. Se tiver sucesso, em vez disso fica com 1 vida e inconsciente.</p>"
+      "description": "<p>Um alvo “morto” por esta arma velhatec de curto alcance faz uma salvaguarda contra morte. Se tiver sucesso, em vez disso fica com 1 de vida e inconsciente.</p>"
     },
 
     "In-Arm Pistol": {
       "name": "Pistola no Braço",
-      "description": "<p>Raio-EM velhatec oculto (emmaray no patoá local). Gaste 1 vida para recarregar.</p>"
+      "description": "<p>Raio-EM velhatec oculto (emmaray no patoá local). Gaste 1 de vida para recarregar.</p>"
     },
 
     "Indigo Face": {
       "name": "Rosto Índigo",
-      "description": "<p>Uma máscara de cristal puro, o semblante de um nobre perdido. Chave de acesso ou dinheiro?</p>"
+      "description": "<p>Uma máscara de cristal puro, o semblante de um nobre perdido. Chave de acesso ou dinheiro?</p>",
+      "effects": {
+        "+1 Aura": {
+          "name": "+1 Aura"
+        }
+      }
     },
 
     "Jet Credit Ring": {
@@ -733,7 +743,7 @@
 
     "Lifestealer Syringe": {
       "name": "Seringa Roubavida",
-      "description": "<p>Extrai 1 vida por rodada de uma criatura dócil. Função de transferência curativa não instalada. Onde armazenar a força vital…</p>"
+      "description": "<p>Extrai 1 de vida por rodada de uma criatura dócil. Função de transferência curativa não instalada. Onde armazenar a força vital…</p>"
     },
 
     "Limousine Golem": {
@@ -808,7 +818,12 @@
 
     "Mightier Pen": {
       "name": "Caneta Mais Poderosa",
-      "description": "<p>Bônus em pergaminhos legais e de velhatec. Também abre portas de ministérios.</p>"
+      "description": "<p>Bônus em pergaminhos legais e de velhatec. Também abre portas de ministérios.</p>",
+      "effects": {
+        "+1 Aura": {
+          "name": "+1 Aura"
+        }
+      }
     },
 
     "Mindvault Helm": {
@@ -838,7 +853,7 @@
 
     "Motor Chung": {
       "name": "Motor Chung",
-      "description": "<p>Seis frascos cintilantes. Consuma no máximo uma hora antes do uso. Gaste 1 vida para ganhar uma ação bônus neste turno.</p>"
+      "description": "<p>Seis frascos cintilantes. Consuma no máximo uma hora antes do uso. Gaste 1 de vida para ganhar uma ação bônus neste turno.</p>"
     },
 
     "Nip Lotion": {
@@ -903,12 +918,17 @@
 
     "Old Key": {
       "name": "Chave Antiga",
-      "description": "<p>Parece banal, mas você sabe que é uma chave transcendental para uma fechadura omni. O endereço fica em uma cidade em ruínas. O que ela esconde?</p>"
+      "description": "<p>Parece banal, mas você sabe que é uma chave transcendental para uma fechadura omni. O endereço fica em uma cidade em ruínas. O que ela esconde?</p>",
+      "effects": {
+        "+1 Aura": {
+          "name": "+1 Aura"
+        }
+      }
     },
 
     "Oldtech Dagger-Axe": {
       "name": "Machado-Adaga Velhatec",
-      "description": "<p>Um símbolo de poder. Gaste 1 vida para causar dano x2. Concede +2 de carisma.</p>",
+      "description": "<p>Um símbolo de poder. Gaste 1 de vida para causar dano x2. Concede +2 de carisma.</p>",
       "effects": {
         "+2 Charisma": {
           "name": "+2 Carisma"
@@ -937,7 +957,7 @@
     },
     "Organic Paste": {
       "name": "Pasta Orgânica",
-      "description": "<p>Vida humana processada em um tubo! 10 vida para ativar poderes.</p><p>10 vida</p>"
+      "description": "<p>Vida humana processada em um tubo! 10 de vida para ativar poderes.</p><p>10 de vida</p>"
     },
 
     "Pass Person": {
@@ -952,7 +972,7 @@
 
     "Personal Daemon": {
       "name": "Daemon Pessoal",
-      "description": "<p>Sabe coisas que não deveria, dá conselhos que você não pode seguir. Gaste 1 vida para receber um despejo rápido de informações sobre a área local.</p>"
+      "description": "<p>Sabe coisas que não deveria, dá conselhos que você não pode seguir. Gaste 1 de vida para receber um despejo rápido de informações sobre a área local.</p>"
     },
 
     "Pet Bird": {
@@ -1041,11 +1061,21 @@
     },
     "Radioactive Rodent Skull": {
       "name": "Crânio de Roedor Radioativo",
-      "description": "<p>Uma noite, seu dono te mordeu e você teve uma epifania.</p>"
+      "description": "<p>Uma noite, seu dono te mordeu e você teve uma epifania.</p>",
+      "effects": {
+        "+1 Aura": {
+          "name": "+1 Aura"
+        }
+      }
     },
     "Rational Helm": {
       "name": "Elmo da Razão",
-      "description": "<p>Bloqueia empatia, esmaga piedade, HUD útil.</p>"
+      "description": "<p>Bloqueia empatia, esmaga piedade, HUD útil.</p>",
+      "effects": {
+        "+1 Ward": {
+          "name": "+1 Égide"
+        }
+      }
     },
     "Reading Monocle": {
       "name": "Monóculo de Leitura",
@@ -1116,7 +1146,12 @@
     },
     "Saffron Snuf": {
       "name": "Rapé de Açafrão",
-      "description": "<p>Inale para clarear a mente ou ganhar [[/r 1d4]] de aura por uma hora.</p><p><em>(use o efeito ativo para configurar o bônus de aura)</em></p>"
+      "description": "<p>Inale para clarear a mente ou ganhar [[/r 1d4]] de aura por uma hora.</p><p><em>(use o efeito ativo para configurar o bônus de aura)</em></p>",
+      "effects": {
+        "Bonus Aura": {
+          "name": "Aura Bônus"
+        }
+      }
     },
     "Sand Dragon Scale": {
       "name": "Escama de Dragão de Areia",
@@ -1284,7 +1319,12 @@
     },
     "The Hard Ring": {
       "name": "O Anel Duro",
-      "description": "<p>Você é um anel e não ocupa inventário. Você é feito de (role [[/r 1d6]]): (1) lágrimas petrificadas, (2) marfim gravado, (3) ouro cintilante, (4) gelo negro, (5) prata sangrenta, ou (6) luz capturada. Você não causa dano sozinho, mas pode usar a vida e habilidades do seu portador para alimentar seus poderes ou causar dano diretamente. Você ganha o poder @UUID[Compendium.sdm.powers.Item.qryBY1xnpWKC9NSk]{Suspenso na Luz}. Liste-o no seu inventário de itens.</p>"
+      "description": "<p>Você é um anel e não ocupa inventário. Você é feito de (role [[/r 1d6]]): (1) lágrimas petrificadas, (2) marfim gravado, (3) ouro cintilante, (4) gelo negro, (5) prata sangrenta, ou (6) luz capturada. Você não causa dano sozinho, mas pode usar a vida e habilidades do seu portador para alimentar seus poderes ou causar dano diretamente. Você ganha o poder @UUID[Compendium.sdm.powers.Item.qryBY1xnpWKC9NSk]{Suspenso na Luz}. Liste-o no seu inventário de itens.</p>",
+      "effects": {
+        "Hard Ring Slot Bonus": {
+          "name": "Bônus de Espaços do Anel Duro"
+        }
+      }
     },
     "The Humblest of Tools": {
       "name": "A Mais Humilde das Ferramentas",
@@ -1293,7 +1333,12 @@
     "The Spear Named Blood Drinker": {
       "id": "0jY9JnzOpHLrn4Rk",
       "name": "A Lança Chamada Bebedora de Sangue",
-      "description": "<p>Cada vez que fere um inimigo, ela ruge e ganha +3 em seu próximo ataque. Reinicia quando você troca de inimigo. Usada com duas mãos, causa 1d12 de dano.<br /><em>(Edite o efeito ativo para o bônus de ataque)</em></p>"
+      "description": "<p>Cada vez que fere um inimigo, ela ruge e ganha +3 em seu próximo ataque. Reinicia quando você troca de inimigo. Usada com duas mãos, causa 1d12 de dano.<br /><em>(Edite o efeito ativo para o bônus de ataque)</em></p>",
+      "effects": {
+        "Attack Bonus": {
+          "name": "Bônus de Ataque"
+        }
+      }
     },
     "Third Ear": {
       "name": "Terceira Orelha",
@@ -1309,7 +1354,12 @@
     },
     "Tinkling Shoes": {
       "name": "Sapatos Tilintantes",
-      "description": "<p>Sininhos bonitos garantem que você não passará despercebido.</p>"
+      "description": "<p>Sininhos bonitos garantem que você não passará despercebido.</p>",
+      "effects": {
+        "+1 Charisma": {
+          "name": "+1 Carisma"
+        }
+      }
     },
     "Tooth of the Root Worm": {
       "name": "Dente do Verme-Raiz",
@@ -1402,7 +1452,12 @@
     },
     "Yellow Poncho": {
       "name": "Poncho Amarelo",
-      "description": "<p>Protege do sol, calor e raios que afetam a mente.</p>"
+      "description": "<p>Protege do sol, calor e raios que afetam a mente.</p>",
+      "effects": {
+        "+2 Ward": {
+          "name": "+2 Égide"
+        }
+      }
     },
     "Zu Helmet": {
       "name": "Elmo Zu",

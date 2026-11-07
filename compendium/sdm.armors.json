@@ -65,7 +65,7 @@
 
     "Brazen Minotaur": {
       "name": "Minotauro de Bronze",
-      "description": "<p>Monstruosidade de carne divina e bronze astral cozida nos tanques criptas do Deus da Carne Viva. Causa [[/r 1d10]] dano com ataques desarmados.</p><p>Vincula-se ao usuário; remoção exige um dia de oração ou [[/r 3d6]] vida.</p><p>Modo de queima [[/r 1d20]]: ganha +6 Força e um campo de força de 30 vida (efeitos ativos).</p>",
+      "description": "<p>Monstruosidade de carne divina e bronze astral cozida nos tanques criptas do Deus da Carne Viva. Causa [[/r 1d10]] dano com ataques desarmados.</p><p>Vincula-se ao usuário; remoção exige um dia de oração ou [[/r 3d6]] de vida.</p><p>Modo de queima [[/r 1d20]]: ganha +6 Força e um campo de força de 30 de vida (efeitos ativos).</p>",
       "effects": {
         "Burn (+6 str)": {
           "name": "Queima (+6 for)",
@@ -73,7 +73,7 @@
         },
         "Burn (+30 life)": {
           "name": "Queima (+30 vida)",
-          "description": "<p>Modo de queima 1d20: ganha um campo de força de 30 vida</p>"
+          "description": "<p>Modo de queima 1d20: ganha um campo de força de 30 de vida</p>"
         }
       }
     },
@@ -95,18 +95,18 @@
 
     "Field Glove": {
       "name": "Luva de Campo",
-      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>",
+      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 de vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>",
       "effects": {
         "Boost Defense Field": {
           "name": "Campo de Defesa Aprimorada",
-          "description": "<p>Gaste 1 vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>"
+          "description": "<p>Gaste 1 de vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>"
         }
       }
     },
 
     "Full Archaic": {
       "name": "Arcaico Completo",
-      "description": "<p>Este traje inteligente pode lutar sem você dentro (veja modo de destruição automática total).</p><p>Aviso: pode desenvolver personalidade.</p><p>Modo de queima [[/r 1d20]]: ganha +4 Força ou um campo de força de 20 vida (<em>efeitos ativos</em>)</p><p>@UUID[Compendium.sdm.macros.Macro.uUshgTy0nsMeCznq]{Arcaico Completo – Destruição Automática}</p>",
+      "description": "<p>Este traje inteligente pode lutar sem você dentro (veja modo de destruição automática total).</p><p>Aviso: pode desenvolver personalidade.</p><p>Modo de queima [[/r 1d20]]: ganha +4 Força ou um campo de força de 20 de vida (<em>efeitos ativos</em>)</p><p>@UUID[Compendium.sdm.macros.Macro.uUshgTy0nsMeCznq]{Autodestruição Total do Arcaico Completo}</p>",
       "effects": {
         "Burn (+4 str)": {
           "name": "Queima (+4 for)"
@@ -144,16 +144,16 @@
 
     "Malachite Swirl": {
       "name": "Espiral de Malaquita",
-      "description": "<p>Pedra polida e linhas de força entrelaçadas para resistir a ataques de alta velocidade e energia.</p><p>Modo de queima [[/r 1d20]]: ganhe +5 força ou 30 vida em campo de força (<em>alternar efeitos ativos</em>)</p>",
+      "description": "<p>Pedra polida e linhas de força entrelaçadas para resistir a ataques de alta velocidade e energia.</p><p>Modo de queima [[/r 1d20]]: ganhe +5 força ou 30 de vida em campo de força (<em>alternar efeitos ativos</em>)</p>",
       "resistant": "energia",
       "effects": {
         "Burn (+5 str)": {
           "name": "Queima (+5 for)",
-          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 vida</p>"
+          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 de vida</p>"
         },
         "Burn (+30 life)": {
           "name": "Queima (+30 vida)",
-          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 vida</p>"
+          "description": "<p>Modo de Queima [[/r 1d20]]: ganha +5 de força ou um campo de força de 30 de vida</p>"
         }
       }
     },
@@ -165,15 +165,15 @@
 
     "Onyx Ghost": {
       "name": "Fantasma de Ônix",
-      "description": "<p>Serpentes de ônix entrelaçadas e pedras espirituais mutantes sussurram sobre vidas desperdiçadas e sonhos destruídos.</p><p>Modo de queima [[/r 1d20]]: ganhe +3 aura ou um campo de força de 50 vida (<em>efeitos ativos</em>)</p>",
+      "description": "<p>Serpentes de ônix entrelaçadas e pedras espirituais mutantes sussurram sobre vidas desperdiçadas e sonhos destruídos.</p><p>Modo de queima [[/r 1d20]]: ganhe +3 aura ou um campo de força de 50 de vida (<em>efeitos ativos</em>)</p>",
       "effects": {
         "Burn (+3 aur)": {
           "name": "Queima (+3 aur)",
-          "description": "<p>Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 vida</p>"
+          "description": "<p>Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 de vida</p>"
         },
         "Burn (+50 life)": {
           "name": "Queima (+50 vida)",
-          "description": "Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 vida"
+          "description": "Modo de Queima 1d20: ganha +3 de aura ou um campo de força de 50 de vida"
         }
       }
     },
