@@ -18,15 +18,15 @@
   "entries": {
     "Medium Actor": {
       "name": "Ator Médio",
-      "description": "<p>Efeito Ativo para Atores que pesam a metade (5 mochilas) de um humano padrão (1 saca ou 10 mochilas).</p>"
+      "description": "<p>Efeito ativo para atores que pesam a metade (5 mochilas) de um humano padrão (1 saca ou 10 mochilas).</p>"
     },
     "Small Actor": {
       "name": "Ator Pequeno",
-      "description": "<p>Efeito Ativo para Atores que pesam um décimo (1 mochila) de um humano padrão (1 saca ou 10 mochilas).</p>"
+      "description": "<p>Efeito ativo para atores que pesam um décimo (1 mochila) de um humano padrão (1 saca ou 10 mochilas).</p>"
     },
     "Giant Actor": {
       "name": "Ator Gigante",
-      "description": "<p>Efeito Ativo para Atores que pesam o dobro (2 sacas) de um humano padrão (1 saca).</p>"
+      "description": "<p>Efeito ativo para atores que pesam o dobro (2 sacas) de um humano padrão (1 saca).</p>"
     },
     "1 - Styling": {
       "name": "1 - Estilização",
@@ -184,14 +184,14 @@
     },
     "5 - Resistance": {
       "name": "5 - Resistência",
-      "description": "<p>A arma recebe um bônus de +[[/r 1d6]] em testes de salvaguarda e ignora um tipo de resistência. Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €75</p>",
+      "description": "<p>A arma recebe um bônus de +[[/r 1d6]] em salvaguardas e ignora um tipo de resistência. Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €75</p>",
       "changes": {
-        "system.description": "<p>A arma recebe um bônus de +[[/r 1d6]] em testes de salvaguarda e ignora um tipo de resistência. Isso não é automatizado.</p>"
+        "system.description": "<p>A arma recebe um bônus de +[[/r 1d6]] em salvaguardas e ignora um tipo de resistência. Isso não é automatizado.</p>"
       }
     },
     "6 - Precision": {
       "name": "6 - Precisão",
-      "description": "<p>Demônios precognitivos guiam a arma, concedendo um bônus de +1 nos ataques.</p><p><strong>Custo do Mod</strong>: €100, <strong>Repetível</strong></p>"
+      "description": "<p>Daemons precognitivos guiam a arma, concedendo um bônus de +1 nos ataques.</p><p><strong>Custo do Mod</strong>: €100, <strong>Repetível</strong></p>"
     },
     "7 - Area Boost": {
       "name": "7 - Aumento de Área",
@@ -218,11 +218,11 @@
     },
     "(4.0) - Draining (Temporary Life)": {
       "name": "(4.0) - Dreno (Vida Temporária)",
-      "description": "<p>Quando causa dano, o portador ganha 1 ponto de vida temporária. Dura algumas horas. (Adicione o efeito Dreno (Drenar Vida) para automatizar o ganho de vida ao causar dano).</p><p><strong>Custo do Mod</strong>: €200, <strong>Repetível</strong></p>"
+      "description": "<p>Quando causa dano, o portador ganha 1 de vida temporária. Dura algumas horas. (Adicione o efeito Dreno (Drenar Vida) para automatizar o ganho de vida ao causar dano).</p><p><strong>Custo do Mod</strong>: €200, <strong>Repetível</strong></p>"
     },
     "(4.1) - Draining (Life Drain)": {
       "name": "(4.1) - Dreno (Drenar Vida)",
-      "description": "<p>Quando causa dano, o portador ganha 1 ponto de vida temporária. Dura algumas horas. (Adicione o efeito Dreno (Drenar Vida) para automatizar o ganho de vida ao causar dano).</p>"
+      "description": "<p>Quando causa dano, o portador ganha 1 de vida temporária. Dura algumas horas. (Adicione o efeito Dreno (Drenar Vida) para automatizar o ganho de vida ao causar dano).</p>"
     },
     "(5) - Saboteur": {
       "name": "(5) - Sabotador",
@@ -263,9 +263,9 @@
     },
     "11 - Stunning": {
       "name": "11 - Atordoante",
-      "description": "<p>Golpes com um clarão ou rugido chocante. O alvo perde 1 ação (salvaguarda). Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €850</p>",
+      "description": "<p>Golpeia com um clarão ou rugido chocante. O alvo perde 1 ação (salvaguarda). Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €850</p>",
       "changes": {
-        "system.description": "<p>Golpes com um clarão ou rugido chocante. O alvo perde 1 ação (salvaguarda). Isso não é automatizado.</p>"
+        "system.description": "<p>Golpeia com um clarão ou rugido chocante. O alvo perde 1 ação (salvaguarda). Isso não é automatizado.</p>"
       }
     },
     "12 - Sentience": {

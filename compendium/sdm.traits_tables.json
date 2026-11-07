@@ -9,28 +9,28 @@
       "name": "Traços de Antecedente 1d40",
       "results": {
         "1-1": {
-          "name": "Terras Azuis narco boticário",
+          "name": "Terras Azuis boticário narco",
           "description": "Tarefa: misturar poções, venenos, drogas|Ênfase: viagem onírica movida a drogas"
         },
         "2-2": {
-          "name": "Deus Morto erudito do Longínquo Passado",
+          "name": "Deus Morto erudito do Há Muito Tempo",
           "description": "Tarefa: explorar o falso passado dos tempos perdidos|Ênfase: acrobacias psicocinéticas"
         },
         "3-3": {
-          "name": "Pacificador caça grossa turista",
+          "name": "Pacificador turista de caça grossa",
           "description": "Tarefa: encontrar e apreciar feras estranhas|Ênfase: orar, amar, comer monstros?"
         },
         "4-4": {
-          "name": "Lua bio mecânico",
+          "name": "Lua mecânico biológico",
           "description": "Tarefa: modificar e criar seres vivos|Ênfase: tecnomagia de horror corporal"
         },
         "5-5": {
           "name": "Costeiro tratador de gatos",
-          "description": "Tarefa: fazer gatos [ou outros mestres] felizes|Ênfase: guarda-costas mascote contratado"
+          "description": "Tarefa: fazer gatos [ou outros mestres] felizes|Ênfase: capanga contratado pelo mascote"
         },
         "6-6": {
           "name": "Catador químico universal",
-          "description": "Tarefa: manipular os iks básicos da matéria|Ênfase: filosofias explosivas"
+          "description": "Tarefa: manipular os iksr básicos da matéria|Ênfase: filosofias explosivas"
         },
         "7-7": {
           "name": "Terras Púrpuras terapeuta barista",
@@ -57,20 +57,20 @@
           "description": "Tarefa: proteínas e frutos das águas|Ênfase: falar com peixes estranhos"
         },
         "13-13": {
-          "name": "Vampiro invocador da nöosfera",
-          "description": "Tarefa: falar com os demônios do arquivo oculto|Ênfase: acessar comunicações divinas"
+          "name": "Vampiro chamador da noösfera",
+          "description": "Tarefa: falar com os daemons do arquivo oculto|Ênfase: acessar comunicações divinas"
         },
         "14-14": {
           "name": "Ferrugem fabricante de armas",
-          "description": "Tarefa: forjar ferramentas proibidas do Longínquo Passado|Ênfase: reconstruir dispositivos ilegais"
+          "description": "Tarefa: forjar ferramentas proibidas do Há Muito Tempo|Ênfase: reconstruir dispositivos ilegais"
         },
         "15-15": {
           "name": "Vinicultor trabalhador da terra",
           "description": "Tarefa: otimizar a produção primária|Ênfase: entender os fundamentos da sobrevivência"
         },
         "16-16": {
-          "name": "Distrito das Terras Vermelhas gerador de vida",
-          "description": "Tarefa: criar conteúdo humano envolvente|Ênfase: girar histórias e mentiras"
+          "name": "Distrito da Terra Vermelha gerador de vida",
+          "description": "Tarefa: criar conteúdo humano envolvente|Ênfase: inventar histórias e mentiras"
         },
         "17-17": {
           "name": "Hexad sanitarista da cidade",
@@ -94,7 +94,7 @@
         },
         "22-22": {
           "name": "Ancestral técnico antigo",
-          "description": "Tarefa: entoar os mantras da manutenção|Ênfase: usar ferramentas do Longínquo Passado"
+          "description": "Tarefa: entoar os mantras da manutenção|Ênfase: usar ferramentas do Há Muito Muito Tempo"
         },
         "23-23": {
           "name": "Agente engenheiro golem",
@@ -113,7 +113,7 @@
           "description": "Tarefa: observar, ouvir e relatar às autoridades|Ênfase: descobrir e guardar segredos sombrios"
         },
         "27-27": {
-          "name": "Anã Volkan a Diesel mercador licenciado",
+          "name": "Anão Diesel mercador licenciado",
           "description": "Tarefa: transportar e barganhar pelo bem maior|Ênfase: maximizar ganhos imediatos"
         },
         "28-28": {
@@ -125,7 +125,7 @@
           "description": "Tarefa: divinar estratégias a partir das estrelas|Ênfase: manter ordem e disciplina"
         },
         "30-30": {
-          "name": "Cavaleiro de Contas monge contador",
+          "name": "Equestre monge contador",
           "description": "Tarefa: garantir que os números sagrados subam|Ênfase: manter a flor de engrenagem girando"
         },
         "31-31": {
@@ -208,7 +208,7 @@
         "13-13": { "name": "Vampiro" },
         "14-14": { "name": "Ferrugem" },
         "15-15": { "name": "Vinicultor" },
-        "16-16": { "name": "Distrito das Terras Vermelhas" },
+        "16-16": { "name": "Distrito da Terra Vermelha" },
         "17-17": { "name": "Hexad" },
         "18-18": { "name": "Cabeça de Cão" },
         "19-19": { "name": "Terras Laranjas" },
@@ -219,10 +219,10 @@
         "24-24": { "name": "Pirata" },
         "25-25": { "name": "Planalto" },
         "26-26": { "name": "Terras Amarelas" },
-        "27-27": { "name": "Anã Volkan a Diesel" },
+        "27-27": { "name": "Anão Diesel" },
         "28-28": { "name": "Decapolitano" },
         "29-29": { "name": "Safraniano" },
-        "30-30": { "name": "Cavaleiro de Contas" },
+        "30-30": { "name": "Equestre" },
         "31-31": { "name": "Deserto Dourado" },
         "32-32": { "name": "Terras Verdes" },
         "33-33": { "name": "Metropolitano" },
@@ -238,10 +238,10 @@
     "Role 1": {
       "name": "Papel 1",
       "results": {
-        "1-1": { "name": "narco" },
+        "1-1": { "name": "boticário" },
         "2-2": { "name": "erudito" },
-        "3-3": { "name": "caça grossa" },
-        "4-4": { "name": "bio" },
+        "3-3": { "name": "turista" },
+        "4-4": { "name": "mecânico" },
         "5-5": { "name": "tratador" },
         "6-6": { "name": "químico" },
         "7-7": { "name": "terapeuta" },
@@ -250,7 +250,7 @@
         "10-10": { "name": "cantor" },
         "11-11": { "name": "lapidário" },
         "12-12": { "name": "agricultor" },
-        "13-13": { "name": "invocador" },
+        "13-13": { "name": "chamador" },
         "14-14": { "name": "fabricante" },
         "15-15": { "name": "trabalhador" },
         "16-16": { "name": "gerador" },
@@ -283,10 +283,10 @@
     "Role 2": {
       "name": "Papel 2",
       "results": {
-        "1-1": { "name": "boticário" },
-        "2-2": { "name": "do Longínquo Passado" },
-        "3-3": { "name": "turista" },
-        "4-4": { "name": "mecânico" },
+        "1-1": { "name": "narco" },
+        "2-2": { "name": "do Há Muito Tempo" },
+        "3-3": { "name": "de caça grossa" },
+        "4-4": { "name": "biológico" },
         "5-5": { "name": "de gatos" },
         "6-6": { "name": "universal" },
         "7-7": { "name": "barista" },
@@ -295,7 +295,7 @@
         "10-10": { "name": "da madeira" },
         "11-11": { "name": "vivo" },
         "12-12": { "name": "aquático" },
-        "13-13": { "name": "da nöosfera" },
+        "13-13": { "name": "da noösfera" },
         "14-14": { "name": "de armas" },
         "15-15": { "name": "da terra" },
         "16-16": { "name": "de vida" },
@@ -332,7 +332,7 @@
         "2-2": { "name": "acrobacias psicocinéticas" },
         "3-3": { "name": "orar, amar, comer monstros?" },
         "4-4": { "name": "tecnomagia de horror corporal" },
-        "5-5": { "name": "guarda-costas mascote contratado" },
+        "5-5": { "name": "capanga contratado pelo mascote" },
         "6-6": { "name": "filosofias explosivas" },
         "7-7": { "name": "expertise de pequenos negócios" },
         "8-8": { "name": "táticas inquisitoriais" },
@@ -343,13 +343,13 @@
         "13-13": { "name": "acessar comunicações divinas" },
         "14-14": { "name": "reconstruir dispositivos ilegais" },
         "15-15": { "name": "entender os fundamentos da sobrevivência" },
-        "16-16": { "name": "girar histórias e mentiras" },
+        "16-16": { "name": "inventar histórias e mentiras" },
         "17-17": { "name": "viajar oculto nas entranhas urbanas" },
         "18-18": { "name": "manipular as velhas mentes" },
         "19-19": { "name": "elevar animais oprimidos" },
         "20-20": { "name": "nublar mentes para objetivos comuns" },
         "21-21": { "name": "assegurar a reencarnação adequada" },
-        "22-22": { "name": "usar ferramentas do Longínquo Passado" },
+        "22-22": { "name": "usar ferramentas do Há Muito Muito Tempo" },
         "23-23": { "name": "servir os senhores elétricos" },
         "24-24": { "name": "navegar em burocracias cruéis" },
         "25-25": { "name": "viajar seguro fora da rede" },
@@ -378,15 +378,15 @@
         "3-3": { "name": "encontrar e apreciar feras estranhas" },
         "4-4": { "name": "modificar e criar seres vivos" },
         "5-5": { "name": "fazer gatos [ou outros mestres] felizes" },
-        "6-6": { "name": "manipular os iks básicos da matéria" },
+        "6-6": { "name": "manipular os iksr básicos da matéria" },
         "7-7": { "name": "fazer café e fazer paz" },
         "8-8": { "name": "prevenir maus‑pensamentos, corrigir erros" },
         "9-9": { "name": "desfazer o tédio, criar alegria moderada" },
         "10-10": { "name": "moldar plantas, esculpir móveis" },
         "11-11": { "name": "moldar pedra, cantar casas" },
         "12-12": { "name": "proteínas e frutos das águas" },
-        "13-13": { "name": "falar com os demônios do arquivo oculto" },
-        "14-14": { "name": "forjar ferramentas proibidas do Longínquo Passado" },
+        "13-13": { "name": "falar com os daemons do arquivo oculto" },
+        "14-14": { "name": "forjar ferramentas proibidas do Há Muito Tempo" },
         "15-15": { "name": "otimizar a produção primária" },
         "16-16": { "name": "criar conteúdo humano envolvente" },
         "17-17": { "name": "manter a cidade limpa e viva" },
@@ -413,6 +413,107 @@
         "38-38": { "name": "servir de aviso aos preguiçosos" },
         "39-39": { "name": "focar aspirações e desejos sociais" },
         "40-40": { "name": "compartilhar amor social e vibrações" }
+      }
+    },
+    "All Paths": {
+      "name": "Todos os Caminhos",
+      "results": {
+        "eX1ILNo8ha1mE73D": {
+          "name": "Traços de Caminho"
+        },
+        "HxxCuM93nKm9KLSp": {
+          "name": "Outros Caminhos"
+        }
+      }
+    },
+    "Other Paths": {
+      "name": "Outros Caminhos",
+      "results": {
+        "4u8CnuQn9wpqJHM3": {
+          "name": "Bárbaro"
+        },
+        "XgwSazJ5Ijr1HiRu": {
+          "name": "Azulita"
+        },
+        "6k8v5YQRWjK2kQ6C": {
+          "name": "Burguês"
+        },
+        "B9Y3BTC9gYkaUNy1": {
+          "name": "Golem"
+        },
+        "oW2YyZBMANWDO7oW": {
+          "name": "Esmeraldino"
+        },
+        "6tXvDwKimSNX4CGK": {
+          "name": "Tolo Sagrado"
+        },
+        "zgs4AQ2pIJHx9Dga": {
+          "name": "Gerente"
+        },
+        "MYkY0Mmb2PG4uyhj": {
+          "name": "Nobre"
+        },
+        "ebhTRNBtHbzVjsM7": {
+          "name": "Noömago"
+        },
+        "DCvuU5hPufayo4uU": {
+          "name": "Laranjenha"
+        },
+        "m4TrtRQ6i4QCZL6p": {
+          "name": "Violetense"
+        },
+        "blAdbk4ow7mmnGsk": {
+          "name": "Rúbreo"
+        },
+        "hfPuQposjbNUa20f": {
+          "name": "Herdeiro de Legado"
+        },
+        "mauGMMWJ7zMMEtpr": {
+          "name": "Servo"
+        },
+        "77Gq6DzD9UKl7s6d": {
+          "name": "Esqueleto"
+        },
+        "G2yvWEy8FKGDQtRE": {
+          "name": "Soldado"
+        },
+        "u2W0qInK0tdCZwZM": {
+          "name": "Turista"
+        },
+        "SWWUXqlkKnpFiGlh": {
+          "name": "Trapaceiro"
+        },
+        "l8ZJ7LEnT5pbpB2x": {
+          "name": "Safraniano"
+        },
+        "atjjbrZ1uToPYuW8": {
+          "name": "Caminho da Arma"
+        }
+      }
+    },
+    "Path Traits": {
+      "name": "Traços de Caminho",
+      "results": {
+        "JbG0OyifogTwtOQH": {
+          "name": "Caminho do Mago"
+        },
+        "eIEHtPpgfRuZNSmj": {
+          "name": "Caminho do Viajante"
+        },
+        "n5k3RGx2gjlHRc2v": {
+          "name": "Caminho do Combatente"
+        }
+      }
+    },
+    "Weapon Path": {
+      "name": "Caminho da Arma",
+      "results": {
+        "KSGjBsT9unx4yX52": {
+          "name": "Traços de Arma"
+        },
+        "IAKgGjrCVraLJ4aZ": {
+          "name": "Traços de Portador"
+        }
       }
     }
   }

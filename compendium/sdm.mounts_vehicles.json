@@ -1,0 +1,164 @@
+{
+  "label": "Montarias e Veículos",
+  "folders": {
+    "Aircraft": "Aeronaves",
+    "Autogolems": "Autogolens",
+    "Beasts of Burden": "Bestas de Carga",
+    "Conveyances: Wagons and More": "Conduções: Carroças e Mais",
+    "Undead Transportation Solutions": "Soluções de Transporte Desmorto",
+    "Watercraft": "Embarcações"
+  },
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    }
+  },
+  "entries": {
+    "Aerolith Sled": {
+      "name": "Trenó de Aerólito",
+      "description": "<p>Placas de aerólito amarradas e montadas sobre esquis.</p>"
+    },
+    "Aerostatolith": {
+      "name": "Aeroestatólito",
+      "description": "<p>Uma plataforma de aerólito com condensadores e reguladores que permitem levitação prolongada. Propelida por asas, velas e hélices.</p>"
+    },
+    "Amphigole": {
+      "name": "Anfigole",
+      "description": "<p>Temnospôndilos anfíbios basais recuperados, cultivados até tamanhos enormes, com cistos para passageiros e carga nas costas. Anfíbio.</p>"
+    },
+    "Bahnschiff (road yacht)": {
+      "name": "Bahnschiff (iate rodoviário)",
+      "description": "<p>Uma máquina de luxo para uma era dourada. A rainha da estrada certa. Não é adequada para cidades-colmeia, labirintos de cortiços ou vilas de barracos.</p>"
+    },
+    "Bateau": {
+      "name": "Bote",
+      "description": "<p>Uma variedade de barcos a remo e pedalinhos simples, com cascos de madeira cultivados em árvores-salsicha kigelia modificadas. O bote é remado pela própria tripulação.</p>"
+    },
+    "Battle Chariot": {
+      "name": "Carro de Guerra",
+      "description": "<p>Amortecedores para uma viagem mais suave e blindagem que oferece cobertura parcial. Para um condutor e um atirador.</p>"
+    },
+    "Biomech (cyberhorse)": {
+      "name": "Besta Biomecânica (cibercavalo)",
+      "description": "<p>Amálgamas assombrosos de músculos e cibernética, revestidos de pele superior. Assustam outras montarias.</p>"
+    },
+    "Burdenbeast (megabison)": {
+      "name": "Cargofera (megabisão)",
+      "description": "<p>Criaturas peludas, projetadas para amar carregar fardos pesados. Apegam-se emocionalmente a seus donos.</p>"
+    },
+    "Carnipede (meat crawler)": {
+      "name": "Carnípede (rastejador de carne)",
+      "description": "<p>Centopeias gigantes de carne e osso são... uma declaração. Diferente dos desmortos de corpo único, elas duram meses antes de se degradarem até a imobilidade. Dito isso, velocidade nunca foi o objetivo, foi?</p>"
+    },
+    "Charnelant (sinew strider)": {
+      "name": "Carniformiga (andarilho de tendões)",
+      "description": "<p>Carne morta retecida numa coisa-formiga endoesquelética de seis patas, do tamanho de um camelo. Por favor, ignore o crânio humano.</p>"
+    },
+    "Cheval DOS (bone horse)": {
+      "name": "Cheval DOS (cavalo de ossos)",
+      "description": "<p>Pode ser qualquer besta de carga com esqueleto interno. Cavalo, mula, camelo, boi. Difícil dizer, já que nem sempre a cabeça é mantida.</p>"
+    },
+    "Chrome Horse (metal steed)": {
+      "name": "Cavalo Cromado (montaria de metal)",
+      "description": "<p>Ruge como um trovão e voa como um relâmpago. Rodas são opcionais. 1 em 6 ficam brevemente ainda mais rápidos se pintados de vermelho e alimentados com sangue (1 de vida).</p>"
+    },
+    "Classic Cart": {
+      "name": "Carroça Clássica",
+      "description": "<p>Um modelo trazido pelos seminômades das Estepes.</p>"
+    },
+    "Coasthugger": {
+      "name": "Abraça-Costa",
+      "description": "<p>Carvolens com remos e nadadeiras. Antes projetados para proteger os cetáceos, hoje reorganizados como o sindicato de carga costeira.</p>"
+    },
+    "Destrier (combat steed)": {
+      "name": "Corcel (montaria de combate)",
+      "description": "<p>Provavelmente não é um cavalo. 1 em 6 de chance de ser um andrewsarco ou outra besta revivida do tempo profundo. Onívoro de combate.</p>"
+    },
+    "Eveninger (limowalker)": {
+      "name": "Eveninger (limoandarilho)",
+      "description": "<p>Grandioso golem andarilho biomecânico. Um dos sistemas de transporte mais estilosos que o dinheiro pode comprar. Opção com smoking disponível.</p>"
+    },
+    "Facetrack (autogolem)": {
+      "name": "Facetrack (autogolem)",
+      "description": "<p>Vagão lento e autopropelido, com cabines acopladas para passageiros. Uma declaração impressionante de alto status e gosto humilde.</p>"
+    },
+    "Flapper": {
+      "name": "Bate-Asa",
+      "description": "<p>Peixe aéreo senciente derivado de mantas ou raias, com ossos aerolíticos.</p>"
+    },
+    "Glisseur": {
+      "name": "Glisseur",
+      "description": "<p>Barcos leves de tábuas sobrepostas, feitos com pranchas de polifibra extrudada. Esses barcos neoprimitivos são populares entre os modernos humanos de ferro. Motores de popa golem os impulsionam a grandes velocidades.</p>"
+    },
+    "Handcart": {
+      "name": "Carrinho de Mão",
+      "description": "<p>Um carrinho de mão glorificado. Simples o bastante para ser feito em qualquer vila.</p>"
+    },
+    "Haulcar": {
+      "name": "Vagão de Transporte",
+      "description": "<p>Não é recomendado sem seu motor. Mais rápido em boas superfícies.</p>"
+    },
+    "Heavy Wagon": {
+      "name": "Carroça Pesada",
+      "description": "<p>Pouco adequada para terrenos acidentados, estradas ruins e lama funda.</p>"
+    },
+    "Moon Sphere": {
+      "name": "Esfera Lunar",
+      "description": "<p>Bolhonave remanescente do Há Muito Muito Tempo. Golens de campo de força funcionalmente imortais. Caprichosos e imprevisíveis.</p>"
+    },
+    "Oldtech Yacht": {
+      "name": "Iate Velhatec",
+      "description": "<p>Iates fabricados semivivos no estilo dos lagos de cratera do Há Muito Tempo. Motores integrados, propulsores e magieletrônica.</p>"
+    },
+    "Peacebringer (war engine)": {
+      "name": "Pacificador (máquina de guerra)",
+      "description": "<p>Uma fortaleza móvel. Noventa toneladas de trovão, iluminando a noite. Equipado com um posto de guardião para o seu próprio anjo vigia.</p>"
+    },
+    "Ponymule": {
+      "name": "Pôneimula",
+      "description": "<p>Deveria ser um pônei ou uma mula, mas é o que temos. Pastador comestível.</p>"
+    },
+    "Propelleur": {
+      "name": "Propelleur",
+      "description": "<p>Núcleo de aerólito com casco aerodinâmico, motor e hélice. Alguns acrescentam asas, aletas e outras superfícies dinâmicas.</p>"
+    },
+    "Quadrodont (burdephant)": {
+      "name": "Quadrodonte (cargofante)",
+      "description": "<p>O quatro-presas do Deserto Amarelo é uma importação recente, popular entre os mercadores safranianos. Pastador temperamental.</p>"
+    },
+    "Reanijelly (carcass blimp)": {
+      "name": "Reanigeleia (dirigível de carcaça)",
+      "description": "<p>Pegue uma água-viva aérea gigante. Reanime e encha de biogás. E pronto: uma carroça levitante rebocável! Um único humano consegue rebocar seis reanigeleias.</p>"
+    },
+    "Skeleporter": {
+      "name": "Esqueleto Carregador",
+      "description": "<p>Antes, um zé-ninguém inútil. Agora, uma... biomáquina útil.</p>"
+    },
+    "Skythedral": {
+      "name": "Catedral Celeste",
+      "description": "<p>Uma ilha de aerólito que navega pelos céus, esculpida em castelos de fada, ameias, ornamentos e plataformas de tiro.</p>"
+    },
+    "Solar Blimp": {
+      "name": "Dirigível Solar",
+      "description": "<p>Organismos coloniais de aeroplâncton supercrescidos. Guiados por ventos e emissores de gás. Alimentam-se de luz solar.</p>"
+    },
+    "Wastecourser": {
+      "name": "Corredor do Ermo",
+      "description": "<p>Pode ser um camelo. Vai mais longe com menos água.</p>"
+    },
+    "Weftwagon (frame buggy)": {
+      "name": "Autocarroça de Vime (buggy de armação)",
+      "description": "<p>Marfim sintético, junco de ferro e borracha. Mal é um golem. Ágil o bastante para enfrentar a maioria das estradas modernas mal conservadas.</p>"
+    },
+    "Whallow": {
+      "name": "Whallow",
+      "description": "<p>Bivalves gigantes cultivados como cascos, mantidos vivos com biomáquinas e necromancia local. Velas de pele diáfana e motores acoplados.</p>"
+    },
+    "Zomporter": {
+      "name": "Carregador Zumbi",
+      "description": "<p>Um dia ele pode virar um esqueleto e parar de feder. Não hoje.</p>"
+    }
+  }
+}

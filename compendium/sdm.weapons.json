@@ -3,10 +3,10 @@
   "folders": {
     "Unarmed Attack": "Ataque Desarmado",
     "Traditional Melee Weapons": "Armas Corpo a Corpo Tradicionais",
-    "Long Ago Melee Weapons": "Armas Corpo a Corpo de Muito Tempo Atrás",
+    "Long Ago Melee Weapons": "Armas Corpo a Corpo do Há Muito Tempo",
     "Ranged Weapons": "Armas de Longo Alcance",
     "Throwing Weapons": "Armas de Arremesso",
-    "Terrible Ranged Weapons of the Long Ago": "Terríveis Armas de Longo Alcance de Muito Tempo Atrás"
+    "Terrible Ranged Weapons of the Long Ago": "Terríveis Armas de Longo Alcance do Há Muito Tempo"
   },
   "mapping": {
     "description": "system.description",
@@ -18,11 +18,11 @@
   "entries": {
     "ZteNSXBaRUbC5CuU": {
       "name": "Lança Sifão de Almas",
-      "description": "<p>Açoita como uma cobra, bebendo almas e deixando cascas vazias. Armazena três almas.</p><p>Gaste uma para animá-la como uma @UUID[Compendium.sdm.creatures.Actor.RrHPo1p4xq14BKO3]{Serpente-Lança} (N3/12 vida) ou para recuperar [[/r 1d6x]] vida.</p>"
+      "description": "<p>Açoita como uma cobra, bebendo almas e deixando cascas vazias. Armazena três almas.</p><p>Gaste uma para animá-la como uma @UUID[Compendium.sdm.creatures.Actor.RrHPo1p4xq14BKO3]{Serpente-Lança} (N3/12 de vida) ou para recuperar [[/r 1d6x]] de vida.</p>"
     },
 
     "Access Flenser": {
-      "name": "Acesso ao Esfolador",
+      "name": "Esfolador de Acesso",
       "description": "<p>Esta lâmina fantasma menos letal corta camadas de ego e id.</p><p>Dano máximo: impõe uma ordem direta à alma do alvo (salvaguarda contra ordens extremas).</p>"
     },
 
@@ -36,10 +36,6 @@
       "description": "<p>Implanta no alvo um homúnculo de sua personalidade (salvaguarda).</p><p>A cada rodada, cada personalidade implantada tenta assumir o controle (rolagens de Aura).</p>"
     },
 
-    "Akaula's Sacrificial Hero": {
-      "name": "Herói Sacrificial de Akaula",
-      "description": "<p><em>Purificação da Boca do Inferno</em></p><p>O purificador marca um herói para o abate com seis sigilos de contenção. O herói perde 1 vida por rodada. Quando a vida se esgota, mente e alma irrompem no fogo do Criador. O fogo bane todos os demônios e alienígenas de até o dobro do nível do herói em um raio de 100 metros e sela todos os portais dimensionais e do vazio por um número de anos igual ao nível do herói.</p>"
-    },
 
     "Angelroarer": {
       "name": "Rugidor Angelical",
@@ -48,22 +44,22 @@
 
     "Arzax Lance": {
       "name": "Lança Arzax",
-      "description": "<p>Lança de energia ultraleve. Pode colapsar em uma haste curta.</p><p>Atordoa em 13 natural.</p>"
+      "description": "<p>Lança de energia ultraleve. Pode colapsar em uma haste curta.</p><p>Atordoa em um 13 natural.</p>"
     },
 
     "Autoportal Conflux": {
       "name": "Confluência Autoportal",
-      "description": "<p>Dispara a si mesmo e ao usuário através de si, emergindo no destino com um estrondo. Em 13 natural ocorre atraso na rematerialização (role d6).</p><p>@UUID[Compendium.sdm.rolltables.RollTable.CvZC0eXNX8sldMPP]{Atraso de rematerialização}</p>"
+      "description": "<p>Dispara a si mesmo e ao usuário através de si, emergindo no destino com um estrondo. Em um 13 natural ocorre atraso na rematerialização (role d6).</p><p>@UUID[Compendium.sdm.rolltables.RollTable.CvZC0eXNX8sldMPP]{Atraso de rematerialização}</p>"
     },
 
     "Battle Stick": {
       "name": "Cassetete de Batalha",
-      "description": "<p>Madeira dura para pancadas duras.</p>"
+      "description": "<p>Madeira dura para pancadas duras.</p><p>Ataque com Força ou Rapidez</p>"
     },
 
     "Black City Blade": {
       "name": "Lâmina da Cidade Negra",
-      "description": "<p>Feita de obsidiana, sombra e erro. Sussurra histórias perdidas.</p><p><strong>Características:</strong> ignora resistências a dano</p>"
+      "description": "<p>Feita de obsidiana, sombra e erro. Sussurra histórias perdidas.</p><p>Ignora resistências a dano.</p>"
     },
 
     "Blue God Blaster": {
@@ -86,10 +82,6 @@
       "description": "<p>A granada sagrada de fragmentação dos tempos antigos, estimada pelos granadeiros da inquisição.</p>"
     },
 
-    "Bunker Pass": {
-      "name": "Passe de Bunker",
-      "description": "<p>Amuleto de velha tecnologia que prova que você é um humano verdadeiro, autorizado a se abrigar nos bunkers anti-deuses que pontilham a Terra Vermelha. Também abre portas sábias.</p>"
-    },
 
     "Burdenbeast Whip": {
       "name": "Chicote de Cargofera",
@@ -98,7 +90,7 @@
 
     "Chain Sword": {
       "name": "Espada de Corrente",
-      "description": "<p>Uma arma elegante da época do grande erro de reencarnação.</p><p>Decapita com 20 Natural.</p>"
+      "description": "<p>Uma arma elegante da época do grande erro de reencarnação.</p><p>Decapita com um 20 natural.</p>"
     },
 
     "Concussive": {
@@ -113,7 +105,7 @@
 
     "Crystal Siege Rod": {
       "name": "Bastão de Cerco de Cristal",
-      "description": "<p>Amplificador de raio de desintegração alojado em um invólucro de latão e pau-brasil coberto de glifos. Um remanescente das guerras dos deuses vivos racionalistas.</p><p>Arromba portas se qualquer dado rolar um 6 Natural.</p>"
+      "description": "<p>Amplificador de raio de desintegração alojado em um invólucro de latão e pau-brasil coberto de glifos. Um remanescente das guerras dos deuses vivos racionalistas.</p><p>Arromba portas se qualquer dado rolar um 6 natural.</p>"
     },
 
     "Diagnostic Wand": {
@@ -153,11 +145,11 @@
 
     "c0H7EAxKMb1Ni1Oq": {
       "name": "Bastão de Urânio de Quarenta Libras",
-      "description": "<p>Cajado de Heavy Metal para um mago de Heavy Metal.</p><p>Atordoa por 1 rodada ao igualar dados de dano.</p>"
+      "description": "<p>Cajado de heavy metal para um mago de heavy metal.</p><p>Atordoa por 1 rodada ao igualar dados de dano.</p>"
     },
 
     "Gate Daemon Actuator": {
-      "name": "Atuador de Demônio do Portal",
+      "name": "Atuador de Daemon do Portal",
       "description": "<p>Antes usado para abrir portais de viagem, agora funciona como um par de tesouras gravitacionais.</p><p>Bissecta o alvo em um 13 natural. Também reorienta a gravidade em uma pequena área.</p>"
     },
 
@@ -168,13 +160,9 @@
 
     "Ghost Bone Axe": {
       "name": "Machado de Osso Fantasma",
-      "description": "<p>Armas feitas de osso de noödæmon ignoram imunidades de mortos-vivos.</p><p>Causa dano total a fantasmas.</p><p>Sua natureza perturbadora inflige pesadelos (salvaguarda) em portadores e vítimas.</p>"
+      "description": "<p>Armas feitas de osso de noödæmon ignoram imunidades de desmortos.</p><p>Causa dano total a fantasmas.</p><p>Sua natureza perturbadora inflige pesadelos (salvaguarda) em portadores e vítimas.</p>"
     },
 
-    "Glitchvidy": {
-      "name": "Glitchvídeo",
-      "description": "<p>Neurotransformador direto absorvido via óculos de comunicação. Originalmente um reprogramador humano, agora usado para estimulação direta de prazer. Viciante — a abstinência bloqueia acesso a habilidades e traços aleatórios.</p>"
-    },
 
     "Golem Killer": {
       "name": "Matador de Golem",
@@ -186,10 +174,6 @@
       "description": "<p>Pegue o braço de um golem de guerra inativo, remova o golem, e você terá um raio térmico eficaz.</p>"
     },
 
-    "Healmachine": {
-      "name": "Máquina de Cura",
-      "description": "<p>Restaura [[/r 2d8]] de vida a uma máquina. Repara danos cosméticos em veículos.</p>"
-    },
 
     "Hellfire Hand Cannon": {
       "name": "Canhão de Mão de Fogo Infernal",
@@ -213,12 +197,12 @@
 
     "Machete": {
       "name": "Facão",
-      "description": "<p>A lâmina que derrubou a selva do túnel do vazio e abriu passagem para o Novo Solo.</p><p>corta madeira</p>"
+      "description": "<p>A lâmina que derrubou a selva do túnel do vazio e abriu passagem para o Novo Solo.</p><p>Corta madeira.</p>"
     },
 
     "Magnificent Fireball Wandpistol": {
       "name": "Pistola-Varinha da Bola de Fogo Magnífica",
-      "description": "<p>Converte a escória da vida mortal em bolas de fogo. Pouco justo aos olhos dos barões de Hobsnobes.</p><p>Drena 1 vida do usuário por disparo.</p>"
+      "description": "<p>Converte a escória da vida mortal em bolas de fogo. Pouco justo aos olhos dos barões de terras esnobes.</p><p>Drena 1 vida do usuário por disparo.</p>"
     },
 
     "Mazing Crown": {
@@ -226,14 +210,10 @@
       "description": "<p>Raios de sua joia-labirinto causam confusão (salvaguarda).</p><p>Dano mínimo: o alvo cai em uma dimensão de bolha-labirinto por uma semana.</p>"
     },
 
-    "Motogolem": {
-      "name": "Motogolem",
-      "description": "<p>Chamado Harm. Elétrico — alimente com omnibaterias.</p><p>L2, cap 2, rápido</p>"
-    },
 
     "Mouth of the Void": {
       "name": "Boca do Vazio",
-      "description": "<p>Ouça a canção do cosmos, funda-se com seu terror existencial.</p><p>Criaturas adjacentes sofrem [[/r 1d6]] de dano. Pára um coração em um 13 natural.</p>"
+      "description": "<p>Ouça a canção do cosmos, funda-se com seu terror existencial.</p><p>Criaturas adjacentes sofrem [[/r 1d6]] de dano. Para um coração em um 13 natural.</p>"
     },
 
     "Noetic Blade": {
@@ -257,11 +237,11 @@
     },
     "Radiothermal Horn": {
       "name": "Chifre Radiotérmico",
-      "description": "<p>Emite radiação pesada. Causa doença (salvaguarda difícil). Falha crítica em um resultado natural 1. Funciona como um fogão portátil.</p>"
+      "description": "<p>Emite radiação pesada. Causa doença (salvaguarda difícil). Falha crítica em um 1 natural. Funciona como um fogão portátil.</p>"
     },
     "Reality Flense": {
       "name": "Esfolamento da Realidade",
-      "description": "<p>O alvo vislumbra a verdadeira natureza subjacente da realidade.</p><p>Em um resultado natural 20, a mente dele quebra. Em um resultado natural 7, ele permanentemente ganha 1 ponto de aura.</p>"
+      "description": "<p>O alvo vislumbra a verdadeira natureza subjacente da realidade.</p><p>Em um 20 natural, a mente dele quebra. Em um 7 natural, ele permanentemente ganha 1 ponto de aura.</p>"
     },
     "Redland District Submachine Gun": {
       "name": "Submetralhadora do Distrito da Terra Vermelha",
@@ -269,11 +249,11 @@
     },
     "Replacer Rod": {
       "name": "Bastão de Substituição",
-      "description": "<p>Substitui o alvo por uma cópia quase idêntica (salvaguarda). Para sempre mais, eles se sentem alienígenas para si mesmos.</p><p><strong>Dano:</strong> [[/r 2d4x]] &amp; <code>1 int</code></p>"
+      "description": "<p>Substitui o alvo por uma cópia quase idêntica (salvaguarda). Desde então, eles se sentem alienígenas para si mesmos.</p><p><strong>Dano:</strong> [[/r 2d4x]] &amp; <code>1 int</code></p>"
     },
     "NSwwFk4kLam16ioG": {
       "name": "Arma Radiante do Sátrapa",
-      "description": "<p>Arma laser semi-sensiente que se comunica através de seu display de alma de cristal.</p>"
+      "description": "<p>Arma laser semi-senciente que se comunica através de seu display de alma de cristal.</p>"
     },
     "Scavenger Bolter": {
       "name": "Bólter de Sucateiro",
@@ -305,11 +285,11 @@
     },
     "Stun Baton Wand": {
       "name": "Varinha-Bastão de Atordoamento",
-      "description": "<p>Gaste 1 ponto de vida para atordoar (salvaguarda). Retrátil.</p>"
+      "description": "<p>Gaste 1 de vida para atordoar (salvaguarda). Retrátil.</p>"
     },
     "Telempathy Blaster": {
       "name": "Disparador de Telempatia",
-      "description": "<p>Dispositivo psiquimédico reaproveitado. Dano mínimo: o alvo para de lutar por um round e tenta parlamentar.</p>"
+      "description": "<p>Dispositivo psiquimédico reaproveitado. Dano mínimo: o alvo para de lutar por uma rodada e tenta parlamentar.</p>"
     },
     "Throwing Knife": {
       "name": "Faca de Arremesso",
@@ -320,7 +300,7 @@
       "description": "<p>Originalmente um dispositivo médico. Transfere um fardo do usuário para o alvo (salvaguarda).</p>"
     },
     "Ultra Ba \"Leapfrog\"": {
-      "name": "Ba Ultra \"Pula-Sapo\"",
+      "name": "Ba Ultra \"Pula-Sela\"",
       "description": "<p>Combo de raio-laser e gorrinho que traduz sua personalidade para outro corpo após reduzir o alvo a 0 de vida.</p>"
     },
     "Ultra Blaster": {
@@ -342,7 +322,7 @@
     },
     "S0zXIOaxG7DxgjGo": {
       "name": "Machado-Martelo do Ghoul de Fios",
-      "description": "<p>Uma coisa de biomáquina morta-viva, coberta de flagelos contorcidos e vômito-ácido. Dano dobrado em inimigos com armaduras pesadas.</p>"
+      "description": "<p>Uma coisa de biomáquina desmorta, coberta de flagelos contorcidos que arrotam ácido. Dano dobrado em inimigos com armaduras pesadas.</p>"
     },
     "Wrench Hammer": {
       "name": "Martelo-Chave Inglesa",

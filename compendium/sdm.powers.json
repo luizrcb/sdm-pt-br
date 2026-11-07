@@ -21,11 +21,11 @@
       "range": "toque",
       "target": "uma árvore pensante",
       "duration": "10 minutos",
-      "overcharge": "<p>Obtenha acesso de nível raiz ao código-fonte da árvore e encontre as portas miceliais que a ligam à noösfera mais ampla, fragmentos do mundo eletrônico de Muito Tempo Atrás, palácios de memória celestiais e outros micro-reinos.</p><p>Ruído e comoção podem alertar guardiões funcionais (N[[/r 2d6]], eletroangelicais).</p>"
+      "overcharge": "<p>obtenha acesso de nível raiz aos códigos-fonte da árvore e encontre as portas miceliais que a ligam à noösfera mais ampla — fragmentos do mundo eletrônico do Há Muito Tempo, palácios de memória celestiais e outros micro-reinos.</p><p>Útil quando o mediador tem um one-shot ou outra masmorra estranha pronta. Tenha cuidado. Ruído e comoção podem alertar guardiões funcionais (N[[/r 2d6]], eletroangelicais) sobre suas intervenções.</p>"
     },
     "Akaula's Sacrificial Hero": {
       "name": "Herói Sacrificial de Akaula",
-      "description": "<p><em>Purificação da Boca do Inferno</em></p><p>O purificador usa os seis sigilos da ligação para marcar um herói para o abate. O herói perde 1 ponto de vida por rodada. Quando ele fica sem vida, sua mente e alma irrompem num clarão de fogo do Criador. O fogo banhe todos os daemons e alienígenas de até o dobro do nível do herói num raio de 100 metros e fecha todos os portais dimensionais e do vácuo por um número de anos igual ao nível do herói.</p>",
+      "description": "<p><em>Purificação da Boca do Inferno</em></p><p>O purificador usa os seis sigilos da ligação para marcar um herói para o abate. O herói perde 1 de vida por rodada. Quando ele fica sem vida, sua mente e alma irrompem num clarão de fogo do Criador. O fogo bane todos os daemons e alienígenas de até o dobro do nível do herói num raio de 100 metros e fecha todos os portais dimensionais e do vácuo por um número de anos igual ao nível do herói.</p>",
       "range": "toque",
       "target": "herói escolhido, área grande",
       "duration": "permanente",
@@ -41,11 +41,11 @@
     },
     "Animate Corpse": {
       "name": "Animar Cadáver",
-      "description": "<p><em>Pós-Mortalidade Artificial</em></p><p>Em 1 hora, um cadáver humanoide razoavelmente intacto se ergue como um zumbi pós-mortal.</p><p>Animado por um fragmento de alma e resíduos de personalidade. Obedece ordens simples, mas deve ser relembrado a cada 6 horas.</p><p>O mago pode controlar um número de pós-mortais igual ao seu Nível sem risco de rebelião.</p>",
+      "description": "<p><em>Pós-Mortalidade Artificial</em></p><p>Desperte a Casca. Em 1 hora, um cadáver-alvo de tamanho humano razoavelmente intacto se ergue como um zumbi pós-mortal.</p><p>O cadáver é animado por um fragmento de alma e resíduos de personalidade. Ele obedece ordens simples dadas pelo mago, mas deve ser relembrado a cada 6 horas (ou com mais frequência em um ambiente caótico).</p><p>O mago pode controlar um número de pós-mortais igual ao seu Nível sem risco de rebelião.</p>",
       "range": "toque",
       "target": "cadáver",
       "duration": "permanente",
-      "overcharge": "<p>Desperta instantaneamente ou como um pós-mortal especializado.</p>"
+      "overcharge": "<p>o cadáver desperta instantaneamente. Alternativa: desperta como um pós-mortal de nível mais alto ou especializado.</p>"
     },
     "Anne Astec": {
       "name": "Ane Estético",
@@ -57,7 +57,7 @@
     },
     "Anti-Babylon": {
       "name": "Anti-Babilônia",
-      "description": "<p><em>Protocolo Universal de Tradução</em></p><p>Permite comunicação funcional com qualquer entidade: vegetal, animal, mineral ou banco de dados.</p>",
+      "description": "<p><em>Protocolo Universal de Tradução</em></p><p>Há um código-fonte unificado sob a realidade. Esta magia permite ao usuário se comunicar com sucesso com outra entidade: vegetal, animal, mineral ou banco de dados. Entidades sem sentidos podem ter pouco a dizer.</p>",
       "range": "próximo",
       "target": "1 criatura ou objeto",
       "duration": "1 hora",
@@ -89,7 +89,7 @@
     },
     "Burden Share": {
       "name": "Partilha de Fardo",
-      "description": "<p><em>Ritual de Empatia do Sanador</em></p><p>O conjurador acessa a essência de uma criatura para transferir um de seus fardos fadiga, ferimento, ansiedade ou outra aflição. O fardo se transforma em uma pedra espiritual, o fardo do curador, que passa para outra criatura próxima. Impõe impacto negativo leve em atributos, sem dano permanente, dissipando-se normalmente com descanso.</p>",
+      "description": "<p><em>Ritual de Empatia do Sanador</em></p><p>O conjurador acessa a essência de uma criatura para transferir um de seus fardos — fadiga, ferimento, ansiedade ou outra aflição. O fardo se transforma em uma pedra espiritual, o fardo do curador, que passa para outra criatura próxima. Impõe impacto negativo leve em atributos, sem dano permanente, dissipando-se normalmente com descanso.</p>",
       "range": "toque",
       "target": "1 criatura",
       "duration": "várias horas",
@@ -113,7 +113,7 @@
     },
     "Cerebral Purge": {
       "name": "Expurgo Cerebral",
-      "description": "<p><em>Despertar Brutal, A Faca Fria da Realidade</em></p><p>O mago usa uma onda telecrônica para purificar o cérebro do alvo de quaisquer impurezas drogas ou magias de alteração mental. O alvo perde [[/r 1d6]] vida e suas memórias recentes ficam turvas. Alvos não dispostos fazem salvaguarda.</p>",
+      "description": "<p><em>Despertar Brutal, A Faca Fria da Realidade</em></p><p>O mago usa uma onda telecrônica para purificar o cérebro do alvo de quaisquer impurezas — drogas ou magias de alteração mental. O alvo perde [[/r 1d6]] vida e suas memórias recentes ficam turvas. Alvos não dispostos fazem salvaguarda.</p>",
       "range": "10 m",
       "target": "criatura",
       "duration": "0",
@@ -176,7 +176,7 @@
     },
     "Entropic Reversal": {
       "name": "Reversão Entrópica",
-      "description": "<p><em>O Amuleto do Descompasso, Despertar dos Distantes de Zundan</em></p><p>O mago traça um círculo cronômantico de 1 metro de diâmetro ao redor do objeto-alvo. Quando o desenho é concluído, um clarão de para-entropia restaura o objeto à função perfeita e degrada tudo o mais dentro do círculo. O ritual leva 15 minutos.</p>",
+      "description": "<p><em>O Encanto do Descompasso, Despertar dos Distantes de Zundan</em></p><p>O mago traça um círculo cronomântico de 1 metro de diâmetro ao redor do objeto-alvo. Quando o desenho é concluído, um clarão de para-entropia restaura o objeto à função perfeita e degrada tudo o mais dentro do círculo. O ritual leva 15 minutos.</p>",
       "range": "3 m",
       "target": "objeto (ferramenta ou máquina)",
       "duration": "0",
@@ -216,7 +216,7 @@
     },
     "Gem Bomb": {
       "name": "Bomba de Gema",
-      "description": "<p><em>Bola de Fogo do Joalheiro, Flor Explosiva de Pedra de Uzud (RSDC)</em></p><p>O mago entalha um campo de força explosivo em uma gema valendo ao menos €20. Ela explode ao impacto, causando [[/r 2d6]] de dano a todos os próximos.</p>",
+      "description": "<p><em>Bola de Fogo do Joalheiro, Flor Explosiva de Pedra de Uzud</em></p><p>O mago entalha um campo de força explosivo em uma gema valendo ao menos €20. Ela explode ao impacto, causando [[/r 2d6]] de dano a todos os próximos.</p>",
       "range": "toque",
       "target": "gema",
       "duration": "0",
@@ -256,7 +256,7 @@
     },
     "Invoke Ub Dragon": {
       "name": "Invocar Dragão Ub",
-      "description": "<p><em>Faísca de Erro da Realidade Local</em></p><p>O conjurador invoca o código Ub e condensa perturbações magitecnológicas acumuladas em um devorador. Seu poder depende do nível de perturbação (decidido pelo mediador ou por um [[/r d10]]). Após a manifestação, a perturbação local diminui um nível; forçafixas se soltam, emaranhados de energia se dissipam, fantasmas de radiação enfraquecem.</p><ul><li><p>&lt;1 não perturbado:</p><ul><li><p><strong>plâncton aéreo cintilante</strong> (L0, inofensivo)</p></li></ul></li><li><p>1–3 levemente perturbado:</p><ul><li><p><strong>limo purificador</strong> (L[[/r 1d4]], cáustico)</p></li></ul></li><li><p>4–7 estática temporal:</p><ul><li><p><strong>lagarto da destruição</strong> (L[[/r 2d4]], blindado)</p></li></ul></li><li><p>8–9 cicatriz espacial:</p><ul><li><p><strong>saltador flamejante</strong> (L[[/r 2d6]], espinhoso)</p></li></ul></li><li><p>10+ fratura da realidade:</p><ul><li><p><strong>ceifador de lâminas</strong> (L[[/r 3d4+2]], alado)</p></li></ul></li></ul>",
+      "description": "<p><em>Faísca de Erro da Realidade Local</em></p><p>O conjurador invoca o código Ub e condensa perturbações magitecnológicas acumuladas em um devorador. Seu poder depende do nível de perturbação (decidido pelo mediador ou por um [[/r d10]]). Após a manifestação, a perturbação local diminui um nível; forçafixas se soltam, emaranhados de energia se dissipam, fantasmas de radiação enfraquecem.</p><ul><li><p>&lt;1 não perturbado:</p><ul><li><p><strong>plâncton aéreo cintilante</strong> (N0, inofensivo)</p></li></ul></li><li><p>1–3 levemente perturbado:</p><ul><li><p><strong>limo purificador</strong> (N[[/r 1d4]], cáustico)</p></li></ul></li><li><p>4–7 estática temporal:</p><ul><li><p><strong>lagarto da destruição</strong> (N[[/r 2d4]], blindado)</p></li></ul></li><li><p>8–9 cicatriz espacial:</p><ul><li><p><strong>saltador flamejante</strong> (N[[/r 2d6]], espinhoso)</p></li></ul></li><li><p>10+ fratura da realidade:</p><ul><li><p><strong>ceifador de lâminas</strong> (N[[/r 3d4+2]], alado)</p></li></ul></li></ul>",
       "range": "aqui",
       "target": "grande área local de realidade perturbada",
       "duration": "permanente",
@@ -273,7 +273,7 @@
     },
     "Linked Portals": {
       "name": "Portais Vinculados",
-      "description": "<p><em>Viagem Astral Menor, Túnel Conveniente de Nilbreg o Tecnoduque</em></p><p>O mago desenha dois círculos de 3 metros de raio no ar. Os círculos são ligados por uma ponte de irrealidade astral. Tudo que entra em um arco sai pelo outro inalterado, mas com seu vetor de movimento ajustado pela posição dos portais. Dois arcos posicionados um acima do outro permitem que um objeto caia em velocidade terminal.</p>",
+      "description": "<p><em>Viagem Astral Menor, Túnel Conveniente de Nilbreg</em></p><p>O mago desenha dois círculos de 3 metros de raio no ar. Os círculos são ligados por uma ponte de irrealidade astral. Tudo que entra em um arco sai pelo outro inalterado, mas com seu vetor de movimento ajustado pela posição dos portais. Dois arcos posicionados um acima do outro permitem que um objeto caia em velocidade terminal.</p>",
       "range": "toque",
       "target": "área",
       "duration": "30 minutos",
@@ -289,7 +289,7 @@
     },
     "Metempsychosis": {
       "name": "Metempsicose",
-      "description": "<p><em>Tradução Ka-Ba de Serapefti</em></p><p>Transfere a essência de um paciente para um novo hospedeiro físico. Uma réplica perfeita do corpo original é ideal, mas hospedeiros alternativos como golems rudes, animais, cristais ou até cubas de líquido memorial podem servir. A mudança de forma pode causar estresse psicofísico temporário.</p>",
+      "description": "<p><em>Tradução Ka-Ba de Serapefti</em></p><p>Transfere a essência de um paciente para um novo hospedeiro físico. Uma réplica perfeita do corpo original é ideal, mas hospedeiros alternativos como golens rudes, animais, cristais ou até cubas de líquido memorial podem servir. A mudança de forma pode causar estresse psicofísico temporário.</p>",
       "range": "toque",
       "target": "1 paciente e 1 hospedeiro",
       "duration": "1 dia e noite",
@@ -313,7 +313,7 @@
     },
     "Nihil Est!": {
       "name": "Nihil Est!",
-      "description": "<p><em>O Fim da Vida Tornado Presente, Vínculo de Autoimolação de Hadi</em></p><p>Entre um passo e outro, você cintila entre existência e não-existência, envelhece um ano e uma criatura que você toca desaparece no nada do espaço-verme por um ano. Sem salvaguarda.</p><p>Perigoso: independentemente de quão poderoso você seja.</p>",
+      "description": "<p><em>O Fim da Vida Tornado Presente, Vínculo de Autoimolação de Hadi</em></p><p>Entre um passo e outro, você cintila entre existência e não-existência, envelhece um ano e uma criatura que você toca desaparece no nada do espaço-verme por um ano. Sem salvaguarda.</p>",
       "range": "toque",
       "target": "um alvo senciente",
       "duration": "1 ano",
@@ -385,7 +385,7 @@
     },
     "Raise Dead": {
       "name": "Ressuscitar Morto",
-      "description": "<p><em>A Sétima Abominação, A Hakaba Sombria</em></p><p>Após um ritual de 6 horas, o mago chama de volta a alma de uma criatura e a prende ao seu cadáver, criando uma abominação morta-viva e uma paródia da vida. Se a criatura está morta há mais de 24 horas, apenas ecos de sua personalidade e memórias (Ba) permanecem. Esta magia deve ser sobrecarregada para chamar de volta a alma de qualquer criatura de valor e potência.</p>",
+      "description": "<p><em>A Sétima Abominação, A Hakaba Sombria</em></p><p>Após um ritual de 6 horas, o mago chama de volta a alma de uma criatura e a prende ao seu cadáver, criando uma abominação desmorta e uma paródia da vida. Se a criatura está morta há mais de 24 horas, apenas ecos de sua personalidade e memórias (Ba) permanecem. Esta magia deve ser sobrecarregada para chamar de volta a alma de qualquer criatura de valor e potência.</p>",
       "range": "toque",
       "target": "cadáver",
       "duration": "permanente",
@@ -409,7 +409,7 @@
     },
     "Recall Soul": {
       "name": "Recuperar Alma",
-      "description": "<p><em>Necroflama, Roubo de Ka</em></p><p>Após um ritual de 1 hora, o mago chama de volta a alma de uma criatura, que irrompe do cadáver como uma serpente serpentina de fogo ectoplasmático. A alma pode ser capturada em um golem, usada para alimentar artefatos obscenos, ou meramente usada para efeito teatral. Esta magia deve ser sobrecarregada para chamar de volta a alma de qualquer criatura de valor e potência.</p>",
+      "description": "<p><em>Necroflama, Roubo de Ka</em></p><p>Após um ritual de 1 hora, o mago chama de volta a alma de uma criatura, que irrompe do cadáver como uma serpente espiralada de fogo ectoplasmático. A alma pode ser capturada em um golem, usada para alimentar artefatos obscenos, ou meramente usada para efeito teatral. Esta magia deve ser sobrecarregada para chamar de volta a alma de qualquer criatura de valor e potência.</p>",
       "range": "toque",
       "target": "cadáver",
       "duration": "0",
@@ -424,12 +424,12 @@
       "overcharge": "<p>afeta um número de criaturas igual ao seu nível + 1.</p>"
     },
     "Restorative Slumber": {
-      "name": "Sonho Restaurador",
+      "name": "Sono Restaurador",
       "description": "<p><em>Ritual do Sonho Curador de Medeorita</em></p><p>A forma-sonho do conjurador guia o paciente para um sono profundo e curativo. Enquanto dorme, o paciente parece sem vida. Após a conclusão da magia, o paciente acorda rejuvenescido, com um atributo restaurado ou um fardo removido.</p>",
       "range": "toque",
       "target": "1 criatura",
       "duration": "3 dias e noites",
-      "overcharge": "<p>Restaure um atributo adicional ou remova um segundo fardo. Alternativamente, reduza o sono do paciente em três vezes.</p>"
+      "overcharge": "<p>Restaure um atributo adicional ou remova um segundo fardo. Alternativamente, reduza o sono do paciente a um terço.</p>"
     },
     "Ring of Lead": {
       "name": "Anel de Chumbo",
@@ -465,7 +465,7 @@
     },
     "Stoyevod’s Irreducible Crystallization of the Ego Complex": {
       "name": "Cristalização Irredutível do Complexo Egoico, por Stoyevod",
-      "description": "<p><em>Restauração do Inestimável</em></p><p>Este ritual profundamente imoral arranca uma psique partida da consciência cósmica da Mente-Total. Rouba a alma perdoada do Fogo-Total da Criação-Preservação-Destruição. Desfaz a decadência do corpo no Verde-Total da Vida-Morte-Renascimento. Num turbilhão extático, o herói é recriado de fogo sagrado, sopro sagrado e solo perfeito. Eles fazem sua rolagem de reviver com vantagem. Tudo que este ritual requer é o sacrifício amoroso de outro humano, e mais um para cada nível do herói.</p><p>Perigoso: O especialista sacrificial provavelmente será corrompido por esta magia.</p>",
+      "description": "<p><em>Restauração do Inestimável</em></p><p>Este ritual profundamente imoral arranca uma psique partida da consciência cósmica da Mente-Total. Rouba a alma perdoada do Fogo-Total da Criação-Preservação-Destruição. Desfaz a decadência do corpo no Verde-Total da Vida-Morte-Renascimento. Num turbilhão extático, o herói é recriado de fogo sagrado, sopro sagrado e solo perfeito. Eles fazem sua rolagem de reviver com vantagem. Tudo que este ritual requer é o sacrifício amoroso de outro humano, e mais um para cada nível do herói.</p>",
       "range": "aqui",
       "target": "um herói morto",
       "duration": "permanente",
@@ -501,7 +501,7 @@
       "range": "curto (~10m)",
       "target": "semente de coral-terrestre plantada",
       "duration": "permanente",
-      "overcharge": "<p>o crescimento é ainda mais violento, causando [[/r 6d6]] de dano a criaturas em um pequeno raio e espalhando o chão com estilhaços de coral-terrestre como aljôfares.</p>"
+      "overcharge": "<p>o crescimento é ainda mais violento, causando [[/r 6d6]] de dano a criaturas em um pequeno raio e espalhando o chão com estilhaços de coral-terrestre como estrepes.</p>"
     },
     "Three-Point Immobility": {
       "name": "Imobilidade de Três Pontos",
@@ -513,7 +513,7 @@
     },
     "Toxin Render": {
       "name": "Destilador de Toxina",
-      "description": "<p><em>Destilação a Diesel do Anão</em></p><p>O mago usa um ritual de 1 hora para convencer animalculas ligadas à noösfera ambiente a juntarem uma saca de resíduos tóxicos e convertê-los em combustível utilizável para veículos ou golems. Corrói motores se usado por períodos prolongados.</p>",
+      "description": "<p><em>Destilação a Diesel do Anão</em></p><p>O mago usa um ritual de 1 hora para convencer animálculos ligadas à noösfera ambiente a juntarem uma saca de resíduos tóxicos e convertê-los em combustível utilizável para veículos ou golens. Corrói motores se usado por períodos prolongados.</p>",
       "range": "10m",
       "target": "resíduos tóxicos",
       "duration": "1 hora",
@@ -529,7 +529,7 @@
     },
     "Wing And Prayer": {
       "name": "Asa e Prece",
-      "description": "<p><em>Conserto Porco</em></p><p>Use sua fé para consertar um eixo ou tala uma perna. Seu veículo ou montaria ganha temporariamente [[/r 1d8]] de vida e ignora um fardo por um dia, mas depois o dano é pior.</p>",
+      "description": "<p><em>Conserto Porco</em></p><p>Use sua fé para consertar um eixo ou imobilizar uma perna com tala. Seu veículo ou montaria ganha temporariamente [[/r 1d8]] de vida e ignora um fardo por um dia, mas depois o dano é pior.</p>",
       "range": "toque",
       "target": "veículo ou montaria",
       "duration": "1 dia",
@@ -545,7 +545,7 @@
     },
     "Yellow Foresight": {
       "name": "Previsão Amarela",
-      "description": "<p><em>Visões do Mercador Cauteloso</em></p><p>O mago consome uma saboneteira de açafrão (€10) e medita por 1 hora para escanear as auras na área-alvo. Ele tem uma ideia geral do número de sencientes e do humor geral. Se os sencientes forem muito diferentes do mago, ler o humor pode ser impossível.</p>",
+      "description": "<p><em>Visões do Mercador Cauteloso</em></p><p>O mago consome uma carteira de açafrão (€10) e medita por 1 hora para escanear as auras na área-alvo. Ele tem uma ideia geral do número de sencientes e do humor geral. Se os sencientes forem muito diferentes do mago, ler o humor pode ser impossível.</p>",
       "range": "1km",
       "target": "círculo de 100m de diâmetro",
       "duration": "0",

@@ -126,7 +126,7 @@
           "description": "<b>hábil</b>: rap 3 / 2 / 2 / 0 / 0 / 0"
         },
         "41-41": {
-          "description": "<b>escorregadio</b>: car 3 / 2 / 2 / 0 / 0 / 0"
+          "description": "<b>manhoso</b>: car 3 / 2 / 2 / 0 / 0 / 0"
         },
         "42-42": {
           "description": "<b>obstinado</b>: aur 3 / 2 / 2 / 0 / 0 / 0"
@@ -135,7 +135,7 @@
           "description": "<b>articulado</b>: int 3 / 2 / 2 / 0 / 0 / 0"
         },
         "44-44": {
-          "description": "<b>firmeza férrea</b>: for 3 / 2 / 1 / 1 / 0 / 0"
+          "description": "<b>inabalável</b>: for 3 / 2 / 1 / 1 / 0 / 0"
         },
         "45-45": {
           "description": "<b>saudável</b>: res 3 / 2 / 1 / 1 / 0 / 0"
@@ -144,7 +144,7 @@
           "description": "<b>preciso</b>: rap 3 / 2 / 1 / 1 / 0 / 0"
         },
         "47-47": {
-          "description": "<b>glamouroso</b>: car 3 / 2 / 1 / 1 / 0 / 0"
+          "description": "<b>glamoroso</b>: car 3 / 2 / 1 / 1 / 0 / 0"
         },
         "48-48": {
           "description": "<b>disciplinado</b>: aur 3 / 2 / 1 / 1 / 0 / 0"
@@ -174,7 +174,7 @@
           "description": "<b>poderoso</b>: for 4 / 3 / 0 / 0 / 0 / 0"
         },
         "57-57": {
-          "description": "<b>luxuriante</b>: res 4 / 3 / 0 / 0 / 0 / 0"
+          "description": "<b>fogoso</b>: res 4 / 3 / 0 / 0 / 0 / 0"
         },
         "58-58": {
           "description": "<b>leve</b>: rap 4 / 3 / 0 / 0 / 0 / 0"
@@ -189,7 +189,7 @@
           "description": "<b>inventivo</b>: int 4 / 3 / 0 / 0 / 0 / 0"
         },
         "62-62": {
-          "description": "<b>musculatura densa</b>: for 4 / 2 / 1 / 0 / 0 / 0"
+          "description": "<b>musculado</b>: for 4 / 2 / 1 / 0 / 0 / 0"
         },
         "63-63": {
           "description": "<b>rijo</b>: res 4 / 2 / 1 / 0 / 0 / 0"
@@ -198,7 +198,7 @@
           "description": "<b>ardiloso</b>: rap 4 / 2 / 1 / 0 / 0 / 0"
         },
         "65-65": {
-          "description": "<b>vencedor</b>: car 4 / 2 / 1 / 0 / 0 / 0"
+          "description": "<b>cativante</b>: car 4 / 2 / 1 / 0 / 0 / 0"
         },
         "66-66": {
           "description": "<b>perspicaz</b>: aur 4 / 2 / 1 / 0 / 0 / 0"
@@ -243,7 +243,7 @@
           "description": "<b>enciclopédico</b>: int 5 / 2 / 0 / 0 / 0 / 0"
         },
         "80-80": {
-          "description": "<b>aço vivo</b>: for 5 / 1 / 1 / 0 / 0 / 0"
+          "description": "<b>férreo</b>: for 5 / 1 / 1 / 0 / 0 / 0"
         },
         "81-81": {
           "description": "<b>vital</b>: res 5 / 1 / 1 / 0 / 0 / 0"
@@ -285,7 +285,7 @@
           "description": "<b>radiante</b>: res 5 / 2 / 1 / 0 / 0 / 0"
         },
         "94-94": {
-          "description": "<b>mercúrial</b>: rap 5 / 2 / 1 / 0 / 0 / 0"
+          "description": "<b>mercurial</b>: rap 5 / 2 / 1 / 0 / 0 / 0"
         },
         "95-95": {
           "description": "<b>angélico</b>: car 5 / 2 / 1 / 0 / 0 / 0"
@@ -300,7 +300,7 @@
           "description": "<b>atlante</b>: for 3 / res 3 / rap 3 / 0 / 0 / 0"
         },
         "99-99": {
-          "description": "<b>proteico</b>: car 3 / aur 3 / int 3 / 0 / 0 / 0"
+          "description": "<b>proteiforme</b>: car 3 / aur 3 / int 3 / 0 / 0 / 0"
         },
         "100-100": {
           "description": "<b>abençoado</b>: 2 / 2 / 2 / 2 / 2 / 2"

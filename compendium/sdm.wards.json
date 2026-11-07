@@ -4,7 +4,7 @@
     "Trinkets": "Bugigangas",
     "Wearable Wards": "Égides Vestíveis",
     "Portable Wards": "Égides Portáteis",
-    "Bulky Wards": "Égides Volumosos"
+    "Bulky Wards": "Égides Volumosas"
   },
   "mapping": {
     "description": "system.description",
@@ -14,10 +14,6 @@
     }
   },
   "entries": {
-    "Akaula's Sacrificial Hero": {
-      "name": "Herói Sacrificial de Akaula",
-      "description": "<p><em>Purificação da Boca do Inferno</em></p><p>O purificador marca um herói para o abate com seis sigilos de contenção. O herói perde 1 vida por rodada. Quando a vida se esgota, mente e alma irrompem no fogo do Criador. O fogo bane todos os demônios e alienígenas de até o dobro do nível do herói em um raio de 100 metros e sela todos os portais dimensionais e do vazio por um número de anos igual ao nível do herói.</p>"
-    },
     "Antimagic Mouth": {
       "name": "Boca Antimagia",
       "description": "<p>Caixa monstruosa em forma de boca. Cabe sua cabeça?!</p>"
@@ -28,15 +24,11 @@
     },
     "Bone Necklace": {
       "name": "Colar de Ossos",
-      "description": "<p>Ossos mortos-vivos vivos! Não ingerir.</p>"
+      "description": "<p>Ossos desmortos vivos! Não ingerir.</p>"
     },
     "Box of Eyes": {
       "name": "Caixa de Olhos",
       "description": "<p>Permite cultivar olhos funcionais por todo o corpo. Nojento.</p>"
-    },
-    "Bunker Pass": {
-      "name": "Passe de Bunker",
-      "description": "<p>Amuleto de velha tecnologia que prova que você é um humano verdadeiro, autorizado a se abrigar nos bunkers anti-deuses que pontilham a Terra Vermelha. Também abre portas sábias.</p>"
     },
     "Empty Glasses": {
       "name": "Óculos Vazios",
@@ -45,14 +37,6 @@
     "Full-Spectrum Suit": {
       "name": "Traje de Espectro Total",
       "description": "<p>Alfaiataria confusional radiante em 8 bits.</p>"
-    },
-    "Glitchvidy": {
-      "name": "Glitchvídeo",
-      "description": "<p>Neurotransformador direto absorvido via óculos de comunicação. Originalmente um reprogramador humano, agora usado para estimulação direta de prazer. Viciante — a abstinência bloqueia acesso a habilidades e traços aleatórios.</p>"
-    },
-    "Healmachine": {
-      "name": "Máquina de Cura",
-      "description": "<p>Restaura [[/r 2d8]] de vida a uma máquina. Repara danos cosméticos em veículos.</p>"
     },
     "Heretech Scribbles": {
       "name": "Rabiscos Heretec",
@@ -78,10 +62,6 @@
     "vxMN6WVgHmzQtiTx": {
       "name": "Espelho Monocromático",
       "description": "<p>Este espelho frágil reduz à metade o dano de todas as fontes que não sejam monocromáticas: preto, cinza ou branco.</p>"
-    },
-    "Motogolem": {
-      "name": "Motogolem",
-      "description": "<p>Chamado Harm. Elétrico — alimente com omnibaterias.</p><p>L2, cap 2, rápido</p>"
     },
     "Necrolexicon NEC": {
       "name": "Necroléxico NEC",
@@ -110,7 +90,7 @@
     },
     "Safety Scarab": {
       "name": "Escaravelho de Segurança",
-      "description": "<p>Mevo besouro morto-vivo com seu nome nele.</p>"
+      "description": "<p>Mevo besouro desmorto com seu nome nele.</p>"
     },
     "Savehead Jar": {
       "name": "Jarra Salva-Cabeça",
@@ -118,7 +98,7 @@
     },
     "Second Soul": {
       "name": "Segunda Alma",
-      "description": "<p>Aparência fantasmagórica radiante que aumenta o dano de todos os seus ataques mentais e energéticos.</p>"
+      "description": "<p>Aparição fantasmagórica radiante que aumenta o dano de todos os seus ataques mentais e energéticos.</p>"
     },
     "Shadow Shawl": {
       "name": "Xale das Sombras",
@@ -133,13 +113,9 @@
         }
       }
     },
-    "Stone": {
-      "name": "Pedra",
-      "description": "<p>A primeira arma do homem. Pode ser sintética.</p>"
-    },
     "Tome of Metal B": {
-      "name": "Tomos do Metal B",
-      "description": "<p>Tomos de poderes inscritos em aço e trovão.</p><p><em><span style=\"text-decoration:underline\">Esta Égide é um álbum de poder com um efeito ativo de bônus de égide</span></em></p>"
+      "name": "Tomo do Metal B",
+      "description": "<p>Tomo de poderes inscrito em aço e trovão.</p><p><em><span style=\"text-decoration:underline\">Esta égide é um álbum de poder com um efeito ativo de bônus de égide</span></em></p>"
     },
     "Vile Recorder": {
       "name": "Gravador Vil",
@@ -147,7 +123,7 @@
     },
     "Violet Cat Egg": {
       "name": "Ovo de Gato Violeta",
-      "description": "<p>Purrova do grande favor de um senhor-gato. E de maestria.</p><p>Regional da Terra Púrpura.</p>"
+      "description": "<p>Purrova do grande favor de um senhor felino. E de maestria.</p>"
     }
   }
 }

@@ -4,7 +4,16 @@
     "Character": "Personagem",
     "Equipment": "Equipamentos",
     "Referee": "Mediador",
-    "Traits": "Traços"
+    "Traits": "Traços",
+    "Armors": "Armaduras",
+    "Consumable": "Consumíveis",
+    "Gadgets": "Dispositivos",
+    "Items": "Itens",
+    "Powers": "Poderes",
+    "Trait Items": "Itens de Traços",
+    "Wards": "Égides",
+    "Weapon": "Arma",
+    "Weapons": "Armas"
   },
   "entries": {
     "RuTRMlMY9MxfACSQ": {
@@ -132,7 +141,7 @@
           "description": "<b>hábil</b>: rap 3 / 2 / 2 / 0 / 0 / 0"
         },
         "41-41": {
-          "description": "<b>escorregadio</b>: car 3 / 2 / 2 / 0 / 0 / 0"
+          "description": "<b>manhoso</b>: car 3 / 2 / 2 / 0 / 0 / 0"
         },
         "42-42": {
           "description": "<b>obstinado</b>: aur 3 / 2 / 2 / 0 / 0 / 0"
@@ -141,7 +150,7 @@
           "description": "<b>articulado</b>: int 3 / 2 / 2 / 0 / 0 / 0"
         },
         "44-44": {
-          "description": "<b>firmeza férrea</b>: for 3 / 2 / 1 / 1 / 0 / 0"
+          "description": "<b>inabalável</b>: for 3 / 2 / 1 / 1 / 0 / 0"
         },
         "45-45": {
           "description": "<b>saudável</b>: res 3 / 2 / 1 / 1 / 0 / 0"
@@ -150,7 +159,7 @@
           "description": "<b>preciso</b>: rap 3 / 2 / 1 / 1 / 0 / 0"
         },
         "47-47": {
-          "description": "<b>glamouroso</b>: car 3 / 2 / 1 / 1 / 0 / 0"
+          "description": "<b>glamoroso</b>: car 3 / 2 / 1 / 1 / 0 / 0"
         },
         "48-48": {
           "description": "<b>disciplinado</b>: aur 3 / 2 / 1 / 1 / 0 / 0"
@@ -180,7 +189,7 @@
           "description": "<b>poderoso</b>: for 4 / 3 / 0 / 0 / 0 / 0"
         },
         "57-57": {
-          "description": "<b>luxuriante</b>: res 4 / 3 / 0 / 0 / 0 / 0"
+          "description": "<b>fogoso</b>: res 4 / 3 / 0 / 0 / 0 / 0"
         },
         "58-58": {
           "description": "<b>leve</b>: rap 4 / 3 / 0 / 0 / 0 / 0"
@@ -195,7 +204,7 @@
           "description": "<b>inventivo</b>: int 4 / 3 / 0 / 0 / 0 / 0"
         },
         "62-62": {
-          "description": "<b>musculatura densa</b>: for 4 / 2 / 1 / 0 / 0 / 0"
+          "description": "<b>musculado</b>: for 4 / 2 / 1 / 0 / 0 / 0"
         },
         "63-63": {
           "description": "<b>rijo</b>: res 4 / 2 / 1 / 0 / 0 / 0"
@@ -204,7 +213,7 @@
           "description": "<b>ardiloso</b>: rap 4 / 2 / 1 / 0 / 0 / 0"
         },
         "65-65": {
-          "description": "<b>vencedor</b>: car 4 / 2 / 1 / 0 / 0 / 0"
+          "description": "<b>cativante</b>: car 4 / 2 / 1 / 0 / 0 / 0"
         },
         "66-66": {
           "description": "<b>perspicaz</b>: aur 4 / 2 / 1 / 0 / 0 / 0"
@@ -249,7 +258,7 @@
           "description": "<b>enciclopédico</b>: int 5 / 2 / 0 / 0 / 0 / 0"
         },
         "80-80": {
-          "description": "<b>aço vivo</b>: for 5 / 1 / 1 / 0 / 0 / 0"
+          "description": "<b>férreo</b>: for 5 / 1 / 1 / 0 / 0 / 0"
         },
         "81-81": {
           "description": "<b>vital</b>: res 5 / 1 / 1 / 0 / 0 / 0"
@@ -291,7 +300,7 @@
           "description": "<b>radiante</b>: res 5 / 2 / 1 / 0 / 0 / 0"
         },
         "94-94": {
-          "description": "<b>mercúrial</b>: rap 5 / 2 / 1 / 0 / 0 / 0"
+          "description": "<b>mercurial</b>: rap 5 / 2 / 1 / 0 / 0 / 0"
         },
         "95-95": {
           "description": "<b>angélico</b>: car 5 / 2 / 1 / 0 / 0 / 0"
@@ -306,7 +315,7 @@
           "description": "<b>atlante</b>: for 3 / res 3 / rap 3 / 0 / 0 / 0"
         },
         "99-99": {
-          "description": "<b>proteico</b>: car 3 / aur 3 / int 3 / 0 / 0 / 0"
+          "description": "<b>proteiforme</b>: car 3 / aur 3 / int 3 / 0 / 0 / 0"
         },
         "100-100": {
           "description": "<b>abençoado</b>: 2 / 2 / 2 / 2 / 2 / 2"
@@ -333,7 +342,7 @@
           "name": "faz o que havia planejado"
         },
         "6-6": {
-          "name": "pára e ganha 1d6 de vida"
+          "name": "para e ganha 1d6 de vida"
         }
       }
     }, 
@@ -341,7 +350,7 @@
       "name": "Atraso de rematerialização",
       "results": {
         "1-3": {
-          "name": "1-6 rodadas atrasado"
+          "name": "1-6 rodadas depois"
         },
         "4-5": {
           "name": "10-60 minutos"
@@ -350,6 +359,297 @@
           "name": "1-6 horas"
         }
       }
+    },
+    "Barbarian": {
+      "name": "Bárbaro",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Bárbaro.</p>"
+    },
+    "Bearer Items": {
+      "name": "Itens de Portador",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Itens de Portador.</p>"
+    },
+    "Bearer Traits": {
+      "name": "Traços de Portador",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Traços de Portador.</p>"
+    },
+    "Bluelander": {
+      "name": "Azulita",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Azulita.</p>"
+    },
+    "Bourgeois": {
+      "name": "Burguês",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Burguês.</p>"
+    },
+    "Bulky Wards": {
+      "name": "Égides Volumosas",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Égides Volumosas.</p>"
+    },
+    "Classic Golem Armor": {
+      "name": "Armadura Golem Clássica",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Armadura Golem Clássica.</p>"
+    },
+    "Climbing & Mobility": {
+      "name": "Escalada e Mobilidade",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Escalada e Mobilidade.</p>"
+    },
+    "Communication & Control": {
+      "name": "Comunicação e Controle",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Comunicação e Controle.</p>"
+    },
+    "Drinks": {
+      "name": "Bebidas",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Bebidas.</p>"
+    },
+    "Drugs": {
+      "name": "Drogas",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Drogas.</p>"
+    },
+    "Foods": {
+      "name": "Alimentos",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Alimentos.</p>"
+    },
+    "Golem": {
+      "name": "Golem",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Golem.</p>"
+    },
+    "Greenlander": {
+      "name": "Esmeraldino",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Esmeraldino.</p>"
+    },
+    "Heavy Armors": {
+      "name": "Armaduras Pesadas",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Armaduras Pesadas.</p>"
+    },
+    "Holy Fool": {
+      "name": "Tolo Sagrado",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Tolo Sagrado.</p>"
+    },
+    "Light Armors": {
+      "name": "Armaduras Leves",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Armaduras Leves.</p>"
+    },
+    "Long Ago Melee Weapons": {
+      "name": "Armas Corpo a Corpo do Há Muito Tempo",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Armas Corpo a Corpo do Há Muito Tempo.</p>"
+    },
+    "Magielectronics & Power": {
+      "name": "Magieletrônica e Energia",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Magieletrônica e Energia.</p>"
+    },
+    "Manager": {
+      "name": "Gerente",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Gerente.</p>"
+    },
+    "Medicines": {
+      "name": "Medicamentos",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Medicamentos.</p>"
+    },
+    "Medium Armors": {
+      "name": "Armaduras Médias",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Armaduras Médias.</p>"
+    },
+    "Modern and Ancient Shields": {
+      "name": "Escudos Modernos e Antigos",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Escudos Modernos e Antigos.</p>"
+    },
+    "Noömagus": {
+      "name": "Noömago",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Noömago.</p>"
+    },
+    "Noble": {
+      "name": "Nobre",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Nobre.</p>"
+    },
+    "Orangelander": {
+      "name": "Laranjenha",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Laranjenha.</p>"
+    },
+    "Path of the Fighter": {
+      "name": "Caminho do Combatente",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Caminho do Combatente.</p>"
+    },
+    "Path of the Traveler": {
+      "name": "Caminho do Viajante",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Caminho do Viajante.</p>"
+    },
+    "Path of the Wizard": {
+      "name": "Caminho do Mago",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Caminho do Mago.</p>"
+    },
+    "Portable Wards": {
+      "name": "Égides Portáteis",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Égides Portáteis.</p>"
+    },
+    "Potions": {
+      "name": "Poções",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Poções.</p>"
+    },
+    "Powers": {
+      "name": "Poderes",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Poderes.</p>"
+    },
+    "Prismatic Priest": {
+      "name": "Sacerdote Prismático",
+      "description": "<p><strong>Título</strong>: Sacerdote Prismático<br /><strong>Poderes da Sessão</strong>: Recolore locais aleatoriamente.</p>",
+      "results": {
+        "1-1": {
+          "name": "Monocromático",
+          "description": "<p><strong>Título</strong>: Sacerdote Prismático<br /><strong>Poderes da Sessão</strong>: Recolore locais aleatoriamente.</p>"
+        },
+        "2-2": {
+          "name": "Dessaturado",
+          "description": "<p><strong>Título</strong>: Sacerdote Prismático<br /><strong>Poderes da Sessão</strong>: Recolore locais aleatoriamente.</p>"
+        },
+        "3-3": {
+          "name": "Tons frios",
+          "description": "<p><strong>Título</strong>: Sacerdote Prismático<br /><strong>Poderes da Sessão</strong>: Recolore locais aleatoriamente.</p>"
+        },
+        "4-4": {
+          "name": "Tons quentes",
+          "description": "<p><strong>Título</strong>: Sacerdote Prismático<br /><strong>Poderes da Sessão</strong>: Recolore locais aleatoriamente.</p>"
+        },
+        "5-5": {
+          "name": "Cores vivas e harmoniosas",
+          "description": "<p><strong>Título</strong>: Sacerdote Prismático<br /><strong>Poderes da Sessão</strong>: Recolore locais aleatoriamente.</p>"
+        },
+        "6-6": {
+          "name": "Uma explosão brutal de neon e cores fluorescentes",
+          "description": "<p><strong>Título</strong>: Sacerdote Prismático<br /><strong>Poderes da Sessão</strong>: Recolore locais aleatoriamente.</p>"
+        }
+      }
+    },
+    "Protection & Safety": {
+      "name": "Proteção e Segurança",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Proteção e Segurança.</p>"
+    },
+    "Purplelander": {
+      "name": "Violetense",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Violetense.</p>"
+    },
+    "Ranged Weapons": {
+      "name": "Armas de Longo Alcance",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Armas de Longo Alcance.</p>"
+    },
+    "Redlander": {
+      "name": "Rúbreo",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Rúbreo.</p>"
+    },
+    "Referee Titles": {
+      "name": "Títulos do Mediador",
+      "description": "<p>Para lembrar a todos que o mediador também é um jogador, ele pode receber um título diferente e um poder divertido a cada sessão.</p>",
+      "results": {
+        "1-1": {
+          "description": "<b>Título</b>: Gato Chefe<br /> <b>Poderes da Sessão</b>: Todos devem aclamar o gato da casa. Dê xp extra por petiscos com tema de gato."
+        },
+        "2-2": {
+          "description": "<b>Título</b>: O Faxineiro<br /> <b>Poderes da Sessão</b>: Conceda xp aos jogadores que ajudarem a limpar tudo depois da sessão."
+        },
+        "3-3": {
+          "description": "<b>Título</b>: Fantasma Elétrico<br /> <b>Poderes da Sessão</b>: Invoque o irritante fantasma ancestral de um herói para dar conselhos ou lições de moral."
+        },
+        "4-4": {
+          "description": "<b>Título</b>: Golem Bugado<br /> <b>Poderes da Sessão</b>: Mova um local aleatório no mapa. Troque nomes de lugares."
+        },
+        "5-5": {
+          "description": "<b>Título</b>: Musa Julgadora<br /> <b>Poderes da Sessão</b>: Dê xp por boas escolhas de música de fundo. Vete as ruins por votação do grupo."
+        },
+        "6-6": {
+          "description": "<b>Título</b>: Nove Vidas<br /> <b>Poderes da Sessão</b>: Conceda até nove pontos de vida extras aos personagens."
+        },
+        "7-7": {
+          "name": "Sacerdote Prismático",
+          "description": "<p><strong>Título</strong>: Sacerdote Prismático<br /><strong>Poderes da Sessão</strong>: Recolore locais aleatoriamente.</p>"
+        },
+        "8-8": {
+          "description": "<b>Título</b>: Traçador de Trilhos<br /> <b>Poderes da Sessão</b>: Desenhe um caminho visível ligando locais preparados. Os jogadores podem escolher segui-lo ou ignorá-lo."
+        },
+        "9-9": {
+          "description": "<b>Título</b>: Arauto do Céu<br /> <b>Poderes da Sessão</b>: Crie efeitos climáticos dramáticos no jogo. Não são permitidas reclamações sobre clichês batidos."
+        },
+        "10-10": {
+          "description": "<b>Título</b>: Guardião dos Petiscos<br /> <b>Poderes da Sessão</b>: Dê 1d4 re-rolagens aos jogadores que trouxerem comida ou música."
+        }
+      }
+    },
+    "Rest & Recreation": {
+      "name": "Descanso e Recreação",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Descanso e Recreação.</p>"
+    },
+    "Scion": {
+      "name": "Herdeiro de Legado",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Herdeiro de Legado.</p>"
+    },
+    "Security & Infiltration": {
+      "name": "Segurança e Infiltração",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Segurança e Infiltração.</p>"
+    },
+    "Servant": {
+      "name": "Servo",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Servo.</p>"
+    },
+    "Skeleton": {
+      "name": "Esqueleto",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Esqueleto.</p>"
+    },
+    "Soldier": {
+      "name": "Soldado",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Soldado.</p>"
+    },
+    "Stealth & Disguise": {
+      "name": "Furtividade e Disfarce",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Furtividade e Disfarce.</p>"
+    },
+    "Supplies": {
+      "name": "Suprimentos",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Suprimentos.</p>"
+    },
+    "Surveillance & Tracking": {
+      "name": "Vigilância e Rastreamento",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Vigilância e Rastreamento.</p>"
+    },
+    "Terrible Ranged Weapons of the Long Ago": {
+      "name": "Terríveis Armas de Longo Alcance do Há Muito Tempo",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Terríveis Armas de Longo Alcance do Há Muito Tempo.</p>"
+    },
+    "Throwing Weapons": {
+      "name": "Armas de Arremesso",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Armas de Arremesso.</p>"
+    },
+    "Tourist": {
+      "name": "Turista",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Turista.</p>"
+    },
+    "Traditional Melee Weapons": {
+      "name": "Armas Corpo a Corpo Tradicionais",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Armas Corpo a Corpo Tradicionais.</p>"
+    },
+    "Travel & Outdoors": {
+      "name": "Viagem e Vida ao Ar Livre",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Viagem e Vida ao Ar Livre.</p>"
+    },
+    "Trickster": {
+      "name": "Trapaceiro",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Trapaceiro.</p>"
+    },
+    "Trinkets": {
+      "name": "Bugigangas",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Bugigangas.</p>"
+    },
+    "Weapon Form": {
+      "name": "Forma de Arma",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Forma de Arma.</p>"
+    },
+    "Weapon Traits": {
+      "name": "Traços de Arma",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Traços de Arma.</p>"
+    },
+    "Wearable Wards": {
+      "name": "Égides Vestíveis",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Égides Vestíveis.</p>"
+    },
+    "Yellowlander": {
+      "name": "Safraniano",
+      "description": "<p>Tabela aleatória criada a partir do conteúdo da pasta Safraniano.</p>"
     }
   }
 }

@@ -34,7 +34,7 @@
 
     "Assault Suit": {
       "name": "Traje de Assalto",
-      "description": "<p>Tendões prateados, placas de porcelana, tecidos desmortos.</p><p>Força +1, Resistência +1</p>",
+      "description": "<p>Tendões prateados, placas de porcelana, tecidos desmortos.</p><p>Força +1, Resistência +1 <em>(os efeitos ativos concedem os bônus)</em></p>",
       "effects": {
         "Assault Suit": {
           "name": "Traje de Assalto",
@@ -45,7 +45,7 @@
 
     "Ballistic Linen Suit": {
       "name": "Traje de Linho Balístico",
-      "description": "<p>O traje do aventureiro gentil. Bolso secreto para mamilo.</p>",
+      "description": "<p>O traje do aventureiro gentil. Bolso secreto para um trago.</p>",
       "effects": {
         "pocket 3": {
           "name": "bolsos 3"
@@ -236,7 +236,7 @@
 
     "Umbral Panoply": {
       "name": "Panóplia Umbral",
-      "description": "<p>Tecido de sombra sólida e synthseda.</p>"
+      "description": "<p>Tecido de sombra sólida e seda sintética.</p>"
     },
 
     "Void Infantry Dissipator": {
@@ -251,7 +251,7 @@
 
     "Watersuit": {
       "name": "Traje Aquático",
-      "description": "<p>Traje refrigerante de synthpele sobre malha de osso tecida, com sistema de refrigeração e filtração vascular.</p>"
+      "description": "<p>Traje refrigerante de pele sintética sobre malha de osso tecida, com sistema de refrigeração e filtração vascular.</p>"
     }
   }
 }

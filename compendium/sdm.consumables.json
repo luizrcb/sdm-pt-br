@@ -33,7 +33,7 @@
 
     "Cat Coffee": {
       "name": "Cafelino",
-      "description": "<p>Excremento narcótico de gato preto que induz sono e restaura atributos mentais perdidos. Fortemente viciante a abstinência causa reclamações incessantes.</p>"
+      "description": "<p>Excremento narcótico de gato preto que induz sono e restaura atributos mentais perdidos. Fortemente viciante — a abstinência causa reclamações incessantes.</p>"
     },
 
     "Curative Snake Oil": {
@@ -48,7 +48,7 @@
 
     "ggUAeAA9W7BYMU2e": {
       "name": "Felix Whizz",
-      "description": "<p>Bebida energética popular. Ganha +[[/r 1d4]] vida, mas deixa você um pouco irritante.</p><p>Fracamente viciante — abstinência causa comportamento rabugento, irritadiço e desfocado.</p><p><em>(edite e use o efeito ativo para conceder a vida bônus)</em></p>",
+      "description": "<p>Bebida energética popular. Concede +[[/r 1d4]] de vida, mas deixa você um pouco irritante.</p><p>Fracamente viciante — abstinência causa comportamento rabugento, irritadiço e desfocado.</p><p><em>(edite e use o efeito ativo para conceder o bônus de vida)</em></p>",
       "effects": {
         "+ life": {
           "name": "+ vida"
@@ -98,7 +98,7 @@
 
     "Keep It Up Cha": {
       "name": "Chá Sustenta-Aí",
-      "description": "<p>Chá feito do micélio do Deus Azul. Reduz insatisfação, tremedeira e iniciativa. Oferece contentamento, pertencimento e obediência. Rumorado afrodisíaco.</p>"
+      "description": "<p>Chá feito do micélio do Deus Azul. Reduz insatisfação, tremedeira e iniciativa. Oferece contentamento, pertencimento e obediência. Dizem ser afrodisíaco.</p>"
     },
 
     "Lemma Worm": {
@@ -161,7 +161,7 @@
     },
     "Synthetic Blood": {
       "name": "Sangue Sintético",
-      "description": "<p>Solo Vermelho Fino de Reserva. Para cirurgia ou para alimentar um vampiro por uma semana.</p>"
+      "description": "<p>Safra fina da Terra Vermelha. Para cirurgia ou para alimentar um vampiro por uma semana.</p>"
     },
 
     "Tonic Harmony": {
@@ -171,7 +171,7 @@
 
     "Ultra-Purga": {
       "name": "Ultrapurgante",
-      "description": "<p>Purgante terrivelmente eficaz. Perda [[/r 2d4]] de vida ou pontos de atributo e igual número de infecções, demônios possuidores e outras afecções danosas.</p>"
+      "description": "<p>Purgante terrivelmente eficaz. Perca [[/r 2d4]] de vida ou pontos de atributo e igual número de infecções, daemons possuidores e outras afecções danosas.</p>"
     },
 
     "UV Lotion": {
@@ -201,12 +201,12 @@
 
     "OITROVjjKTWaG6Xx": {
       "name": "Profiteroles de Cérebro-Amarelo",
-      "description": "<p>Concede bônus ao contatar alienígenas, demônios e outras criaturas mentais da noösfera. Pode induzir sonhos visionários. Pode conter tecido cerebral de mentes-estelares.</p>"
+      "description": "<p>Concede bônus ao contatar alienígenas, daemons e outras criaturas mentais da noösfera. Pode induzir sonhos visionários. Pode conter tecido cerebral de mentes-estelares.</p>"
     },
 
     "You Go": {
       "name": "Vai Lá",
-      "description": "<p>Bebida gasosa que permite ignorar um fardo por um dia. Consumo excessivo pode causar petrificação (salvaguarda fácil depois da 2ª lata, médio depois da 3ª, etc.)!</p>"
+      "description": "<p>Bebida gasosa que permite ignorar um fardo por um dia. Consumo excessivo pode causar petrificação (salvaguarda fácil depois da 2ª lata, média depois da 3ª, etc.)!</p>"
     }
   }
 }

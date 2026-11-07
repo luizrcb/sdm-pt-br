@@ -48,10 +48,6 @@
       "description": "<p>Máscara biomecânica para respirar em condições de baixa pressão.</p>"
     },
 
-    "Akaula's Sacrificial Hero": {
-      "name": "Herói Sacrificial de Akaula",
-      "description": "<p><em>Purificação da Boca do Inferno</em></p><p>O purificador marca um herói para o abate com seis sigilos de contenção. O herói perde 1 vida por rodada. Quando a vida se esgota, mente e alma irrompem no fogo do Criador. O fogo bane todos os demônios e alienígenas de até o dobro do nível do herói em um raio de 100 metros e sela todos os portais dimensionais e do vazio por um número de anos igual ao nível do herói.</p>"
-    },
 
     "Amber Suit": {
       "name": "Traje de Âmbar",
@@ -59,18 +55,18 @@
     },
 
     "Amber Wandgun": {
-      "name": "Varinhola de Âmbar",
+      "name": "Varinha-Arma de Âmbar",
       "description": "<p>Dispara descargas arqueadas de dor e fogo. Curto alcance.</p>"
     },
 
     "Ancient Jezail": {
       "name": "Jezail Antigo",
-      "description": "<p>Já matou uma cria dos Construtores de Muito Tempo Atrás? Carregado pelo Criador, longo alcance.</p>"
+      "description": "<p>Já matou uma cria dos Construtores do Há Muito Tempo? Carregado pelo Criador, longo alcance.</p>"
     },
 
     "Anti-Static Robes": {
       "name": "Vestes Anti-Estática",
-      "description": "<p>Reduzem o ricochete de poderes. Bônus em salvaguardas contra corrupção e Velhatec.</p>",
+      "description": "<p>Reduzem o ricochete de poderes. Bônus em salvaguardas contra corrupção e velhatec.</p><p><em>(Ative o efeito ativo para obter o bônus em salvaguardas)</em></p>",
       "effects": {
         "Save Bonus": {
           "name": "Bônus de Salvaguardas",
@@ -106,7 +102,7 @@
 
     "Blindgod": {
       "name": "Deus Cego",
-      "description": "<p>Máscara facial que oculta sua alma e mente de demônios e divindades.</p>",
+      "description": "<p>Máscara facial que oculta sua alma e mente de daemons e divindades.</p>",
       "effects": {
         "+1 Endurance": {
           "name": "+1 Resistência"
@@ -191,7 +187,7 @@
 
     "Bunker Pass": {
       "name": "Passe de Bunker",
-      "description": "<p>Amuleto de velha tecnologia que prova que você é um humano verdadeiro, autorizado a se abrigar nos bunkers anti-deuses que pontilham a Terra Vermelha. Também abre portas sábias.</p>"
+      "description": "<p>Amuleto velhatec que prova que você é um humano verdadeiro, autorizado a se abrigar nos bunkers anti-deuses que pontilham a Terra Vermelha. Também abre portas sábias.</p>"
     },
 
     "Cad Bird": {
@@ -201,7 +197,7 @@
 
     "Caius the Comprehender": {
       "name": "Caius, o Compreensor",
-      "description": "<p>Um daemon de Muito Tempo Atrás, preso a um brinco, que traduz corretamente textos em 5 de 6 vezes e os traduz de forma catastrófica na outra 1 de 6.</p>"
+      "description": "<p>Um daemon do Há Muito Tempo, preso a um brinco, que traduz corretamente textos em 5 de 6 vezes e os traduz de forma catastrófica na outra 1 de 6.</p>"
     },
 
     "Camelskin Jerkin": {
@@ -216,7 +212,7 @@
 
     "Cat Collar": {
       "name": "Coleira de Gato",
-      "description": "<p>Prova de serviço aos Lordes Felinos. Garante cama e proteína.</p>"
+      "description": "<p>Prova de serviço aos Senhores Felinos. Garante cama e proteína.</p>"
     },
 
     "Centaur Cradle (vehicle mod)": {
@@ -241,7 +237,7 @@
 
     "Ceremonial Axe": {
       "name": "Machado Cerimonial",
-      "description": "<p>Com sua energia de Velhatec esgotada, ainda é um símbolo de status. Concede +2 Carisma.</p>",
+      "description": "<p>Com sua energia velhatec esgotada, ainda é um símbolo de status. Concede +2 Carisma.</p>",
       "effects": {
         "+2 Cha": {
           "name": "+2 Car"
@@ -281,7 +277,7 @@
 
     "Collar of Life": {
       "name": "Coleira da Vida",
-      "description": "<p>Armazena até 3 vida para poderes. Não se importa de onde você conseguiu.</p><p><em>(Um campo de Vida Emprestada limitado a 3 será exibido na ficha do personagem.)</em></p>",
+      "description": "<p>Armazena até 3 vida para poderes. Não se importa de onde você conseguiu.</p><p><em>(Um campo de Vida Emprestada limitado a 3 será exibido na ficha do personagem. Se o personagem também for um vampiro, use a chave de efeito ativo system.borrowed_life.max_limit para atualizar o máximo de vida emprestada para a vida máxima dele + 3.)</em></p>",
       "effects": {
         "LLt1NeiqWvOmC4rR": {
           "name": "Vida Emprestada"
@@ -300,7 +296,7 @@
     },
 
     "XbtPcSL4eUQppXxW": {
-      "name": "Macacão & Headset Cordwood™",
+      "name": "Macacão e Headset Cordwood™",
       "description": "<p>Uma sala virtual com acesso à noösfera em movimento. Uma casa própria mesmo que você não tenha onde dormir.</p>"
     },
 
@@ -316,7 +312,7 @@
 
     "Cryptic Clavus": {
       "name": "Clavus Críptico",
-      "description": "<p>É um cartão, é uma chave, destranca portas de Velhatec. Exige jeitinho e um teste de perícia.</p>"
+      "description": "<p>É um cartão, é uma chave, destranca portas velhatec. Exige jeitinho e um teste de perícia.</p>"
     },
 
     "Cunning Watch": {
@@ -330,8 +326,8 @@
     },
 
     "Daemonskin Mask": {
-      "name": "Máscara de Pele Demoníaca",
-      "description": "<p>Ornamentada. Gaste 1 dado heróico para aterrorizar a ralé e fazê-la fugir (salvaguarda).</p>",
+      "name": "Máscara de Pele de Daemon",
+      "description": "<p>Ornamentada. Gaste 1 dado heroico para aterrorizar a ralé e fazê-la fugir (salvaguarda).</p>",
       "effects": {
         "+1 Armor": {
           "name": "+1 Armadura"
@@ -354,7 +350,7 @@
     },
     "Declaration of Pause": {
       "name": "Declaração de Pausa",
-      "description": "<p>Cilindro de encantamento de suspensão demoníaca, ligado a um alto-falante de corda. Gaste 1 vida: um daemon próximo perde sua ação (salvaguarda).</p>"
+      "description": "<p>Cilindro de encantamento de suspensão de daemons, ligado a um alto-falante de corda. Gaste 1 vida: um daemon próximo perde sua ação (salvaguarda).</p>"
     },
 
     "Doormaker": {
@@ -369,7 +365,7 @@
 
     "Driver License": {
       "name": "Carteira de Motorista",
-      "description": "<p>Este amuleto holomórfico permite dirigir na Metrópole.</p><p>Também pode tentar comandar autômatos-golem com ele (salvaguarda difícil).</p>"
+      "description": "<p>Este amuleto holomórfico permite dirigir na Metrópole.</p><p>Também pode tentar comandar autogolens com ele (teste difícil).</p>"
     },
 
     "Drywood Gourd": {
@@ -389,7 +385,7 @@
 
     "Dusty Orb": {
       "name": "Orbe Empoeirado",
-      "description": "<p>Televisão remota de uma pequena cidade encantadora. Lembra o lar, mas não corresponde a nada que você já tenha visto. Ligado a um portal secreto de observação.</p>"
+      "description": "<p>Televisor de uma pequena cidade encantadora. Lembra o lar, mas não corresponde a nada que você já tenha visto. Ligado a um portal secreto de observação.</p>"
     },
 
     "Echoing Top Hat": {
@@ -399,7 +395,7 @@
 
     "Eisen Doppler Amulet": {
       "name": "Amuleto Eisen-Doppler",
-      "description": "<p>Gaste 1 dado heróico para projetar sua ilusão de ferro próxima (nível e perícias como PJ, defesa 19, dano 1d8, apenas 1 vida).</p>"
+      "description": "<p>Gaste 1 dado heroico para projetar sua ilusão de ferro próxima (nível e perícias como PJ, defesa 19, dano 1d8, apenas 1 vida).</p>"
     },
 
     "Elegant Eater Sword": {
@@ -470,7 +466,7 @@
 
     "Fireward Circlet": {
       "name": "Diadema Antichamas",
-      "description": "<p>O aro semissenciente de joias de matriz demoníaca protege sua identidade. Gaste 1 vida para bloquear sua mente por 1 rodada.</p>"
+      "description": "<p>O aro semi-senciente de joias de matriz de daemon protege sua identidade. Gaste 1 vida para bloquear sua mente por 1 rodada.</p>"
     },
 
     "Flesh Pocket": {
@@ -490,7 +486,7 @@
 
     "Folding Boat": {
       "name": "Barco Dobrável",
-      "description": "<p>Remo incluído.</p><p>capacidade 4</p>"
+      "description": "<p>Remos incluídos.</p><p>Capacidade 4</p>"
     },
 
     "Folk Hero Source Code": {
@@ -505,7 +501,7 @@
 
     "Force Harness": {
       "name": "Arreio de Força",
-      "description": "<p>Defesa reativa. Gaste 1 dado heróico para negar um ataque.</p>"
+      "description": "<p>Defesa reativa. Gaste 1 dado heroico para negar um ataque.</p>"
     },
 
     "Fresh Face": {
@@ -515,12 +511,12 @@
 
     "Friend Horse": {
       "name": "Cavalo Amigo",
-      "description": "<p>Ele fala, mas não revela seu nome.</p><p>L4, capacidade 2</p>"
+      "description": "<p>Ele fala, mas não revela seu nome.</p><p>N4, capacidade 2</p>"
     },
 
     "Friend Spider “Sooty”": {
       "name": "Aranha Amiga “Fuligem”",
-      "description": "<p>Pode ser um elemental de carvão? Ou um golem de carbono? Certamente é muito resistente ao fogo. Gosta de flores.</p><p>L0, minúscula (1 sp)</p>"
+      "description": "<p>Pode ser um elemental de carvão? Ou um golem de carbono? Certamente é muito resistente ao fogo. Gosta de flores.</p><p>N0, minúscula (1 crt)</p>"
     },
 
     "Friendly Anklet": {
@@ -568,19 +564,15 @@
       }
     },
 
-    "Glitchvidy": {
-      "name": "Glitchvídeo",
-      "description": "<p>Neurotransformador direto absorvido via óculos de comunicação. Originalmente um reprogramador humano, agora usado para estimulação direta de prazer. Viciante — a abstinência bloqueia acesso a habilidades e traços aleatórios.</p>"
-    },
 
     "Glitter Ball": {
       "name": "Bola de Glitter",
-      "description": "<p>Orbe disco flutuante do Há Muito Tempo. Segue instruções simples.</p><p>L0</p>"
+      "description": "<p>Orbe disco flutuante do Há Muito Tempo. Segue instruções simples.</p><p>N0</p>"
     },
 
     "Godbone Exoskeleton": {
       "name": "Exoesqueleto de Osso Divino",
-      "description": "<p>Armadura de golem grotesca, reabastecida com seus dados heróicos.</p><p><strong>Queima:</strong> ganhe +20 vida temporária e +3 força.</p><p><em>Como ação livre, você pode ativar o modo queima pelo resto da cena fazendo uma rolagem de uso [[/r d20]]. Ative o efeito ativo Modo de Queima para receber os bônus.</em></p>",
+      "description": "<p>Armadura de golem grotesca, reabastecida com seus dados heroicos.</p><p><strong>Queima:</strong> ganhe +20 vida temporária e +3 força.</p><p><em>Ative o efeito ativo Modo de Queima para receber os bônus.</em></p>",
       "effects": {
         "Burn Mode": {
           "name": "Modo de Queima",
@@ -621,7 +613,7 @@
 
     "Golem Steed": {
       "name": "Corcel Golem",
-      "description": "<p>Cuspindo fogo, queimando como um elemental de cinzas. Avança como um caminhão.</p><p>L3, capacidade 3</p>"
+      "description": "<p>Cospe fogo, queima como um elemental de cinzas. Avança como um caminhão.</p><p>N3, capacidade 3</p>"
     },
 
     "Golemechanic Kit": {
@@ -679,10 +671,6 @@
       "description": "<p>Macacão robusto listrado de trabalho externo com controle climático embutido para calor e frio extremos.</p>"
     },
 
-    "Healmachine": {
-      "name": "Máquina de Cura",
-      "description": "<p>Restaura [[/r 2d8]] de vida a uma máquina. Repara danos cosméticos em veículos.</p>"
-    },
 
     "Hedonic Accumulator": {
       "name": "Acumulador Hedônico",
@@ -695,7 +683,7 @@
 
     "Holy Human Herbs": {
       "name": "Ervas Humanas Sagradas",
-      "description": "<p>Queime-as para criar um espaço sagrado e expulsar demônios.</p>"
+      "description": "<p>Queime-as para criar um espaço sagrado e expulsar daemons.</p>"
     },
 
     "Hunting Lance": {
@@ -739,7 +727,7 @@
     },
 
     "Leatherman Suit": {
-      "name": "Traje Couro Vivo",
+      "name": "Traje Homem-de-Couro",
       "description": "<p>Esconde seus ossos. Parecer um golem de couro é melhor?</p>"
     },
 
@@ -750,12 +738,12 @@
 
     "Limousine Golem": {
       "name": "Golem Limusine",
-      "description": "<p>Máquina viva elegante para projetar gravitas. Apenas estradas.</p><p>L4, capacidade 6</p>"
+      "description": "<p>Máquina viva elegante para projetar gravitas. Apenas estradas.</p><p>N4, capacidade 6</p>"
     },
 
     "Little Pyramid": {
       "name": "Pequena Pirâmide",
-      "description": "<p>Uma pequena múmia (L6, gemendo) dentro! Quebre a pirâmide para libertá-la…</p>"
+      "description": "<p>Uma pequena múmia (N6, gemendo) dentro! Quebre a pirâmide para libertá-la…</p>"
     },
 
     "Living Shoes": {
@@ -775,7 +763,7 @@
 
     "Lucky Bone Orb": {
       "name": "Orbe Ósseo da Sorte",
-      "description": "<p>Você suspeita que foi de seu criador. Anos de memória no seu bolso o poliram até virar uma esfera. Acometido por más vibrações.</p>"
+      "description": "<p>Você suspeita que foi de seu criador. Anos na sua bolsa de memórias o poliram até virar uma esfera. Acometido por más vibrações.</p>"
     },
 
     "Machination Kit": {
@@ -785,7 +773,7 @@
 
     "Maintain Bracelet": {
       "name": "Bracelete de Manutenção",
-      "description": "<p>Marca o usuário como morto-vivo para criaturas mortas-vivas.</p>"
+      "description": "<p>Marca o usuário como desmorto para criaturas desmortas.</p>"
     },
 
     "Master Eyeball": {
@@ -810,7 +798,7 @@
 
     "Metal Steed": {
       "name": "Corcel Metálico",
-      "description": "<p>Ruge como trovão, brilha como um elemental de cromo.<br />L2, cap 2, rápido</p>"
+      "description": "<p>Ruge como trovão, brilha como um elemental de cromo.<br />N2, cap 2, rápido</p>"
     },
 
     "Metapills": {
@@ -845,7 +833,7 @@
 
     "Motogolem": {
       "name": "Motogolem",
-      "description": "<p>Chamado Harm. Elétrico — alimente com omnibaterias.</p><p>L2, cap 2, rápido</p>"
+      "description": "<p>Chamado Harm. Elétrico — alimente com omnibaterias.</p><p>N2, cap 2, rápido</p>"
     },
 
     "Motor Chung": {
@@ -855,7 +843,7 @@
 
     "Nip Lotion": {
       "name": "Loção de Erva-Gato",
-      "description": "<p>Faz você cheirar bem para os Senhores-Gato.</p>",
+      "description": "<p>Faz você cheirar bem para os Senhores Felinos.</p>",
       "effects": {
         "+2 Charisma": {
           "name": "+2 Carisma"
@@ -880,7 +868,7 @@
 
     "Nu-Face Mk III": {
       "name": "Nu-Face Mk III",
-      "description": "<p>Um rosto perfeitamente esculpido e composto. Remova-o para revelar seu crânio, músculos sintéticos e pontos rígidos de titânio.</p>",
+      "description": "<p>Um rosto perfeitamente esculpido e sereno. Remova-o para revelar seu crânio, músculos sintéticos e pontos rígidos de titânio.</p>",
       "effects": {
         "+1 Cha": {
           "name": "+1 Car"
@@ -895,12 +883,12 @@
 
     "Odd Lock Picks": {
       "name": "Gazuas Estranhas",
-      "description": "<p>Bem gastas. Abrem portas e quebram cérebros de roteamento de autômatos-golem.</p>"
+      "description": "<p>Bem gastas. Abrem portas e quebram cérebros de roteamento de autogolens.</p>"
     },
 
     "Old Friend's Head": {
       "name": "Cabeça de um Velho Amigo",
-      "description": "<p>Conservada em picles por feitiçaria sombria. Possui uma perícia que você não tem. Uma vez por dia, gaste um dado heróico e ela devora uma magia — impedindo que um poder nocivo o afete. Para todos, exceto você, é apenas a perturbadora cabeça encolhida de algum bárbaro fracassado sem nome.</p>",
+      "description": "<p>Conservada em picles por feitiçaria sombria. Possui uma perícia que você não tem. Uma vez por dia, gaste um dado heroico e ela devora uma magia — impedindo que um poder nocivo o afete. Para todos, exceto você, é apenas a perturbadora cabeça encolhida de algum bárbaro fracassado sem nome.</p>",
       "effects": {
         "+1 Ward": {
           "name": "+1 Égide"
@@ -935,7 +923,7 @@
 
     "Omnifleisch": {
       "name": "Omnicarne",
-      "description": "<p>Alimento universal para mortos-vivos da marca Syntetik™. Mantém todos com aparência fresca!</p>"
+      "description": "<p>Alimento universal para desmortos da marca Syntetik™. Mantém todos com aparência fresca!</p>"
     },
 
     "One Pound of Living Flesh": {
@@ -959,7 +947,7 @@
 
     "Patchflesh Parasite": {
       "name": "Parasita Remenda-Carne",
-      "description": "<p>Conserto temporário. Recupere [[/r 2d8]] + nível de vida ou [[/r 1d4]]+1 de dano em atributo, mas sofra 1 fardo. Remove-se com sal. Viciante.</p><p><strong>Características:</strong> uso único</p>"
+      "description": "<p>Conserto temporário. Recupere [[/r 2d8]] + nível de vida ou [[/r 1d4]]+1 de dano em atributo, mas sofra 1 fardo. Remove-se com sal. Viciante.</p><p>Uso único.</p>"
     },
 
     "Personal Daemon": {
@@ -968,8 +956,8 @@
     },
 
     "Pet Bird": {
-      "name": "Pássaro de Estimação",
-      "description": "<p>De espécie desconhecida. Linguagem imunda.</p>"
+      "name": "Ave de Estimação",
+      "description": "<p>De espécie desconhecida. Linguagem imunda.</p><p>@UUID[Compendium.sdm.creatures.Actor.xZz01Pwo5OsPcUXe]{Ave de Estimação}</p>"
     },
 
     "Photomeme": {
@@ -999,7 +987,7 @@
 
     "Plug-In Chimeric": {
       "name": "Quimérico Plugável",
-      "description": "<p>Animal de carga híbrido com cabeça em cúpula e descarga elétrica.</p><p>N5, capacidade 3</p>"
+      "description": "<p>Cargofera híbrida com cabeça em cúpula e descarga elétrica.</p><p>N5, capacidade 3</p>"
     },
 
     "Pointy Helmet": {
@@ -1014,7 +1002,7 @@
 
     "Poly-Ocular Visor": {
       "name": "Visor Poliocular",
-      "description": "<p>Com três olhos removíveis. Role-os, pose-os, cole-os na parede.</p><p>alcance longo</p>"
+      "description": "<p>Com três olhos removíveis. Role-os, pose-os, cole-os na parede.</p>"
     },
 
     "Portable Shadow": {
@@ -1024,7 +1012,7 @@
 
     "Potted Plant": {
       "name": "Planta em Vaso",
-      "description": "<p>A primeira forma de vida que você encontrou após despertar em uma estrela morta e veloz.</p>"
+      "description": "<p>A primeira forma de vida que você encontrou após despertar em uma nave estelar morta.</p>"
     },
 
     "Pouch of Rubies": {
@@ -1081,7 +1069,7 @@
     },
     "Ring of Divisibility": {
       "name": "Anel da Divisibilidade",
-      "description": "<p>Gaste 1 ponto de vida para se dividir em duas cópias de meio-tamanho. Dura vários minutos. Parece estranho.</p>"
+      "description": "<p>Gaste 1 de vida para se dividir em duas cópias de meio-tamanho. Dura vários minutos. Parece estranho.</p>"
     },
     "Rotblood Scent": {
       "name": "Perfume de Sangue Podre",
@@ -1093,11 +1081,11 @@
     },
     "Round Door Shield": {
       "name": "Escudo Porta Redonda",
-      "description": "<p>Tecido vivo sobre nervuras de cristal translúcido. Ele sempre se regenera dentro de uma semana após ser destruído. Colocado em uma porta, forma uma vedação hermética. Provavelmente de um navio do vácuo morto.</p>"
+      "description": "<p>Tecido vivo sobre nervuras de cristal translúcido. Ele sempre se regenera dentro de uma semana após ser destruído. Colocado em uma porta, forma uma vedação hermética. Provavelmente de uma nave do vácuo morta.</p>"
     },
     "Ruffle Coat": {
       "name": "Casaco de Babados",
-      "description": "<p>O casaco socialmente aceitável, seu silksteel protege como couro. Os bolsos de estilo de vida refinado oferecem 7 mochilas de inventário grátis.</p>",
+      "description": "<p>O casaco socialmente aceitável, seu aço-seda protege como couro. Os bolsos de estilo de vida refinado oferecem 7 mochilas de inventário grátis.</p>",
       "effects": {
         "+7 small item slots": {
           "name": "+7 espaços para itens pequenos"
@@ -1111,11 +1099,11 @@
 
     "Sacribracers": {
       "name": "Braçadeiras do Sacro",
-      "description": "<p>Jogue um dado heróico para sofrer o dobro desse dano no lugar de um aliado.</p>"
+      "description": "<p>Jogue um dado heroico para sofrer o dobro desse dano no lugar de um aliado.</p>"
     },
     "Sacrificial Robes": {
       "name": "Vestes Sacrificiais",
-      "description": "<p>Para enfrentar deuses no templo e demônios no campo de batalha.</p>",
+      "description": "<p>Para enfrentar deuses no templo e daemons no campo de batalha.</p>",
       "effects": {
         "+2 Ward": {
           "name": "+2 Égide"
@@ -1163,7 +1151,7 @@
     },
     "Second Skin": {
       "name": "Segunda Pele",
-      "description": "<p>Sin-tecido ligado por força, capaz de suportar o vácuo. Usável por baixo de outra armadura.</p>"
+      "description": "<p>Tecido sintético ligado por força, capaz de suportar o vácuo. Usável por baixo de outra armadura.</p>"
     },
     "Sensory Overloader": {
       "name": "Sobrecarregador Sensorial",
@@ -1175,7 +1163,7 @@
     },
     "Shipgun": {
       "name": "Arma de Nave",
-      "description": "<p>Destroçador de carne de curto alcance que não danifica um casco do vácuo. Causa triplo de dano em alvos desarmados.</p>"
+      "description": "<p>Destroçador de carne de curto alcance que não danifica um casco do vácuo. Causa triplo de dano em alvos sem armadura.</p>"
     },
     "Shipsteel Stiletto": {
       "name": "Estilete de Aço de Nave",
@@ -1209,7 +1197,7 @@
     },
     "Smart Lubricants": {
       "name": "Lubrificantes Inteligentes",
-      "description": "<p>Minúsculos animalculos sintéticos lubrificam suas juntas e reduzem o desgaste. Cada dose remove 1 fardo de golem.</p>"
+      "description": "<p>Minúsculos animálculos sintéticos lubrificam suas juntas e reduzem o desgaste. Cada dose remove 1 fardo de golem.</p>"
     },
     "DRXGqZHIoZtTqWVm": {
       "name": "Corda Inteligente",
@@ -1246,7 +1234,7 @@
     },
     "Spirit Hand": {
       "name": "Mão Espiritual",
-      "description": "<p>Terceira mão ectoplasmática ancorada em sua aura. Ocupa um espaço de traço.</p><p><strong>Cost:</strong> €375</p>"
+      "description": "<p>Terceira mão ectoplasmática ancorada em sua aura. Ocupa um espaço de traço.</p><p><strong>Custo:</strong> €375</p>"
     },
     "Spotted Lion's Cloak": {
       "name": "Manto do Leão Malhado",
@@ -1269,10 +1257,6 @@
       "name": "Cama Vertical",
       "description": "<p>Uma armação de aço tubular para se apoiar e descansar enquanto 'fica de vigia'.</p>"
     },
-    "Stone": {
-      "name": "Pedra",
-      "description": "<p>A primeira arma do homem. Pode ser sintética.</p>"
-    },
     "Stranger in a Bottle": {
       "name": "Estranho numa Garrafa",
       "description": "<p>Uma pessoa sintética com memórias falsas presa em uma superposição de improbabilidade. Use-a para injetar alguma personalidade em uma casca oca ou golem básico. É uma pessoa falsa, certo? Certo?!</p>"
@@ -1292,7 +1276,7 @@
 
     "Swagger Stick (*BILI Brand)": {
       "name": "Bengala de Postura (*Marca BILI)",
-      "description": "<p>Um tradutor de microfissão espiritual permite que você gaste 1 ponto de vida para causar [[/r 1d12]] de dano com esta elegante bengala.</p>"
+      "description": "<p>Um tradutor de microfissão espiritual permite que você gaste 1 de vida para causar [[/r 1d12]] de dano com esta elegante bengala.</p>"
     },
     "Synthetic Subsystem": {
       "name": "Subsistema Sintético",
@@ -1300,7 +1284,7 @@
     },
     "The Hard Ring": {
       "name": "O Anel Duro",
-      "description": "<p>Você é um anel e não ocupa inventário. Você é feito de (role [[/r 1d6]]): (1) lágrimas petrificadas, (2) marfim gravado, (3) ouro cintilante, (4) gelo negro, (5) prata sangrenta, ou (6) luz capturada. Você não causa dano sozinho, mas pode usar a vida e habilidades do seu portador para alimentar seus poderes ou causar dano diretamente. Você ganha o poder @UUID[Compendium.sdm.equipment.Item.qryBY1xnpWKC9NSk]{Suspenso na Luz}. Liste-o no seu inventário de itens.</p>"
+      "description": "<p>Você é um anel e não ocupa inventário. Você é feito de (role [[/r 1d6]]): (1) lágrimas petrificadas, (2) marfim gravado, (3) ouro cintilante, (4) gelo negro, (5) prata sangrenta, ou (6) luz capturada. Você não causa dano sozinho, mas pode usar a vida e habilidades do seu portador para alimentar seus poderes ou causar dano diretamente. Você ganha o poder @UUID[Compendium.sdm.powers.Item.qryBY1xnpWKC9NSk]{Suspenso na Luz}. Liste-o no seu inventário de itens.</p>"
     },
     "The Humblest of Tools": {
       "name": "A Mais Humilde das Ferramentas",
@@ -1321,7 +1305,7 @@
     },
     "Tikker Clicker": {
       "name": "Clicador Tikker",
-      "description": "<p>Um relógio antigo que vibra e zumbida quando detecta energias corruptoras. Concede bônus contra corrupção.</p>"
+      "description": "<p>Um relógio antigo que vibra e zumbe quando detecta energias corruptoras. Concede bônus contra corrupção.</p>"
     },
     "Tinkling Shoes": {
       "name": "Sapatos Tilintantes",
@@ -1353,7 +1337,7 @@
     },
     "Twilight Shades": {
       "name": "Óculos do Crepúsculo",
-      "description": "<p>Wraparounds de visão noturna 360° para boates e florestas profundas.</p>"
+      "description": "<p>Óculos envolventes de visão noturna 360° para boates e florestas profundas.</p>"
     },
     "Umbrella Gun": {
       "name": "Guarda-Chuva-Arma",
@@ -1361,11 +1345,11 @@
     },
     "Ur Gun": {
       "name": "Ur-Arma",
-      "description": "<p>Você é o ideal platônico da arma. Sua precisão é incomparável. Você se encaixa em qualquer mão como se tivesse sido feito para ela—porque foi. Suas balas condensam-se do reino cármico insubstancial entre o aqui e o não-aqui. Você é o julgamento dos deuses. Você se importa que seu portador perecerá por sua bala providencial? Pode? O que é um mortal comparado ao grande propósito? Qualquer ataque rolado com você é um acerto crítico em um resultado natural 13 ou um natural 20. Se um natural 13 erraria seu alvo pretendido, o acerto crítico atinge o alvo razoável mais próximo (incluindo aliados) em seu lugar.</p>"
+      "description": "<p>Você é o ideal platônico da arma. Sua precisão é incomparável. Você se encaixa em qualquer mão como se tivesse sido feito para ela—porque foi. Suas balas condensam-se do reino cármico insubstancial entre o aqui e o não-aqui. Você é o julgamento dos deuses. Você se importa que seu portador perecerá por sua bala providencial? Pode? O que é um mortal comparado ao grande propósito? Qualquer ataque rolado com você é um acerto crítico em um 13 natural ou um 20 natural. Se um 13 natural erraria seu alvo pretendido, o acerto crítico atinge o alvo razoável mais próximo (incluindo aliados) em seu lugar.</p>"
     },
     "Vicious Bird": {
       "name": "Ave Cruel",
-      "description": "<p>Este pet não é amigo de ninguém. Xinga como um marinheiro estelar.</p><p>@UUID[Compendium.sdm.creatures.Actor.NmWt8PHA0INeZhnO]{Ave Cruel} N1, 6 de vida</p>"
+      "description": "<p>Este mascote não é amigo de ninguém. Xinga como um marinheiro estelar.</p><p>@UUID[Compendium.sdm.creatures.Actor.NmWt8PHA0INeZhnO]{Ave Cruel} N1, 6 de vida</p>"
     },
     "Vidy Unity Box": {
       "name": "Caixa de Unidade Vidy",
@@ -1426,7 +1410,7 @@
     },
     "Zunkwaffel Wandgun": {
       "name": "Varinha-Arma Zunkwaffel",
-      "description": "<p>A pistola de supressão de mortos-vivos interrompe temporariamente sua força animadora (salvaguarda ou nocauteado por um minuto).</p>"
+      "description": "<p>A pistola de supressão de desmortos interrompe temporariamente sua força animadora (salvaguarda ou nocauteado por um minuto).</p>"
     }
   }
 }

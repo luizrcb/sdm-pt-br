@@ -57,12 +57,12 @@
       "description": "<p>Cravejado de joias, com funções de data, temporizador, alarme, fuso horário e anotações.</p>"
     },
     "Clicker Casket": {
-      "name": "Caixão Clicker",
-      "description": "<p>Detector portátil de 17 tipos de raios mágicos e mundanos. Alcance médio.</p>"
+      "name": "Estojo Clicador",
+      "description": "<p>Detector portátil de 17 tipos de raios mágicos e mundanos.</p>"
     },
     "Climbing Gear": {
       "name": "Apetrechos de Escalada",
-      "description": "<p>Pontas, cordas, cintos, mosquetões, haste estática.</p>"
+      "description": "<p>Grampos, cordas, cintos, mosquetões, haste estática.</p>"
     },
     "Control Choke": {
       "name": "Controle de Estrangulamento",
@@ -70,7 +70,7 @@
     },
     "Credenticard": {
       "name": "Credencicard",
-      "description": "<p>ID gerativa simpática. A opção de falsificação sempre convincente.</p>"
+      "description": "<p>ID generativa simpática. A opção de falsificação sempre convincente.</p>"
     },
     "Dampsound Shoes": {
       "name": "Sapatos Abafa-Som",
@@ -86,11 +86,11 @@
     },
     "Distraction Projector": {
       "name": "Projetor de Distração",
-      "description": "<p>Holográfico. Alcance curto.</p>"
+      "description": "<p>Holográfico.</p>"
     },
     "Ear Jewels": {
       "name": "Joias Auriculares",
-      "description": "<p>Seis para comunicação de equipe criptografada. Jarro de recarga. Microfone ruim. Longo alcance.</p>"
+      "description": "<p>Seis para comunicação de equipe criptografada. Jarro de recarga. Microfone ruim.</p>"
     },
     "Ear Slug": {
       "name": "Lesma Auricular",
@@ -136,7 +136,7 @@
     },
     "Holomap": {
       "name": "Holomapa",
-      "description": "<p>Esqueça mapear enquanto rasteja por instalações! Rastreamento automático 4D. Alcance médio.</p>"
+      "description": "<p>Esqueça mapear enquanto rasteja por instalações! Rastreamento automático 4D.</p>"
     },
     "Hyper Adhesive": {
       "name": "Hiperadesivo",
@@ -160,7 +160,7 @@
     },
     "Microgolem": {
       "name": "Microgolem",
-      "description": "<p>Rastreador de vigilância remota. Voador custa €200. Longo alcance.</p>"
+      "description": "<p>Rastreador de vigilância remota. Voador custa €200.</p>"
     },
     "Multi-Auto Tool": {
       "name": "Ferramenta Multi-Auto",
@@ -192,7 +192,7 @@
     },
     "Portable EM Pulser": {
       "name": "Pulso EM Portátil",
-      "description": "<p>Desativa temporariamente golems e sintéticos (salvaguarda). Alcance curto.</p>"
+      "description": "<p>Desativa temporariamente golens e sintéticos (salvaguarda).</p>"
     },
     "Portable Illusion": {
       "name": "Ilusão Portátil",
@@ -212,7 +212,7 @@
     },
     "Signal Jammer": {
       "name": "Bloqueador de Sinal",
-      "description": "<p>Configure para bloquear comunicações eletromagnéticas e psíquicas. Alcance e área médios.</p>"
+      "description": "<p>Configure para bloquear comunicações eletromagnéticas e psíquicas.</p>"
     },
     "IlzXc8yjw6NbeJlD": {
       "name": "Corda Inteligente",
@@ -239,7 +239,7 @@
       "description": "<p>Este escaravelho se prende ao seu pescoço com tarsais agarradinhos.</p>"
     },
     "Void Thermos": {
-      "name": "Termos do Vácuo",
+      "name": "Garrafa Térmica do Vácuo",
       "description": "<p>Vedações de vácuo perfeito mantêm chá, sopa ou biopasta™ da MÃE quente por uma semana.</p>"
     },
     "Wall-Blender": {

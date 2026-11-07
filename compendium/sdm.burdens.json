@@ -43,15 +43,6 @@
           "name": "-1 inteligência"
         }
       }
-    },
-    "Wear and tear": {
-      "name": "Desgaste",
-      "description": "<p>Sua vida máxima é reduzida pelo seu nível.<br />(<em>Edite o valor com seu nível na aba de efeitos ativos)</em></p>",
-      "effects": {
-        "Wear and tear": {
-          "name": "Desgaste"
-        }
-      }
     }
   }
 }
