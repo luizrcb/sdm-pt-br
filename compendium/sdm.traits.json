@@ -172,10 +172,11 @@
       "description": "<p>Seu próprio sangue se rebela contra os truques dos falsos deuses. Ganhe 2 de vida por nível, mas o preço que você paga por magias velhatec e fantasciência é dobrado.</p><p><em>Atualize o efeito ativo <strong>Vida Bônus</strong> toda vez que seu personagem subir de nível.</em></p>",
       "effects": {
         "Double power cost": {
-          "name": "Custo de power dobrado"
+          "name": "Custo de poder dobrado"
         },
         "Bonus Life (lvl x2)": {
-          "name": "Vida Bônus (Nível x2)"
+          "name": "Vida Bônus (Nível x2)",
+          "description": "<p>Atualize o valor deste efeito sempre que o nível do seu personagem subir!</p>"
         }
       }
     },
@@ -453,7 +454,8 @@
       "description": "<p>Habilidoso em manter os cidadãos mortos. Repare e melhore os desmortos, converse com eles, conheça seus modos e necessidades. Além disso, um bônus em salvaguardas contra todos os ataques especiais de desmortos.</p><p><em>Ative o Efeito Ativo <strong>Mantenedor de Cidadãos</strong> para obter o bônus em testes.</em></p>",
       "effects": {
         "Citizen Maintainer": {
-          "name": "Mantenedor de Cidadãos"
+          "name": "Mantenedor de Cidadãos",
+          "description": "<p>Bônus em todas as salvaguardas contra ataques especiais de mortos-vivos.</p>"
         }
       }
     },

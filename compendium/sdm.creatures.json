@@ -14,7 +14,8 @@
         "tokenName": "Ave de Estimação",
         "effects": {
           "Small Actor": {
-            "name": "Ator Pequeno"
+            "name": "Ator Pequeno",
+            "description": "<p>Efeito ativo para atores que pesam um décimo (1 mochila) de um humano padrão (1 saca ou 10 mochilas).</p>"
           }
         }
     },
@@ -23,7 +24,8 @@
         "tokenName": "Serpente-Lança",
         "effects": {
           "Medium Actor": {
-            "name": "Ator Médio"
+            "name": "Ator Médio",
+            "description": "<p>Efeito ativo para atores que pesam a metade (5 mochilas) de um humano padrão (1 saca ou 10 mochilas).</p>"
           }
         }
     },
@@ -33,7 +35,8 @@
         "biography": "<p>Este mascote não é amigo de ninguém. Xinga como um marinheiro estelar.<br /></p>",
         "effects": {
           "Small Actor": {
-            "name": "Ator Pequeno"
+            "name": "Ator Pequeno",
+            "description": "<p>Efeito ativo para atores que pesam um décimo (1 mochila) de um humano padrão (1 saca ou 10 mochilas).</p>"
           }
         }
     }
