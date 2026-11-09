@@ -455,7 +455,7 @@
       "effects": {
         "Citizen Maintainer": {
           "name": "Mantenedor de Cidadãos",
-          "description": "<p>Bônus em todas as salvaguardas contra ataques especiais de mortos-vivos.</p>"
+          "description": "<p>Bônus em todas as salvaguardas contra ataques especiais de desmortos.</p>"
         }
       }
     },
