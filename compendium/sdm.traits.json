@@ -49,7 +49,7 @@
     },
     "0. Fighter": {
       "name": "0. Combatente",
-      "description": "<p>Você se chama guardião, guerreiro ou mestre de armas.</p><p>Você é habilidoso no uso de armas e armaduras tradicionais; de faca a espada, disparador a rifle, escudo de quitina a arnês amortecedor.</p><p>Além disso, você é habilidoso em defesa. Isso é um bônus de +3 em defesa e ataque. Especialista: +6; mestre: +9.</p><p><em>(atualize o bônus de defesa na aba de efeitos conforme este nível de perícia aumenta)</em></p>",
+      "description": "<p>Você se chama guardião, guerreiro ou mestre de armas.</p><p>Você é habilidoso no uso de armas e armaduras tradicionais; de faca a espada, disparador a rifle, escudo de quitina a arnês amortecedor.</p><p>Além disso, você é habilidoso em defesa. Isso é um bônus de +3 em defesa e ataque. Especialista: +6; mestre: +9.</p>",
       "effects": {
         "Skilled at Defense": {
           "name": "Treinado em Defesa"
@@ -116,7 +116,7 @@
     },
     "0. Soldier": {
       "name": "0. Soldado",
-      "description": "<p>Você serviu nas não-guerras na fronteira do tempo. Você conhece as armas e armaduras do regulamento; varinha-arma e escudo, lâmina e traje de combate. Você ganha +2 de defesa (+4 como especialista, +6 como mestre). <em>Atualize o efeito ativo de <strong>Bônus de Defesa</strong> quando este nível de perícia subir.</em></p><p>Além disso, quando um aliado fica ao seu lado, ele adiciona seu carisma à sua pontuação de defesa.</p><p><em>Seus aliados devem usar um efeito ativo para aumentar sua defesa com seu valor de carisma atual. (Edite o efeito ativo <strong>Bônus de Defesa de Aliado</strong> e deixe-o inativo em sua ficha. Arraste e solte o efeito ativo <strong>Bônus de Defesa de Aliado</strong> na ficha do personagem de seu Aliado).</em></p>",
+      "description": "<p>Você serviu nas não-guerras na fronteira do tempo. Você conhece as armas e armaduras do regulamento; varinha-arma e escudo, lâmina e traje de combate. Você ganha +2 de defesa (+4 como especialista, +6 como mestre).</p><p>Além disso, quando um aliado fica ao seu lado, ele adiciona seu carisma à sua pontuação de defesa.</p><p><em>Seus aliados devem usar um efeito ativo para aumentar sua defesa com seu valor de carisma atual. (Edite o efeito ativo <strong>Bônus de Defesa de Aliado</strong> e deixe-o inativo em sua ficha. Arraste e solte o efeito ativo <strong>Bônus de Defesa de Aliado</strong> na ficha do personagem de seu Aliado).</em></p>",
       "effects": {
         "Defense Bonus": {
           "name": "Bônus de Defesa"
@@ -169,14 +169,13 @@
     },
     "1. Antimagus": {
       "name": "1. Antimago",
-      "description": "<p>Seu próprio sangue se rebela contra os truques dos falsos deuses. Ganhe 2 de vida por nível, mas o preço que você paga por magias velhatec e fantasciência é dobrado.</p><p><em>Atualize o efeito ativo <strong>Vida Bônus</strong> toda vez que seu personagem subir de nível.</em></p>",
+      "description": "<p>Seu próprio sangue se rebela contra os truques dos falsos deuses. Ganhe 2 de vida por nível, mas o preço que você paga por magias velhatec e fantasciência é dobrado.</p>",
       "effects": {
         "Double power cost": {
           "name": "Custo de poder dobrado"
         },
         "Bonus Life (lvl x2)": {
-          "name": "Vida Bônus (Nível x2)",
-          "description": "<p>Atualize o valor deste efeito sempre que o nível do seu personagem subir!</p>"
+          "name": "Vida Bônus (Nível x2)"
         }
       }
     },
@@ -367,7 +366,7 @@
     },
     "2. Defender": {
       "name": "2. Defensor",
-      "description": "<p>Você é habilidoso em defesa física e todos os tipos de equipamento defensivo. Além disso, mesmo sem armadura, ganhe um bônus de armadura +3. Especialista: +6 de armadura; mestre: +9 de armadura.</p><p><em>(atualize o bônus de armadura na aba de efeitos quando este nível de perícia aumentar)</em></p>",
+      "description": "<p>Você é habilidoso em defesa física e todos os tipos de equipamento defensivo. Além disso, mesmo sem armadura, ganhe um bônus de armadura +3. Especialista: +6 de armadura; mestre: +9 de armadura.</p>",
       "effects": {
         "armor bonus": {
           "name": "bônus de armadura"
@@ -533,7 +532,7 @@
     },
     "3. Hunter": {
       "name": "3. Caçador",
-      "description": "<p>Rastreie, prenda e atire em caça com arco, rifle e dardo. Esconda-se na natureza, mova-se despercebido. Quando você atira de uma emboscada, seus acertos críticos causam triplo em vez de dano duplo. Especialista: x4; mestre: x5.</p><p>(edite o valor na aba de efeitos para 4 ou 5 quando o nível de perícia aumentar)</p>",
+      "description": "<p>Rastreie, prenda e atire em caça com arco, rifle e dardo. Esconda-se na natureza, mova-se despercebido. Quando você atira de uma emboscada, seus acertos críticos causam triplo em vez de dano duplo. Especialista: x4; mestre: x5.</p>",
       "effects": {
         "improved critical": {
           "name": "crítico aprimorado"
@@ -546,7 +545,7 @@
     },
     "3. Noösphere Native": {
       "name": "3. Nativo da noösfera",
-      "description": "<p>Você nasceu em uma geração conectada à noösfera. Você pode acessá-la e usá-la, mas você também adiciona seu bônus de perícia a todas as defesas na noösfera... e contra daemons em geral.</p><p><em>Atualize o efeito ativo <strong>Nativo da noösfera</strong> quando este nível de perícia subir. Ative o efeito ativo <strong>Nativo da noösfera</strong> quando estiver na noösfera.</em></p>",
+      "description": "<p>Você nasceu em uma geração conectada à noösfera. Você pode acessá-la e usá-la, mas você também adiciona seu bônus de perícia a todas as defesas na noösfera... e contra daemons em geral.</p><p><em>Ative o efeito ativo <strong>Nativo da noösfera</strong> quando estiver na noösfera.</em></p>",
       "effects": {
         "Noösphere Native": {
           "name": "Nativo da Noösfera"
@@ -693,7 +692,7 @@
     },
     "4. Pleasant": {
       "name": "4. Agradável",
-      "description": "<p>Conversa charmosa e um comportamento fácil. Você faz as pessoas gostarem de você.</p><p>Isso é +2 em rolagens de reação. Especialista: +4; mestre: +6.</p><p>(atualize o valor do bônus de reação na aba de efeitos quando este nível de perícia aumentar)</p>",
+      "description": "<p>Conversa charmosa e um comportamento fácil. Você faz as pessoas gostarem de você.</p><p>Isso é +2 em rolagens de reação. Especialista: +4; mestre: +6.</p>",
       "effects": {
         "reaction bonus": {
           "name": "bônus de reação"
@@ -1024,7 +1023,7 @@
     },
     "6. Veteran of the Psychic Wars": {
       "name": "6. Veterano das Guerras Psíquicas",
-      "description": "<p>Você lutou nas guerras dos ladrões de mentes com raio-laser e machete vibratória. Adicione seu bônus de perícia a salvaguardas contra encantamentos e controle mental. Além disso, sofra metade do dano de golpes mentais comuns, mas o dobro de acertos críticos mentais.</p><p>Ative o efeito ativo <em>Veterano das Guerras Psíquicas</em> para receber o bônus nas salvaguardas. Edite o valor do bônus.</p>",
+      "description": "<p>Você lutou nas guerras dos ladrões de mentes com raio-laser e machete vibratória. Adicione seu bônus de perícia a salvaguardas contra encantamentos e controle mental. Além disso, sofra metade do dano de golpes mentais comuns, mas o dobro de acertos críticos mentais.</p><p>Ative o efeito ativo <em>Veterano das Guerras Psíquicas</em> para receber o bônus nas salvaguardas.</p>",
       "effects": {
         "Veteran of the Psychic Wars": {
           "name": "Veterano das Guerras Psíquicas",

@@ -1176,11 +1176,10 @@
     },
     "Second Heart": {
       "name": "Segundo Coração",
-      "description": "<p>Um coração de reserva. Armazena vida roubada igual ao seu nível.</p><p><em>Use o efeito ativo para configurar system.temporary_life.max para o nível do seu personagem, toda vez que ele subir de nível.</em></p>",
+      "description": "<p>Um coração de reserva. Armazena vida roubada igual ao seu nível.</p>",
       "effects": {
         "Temporary Life": {
-          "name": "Vida Temporária",
-          "description": "<p>Ajuste <em>system.temporary_life.max</em> para o nível do seu personagem, toda vez que subir de nível.</p>"
+          "name": "Vida Temporária"
         }
       }
     },
