@@ -11,6 +11,10 @@
     "effects": {
       "path": "effects",
       "converter": "effectCollection"
+    },
+    "counters": {
+      "path": "system.counters",
+      "converter": "counterLabels"
     }
   },
   "entries": {
@@ -65,7 +69,7 @@
     },
     "Necrolexicon NEC": {
       "name": "Necroléxico NEC",
-      "description": "<p>Tomo não-vivo de magias ilegais da morte.</p><p><em><span style=\"text-decoration:underline\">Esta égide é um álbum de poder com bônus de efeito ativo</span></em></p>",
+      "description": "<p>Tomo não-vivo de magias ilegais da morte.</p>",
       "effects": {
         "ward +5": {
           "name": "Égide +5"
@@ -106,16 +110,20 @@
     },
     "Skull Garland": {
       "name": "Guirlanda de Crânios",
-      "description": "<p>Adicione o crânio de um amigo para aumentar os bônus em +1!</p>",
+      "counters": {"skulls": "Crânios"},
+      "description": "<p>Adicione o crânio de um amigo para aumentar os bônus em +1!</p><p><em>(conte os crânios no contador <strong>Crânios</strong>: +1 de égide cada)</em></p>",
       "effects": {
         "Skull (+2 armor)": {
           "name": "Crânio (+2 armadura)"
+        },
+        "Skull Garland": {
+          "name": "Guirlanda de Crânios"
         }
       }
     },
     "Tome of Metal B": {
       "name": "Tomo do Metal B",
-      "description": "<p>Tomo de poderes inscrito em aço e trovão.</p><p><em><span style=\"text-decoration:underline\">Esta égide é um álbum de poder com um efeito ativo de bônus de égide</span></em></p>",
+      "description": "<p>Tomo de poderes inscrito em aço e trovão.</p>",
       "effects": {
         "+3 ward": {
           "name": "+3 égide"

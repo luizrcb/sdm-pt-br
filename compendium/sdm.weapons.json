@@ -13,6 +13,10 @@
     "effects": {
       "path": "effects",
       "converter": "effectCollection"
+    },
+    "triggers": {
+      "path": "system.triggers",
+      "converter": "triggerTexts"
     }
   },
   "entries": {
@@ -23,6 +27,7 @@
 
     "Access Flenser": {
       "name": "Esfolador de Acesso",
+      "triggers": {"Give the target's soul one direct command (save vs extreme commands)": "Impõe uma ordem direta à alma do alvo (salvaguarda contra ordens extremas)"},
       "description": "<p>Esta lâmina fantasma menos letal corta camadas de ego e id.</p><p>Dano máximo: impõe uma ordem direta à alma do alvo (salvaguarda contra ordens extremas).</p>"
     },
 
@@ -44,11 +49,13 @@
 
     "Arzax Lance": {
       "name": "Lança Arzax",
+      "triggers": {"Stuns": "Atordoa"},
       "description": "<p>Lança de energia ultraleve. Pode colapsar em uma haste curta.</p><p>Atordoa em um 13 natural.</p>"
     },
 
     "Autoportal Conflux": {
       "name": "Confluência Autoportal",
+      "triggers": {"Re-materialization delay: roll on the Re-materialization delay table": "Atraso na rematerialização: role na tabela de Atraso de rematerialização"},
       "description": "<p>Dispara a si mesmo e ao usuário através de si, emergindo no destino com um estrondo. Em um 13 natural ocorre atraso na rematerialização (role d6).</p><p>@UUID[Compendium.sdm.rolltables.RollTable.CvZC0eXNX8sldMPP]{Atraso de rematerialização}</p>"
     },
 
@@ -90,6 +97,7 @@
 
     "Chain Sword": {
       "name": "Espada de Corrente",
+      "triggers": {"Decapitate": "Decapita"},
       "description": "<p>Uma arma elegante da época do grande erro de reencarnação.</p><p>Decapita com um 20 natural.</p>"
     },
 
@@ -105,6 +113,7 @@
 
     "Crystal Siege Rod": {
       "name": "Bastão de Cerco de Cristal",
+      "triggers": {"Breaks open doors": "Arromba portas"},
       "description": "<p>Amplificador de raio de desintegração alojado em um invólucro de latão e pau-brasil coberto de glifos. Um remanescente das guerras dos deuses vivos racionalistas.</p><p>Arromba portas se qualquer dado rolar um 6 natural.</p>"
     },
 
@@ -140,16 +149,19 @@
 
     "Fold-Field Array": {
       "name": "Matriz de Campo de Dobra",
+      "triggers": {"One target's skull folds in on itself instead": "O crânio de um alvo se dobra sobre si mesmo"},
       "description": "<p>Unidade \"Levi\" reaproveitada e danificada. Reduz as dimensões espaciais da área-alvo em 50%. Alvos ficam lentos e enfraquecidos (salvaguarda).</p><p>Em um 2 natural, o crânio de um alvo se dobra sobre si mesmo.</p>"
     },
 
     "c0H7EAxKMb1Ni1Oq": {
       "name": "Bastão de Urânio de Quarenta Libras",
+      "triggers": {"Stuns for 1 round": "Atordoa por 1 rodada"},
       "description": "<p>Cajado de heavy metal para um mago de heavy metal.</p><p>Atordoa por 1 rodada ao igualar dados de dano.</p>"
     },
 
     "Gate Daemon Actuator": {
       "name": "Atuador de Daemon do Portal",
+      "triggers": {"Bisects the target": "Bissecta o alvo"},
       "description": "<p>Antes usado para abrir portais de viagem, agora funciona como um par de tesouras gravitacionais.</p><p>Bissecta o alvo em um 13 natural. Também reorienta a gravidade em uma pequena área.</p>"
     },
 
@@ -166,6 +178,7 @@
 
     "Golem Killer": {
       "name": "Matador de Golem",
+      "triggers": {"Target mech shuts down for an hour": "O mecanismo-alvo desliga por uma hora"},
       "description": "<p>Emissor antimecânico cinza-alaranjado.</p><p>Rolagem de dano 13: o mecanismo-alvo desliga por uma hora.</p>"
     },
 
@@ -192,6 +205,7 @@
 
     "Lamarckian Needler": {
       "name": "Agulhador Lamarckiano",
+      "triggers": {"Corrupted": "Corrompido"},
       "description": "<p>Esta varinha-arma verde e carnosa transforma seu sangue em soro corruptor.</p><p>Dano máximo: corrompido.</p>"
     },
 
@@ -207,12 +221,14 @@
 
     "Mazing Crown": {
       "name": "Coroa Labiríntica",
+      "triggers": {"Target falls into a bubble maze dimension for a week": "O alvo cai em uma dimensão de bolha-labirinto por uma semana"},
       "description": "<p>Raios de sua joia-labirinto causam confusão (salvaguarda).</p><p>Dano mínimo: o alvo cai em uma dimensão de bolha-labirinto por uma semana.</p>"
     },
 
 
     "Mouth of the Void": {
       "name": "Boca do Vazio",
+      "triggers": {"Stops a heart": "Para um coração"},
       "description": "<p>Ouça a canção do cosmos, funda-se com seu terror existencial.</p><p>Criaturas adjacentes sofrem [[/r 1d6]] de dano. Para um coração em um 13 natural.</p>"
     },
 
@@ -228,6 +244,7 @@
 
     "Pleasure Thorn": {
       "name": "Espinho do Prazer",
+      "triggers": {"Paroxysms for 1 round": "Paroxismos por 1 rodada"},
       "description": "<p>Relacionado ao chicote neural, mas mais agradável. Incapacita com êxtase.</p><p>Paroxismos por 1 rodada em um 7 natural.</p>"
     },
 
@@ -237,10 +254,12 @@
     },
     "Radiothermal Horn": {
       "name": "Chifre Radiotérmico",
+      "triggers": {"Backfires": "Falha crítica"},
       "description": "<p>Emite radiação pesada. Causa doença (salvaguarda difícil). Falha crítica em um 1 natural. Funciona como um fogão portátil.</p>"
     },
     "Reality Flense": {
       "name": "Esfolamento da Realidade",
+      "triggers": {"Their mind breaks": "A mente dele quebra", "They permanently gain 1 aura": "Ele ganha permanentemente 1 ponto de aura"},
       "description": "<p>O alvo vislumbra a verdadeira natureza subjacente da realidade.</p><p>Em um 20 natural, a mente dele quebra. Em um 7 natural, ele permanentemente ganha 1 ponto de aura.</p>"
     },
     "Redland District Submachine Gun": {
@@ -289,6 +308,7 @@
     },
     "Telempathy Blaster": {
       "name": "Disparador de Telempatia",
+      "triggers": {"The target stops fighting for one round and tries to parley": "O alvo para de lutar por uma rodada e tenta parlamentar"},
       "description": "<p>Dispositivo psiquimédico reaproveitado. Dano mínimo: o alvo para de lutar por uma rodada e tenta parlamentar.</p>"
     },
     "Throwing Knife": {

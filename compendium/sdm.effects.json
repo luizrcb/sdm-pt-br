@@ -241,9 +241,9 @@
     },
     "(8) - Remapped": {
       "name": "(8) - Remapeado",
-      "description": "<p>Usa um atributo diferente para seus bônus de combate (ex.: aura para ataques corpo a corpo). Isso não é automatizado.</p><p><strong>Custo do Mod</strong>: €450</p>",
+      "description": "<p>Usa um atributo diferente para seus bônus de combate (ex.: aura para ataques corpo a corpo). Edite o atributo na aba de mudanças (ex.: <em>aur</em>, <em>str</em>).</p><p><strong>Custo do Mod</strong>: €450</p>",
       "changes": {
-        "system.description": "<p>Usa um atributo diferente para seus bônus de combate (ex.: aura para ataques corpo a corpo). Isso não é automatizado.</p>"
+        "system.description": "<p>Usa um atributo diferente para seus bônus de combate (ex.: aura para ataques corpo a corpo).</p>"
       }
     },
     "(9.0) - Vorpalization": {

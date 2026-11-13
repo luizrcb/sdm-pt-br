@@ -18,7 +18,7 @@
   "entries": {
     "Black Light Lotus": {
       "name": "Lótus de Luz Negra",
-      "description": "<p>Brilha no escuro, adorada por gatos. Ingerida, permite ignorar aflições mentais por uma semana. Fumada, induz sono profundo e restaura [[/r 1d6]] de vida. Aplicada à pele, libera feromônios alteradores da mente, concedendo +1 de Carisma por um dia. Viciante — abstinência causa câimbras e fome.</p><p><em>(use o efeito ativo para aumentar o Carisma)</em></p>",
+      "description": "<p>Brilha no escuro, adorada por gatos. Ingerida, permite ignorar aflições mentais por uma semana. Fumada, induz sono profundo e restaura [[/r 1d6]] de vida. Aplicada à pele, libera feromônios alteradores da mente, concedendo +1 de Carisma por um dia. Viciante — abstinência causa câimbras e fome.</p>",
       "effects": {
         "+1 cha": {
           "name": "+1 car"
@@ -53,7 +53,7 @@
 
     "ggUAeAA9W7BYMU2e": {
       "name": "Felix Whizz",
-      "description": "<p>Bebida energética popular. Concede +[[/r 1d4]] de vida, mas deixa você um pouco irritante.</p><p>Fracamente viciante — abstinência causa comportamento rabugento, irritadiço e desfocado.</p><p><em>(edite e use o efeito ativo para conceder o bônus de vida)</em></p>",
+      "description": "<p>Bebida energética popular. Concede +[[/r 1d4]] de vida, mas deixa você um pouco irritante.</p><p>Fracamente viciante — abstinência causa comportamento rabugento, irritadiço e desfocado.</p>",
       "effects": {
         "+ life": {
           "name": "+ vida"
@@ -68,7 +68,7 @@
 
     "Full-Heal Kit": {
       "name": "Kit de Cura Total",
-      "description": "<p>Regeneradores de amplo espectro reconstroem um membro perdido em poucos minutos. Atualizações OTA disponíveis para reconstruir órgãos adicionais.</p>"
+      "description": "<p>Regeneradores de amplo espectro reconstroem um membro perdido em poucos minutos. Atualizações OTA disponíveis para reconstruir órgãos adicionais.</p><p><em>Usar: recupera toda a vida perdida. Reconstruir um membro perdido (ou um órgão, com atualizações) remove esse fardo: o Mediador o remove à mão.</em></p>"
     },
 
     "Glitchvidy": {
@@ -201,7 +201,7 @@
 
     "Whiskers": {
       "name": "Bigodes",
-      "description": "<p>Expandem a mente, aumentam a percepção (inteligência +1), causam um efeito fraco de levitação e coordenação reduzida. Um tanto viciantes—a abstinência causa tremores fortes.</p><p><em>(use efeito ativo para aumentar inteligência)</em></p>",
+      "description": "<p>Expandem a mente, aumentam a percepção (inteligência +1), causam um efeito fraco de levitação e coordenação reduzida. Um tanto viciantes—a abstinência causa tremores fortes.</p>",
       "effects": {
         "+1 tho": {
           "name": "+1 int"
@@ -222,6 +222,22 @@
           "name": "-1 fardo"
         }
       }
+    },
+    "Healing Unguent": {
+      "name": "Unguento Curativo",
+      "description": "<p>Unguento curativo comum, vendido barato na maioria das cidades. Restaura [[/r 1d6]] de vida.</p>"
+    },
+    "Restorative Tonic": {
+      "name": "Tônico Restaurador",
+      "description": "<p>Um tônico restaurador amargo. Restaura 1 ponto de atributo, ou remove 1 fardo no lugar (o Mediador decide quais fardos ele pode aliviar).</p>"
+    },
+    "Medical Pack": {
+      "name": "Kit Médico",
+      "description": "<p>Kit médico incomum. Restaura [[/r 2d6]] de vida ou [[/r 1d3]] pontos de atributo.</p>"
+    },
+    "Full Heal Treatment": {
+      "name": "Tratamento de Cura Total",
+      "description": "<p>Tratamento de cura total. Restaura toda a vida e todos os pontos de atributo perdidos.</p><p><em>Um serviço, não algo que se carrega: compre e use na hora, na cidade.</em></p>"
     }
   }
 }

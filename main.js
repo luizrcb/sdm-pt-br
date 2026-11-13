@@ -70,6 +70,24 @@ Hooks.on("init", () => {
 
         return collection;
       },
+      // WTF counters (system.counters): { key: "translated label" }
+      counterLabels: (counters, translation) => {
+        if (!counters || !translation) return counters;
+        const result = foundry.utils.deepClone(counters);
+        for (const [key, label] of Object.entries(translation)) {
+          if (result[key]) result[key].label = label;
+        }
+        return result;
+      },
+      // WTF roll triggers (system.triggers): { "original text": "translated text" }
+      triggerTexts: (triggers, translation) => {
+        if (!Array.isArray(triggers) || !translation) return triggers;
+        return triggers.map((trigger) =>
+          translation[trigger.text] !== undefined
+            ? { ...trigger, text: translation[trigger.text] }
+            : trigger,
+        );
+      },
       activeEffectChanges: (originalChanges, translationChanges) => {
         return originalChanges.map((change) => {
           if (

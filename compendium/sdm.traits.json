@@ -32,6 +32,10 @@
     "effects": {
       "path": "effects",
       "converter": "effectCollection"
+    },
+    "counters": {
+      "path": "system.counters",
+      "converter": "counterLabels"
     }
   },
   "entries": {
@@ -86,11 +90,22 @@
     },
     "0. Purplelander": {
       "name": "0. Violetense",
-      "description": "<p>Da Terra Púrpura. Você é uma criação mágica suficientemente avançada para passar por humana. Habilidoso com maquinarias telementais e matempsíquicas. Empunhe as ferramentas das estepes recuperadas, de bólter a picareta. Além disso, você conta como pós-humano, concedendo-lhe um bônus de +3 contra efeitos que afetam humanos.</p><p><em>Este bônus de +3 não é automatizado</em></p>"
+      "description": "<p>Da Terra Púrpura. Você é uma criação mágica suficientemente avançada para passar por humana. Habilidoso com maquinarias telementais e matempsíquicas. Empunhe as ferramentas das estepes recuperadas, de bólter a picareta. Além disso, você conta como pós-humano, concedendo-lhe um bônus de +3 contra efeitos que afetam humanos.</p><p><em>Ative o efeito ativo <strong>Pós-humano</strong> contra efeitos que afetam humanos.</em></p>",
+      "effects": {
+        "Post-human": {
+          "name": "Pós-humano",
+          "description": "<p>+3 contra efeitos que afetam humanos.</p>"
+        }
+      }
     },
     "0. Redlander": {
       "name": "0. Rúbreo",
-      "description": "<p>Da Terra Vermelha. Você é um humano livre, refinado, destilado. Construa bunkers, cultive videiras e sele sua mente contra mentiras. Empunhe as armas da libertação divina: canhão e motosserra, martelo e foice.</p><p>Além disso, armaduras que você veste concedem +1 de defesa adicional por mochila.</p><p><em>(este bônus precisa ser configurado manualmente em seus itens de armadura)</em></p>"
+      "description": "<p>Da Terra Vermelha. Você é um humano livre, refinado, destilado. Construa bunkers, cultive videiras e sele sua mente contra mentiras. Empunhe as armas da libertação divina: canhão e motosserra, martelo e foice.</p><p>Além disso, armaduras que você veste concedem +1 de defesa adicional por mochila.</p>",
+      "effects": {
+        "Redlander": {
+          "name": "Rúbreo"
+        }
+      }
     },
     "0. Scion": {
       "name": "0. Herdeiro do Legado",
@@ -199,7 +214,7 @@
     },
     "1. Armorborn": {
       "name": "1. Nascido da Armadura",
-      "description": "<p>Qualquer armadura que você vista não ocupa espaço no inventário. A armadura lhe dá um bônus de defesa igual ao seu tamanho em mochilas.</p><p><em>(crie um efeito ativo em seus itens de armadura para adicionar um bônus de defesa igual ao seu tamanho em mochilas)</em></p>",
+      "description": "<p>Qualquer armadura que você vista não ocupa espaço no inventário. A armadura lhe dá um bônus de defesa igual ao seu tamanho em mochilas.</p>",
       "effects": {
         "Armsborn": {
           "name": "Nascido da Armadura"
@@ -212,7 +227,12 @@
     },
     "1. Boatmaster": {
       "name": "1. Mestre de Barcos",
-      "description": "<p>Você lida com barcos superlativamente. Você consegue acomodar um número extra de sacas igual ao seu nível num barco (mas não mais que o dobro de sua capacidade).</p><p><em>Você pode usar uma ficha de <strong>caravana</strong> para o barco</em></p>"
+      "description": "<p>Você lida com barcos superlativamente. Você consegue acomodar um número extra de sacas igual ao seu nível num barco (mas não mais que o dobro de sua capacidade).</p><p><em>Você pode usar uma ficha de <strong>caravana</strong> para o barco</em></p>",
+      "effects": {
+        "Boatmaster": {
+          "name": "Mestre de Barcos"
+        }
+      }
     },
     "1. Burglar": {
       "name": "1. Ladrão",
@@ -220,6 +240,7 @@
     },
     "1. Burner": {
       "name": "1. Queimador",
+      "counters": {"used": "Usado neste turno"},
       "description": "<p>Uma vez por turno, você pode gastar um ponto de atributo para sobrecarregar um poder, independentemente de seu custo</p>"
     },
     "1. Cad": {
@@ -276,10 +297,13 @@
     },
     "1. Grounded": {
       "name": "1. Aterrado",
-      "description": "<p>Uma vida sólida deixou você capaz de se livrar das pedradas e flechadas do infortúnio ultrajante. Ganhe +1 de aura ou inteligência.</p><p>Além disso, remova 1 fardo mental adicional quando você descansar.</p>",
+      "description": "<p>Uma vida sólida deixou você capaz de se livrar das pedradas e flechadas do infortúnio ultrajante. Ganhe +1 de aura ou inteligência.</p><p><em>(ative o efeito ativo <strong>Aterrado</strong> de sua escolha)</em></p><p>Além disso, remova 1 fardo mental adicional quando você descansar.</p>",
       "effects": {
-        "Grounded": {
-          "name": "Aterrado"
+        "Grounded (aura)": {
+          "name": "Aterrado (aura)"
+        },
+        "Grounded (thought)": {
+          "name": "Aterrado (inteligência)"
         }
       }
     },
@@ -289,6 +313,7 @@
     },
     "1. Hexad Member": {
       "name": "1. Membro da Hexade",
+      "counters": {"used": "Usado hoje"},
       "description": "<p>Você pertence a uma sociedade de autoajuda e conhece seus glifos e protocolos. Seu código-fonte foi modificado para lhe dar acesso a seu arsenal de autodefesa. Uma vez por dia, gaste 1 ponto de carisma para encontrar um contato em um distrito industrial.</p>"
     },
     "1. Hexer Meritocrat": {
@@ -297,6 +322,7 @@
     },
     "1. Personal Daimon": {
       "name": "1. Daemon Pessoal",
+      "counters": {"used": "Usado nesta sessão"},
       "description": "<p>Essência nímbica de um aureano dos tempos mais distantes, onde futuro e passado se encontram. Ele conhece histórias estranhas e, uma vez por sessão, permite que você narre uma reviravolta ou descoberta surpresa (\"havia uma bateria extra na mala vazia!\"). O mediador tem um veto suave se algo for muito absurdo.</p>"
     },
     "2. Blastermaster": {
@@ -362,7 +388,12 @@
     },
     "2. Deeply Embodied": {
       "name": "2. Profundamente Encarnado",
-      "description": "<p>Você está profundamente codificado em sua forma física e pode usar sua <span style=\"text-decoration:underline\">atributo força para magias velhatec</span> e <span style=\"text-decoration:underline\">resistência para fantasciência</span>.</p><p><em>Você pode editar seus ataques de <strong>Velhatec</strong> e <strong>Fantasciência</strong> no modo de edição da ficha para alterar sua Habilidade Padrão.</em> </p>"
+      "description": "<p>Você está profundamente codificado em sua forma física e pode usar sua <span style=\"text-decoration:underline\">atributo força para magias velhatec</span> e <span style=\"text-decoration:underline\">resistência para fantasciência</span>.</p>",
+      "effects": {
+        "Deeply Embodied": {
+          "name": "Profundamente Encarnado"
+        }
+      }
     },
     "2. Defender": {
       "name": "2. Defensor",
@@ -404,7 +435,12 @@
     },
     "2. Friends": {
       "name": "2. Amigos",
-      "description": "<p>Você pode ter um número de mascotes ou coadjuvantes igual ao seu nível que não ocupam o espaço de inventário usual. (<em>ainda não automatizado</em>)</p>"
+      "description": "<p>Você pode ter um número de mascotes ou coadjuvantes igual ao seu nível que não ocupam o espaço de inventário usual.</p>",
+      "effects": {
+        "Friends": {
+          "name": "Amigos"
+        }
+      }
     },
     "2. Hackmagic": {
       "name": "2. Hackmagia",
@@ -425,7 +461,7 @@
     },
     "2. My Bones Engraved": {
       "name": "2. Meus Ossos Gravados",
-      "description": "<p>Você falou com o guardião dos pensamentos, que lhe deu um cinzel mágico para gravar seus ossos. Ganhe cinco espaços de inventário de osso para poderes em seus braços, pernas e crânio. Gravar um poder leva um dia. Substituir um poder gravado reduz permanentemente sua resistência em 1, a menos que você também substitua ritualmente seus ossos (ai).</p>",
+      "description": "<p>Você falou com o guardião dos pensamentos, que lhe deu um cinzel mágico para gravar seus ossos. Ganhe cinco espaços de inventário de osso para poderes em seus braços, pernas e crânio. Gravar um poder leva um dia. Substituir um poder gravado reduz permanentemente sua resistência em 1, a menos que você também substitua ritualmente seus ossos (ai).</p><p><em>(a perda de resistência não é automatizada)</em></p>",
       "effects": {
         "5 Bone Power Slots": {
           "name": "5 Espaços de Poder em Osso"
@@ -442,6 +478,7 @@
     },
     "3. Fighting Woman or Man": {
       "name": "3. Mulher ou Homem de Luta",
+      "counters": {"used": "Usado nesta rodada"},
       "description": "<p>Você é habilidoso com sua arma (seu mestre) e armas como ela. Uma vez por rodada, como uma única ação, você pode atacar um número de inimigos adjacentes de nível 0–1 igual ao seu nível.</p>"
     },
     "3. Inquisition Agent": {
@@ -464,7 +501,8 @@
     },
     "3. Death Hunger": {
       "name": "3. Fome da Morte",
-      "description": "<p>Você sabe tudo sobre desmontar mortais. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 nas rolagens de ataque até o final da batalha. Após a primeira morte, você rosna e ruge até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Ative o efeito ativo <strong>Fome da Morte</strong> durante a batalha e atualize seu valor após inimigo morto. Quando este nível de perícia subir, modifique o efeito ativo pelo modificador da habilidade para cada inimigo morto.</em></p>",
+      "counters": {"kills": "Abates"},
+      "description": "<p>Você sabe tudo sobre desmontar mortais. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 nas rolagens de ataque até o final da batalha. Após a primeira morte, você rosna e ruge até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Some cada abate no contador <strong>Abates</strong> (clique nele no inventário). Ele zera quando o combate termina.</em></p>",
       "effects": {
         "Death Hunger": {
           "name": "Fome da Morte"
@@ -473,6 +511,7 @@
     },
     "3. Devastator": {
       "name": "3. Devastador",
+      "counters": {"used": "Usado nesta rodada"},
       "description": "<p>Uma vez por rodada, quando você atinge um inimigo de nível inferior ao seu, você pode reduzi-lo a 0 de vida em vez de rolar dano.</p>"
     },
     "3. Dissipated": {
@@ -541,6 +580,7 @@
     },
     "3. Informant": {
       "name": "3. Informante",
+      "counters": {"used": "Usado nesta sessão"},
       "description": "<p>Você teve a grande honra de se tornar um agente não-oficial da Inquisição. Você recebe €5/semana e uma vez por sessão pode gastar um dado heroico para que uma contravenção seja ignorada. Às vezes a Inquisição pede um pequeno favor.</p>"
     },
     "3. Noösphere Native": {
@@ -562,10 +602,13 @@
     },
     "3. Rancher": {
       "name": "3. Rancheiro",
-      "description": "<p>Você sabe como manter rebanhos bem oleados e carregados, gerenciar pastores e cães, cavalgar corcéis solares, localizar poços de água e roubar cargoferas. Ganhe 1 de força ou carisma.</p><p><em>(use o efeito ativo <strong>Rancheiro</strong> para adicionar o bônus de força ou carisma)</em></p>",
+      "description": "<p>Você sabe como manter rebanhos bem oleados e carregados, gerenciar pastores e cães, cavalgar corcéis solares, localizar poços de água e roubar cargoferas. Ganhe 1 de força ou carisma.</p><p><em>(ative o efeito ativo <strong>Rancheiro</strong> de sua escolha)</em></p>",
       "effects": {
-        "Rancher": {
-          "name": "Rancheiro"
+        "Rancher (strength)": {
+          "name": "Rancheiro (força)"
+        },
+        "Rancher (charisma)": {
+          "name": "Rancheiro (carisma)"
         }
       }
     },
@@ -614,6 +657,7 @@
     },
     "4. Ducky": {
       "name": "4. Pato",
+      "counters": {"used": "Usado hoje"},
       "description": "<p>Como uma minoria de classe baixa, você sabe lutar com armas ocultas e manobrar em burocracias ossificadas. Além disso, uma vez por dia, gaste um dado heroico para 'se lembrar' de um membro confiável do clã creche local que poderia ajudá-lo, por um preço.</p>"
     },
     "4. Feral": {
@@ -644,10 +688,12 @@
     },
     "4. Legal Immunity": {
       "name": "4. Imunidade Legal",
+      "counters": {"used": "Usado nesta sessão"},
       "description": "<p>Seu status patrício compra muitos privilégios: estacionamento gratuito, acesso prioritário, portas abertas e mais. Uma vez por sessão, você pode gastar um dado heroico para fazer policiais e juízes desviarem o olhar.</p>"
     },
     "4. Loyal": {
       "name": "4. Leal",
+      "counters": {"used": "Usado nesta cena"},
       "description": "<p>Você nunca trai seus amigos (ou mestre) e sofreria tortura e tribulação por eles sem medo. Uma vez por cena, quando você sacrifica seus próprios melhores interesses para provar sua lealdade, você ganha imediatamente um dado heroico. Além disso, ganhe +1 de égide.</p>",
       "effects": {
         "+1 Ward": {
@@ -772,6 +818,7 @@
     },
     "5. Intestinal Fortitude": {
       "name": "5. Fortitude Intestinal",
+      "counters": {"restore": "Restauração usada (sessão)", "poison": "Veneno/medo usado (sessão)"},
       "description": "<p>Uma vez por sessão, restaure um atributo completamente. Agora mesmo. Assim. Além disso, uma vez por sessão, você pode gastar um dado heroico para superar um veneno ingerido ou um efeito de medo.</p>"
     },
     "5. Lost Songs": {
@@ -849,6 +896,7 @@
     },
     "5. Slayer": {
       "name": "5. Exterminador",
+      "counters": {"used": "Usado nesta rodada"},
       "description": "<p>Uma vez por rodada, dobre seus modificadores de ataque e dano contra um inimigo de seu nível ou superior.</p><p><em>(este modificador dobrado não é automatizado)</em></p>"
     },
     "5. Soothsayer": {
@@ -866,10 +914,13 @@
     },
     "5. Strong": {
       "name": "5. Forte",
-      "description": "<p>Uma vida de trabalho e a boa dieta fornecida pelo establishment lhe deram um físico poderoso. Ganhe +2 de força ou resistência.</p><p><em>(Use o efeito ativo Forte e adicione 2 às linhas de força ou resistência.)</em></p>",
+      "description": "<p>Uma vida de trabalho e a boa dieta fornecida pelo establishment lhe deram um físico poderoso. Ganhe +2 de força ou resistência.</p><p><em>(ative o efeito ativo <strong>Forte</strong> de sua escolha)</em></p>",
       "effects": {
-        "Strong": {
-          "name": "Forte"
+        "Strong (strength)": {
+          "name": "Forte (força)"
+        },
+        "Strong (endurance)": {
+          "name": "Forte (resistência)"
         }
       }
     },
@@ -915,7 +966,8 @@
     },
     "6. I Am Legion": {
       "name": "6. Eu Sou Legião",
-      "description": "<p>Você sabe tudo sobre exércitos. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 de dano até o final da batalha. Após a primeira morte, sangue jorra de você até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Ative e edite o efeito ativo <strong>Eu Sou Legião</strong> para adicionar o bônus de dano.</em></p>",
+      "counters": {"kills": "Abates"},
+      "description": "<p>Você sabe tudo sobre exércitos. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 de dano até o final da batalha. Após a primeira morte, sangue jorra de você até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Some cada abate no contador <strong>Abates</strong> (clique nele no inventário). Ele zera quando o combate termina.</em></p>",
       "effects": {
         "I Am Legion": {
           "name": "Eu Sou Legião"
@@ -966,6 +1018,7 @@
     },
     "6. Swift": {
       "name": "6. Veloz",
+      "counters": {"used": "Usado neste turno"},
       "description": "<p>Uma vez por turno, gaste 1 de vida ou um dado heroico para obter uma ação extra nesta rodada.</p>"
     },
     "6. Telempath": {

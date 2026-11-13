@@ -30,6 +30,10 @@
     "effects": {
       "path": "effects",
       "converter": "effectCollection"
+    },
+    "counters": {
+      "path": "system.counters",
+      "converter": "counterLabels"
     }
   },
   "entries": {
@@ -342,7 +346,7 @@
 
     "Dead God Tooth": {
       "name": "Dente do Deus Morto",
-      "description": "<p>Bônus para capturar e armazenar poderes e magias conjuradas contra você.</p>"
+      "description": "<p>Bônus para capturar e armazenar poderes e magias conjuradas contra você.</p><p><em>(arraste o card do chat de um poder conjurado contra você para ele, para capturar o poder; poderes capturados são de uso único)</em></p>"
     },
     "Dead Language Daemon": {
       "name": "Daemon de Língua Morta",
@@ -903,6 +907,7 @@
 
     "Old Friend's Head": {
       "name": "Cabeça de um Velho Amigo",
+      "counters": {"used": "Usado hoje"},
       "description": "<p>Conservada em picles por feitiçaria sombria. Possui uma perícia que você não tem. Uma vez por dia, gaste um dado heroico e ela devora uma magia — impedindo que um poder nocivo o afete. Para todos, exceto você, é apenas a perturbadora cabeça encolhida de algum bárbaro fracassado sem nome.</p>",
       "effects": {
         "+1 Ward": {
@@ -1332,7 +1337,8 @@
     "The Spear Named Blood Drinker": {
       "id": "0jY9JnzOpHLrn4Rk",
       "name": "A Lança Chamada Bebedora de Sangue",
-      "description": "<p>Cada vez que fere um inimigo, ela ruge e ganha +3 em seu próximo ataque. Reinicia quando você troca de inimigo. Usada com duas mãos, causa 1d12 de dano.<br /><em>(Edite o efeito ativo para o bônus de ataque)</em></p>",
+      "counters": {"wounds": "Ferimentos"},
+      "description": "<p>Cada vez que fere um inimigo, ela ruge e ganha +3 em seu próximo ataque. Reinicia quando você troca de inimigo. Usada com duas mãos, causa 1d12 de dano.<br /><em>(some cada ferimento no contador <strong>Ferimentos</strong>; zere-o quando trocar de inimigo)</em></p>",
       "effects": {
         "Attack Bonus": {
           "name": "Bônus de Ataque"

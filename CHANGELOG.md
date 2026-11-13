@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## Próxima versão
+
+Para o sistema WTF v1.11.0.
+
+### Novidades
+
+- Traduzidos os rótulos dos contadores (Abates, Ferimentos, Crânios) e os textos dos gatilhos de rolagem das armas e do Broquel de Luz Sólida (novos conversores `counterLabels` e `triggerTexts`)
+- Tradução dos novos consumíveis de recuperação: Unguento Curativo, Tônico Restaurador, Kit Médico e Tratamento de Cura Total
+- Tradução dos contadores de uso dos traços com usos limitados (uma vez por turno, rodada, cena, dia ou sessão)
+- Meus Ossos Gravados avisa que a perda de resistência não é automatizada
+
 ## v0.5.0
 
 Compatível com o sistema WTF v1.9.1.
