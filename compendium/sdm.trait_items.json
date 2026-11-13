@@ -34,6 +34,10 @@
     "counters": {
       "path": "system.counters",
       "converter": "counterLabels"
+    },
+    "triggers": {
+      "path": "system.triggers",
+      "converter": "triggerTexts"
     }
   },
   "entries": {
@@ -1400,6 +1404,7 @@
     },
     "Ur Gun": {
       "name": "Ur-Arma",
+      "triggers": {"Critical hit (if it would miss, it strikes the nearest reasonable target)": "Acerto crítico (se fosse errar, atinge o alvo razoável mais próximo)"},
       "description": "<p>Você é o ideal platônico da arma. Sua precisão é incomparável. Você se encaixa em qualquer mão como se tivesse sido feito para ela—porque foi. Suas balas condensam-se do reino cármico insubstancial entre o aqui e o não-aqui. Você é o julgamento dos deuses. Você se importa que seu portador perecerá por sua bala providencial? Pode? O que é um mortal comparado ao grande propósito? Qualquer ataque rolado com você é um acerto crítico em um 13 natural ou um 20 natural. Se um 13 natural erraria seu alvo pretendido, o acerto crítico atinge o alvo razoável mais próximo (incluindo aliados) em seu lugar.</p>"
     },
     "Vicious Bird": {

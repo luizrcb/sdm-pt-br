@@ -49,6 +49,7 @@
 
     "Arzax Lance": {
       "name": "Lança Arzax",
+      "effects": {"Stunned": {"name": "Atordoado"}},
       "triggers": {"Stuns": "Atordoa"},
       "description": "<p>Lança de energia ultraleve. Pode colapsar em uma haste curta.</p><p>Atordoa em um 13 natural.</p>"
     },
@@ -155,6 +156,7 @@
 
     "c0H7EAxKMb1Ni1Oq": {
       "name": "Bastão de Urânio de Quarenta Libras",
+      "effects": {"Stunned (1 round)": {"name": "Atordoado (1 rodada)"}},
       "triggers": {"Stuns for 1 round": "Atordoa por 1 rodada"},
       "description": "<p>Cajado de heavy metal para um mago de heavy metal.</p><p>Atordoa por 1 rodada ao igualar dados de dano.</p>"
     },
@@ -244,6 +246,7 @@
 
     "Pleasure Thorn": {
       "name": "Espinho do Prazer",
+      "effects": {"Paroxysms (1 round)": {"name": "Paroxismos (1 rodada)"}},
       "triggers": {"Paroxysms for 1 round": "Paroxismos por 1 rodada"},
       "description": "<p>Relacionado ao chicote neural, mas mais agradável. Incapacita com êxtase.</p><p>Paroxismos por 1 rodada em um 7 natural.</p>"
     },
