@@ -6,7 +6,7 @@ Para o sistema WTF v1.11.0.
 
 ### Novidades
 
-- Tradução das notas de reforço de dano (`boostNote`: Martelo-estaca contra vampiros, Arma de Nave contra alvos sem armadura, Revestimento do Flagelo) e dos gatilhos dos traços (conversor `triggerTexts` em traços: Afortunado)
+- Tradução das notas de reforço de dano (`boostNote`: Martelo-estaca contra vampiros, Arma de Nave contra alvos sem armadura, Machado-Martelo do Ghoul de Fios contra armaduras pesadas, Revestimento do Flagelo) e dos gatilhos dos traços (conversor `triggerTexts` em traços: Afortunado)
 - Engradado Felix Whizz: removida a instrução do efeito ativo (agora é um consumível com vida temporária)
 - Traduzidos os rótulos dos contadores (Abates, Ferimentos, Crânios) e os textos dos gatilhos de rolagem das armas e do Broquel de Luz Sólida (novos conversores `counterLabels` e `triggerTexts`)
 - Tradução dos novos consumíveis de recuperação: Unguento Curativo, Tônico Restaurador, Kit Médico e Tratamento de Cura Total
