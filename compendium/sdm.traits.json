@@ -36,6 +36,10 @@
     "counters": {
       "path": "system.counters",
       "converter": "counterLabels"
+    },
+    "triggers": {
+      "path": "system.triggers",
+      "converter": "triggerTexts"
     }
   },
   "entries": {
@@ -545,7 +549,10 @@
     },
     "3. Fortunate One": {
       "name": "3. Afortunado",
-      "description": "<p>Quando você rola um 1 natural, role novamente. Ou aceite o 1 natural e guarde uma re-rolagem para mais tarde na sessão. A re-rolagem ocupa um espaço de inventário.</p>"
+      "description": "<p>Quando você rola um 1 natural, role novamente. Ou aceite o 1 natural e guarde uma re-rolagem para mais tarde na sessão. A re-rolagem ocupa um espaço de inventário.</p>",
+      "triggers": {
+        "Fortunate One: roll again, or accept it and save a reroll": "Afortunado: role de novo, ou aceite e guarde uma re-rolagem"
+      }
     },
     "3. Grit": {
       "name": "3. Determinação",

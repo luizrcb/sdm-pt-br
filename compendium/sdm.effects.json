@@ -179,7 +179,8 @@
       "name": "4 - Revestimento do Flagelo",
       "description": "<p>Revestimento exótico (ultravioleta, ouro) causa dano dobrado a um tipo de alvo.</p><p><strong>Custo do Mod</strong>: €50</p>",
       "changes": {
-        "system.description": "<p>Revestimento exótico (ultravioleta, ouro) causa dano dobrado a um tipo de alvo.</p>"
+        "system.description": "<p>Revestimento exótico (ultravioleta, ouro) causa dano dobrado a um tipo de alvo.</p>",
+        "system.boost.note": "contra o seu flagelo (edite)"
       }
     },
     "5 - Resistance": {

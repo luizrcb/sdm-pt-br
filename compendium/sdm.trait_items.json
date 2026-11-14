@@ -38,7 +38,8 @@
     "triggers": {
       "path": "system.triggers",
       "converter": "triggerTexts"
-    }
+    },
+    "boostNote": "system.boost.note"
   },
   "entries": {
     "Abominable Paw": {
@@ -464,12 +465,7 @@
 
     "Felix Whizz Six-Pack": {
       "name": "Engradado Felix Whizz (6 latas)",
-      "description": "<p>A bebida energética concede [[/r 1d4]] de vida temporária. Levemente viciante.</p><p><em>Use o efeito ativo para conceder a vida temporária.</em></p>",
-      "effects": {
-        "Temporary Life": {
-          "name": "Vida Temporária"
-        }
-      }
+      "description": "<p>A bebida energética concede [[/r 1d4]] de vida temporária. Levemente viciante.</p>"
     },
 
     "Fireward Circlet": {
@@ -1206,7 +1202,8 @@
     },
     "Shipgun": {
       "name": "Arma de Nave",
-      "description": "<p>Destroçador de carne de curto alcance que não danifica um casco do vácuo. Causa triplo de dano em alvos sem armadura.</p>"
+      "description": "<p>Destroçador de carne de curto alcance que não danifica um casco do vácuo. Causa triplo de dano em alvos sem armadura.</p>",
+      "boostNote": "contra alvos sem armadura"
     },
     "Shipsteel Stiletto": {
       "name": "Estilete de Aço de Nave",
@@ -1294,7 +1291,8 @@
     },
     "Stakehammer": {
       "name": "Martelo-estaca",
-      "description": "<p>Racha armaduras e perfura corações não-vivos. Dano duplo em vampiros.</p>"
+      "description": "<p>Racha armaduras e perfura corações não-vivos. Dano duplo em vampiros.</p>",
+      "boostNote": "contra vampiros"
     },
     "Standing Bed": {
       "name": "Cama Vertical",
