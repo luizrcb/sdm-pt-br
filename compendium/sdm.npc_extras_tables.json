@@ -232,6 +232,162 @@
         },
         "10-10": {
           "name": "Corpo-Enxame"
+        },
+        "11-11": {
+          "name": "1. Esqueleto Brilhante"
+        },
+        "12-12": {
+          "name": "1. Arborícola"
+        },
+        "13-13": {
+          "name": "1. Nascido da Armadura"
+        },
+        "14-14": {
+          "name": "2. Revestido de Sangue"
+        },
+        "15-15": {
+          "name": "4. Feral"
+        },
+        "16-16": {
+          "name": "4. Vampiro"
+        },
+        "17-17": {
+          "name": "6. Espinhoso"
+        },
+        "18-18": {
+          "name": "6. Resistente"
+        },
+        "19-19": {
+          "name": "6. Muito Forte"
+        },
+        "20-20": {
+          "name": "5. Forte"
+        },
+        "21-21": {
+          "name": "3. Determinação"
+        },
+        "22-22": {
+          "name": "6. Veloz"
+        },
+        "23-23": {
+          "name": "6. Telempata"
+        },
+        "24-24": {
+          "name": "6. Infred"
+        },
+        "25-25": {
+          "name": "5. Carne Nova e Fria"
+        },
+        "26-26": {
+          "name": "4. Sangue Divino"
+        },
+        "27-27": {
+          "name": "6. Entrelaçado ao Solo"
+        },
+        "28-28": {
+          "name": "3. Égide do Vácuo"
+        },
+        "29-29": {
+          "name": "3. Caçador"
+        },
+        "30-30": {
+          "name": "3. Fome da Morte"
+        },
+        "31-31": {
+          "name": "6. Eu Sou Legião"
+        },
+        "32-32": {
+          "name": "1. Andarilho dos Sonhos"
+        },
+        "33-33": {
+          "name": "1. Escapista"
+        },
+        "34-34": {
+          "name": "2. Reflexos de Cavaleiro"
+        },
+        "35-35": {
+          "name": "4. Demolidor"
+        },
+        "36-36": {
+          "name": "5. Exterminador"
+        },
+        "37-37": {
+          "name": "3. Devastador"
+        },
+        "38-38": {
+          "name": "Exoesqueleto de Osso Divino"
+        },
+        "39-39": {
+          "name": "Traje Vivo"
+        },
+        "40-40": {
+          "name": "Pelagens de Guerra"
+        },
+        "41-41": {
+          "name": "Crânio de Pedra-Nau"
+        },
+        "42-42": {
+          "name": "Crânio de Roedor Radioativo"
+        },
+        "43-43": {
+          "name": "Segundo Coração"
+        },
+        "44-44": {
+          "name": "Máscara de Pele de Daemon"
+        },
+        "45-45": {
+          "name": "Rosto Índigo"
+        },
+        "46-46": {
+          "name": "Olho-Mestre"
+        },
+        "47-47": {
+          "name": "Caixa de Unidade Vidy"
+        },
+        "48-48": {
+          "name": "Esqueleto do Caos"
+        },
+        "49-49": {
+          "name": "Caveira Viva"
+        },
+        "50-50": {
+          "name": "Pele de Camaleão"
+        },
+        "51-51": {
+          "name": "Placas de Chifre"
+        },
+        "52-52": {
+          "name": "Carapaça"
+        },
+        "53-53": {
+          "name": "Sentido Estranho"
+        },
+        "54-54": {
+          "name": "Guelras"
+        },
+        "55-55": {
+          "name": "Órgão Alienígena"
+        },
+        "56-56": {
+          "name": "Forma Secundária"
+        },
+        "57-57": {
+          "name": "Lampejos Precognitivos"
+        },
+        "58-58": {
+          "name": "Esporos Brilhantes"
+        },
+        "59-59": {
+          "name": "Articulações Hipermóveis"
+        },
+        "60-60": {
+          "name": "Metabolismo Vampírico"
+        },
+        "61-61": {
+          "name": "Cérebro Secundário"
+        },
+        "62-62": {
+          "name": "Imorrível"
         }
       }
     },
@@ -262,6 +418,318 @@
         },
         "8-8": {
           "name": "Toque Drenante"
+        },
+        "9-9": {
+          "name": "Esfolador de Acesso"
+        },
+        "10-10": {
+          "name": "Lança Arzax"
+        },
+        "11-11": {
+          "name": "Espada de Corrente"
+        },
+        "12-12": {
+          "name": "Bastão de Cerco de Cristal"
+        },
+        "13-13": {
+          "name": "Matriz de Campo de Dobra"
+        },
+        "14-14": {
+          "name": "Bastão de Urânio de Quarenta Libras"
+        },
+        "15-15": {
+          "name": "Atuador de Daemon do Portal"
+        },
+        "16-16": {
+          "name": "Matador de Golem"
+        },
+        "17-17": {
+          "name": "Agulhador Lamarckiano"
+        },
+        "18-18": {
+          "name": "Coroa Labiríntica"
+        },
+        "19-19": {
+          "name": "Boca do Vazio"
+        },
+        "20-20": {
+          "name": "Espinho do Prazer"
+        },
+        "21-21": {
+          "name": "Chifre Radiotérmico"
+        },
+        "22-22": {
+          "name": "Esfolamento da Realidade"
+        },
+        "23-23": {
+          "name": "Varinha-Bastão de Atordoamento"
+        },
+        "24-24": {
+          "name": "Disparador de Telempatia"
+        },
+        "25-25": {
+          "name": "Lâmina Noética"
+        },
+        "26-26": {
+          "name": "Machado-Martelo do Ghoul de Fios"
+        },
+        "27-27": {
+          "name": "Chicote de Agonia"
+        },
+        "28-28": {
+          "name": "Boleadeira"
+        },
+        "29-29": {
+          "name": "Arco"
+        },
+        "30-30": {
+          "name": "Besta"
+        },
+        "31-31": {
+          "name": "Facão"
+        },
+        "32-32": {
+          "name": "Lança"
+        },
+        "33-33": {
+          "name": "Faquinha"
+        },
+        "34-34": {
+          "name": "Faca de Arremesso"
+        },
+        "35-35": {
+          "name": "Machado de Osso Fantasma"
+        },
+        "36-36": {
+          "name": "Lâmina da Cidade Negra"
+        },
+        "37-37": {
+          "name": "Canhão de Mão de Fogo Infernal"
+        },
+        "38-38": {
+          "name": "Bólter de Sucateiro"
+        },
+        "39-39": {
+          "name": "Canhão de Vidro"
+        },
+        "40-40": {
+          "name": "Ur-Arma"
+        },
+        "41-41": {
+          "name": "Maça Piezo"
+        },
+        "42-42": {
+          "name": "Machado-Adaga Velhatec"
+        },
+        "43-43": {
+          "name": "Martelo-estaca"
+        },
+        "44-44": {
+          "name": "Arma de Nave"
+        },
+        "45-45": {
+          "name": "Bengala de Postura (*Marca BILI)"
+        },
+        "46-46": {
+          "name": "Lâmina Noturna Devoradora de Almas"
+        },
+        "47-47": {
+          "name": "Dente do Verme-Raiz"
+        },
+        "48-48": {
+          "name": "Arco de Costela"
+        },
+        "49-49": {
+          "name": "Seringa Roubavida"
+        },
+        "50-50": {
+          "name": "Olho-Arma"
+        },
+        "51-51": {
+          "name": "Chifre Dourado"
+        },
+        "52-52": {
+          "name": "Dardo Amarelo"
+        },
+        "53-53": {
+          "name": "A Lança Chamada Bebedora de Sangue"
+        },
+        "54-54": {
+          "name": "Bioarma Oculta"
+        },
+        "55-55": {
+          "name": "Garra-Adaga"
+        },
+        "56-56": {
+          "name": "Língua de Rádula"
+        },
+        "57-57": {
+          "name": "Dentes de Agulha"
+        },
+        "58-58": {
+          "name": "Espinhos de Osso"
+        },
+        "59-59": {
+          "name": "Tentáculos de Queratina"
+        },
+        "60-60": {
+          "name": "Secreção Corrosiva"
+        }
+      }
+    },
+    "u9jde7ccqnMqvxev": {
+      "name": "Posses de NPC",
+      "description": "<p>Itens estranhos que um NPC carrega.</p>",
+      "results": {
+        "1-1": {
+          "name": "Pele preservada de um metamorfo."
+        },
+        "2-2": {
+          "name": "Planta de agave que muta diariamente. Regue mensalmente."
+        },
+        "3-3": {
+          "name": "Relíquia de ammolita do período do molusco do vácuo."
+        },
+        "4-4": {
+          "name": "Limo devorador de antracito em garrafa plástica."
+        },
+        "5-5": {
+          "name": "Você artificial. Apenas o rosto e uma mão."
+        },
+        "6-6": {
+          "name": "Manual da Rede de Transporte Astral. Desatualizado."
+        },
+        "7-7": {
+          "name": "Rocha azulada, levemente antigravitacional — um astrólito."
+        },
+        "8-8": {
+          "name": "Caixa de giz ocre de invocação de ancestrais."
+        },
+        "9-9": {
+          "name": "Kit de raspagem cerebral. Fita de delírio inclusa."
+        },
+        "10-10": {
+          "name": "Pérola negra briolette do arquiteto choroso."
+        },
+        "11-11": {
+          "name": "Amuleto camafeu de safira de um sacerdote banqueiro."
+        },
+        "12-12": {
+          "name": "Chifre de sombra coalhado de frutos em decomposição."
+        },
+        "13-13": {
+          "name": "Laje de daemon cinza morto de obsidiana e aço."
+        },
+        "14-14": {
+          "name": "Fígado de aruspícia de ébano e tabelas de leitura de probabilidades."
+        },
+        "15-15": {
+          "name": "Cérebro V.I.L.E. sobressalente eletromecânico."
+        },
+        "16-16": {
+          "name": "Elegante víbora de fossa mecânica (N1)."
+        },
+        "17-17": {
+          "name": "Dente em perpétuo crescimento esculpido em lança."
+        },
+        "18-18": {
+          "name": "Livro de ouro proclamando paz eterna."
+        },
+        "19-19": {
+          "name": "Sonda de reprogramação de golem em caixa de joias."
+        },
+        "20-20": {
+          "name": "Esfera cinza. Pesa seis vezes mais que ouro."
+        },
+        "21-21": {
+          "name": "Metade de um crânio de cristal e dois pós de sonho."
+        },
+        "22-22": {
+          "name": "Pote de carne de verme espacial em conserva."
+        },
+        "23-23": {
+          "name": "Monstera carnívora móvel grande (N3)."
+        },
+        "24-24": {
+          "name": "Semente viva da sua casa ancestral."
+        },
+        "25-25": {
+          "name": "Camiseta de lunarino de luz rígida tecida."
+        },
+        "26-26": {
+          "name": "Pepino mumificado com seis dentes humanos."
+        },
+        "27-27": {
+          "name": "Uma alma perdida aprisionada em pote de grês."
+        },
+        "28-28": {
+          "name": "Máscara alucinatória opaca de bravura."
+        },
+        "29-29": {
+          "name": "Mão sagrada plastinada de um parente."
+        },
+        "30-30": {
+          "name": "Conjunto de cachimbo de porcelana e jade e caixa de não-fumo."
+        },
+        "31-31": {
+          "name": "Lindo jogo de chá ritual de osso pós-humano cultivado."
+        },
+        "32-32": {
+          "name": "Caixa-e-tela de entretenimento procedural."
+        },
+        "33-33": {
+          "name": "Cinza psíquica aprisionada em âmbar rosa."
+        },
+        "34-34": {
+          "name": "Tijolo púrpura, diminui luzes ambientes."
+        },
+        "35-35": {
+          "name": "Pé mecânico vermelho e verde."
+        },
+        "36-36": {
+          "name": "Túnica de cultista laranja-segurança com glifos de fruta."
+        },
+        "37-37": {
+          "name": "Manta de colônia fibrosa semi-senciente."
+        },
+        "38-38": {
+          "name": "Balde de plástico esverdeado senciente (N1). Amaldiçoado?"
+        },
+        "39-39": {
+          "name": "Sete cápsulas descartáveis de solvente universal."
+        },
+        "40-40": {
+          "name": "Pele de rosto de linga mudada em bolsa de veludo."
+        },
+        "41-41": {
+          "name": "Óculos quadrados de visão perfeita. Zoom 3x."
+        },
+        "42-42": {
+          "name": "Gato de pedra (N2). Alimente com sangue para despertar por um dia."
+        },
+        "43-43": {
+          "name": "Cetro de cebola radiante tangerina."
+        },
+        "44-44": {
+          "name": "Cabeça taxidermizada de um pistoleiro cinocéfalo (N5)."
+        },
+        "45-45": {
+          "name": "Vaso azul-petróleo com uma rosa desmorta."
+        },
+        "46-46": {
+          "name": "Três gansos de madeira dourados com dentes de agulha."
+        },
+        "47-47": {
+          "name": "Três armas antigas reforjadas em um machado azul."
+        },
+        "48-48": {
+          "name": "Cabeça de estanho preenchida com ecos de poesia épica."
+        },
+        "49-49": {
+          "name": "Jogo de jantar de marfim de grande-humano amarelado."
+        },
+        "50-50": {
+          "name": "Joia de personalidade de zircão de uma duplicata de herdeiro."
         }
       }
     }

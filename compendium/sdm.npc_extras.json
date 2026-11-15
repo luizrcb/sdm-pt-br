@@ -13,6 +13,10 @@
     "triggers": {
       "path": "system.triggers",
       "converter": "triggerTexts"
+    },
+    "counters": {
+      "path": "system.counters",
+      "converter": "counterLabels"
     }
   },
   "entries": {
@@ -163,6 +167,151 @@
     "Many Eyes": {
       "name": "Muitos Olhos",
       "description": "<p>Enxerga em todas as direções e no escuro: não pode ser surpreendido.</p>"
+    },
+    "Hidden Bioweapon": {
+      "name": "Bioarma Oculta",
+      "description": "<p>Uma arma crescida dentro do corpo, escondida até atacar.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Dagger Claw": {
+      "name": "Garra-Adaga",
+      "description": "<p>Uma mão murcha travada numa garra em forma de adaga.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Radula Tongue": {
+      "name": "Língua de Rádula",
+      "description": "<p>Uma língua coberta de rádulas afiadas que raspa a carne: o ferimento sangra.</p><p><em>Das tabelas de corrupção.</em></p>",
+      "triggers": {
+        "The wound bleeds (1 life each round until bandaged)": "O ferimento sangra (1 de vida por rodada até ser enfaixado)"
+      },
+      "effects": {
+        "Bleeding": {
+          "name": "Sangrando",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Needle Teeth": {
+      "name": "Dentes de Agulha",
+      "description": "<p>Dentes como agulhas. Clique-claque. Com dano máximo arrancam um pedaço.</p><p><em>Das tabelas de corrupção.</em></p>",
+      "triggers": {
+        "Tears a chunk away: the wound bleeds": "Arranca um pedaço: o ferimento sangra"
+      },
+      "effects": {
+        "Bleeding": {
+          "name": "Sangrando",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Bone Spikes": {
+      "name": "Espinhos de Osso",
+      "description": "<p>Ossos estranhos irrompem da pele como espinhos. Ele ataca com eles.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Keratin Tentacles": {
+      "name": "Tentáculos de Queratina",
+      "description": "<p>Tentáculos de cabelo. Numa rolagem de ataque alta enrolam o alvo (salvaguarda para se soltar).</p><p><em>Das tabelas de corrupção.</em></p>",
+      "triggers": {
+        "Wraps around the target (save to break free)": "Enrola o alvo (salvaguarda para se soltar)"
+      },
+      "effects": {
+        "Grabbed": {
+          "name": "Agarrado",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Corrosive Secretion": {
+      "name": "Secreção Corrosiva",
+      "description": "<p>Seu toque secreta um fluido que come roupas e metal. Com dano máximo a armadura do alvo corrói: −1 de defesa até ser consertada.</p><p><em>Das tabelas de corrupção.</em></p>",
+      "triggers": {
+        "Armor corrodes: −1 defense": "A armadura corrói: −1 de defesa"
+      },
+      "effects": {
+        "Corroded": {
+          "name": "Corroído",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Chaos Skeleton": {
+      "name": "Esqueleto do Caos",
+      "description": "<p>Só restam os ossos. Não sangra, não respira nem come, e veneno não significa nada para ele.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Living Skull": {
+      "name": "Caveira Viva",
+      "description": "<p>O rosto saiu, deixando uma caveira viva e sorridente. Quem o vê pela primeira vez testa moral ou hesita.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Chameleon Skin": {
+      "name": "Pele de Camaleão",
+      "description": "<p>Pele estampada e mutável como a de um choco. Parado, não se distingue do ambiente.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Horn Platelets": {
+      "name": "Placas de Chifre",
+      "description": "<p>Pequenos chifres ou placas cobrem a pele como armadura: +1 de defesa.</p><p><em>Das tabelas de corrupção.</em></p>",
+      "effects": {
+        "Horn Platelets": {
+          "name": "Placas de Chifre"
+        }
+      }
+    },
+    "Carapace": {
+      "name": "Carapaça",
+      "description": "<p>Suas costas se fundiram numa carapaça como uma concha: +2 de defesa.</p><p><em>Das tabelas de corrupção.</em></p>",
+      "effects": {
+        "Carapace": {
+          "name": "Carapaça"
+        }
+      }
+    },
+    "Eerie Sense": {
+      "name": "Sentido Estranho",
+      "description": "<p>Sente vibração, eletricidade ou magnetismo: escuridão e invisibilidade não escondem ninguém dele.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Gills": {
+      "name": "Guelras",
+      "description": "<p>Guelras ou órgãos de respirar gás: respira água, fumaça e gás venenoso.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Alien Organ": {
+      "name": "Órgão Alienígena",
+      "description": "<p>Um órgão alienígena se ativa na sua morte e traz de volta uma versão dele, uma vez (marque no contador <strong>Ressuscitou</strong>).</p><p><em>Das tabelas de corrupção.</em></p>",
+      "counters": {
+        "revived": "Ressuscitou"
+      }
+    },
+    "Secondary Form": {
+      "name": "Forma Secundária",
+      "description": "<p>Um segundo eu, como Hyde ou o lobo de um lobisomem. Uma vez por luta pode mudar: +2 de bônus, −2 de defesa enquanto mudado (ligue o efeito <em>Mudado</em>).</p><p><em>Das tabelas de corrupção.</em></p>",
+      "effects": {
+        "Changed": {
+          "name": "Mudado"
+        }
+      }
+    },
+    "Precognitive Flashes": {
+      "name": "Lampejos Precognitivos",
+      "description": "<p>Vê o que vem. Uma vez por luta anula uma rolagem contra ele (marque no contador <strong>Previsto</strong>; zera após o combate).</p><p><em>Das tabelas de corrupção.</em></p>",
+      "counters": {
+        "foreseen": "Previsto"
+      }
+    },
+    "Glowing Spores": {
+      "name": "Esporos Brilhantes",
+      "description": "<p>Coberto de esporos cintilantes, ele brilha. Entra na cena já iluminado.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Hypermobile Joints": {
+      "name": "Articulações Hipermóveis",
+      "description": "<p>Articulações fracas mas hipermóveis: escapa de agarrões e amarras.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Vampiric Metabolism": {
+      "name": "Metabolismo Vampírico",
+      "description": "<p>Prospera com órgãos estranhos: depois de matar, pode gastar uma rodada se alimentando para recuperar 1d6 de vida.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Secondary Brain": {
+      "name": "Cérebro Secundário",
+      "description": "<p>Um segundo cérebro pensa sozinho: não pode ser encantado nem controlado enquanto os dois concordarem.</p><p><em>Das tabelas de corrupção.</em></p>"
+    },
+    "Undying": {
+      "name": "Imorrível",
+      "description": "<p>Imorrível, mas não incorruptível. A menos que o corpo seja destruído, levanta de novo em algumas horas.</p><p><em>Das tabelas de corrupção.</em></p>"
     }
   }
 }
