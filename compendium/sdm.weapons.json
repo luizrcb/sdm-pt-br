@@ -308,6 +308,8 @@
     },
     "Stun Baton Wand": {
       "name": "Varinha-Bastão de Atordoamento",
+      "effects": {"Stunned": {"name": "Atordoado"}},
+      "triggers": {"Spend 1 life to stun (save)": "Gaste 1 de vida para atordoar (salvaguarda)"},
       "description": "<p>Gaste 1 de vida para atordoar (salvaguarda). Retrátil.</p>"
     },
     "Telempathy Blaster": {

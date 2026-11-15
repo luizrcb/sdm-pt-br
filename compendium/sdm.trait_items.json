@@ -555,6 +555,7 @@
 
     "Glass Cannon": {
       "name": "Canhão de Vidro",
+      "triggers": {"Spend 3 life to reload": "Gaste 3 de vida para recarregar"},
       "description": "<p>Dispara seu próprio sangue como estilhaços tóxicos. Alvos ficam nauseados (salvaguarda) e sofrem penalidade em ações físicas. Gaste 3 de vida para recarregar.</p>"
     },
 
@@ -707,6 +708,7 @@
 
     "In-Arm Pistol": {
       "name": "Pistola no Braço",
+      "triggers": {"Spend 1 life to recharge": "Gaste 1 de vida para recarregar"},
       "description": "<p>Raio-EM velhatec oculto (emmaray no patoá local). Gaste 1 de vida para recarregar.</p>"
     },
 
@@ -1057,6 +1059,7 @@
 
     "Power Scroll Printer": {
       "name": "Impressora de Pergaminhos de Poder",
+      "triggers": {"Sacrifice 1d6 life to refill": "Sacrifique 1d6 de vida para reabastecer"},
       "description": "<p>Insira uma mão humana maleável para extrair vida (e sangue) e imbuir poder em um pergaminho de pele sintética. Sacrifique [[/r 1d6]] de vida para reabastecer.</p>"
     },
 
@@ -1339,8 +1342,9 @@
     "The Spear Named Blood Drinker": {
       "id": "0jY9JnzOpHLrn4Rk",
       "name": "A Lança Chamada Bebedora de Sangue",
+      "triggers": {"Wounds a foe: +3 on the next attack": "Fere um inimigo: +3 no próximo ataque"},
       "counters": {"wounds": "Ferimentos"},
-      "description": "<p>Cada vez que fere um inimigo, ela ruge e ganha +3 em seu próximo ataque. Reinicia quando você troca de inimigo. Usada com duas mãos, causa 1d12 de dano.<br /><em>(some cada ferimento no contador <strong>Ferimentos</strong>; zere-o quando trocar de inimigo)</em></p>",
+      "description": "<p>Cada vez que fere um inimigo, ela ruge e ganha +3 em seu próximo ataque. Reinicia quando você troca de inimigo. Usada com duas mãos, causa 1d12 de dano.<br /><em>(cada rolagem de dano soma um ferimento no contador <strong>Ferimentos</strong>; zere-o quando trocar de inimigo)</em></p>",
       "effects": {
         "Attack Bonus": {
           "name": "Bônus de Ataque"
