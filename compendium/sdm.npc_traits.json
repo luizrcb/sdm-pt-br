@@ -1,0 +1,179 @@
+{
+  "label": "Traços de NPC",
+  "folders": {
+    "Brick Bastions": "Bastiões de Tijolo",
+    "Crystal Cannons": "Canhões de Cristal",
+    "Darting Dodgers": "Fugitivos Velozes",
+    "Erratic Expendables": "Descartáveis Erráticos",
+    "Humans of the Pananthropy": "Humanos da Panantrópia"
+  },
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    },
+    "counters": {
+      "path": "system.counters",
+      "converter": "counterLabels"
+    }
+  },
+  "entries": {
+    "Adaptable": {
+      "name": "Adaptável",
+      "description": "<p>Copia a última habilidade especial usada por um inimigo.</p>"
+    },
+    "Bonded": {
+      "name": "Vinculado",
+      "description": "<p>Gasta vida para conceder a um aliado bônus igual em sua próxima rolagem.</p>"
+    },
+    "Charger": {
+      "name": "Arremetedor",
+      "description": "<p>Dano dobrado após uma carga direta.</p>"
+    },
+    "Circle of Pain": {
+      "name": "Círculo da Dor",
+      "description": "<p>Aliados próximos causam e sofrem dano dobrado. Inimigos adjacentes apenas sofrem dano dobrado.</p>"
+    },
+    "Common Humanity": {
+      "name": "Humanidade Comum",
+      "description": "<p>Gasta 1 vida para apelar à compreensão e negociar (salvaguarda).</p>"
+    },
+    "Death Curse": {
+      "name": "Maldição da Morte",
+      "description": "<p>O assassino sofre um fardo psíquico.</p>"
+    },
+    "Denial": {
+      "name": "Negação",
+      "description": "<p>Inimigos adjacentes têm dificuldade para se mover.</p>"
+    },
+    "Desperate Shot": {
+      "name": "Tiro Desesperado",
+      "description": "<p>Causa dano triplo quando com 1 de vida.</p>"
+    },
+    "Double Attack": {
+      "name": "Ataque Duplo",
+      "description": "<p>Ataca duas vezes com uma ação.</p>"
+    },
+    "Evasive": {
+      "name": "Evasivo",
+      "description": "<p>Sacrifica o ataque para adicionar bônus à defesa.</p><p>(ligue o efeito <em>Esquivando</em>)</p>",
+      "effects": {
+        "Evading": {
+          "name": "Esquivando",
+          "description": "<p>Ligue ao abrir mão do ataque: o bônus é somado à defesa.</p>"
+        }
+      }
+    },
+    "Feedback": {
+      "name": "Feedback",
+      "description": "<p>Cada golpe sofrido adiciona +1d6 ao dano.</p><p>(conte os golpes no contador <strong>Golpes sofridos</strong>; some esse número de d6 ao dano)</p>",
+      "counters": {
+        "hits": "Golpes sofridos"
+      }
+    },
+    "Frenzy": {
+      "name": "Frenesi",
+      "description": "<p>Gasta 2 de defesa para realizar um ataque gratuito.</p><p>(ligue o efeito <em>Em frenesi</em>)</p>",
+      "effects": {
+        "Frenzied": {
+          "name": "Em frenesi",
+          "description": "<p>Ligue ao trocar 2 de defesa por um ataque gratuito.</p>"
+        }
+      }
+    },
+    "Killbite": {
+      "name": "Mordemorte",
+      "description": "<p>Realiza ataque gratuito ao morrer.</p>"
+    },
+    "Martyr": {
+      "name": "Mártir",
+      "description": "<p>Ao morrer, concede seu bônus a aliados próximos.</p>"
+    },
+    "Once Again": {
+      "name": "Mais Uma Vez",
+      "description": "<p>Ressuscita 2 rodadas após a morte. Apenas uma vez.</p><p>(o contador <strong>Ressuscitou</strong> marca sua única volta)</p>",
+      "counters": {
+        "revived": "Ressuscitou"
+      }
+    },
+    "Overcharge": {
+      "name": "Sobrecarga",
+      "description": "<p>Gasta vida igual ao nível para dobrar o dano.</p>"
+    },
+    "Phase": {
+      "name": "Tornar-se intangível",
+      "description": "<p>Gasta 1 vida para ficar intangível por 1 rodada.</p>"
+    },
+    "Resistomorph": {
+      "name": "Resistomorfo",
+      "description": "<p>Após ser atingido, ignora esse tipo de ataque por 1 rodada.</p>"
+    },
+    "Riposte": {
+      "name": "Ripostar",
+      "description": "<p>Contra-ataque gratuito contra ataques que errem.</p>"
+    },
+    "Rockblood": {
+      "name": "Sangrocha",
+      "description": "<p>Abaixo da metade da vida, defesa dobrada.</p><p>(ligue o efeito <em>Abaixo da metade da vida</em>)</p>",
+      "effects": {
+        "Below half life": {
+          "name": "Abaixo da metade da vida",
+          "description": "<p>Ligue enquanto estiver abaixo da metade da vida.</p>"
+        }
+      }
+    },
+    "Shatter": {
+      "name": "Estilhaçar",
+      "description": "<p>Ao morrer, causa dano de nível × d4 a todos próximos.</p>"
+    },
+    "Shieldfriend": {
+      "name": "Escudamigo",
+      "description": "<p>Pode receber um golpe destinado a aliados próximos.</p>"
+    },
+    "Slam": {
+      "name": "Impacto",
+      "description": "<p>Gasta 5 de vida: derruba inimigos adjacentes (salvaguarda).</p>"
+    },
+    "Springer": {
+      "name": "Saltador",
+      "description": "<p>Afasta-se após atacar sem provocar ataques de oportunidade.</p>"
+    },
+    "Stabber": {
+      "name": "Punhalador",
+      "description": "<p>Dano dobrado em oponentes surpresos.</p>"
+    },
+    "Steadfast": {
+      "name": "Inabalável",
+      "description": "<p>Não pode ser movido contra sua vontade.</p>"
+    },
+    "Tactical": {
+      "name": "Tático",
+      "description": "<p>Após ser atingido, ganha +3 de defesa contra esse tipo de ataque.</p><p>(ligue o efeito <em>Adaptado</em> após ser atingido)</p>",
+      "effects": {
+        "Adapted": {
+          "name": "Adaptado",
+          "description": "<p>Ligue após ser atingido (contra esse tipo de ataque).</p>"
+        }
+      }
+    },
+    "Teamwork": {
+      "name": "Trabalho em Equipe",
+      "description": "<p>+2 de bônus e defesa ao lado de um aliado.</p><p>(ligue o efeito <em>Ao lado de um aliado</em> enquanto valer)</p>",
+      "effects": {
+        "Next to an ally": {
+          "name": "Ao lado de um aliado",
+          "description": "<p>Ligue enquanto estiver ao lado de um aliado.</p>"
+        }
+      }
+    },
+    "Ticking Corpse": {
+      "name": "Cadáver-relógio",
+      "description": "<p>Causa dano dobrado a todos próximos 1d4 rodadas após a morte (salvaguarda para anular).</p>"
+    },
+    "Toolmaker": {
+      "name": "Fazedor de ferramentas",
+      "description": "<p>Improvise uma arma ou ferramenta em 1 rodada.</p>"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "label": "Extras de NPC",
+  "folders": {
+    "Special Attacks": "Ataques Especiais",
+    "Oddities": "Peculiaridades"
+  },
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effectCollection"
+    },
+    "triggers": {
+      "path": "system.triggers",
+      "converter": "triggerTexts"
+    }
+  },
+  "entries": {
+    "Flies": {
+      "name": "Voa",
+      "description": "<p>Voa, e pode passar por cima de obstáculos e ficar fora de alcance.</p>"
+    },
+    "Acid Spit": {
+      "name": "Cuspe Ácido",
+      "description": "<p>Arma natural à distância. Com dano máximo, o ácido corrói a armadura do alvo: −1 de defesa até ser consertada.</p>",
+      "triggers": {
+        "Acid eats armor: −1 defense": "O ácido corrói a armadura: −1 de defesa"
+      },
+      "effects": {
+        "Corroded": {
+          "name": "Corroído",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Venomous Bite": {
+      "name": "Mordida Venenosa",
+      "description": "<p>Arma natural. Um ferimento dela envenena o alvo (salvaguarda).</p>",
+      "triggers": {
+        "Poisons the target (save)": "Envenena o alvo (salvaguarda)"
+      },
+      "effects": {
+        "Poisoned": {
+          "name": "Envenenado",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Venom Blood": {
+      "name": "Sangue Venenoso",
+      "description": "<p>Seu sangue queima: quem o atinge corpo a corpo perde 1d4 de vida.</p>"
+    },
+    "Draining Touch": {
+      "name": "Toque Drenante",
+      "description": "<p>Arma natural. A criatura recupera tanta vida quanto o dano que causa.</p>",
+      "triggers": {
+        "Heals as much life as the damage dealt": "Recupera tanta vida quanto o dano causado"
+      }
+    },
+    "Thick Skull": {
+      "name": "Cabeça Dura",
+      "description": "<p>Teimoso demais para fugir: +2 de moral.</p>",
+      "effects": {
+        "Thick Skull": {
+          "name": "Cabeça Dura"
+        }
+      }
+    },
+    "Regenerates": {
+      "name": "Regenera",
+      "description": "<p>Recupera 1d6 de vida no início de cada turno, a menos que seja queimado ou banhado em ácido.</p>"
+    },
+    "Crushing Grip": {
+      "name": "Aperto Esmagador",
+      "description": "<p>Arma natural. Numa rolagem de ataque alta agarra o alvo, que precisa de salvaguarda para se soltar.</p>",
+      "triggers": {
+        "Grabs the target (save to break free)": "Agarra o alvo (salvaguarda para se soltar)"
+      },
+      "effects": {
+        "Grabbed": {
+          "name": "Agarrado",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Shadow-Dweller": {
+      "name": "Habitante das Sombras",
+      "description": "<p>Na escuridão é quase invisível: ataques contra ele ali têm desvantagem.</p>"
+    },
+    "Tail Sweep": {
+      "name": "Varrida de Cauda",
+      "description": "<p>Arma natural. Derruba o alvo (salvaguarda).</p>",
+      "triggers": {
+        "Knocks the target down (save)": "Derruba o alvo (salvaguarda)"
+      },
+      "effects": {
+        "Knocked down": {
+          "name": "Derrubado",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Burning Aura": {
+      "name": "Aura Ardente",
+      "description": "<p>Calor escorre dele: criaturas adjacentes perdem 1d4 de vida por rodada. Ilumina como uma tocha.</p>"
+    },
+    "Armored Hide": {
+      "name": "Couro Blindado",
+      "description": "<p>Placas grossas ou quitina: +2 de defesa.</p>",
+      "effects": {
+        "Armored Hide": {
+          "name": "Couro Blindado"
+        }
+      }
+    },
+    "Bioluminescent": {
+      "name": "Bioluminescente",
+      "description": "<p>Sua pele brilha suavemente no escuro. Entra na cena já iluminado.</p>"
+    },
+    "Bleeding Claws": {
+      "name": "Garras Sangrentas",
+      "description": "<p>Arma natural. Os ferimentos continuam sangrando: 1 de vida por rodada até serem enfaixados.</p>",
+      "triggers": {
+        "The wound bleeds (1 life each round until bandaged)": "O ferimento sangra (1 de vida por rodada até ser enfaixado)"
+      },
+      "effects": {
+        "Bleeding": {
+          "name": "Sangrando",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Shock Lash": {
+      "name": "Chicote de Choque",
+      "description": "<p>Arma natural de alcance. Um 20 natural atordoa o alvo.</p>",
+      "triggers": {
+        "Stuns the target": "Atordoa o alvo"
+      },
+      "effects": {
+        "Stunned": {
+          "name": "Atordoado",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Fire Breath": {
+      "name": "Sopro de Fogo",
+      "description": "<p>Arma natural à distância (cone curto). Os alvos pegam fogo (salvaguarda).</p>",
+      "triggers": {
+        "Sets the targets on fire (save)": "Incendeia os alvos (salvaguarda)"
+      },
+      "effects": {
+        "Burning": {
+          "name": "Em chamas",
+          "description": "<p>Colocado no alvo pelo gatilho de rolagem deste ataque (desligado aqui para não afetar quem o porta).</p>"
+        }
+      }
+    },
+    "Swarm Body": {
+      "name": "Corpo-Enxame",
+      "description": "<p>Feito de muitos corpos pequenos: sofre metade do dano de armas de alvo único e o dobro de efeitos em área.</p>"
+    },
+    "Many Eyes": {
+      "name": "Muitos Olhos",
+      "description": "<p>Enxerga em todas as direções e no escuro: não pode ser surpreendido.</p>"
+    }
+  }
+}

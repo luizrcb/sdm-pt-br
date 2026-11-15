@@ -1,0 +1,269 @@
+{
+  "label": "Tabelas de Extras de NPC",
+  "entries": {
+    "eMQTVlxjB8nCMyFl": {
+      "name": "Poderes de NPC",
+      "description": "<p>Poderes para NPCs gerados (poderes acima do alcance do NPC são sorteados de novo).</p>",
+      "results": {
+        "1-1": {
+          "name": "Acesso à Noöárvore"
+        },
+        "2-2": {
+          "name": "Alterar o Eu"
+        },
+        "3-3": {
+          "name": "Animar Cadáver"
+        },
+        "4-4": {
+          "name": "Ane Estético"
+        },
+        "5-5": {
+          "name": "Anti-Babilônia"
+        },
+        "6-6": {
+          "name": "Pastagens Melhores"
+        },
+        "7-7": {
+          "name": "Lótus Azul"
+        },
+        "8-8": {
+          "name": "Partilha de Fardo"
+        },
+        "9-9": {
+          "name": "Modificação de Cargofera"
+        },
+        "10-10": {
+          "name": "Truque do Tropeço"
+        },
+        "11-11": {
+          "name": "Expurgo Cerebral"
+        },
+        "12-12": {
+          "name": "Contrafogo"
+        },
+        "13-13": {
+          "name": "Amortecer Massa"
+        },
+        "14-14": {
+          "name": "Dançando no Granizo"
+        },
+        "15-15": {
+          "name": "Chuva de Heavy Metal Empobrecido"
+        },
+        "16-16": {
+          "name": "Dissolução e Resolução do Espírito"
+        },
+        "17-17": {
+          "name": "Escultura de Terra Seca"
+        },
+        "18-18": {
+          "name": "Topologia Egrégia"
+        },
+        "19-19": {
+          "name": "Reversão Entrópica"
+        },
+        "20-20": {
+          "name": "Peneira de Essência"
+        },
+        "21-21": {
+          "name": "Olhos de Akaula"
+        },
+        "22-22": {
+          "name": "Olhos da Flecha"
+        },
+        "23-23": {
+          "name": "Disco Flutuante"
+        },
+        "24-24": {
+          "name": "Bomba de Gema"
+        },
+        "25-25": {
+          "name": "Refúgio Verde"
+        },
+        "26-26": {
+          "name": "Cruzeiro de Estrada"
+        },
+        "27-27": {
+          "name": "Imolibizar Pessoa"
+        },
+        "28-28": {
+          "name": "Imbuir Lâmina"
+        },
+        "29-29": {
+          "name": "Invocar Dragão Ub"
+        },
+        "30-30": {
+          "name": "Abrir / Trancar"
+        },
+        "31-31": {
+          "name": "Portais Vinculados"
+        },
+        "32-32": {
+          "name": "Frasco Mágico"
+        },
+        "33-33": {
+          "name": "Metempsicose"
+        },
+        "34-34": {
+          "name": "Mãe das Balas"
+        },
+        "35-35": {
+          "name": "Fixador Motor"
+        },
+        "36-36": {
+          "name": "Nihil Est!"
+        },
+        "37-37": {
+          "name": "Telecinese Objetiva"
+        },
+        "38-38": {
+          "name": "Abrir Pessoa"
+        },
+        "39-39": {
+          "name": "Sonho Laranja"
+        },
+        "40-40": {
+          "name": "Transferência Parasômica"
+        },
+        "41-41": {
+          "name": "Desenescência Primária"
+        },
+        "42-42": {
+          "name": "Processar Alimento"
+        },
+        "43-43": {
+          "name": "Memórias Púrpuras"
+        },
+        "44-44": {
+          "name": "Bola de Fogo"
+        },
+        "45-45": {
+          "name": "Ressuscitar Morto"
+        },
+        "46-46": {
+          "name": "Reconstrução em Tempo Real"
+        },
+        "47-47": {
+          "name": "Colheita da Razão"
+        },
+        "48-48": {
+          "name": "Recuperar Alma"
+        },
+        "49-49": {
+          "name": "Névoa Vermelha"
+        },
+        "50-50": {
+          "name": "Sono Restaurador"
+        },
+        "51-51": {
+          "name": "Anel de Chumbo"
+        },
+        "52-52": {
+          "name": "Encontra-Estradas"
+        },
+        "53-53": {
+          "name": "Cria-Estradas"
+        },
+        "54-54": {
+          "name": "Falar com a Casca"
+        },
+        "55-55": {
+          "name": "Suplicar ao Deus Apodrecido"
+        },
+        "56-56": {
+          "name": "Insight Suspenso"
+        },
+        "57-57": {
+          "name": "Suspenso na Luz"
+        },
+        "58-58": {
+          "name": "Obelisco de Espinhopedra"
+        },
+        "59-59": {
+          "name": "Imobilidade de Três Pontos"
+        },
+        "60-60": {
+          "name": "Destilador de Toxina"
+        },
+        "61-61": {
+          "name": "Míssil Trágico"
+        },
+        "62-62": {
+          "name": "Asa e Prece"
+        },
+        "63-63": {
+          "name": "Nuvem Amarela"
+        },
+        "64-64": {
+          "name": "Previsão Amarela"
+        }
+      }
+    },
+    "lR2R1gKLCFguH9lX": {
+      "name": "Peculiaridades de NPC",
+      "description": "<p>Traços estranhos para NPCs gerados.</p>",
+      "results": {
+        "1-1": {
+          "name": "Bioluminescente"
+        },
+        "2-2": {
+          "name": "Aura Ardente"
+        },
+        "3-3": {
+          "name": "Couro Blindado"
+        },
+        "4-4": {
+          "name": "Cabeça Dura"
+        },
+        "5-5": {
+          "name": "Regenera"
+        },
+        "6-6": {
+          "name": "Voa"
+        },
+        "7-7": {
+          "name": "Sangue Venenoso"
+        },
+        "8-8": {
+          "name": "Muitos Olhos"
+        },
+        "9-9": {
+          "name": "Habitante das Sombras"
+        },
+        "10-10": {
+          "name": "Corpo-Enxame"
+        }
+      }
+    },
+    "5tECVbEsoZd84EFK": {
+      "name": "Ataques Especiais de NPC",
+      "description": "<p>Armas naturais para NPCs gerados.</p>",
+      "results": {
+        "1-1": {
+          "name": "Mordida Venenosa"
+        },
+        "2-2": {
+          "name": "Cuspe Ácido"
+        },
+        "3-3": {
+          "name": "Varrida de Cauda"
+        },
+        "4-4": {
+          "name": "Aperto Esmagador"
+        },
+        "5-5": {
+          "name": "Chicote de Choque"
+        },
+        "6-6": {
+          "name": "Garras Sangrentas"
+        },
+        "7-7": {
+          "name": "Sopro de Fogo"
+        },
+        "8-8": {
+          "name": "Toque Drenante"
+        }
+      }
+    }
+  }
+}
