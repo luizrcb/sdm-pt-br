@@ -12,6 +12,10 @@
     "effects": {
       "path": "effects",
       "converter": "effectCollection"
+    },
+    "triggers": {
+      "path": "system.triggers",
+      "converter": "triggerTexts"
     }
   },
   "entries": {
@@ -192,6 +196,7 @@
     },
     "Eyes of Akaula": {
       "name": "Olhos de Akaula",
+      "triggers": {"Sees invisible (1 day)": "Vê o invisível (1 dia)"},
       "description": "<p><em>Visões dos Queridos Partidos</em></p><p>Os olhos do buscador brilham em verde-limão pálido e enxergam coisas invisíveis, ocultas, ausentes e mortas.</p>",
       "range": "médio, ~50 m",
       "target": "si mesmo",

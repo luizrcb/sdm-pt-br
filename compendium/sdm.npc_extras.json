@@ -215,6 +215,7 @@
     },
     "Eerie Sense": {
       "name": "Sentido Estranho",
+      "effects": {"Sees invisible": {"name": "Vê o invisível"}},
       "description": "<p>Sente vibração, eletricidade ou magnetismo: escuridão e invisibilidade não escondem ninguém dele.</p><p><em>Das tabelas de corrupção.</em></p>"
     },
     "Gills": {
