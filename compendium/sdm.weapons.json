@@ -50,7 +50,6 @@
 
     "Arzax Lance": {
       "name": "Lança Arzax",
-      "effects": {"Stunned": {"name": "Atordoado"}},
       "triggers": {"Stuns": "Atordoa"},
       "description": "<p>Lança de energia ultraleve. Pode colapsar em uma haste curta.</p><p>Atordoa em um 13 natural.</p>"
     },
@@ -146,6 +145,7 @@
 
     "Flasher": {
       "name": "Piscador",
+      "triggers": {"Blinds the target (blindness, nausea and/or robot dancing)": "Cega o alvo (cegueira, náusea e/ou dança do robô)", "Nauseates the target": "Deixa o alvo nauseado"},
       "description": "<p>O olho sinalizador de um mevo defeituoso configurado no modo Tremedeira.</p><p>Causa cegueira, náusea e/ou dança do robô.</p>"
     },
 
@@ -247,7 +247,6 @@
 
     "Pleasure Thorn": {
       "name": "Espinho do Prazer",
-      "effects": {"Paroxysms (1 round)": {"name": "Paroxismos (1 rodada)"}},
       "triggers": {"Paroxysms for 1 round": "Paroxismos por 1 rodada"},
       "description": "<p>Relacionado ao chicote neural, mas mais agradável. Incapacita com êxtase.</p><p>Paroxismos por 1 rodada em um 7 natural.</p>"
     },
@@ -308,7 +307,6 @@
     },
     "Stun Baton Wand": {
       "name": "Varinha-Bastão de Atordoamento",
-      "effects": {"Stunned": {"name": "Atordoado"}},
       "triggers": {"Spend 1 life to stun (save)": "Gaste 1 de vida para atordoar (salvaguarda)"},
       "description": "<p>Gaste 1 de vida para atordoar (salvaguarda). Retrátil.</p>"
     },
