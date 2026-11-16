@@ -22,6 +22,11 @@
   "entries": {
     "Flies": {
       "name": "Voa",
+      "effects": {
+        "Flying": {
+          "name": "Voando"
+        }
+      },
       "description": "<p>Voa, e pode passar por cima de obstáculos e ficar fora de alcance.</p>"
     },
     "Acid Spit": {

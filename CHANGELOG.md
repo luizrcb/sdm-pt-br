@@ -6,6 +6,7 @@ Para o sistema WTF v1.11.0.
 
 ### Novidades
 
+- Voa: tradução do novo efeito Voando
 - Piscador: tradução dos dois novos gatilhos (cega e deixa nauseado no acerto). Removidas as traduções dos efeitos de condição das armas naturais dos extras de PdM e da Lança Arzax, Varinha-Bastão de Atordoamento e Espinho do Prazer (o gatilho agora coloca a condição sem efeito no item)
 - Tradução das notas de reforço de dano (`boostNote`: Martelo-estaca contra vampiros, Arma de Nave contra alvos sem armadura, Machado-Martelo do Ghoul de Fios contra armaduras pesadas, Revestimento do Flagelo) e dos gatilhos dos traços (conversor `triggerTexts` em traços: Afortunado)
 - Engradado Felix Whizz: removida a instrução do efeito ativo (agora é um consumível com vida temporária)
