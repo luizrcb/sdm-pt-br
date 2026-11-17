@@ -257,7 +257,7 @@
     },
     "Radiothermal Horn": {
       "name": "Chifre Radiotérmico",
-      "triggers": {"Backfires": "Falha crítica"},
+      "triggers": {"Backfires": "Falha crítica", "Causes illness (hard save)": "Causa doença (salvaguarda difícil)"},
       "description": "<p>Emite radiação pesada. Causa doença (salvaguarda difícil). Falha crítica em um 1 natural. Funciona como um fogão portátil.</p>"
     },
     "Reality Flense": {
