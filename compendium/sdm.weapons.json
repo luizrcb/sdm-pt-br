@@ -232,13 +232,7 @@
     "Mouth of the Void": {
       "name": "Boca do Vazio",
       "triggers": {"Stops a heart": "Para um coração"},
-      "description": "<p>Ouça a canção do cosmos, funda-se com seu terror existencial.</p><p>Criaturas adjacentes sofrem [[/r 1d6]] de dano. Para um coração em um 13 natural.</p>",
-      "effects": {
-        "Song of the Void": {
-          "name": "Canção do Vazio",
-          "description": "<p>Ligue enquanto a arma canta: criaturas adjacentes sofrem 1d6 de dano no início de cada rodada.</p>"
-        }
-      }
+      "description": "<p>Ouça a canção do cosmos, funda-se com seu terror existencial.</p><p>Criaturas adjacentes sofrem [[/r 1d6]] de dano. Para um coração em um 13 natural.</p>"
     },
 
     "Noetic Blade": {
