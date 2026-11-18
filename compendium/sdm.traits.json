@@ -135,7 +135,7 @@
     },
     "0. Soldier": {
       "name": "0. Soldado",
-      "description": "<p>Você serviu nas não-guerras na fronteira do tempo. Você conhece as armas e armaduras do regulamento; varinha-arma e escudo, lâmina e traje de combate. Você ganha +2 de defesa (+4 como especialista, +6 como mestre).</p><p>Além disso, quando um aliado fica ao seu lado, ele adiciona seu carisma à sua pontuação de defesa.</p><p><em>Seus aliados devem usar um efeito ativo para aumentar sua defesa com seu valor de carisma atual. (Edite o efeito ativo <strong>Bônus de Defesa de Aliado</strong> e deixe-o inativo em sua ficha. Arraste e solte o efeito ativo <strong>Bônus de Defesa de Aliado</strong> na ficha do personagem de seu Aliado).</em></p>",
+      "description": "<p>Você serviu nas não-guerras na fronteira do tempo. Você conhece as armas e armaduras do regulamento; varinha-arma e escudo, lâmina e traje de combate. Você ganha +2 de defesa (+4 como especialista, +6 como mestre).</p><p>Além disso, quando um aliado fica ao seu lado, ele adiciona seu carisma à sua pontuação de defesa.</p><p><em>O <strong>Bônus de Defesa de Aliado</strong> é uma aura: aliados ao seu lado recebem seu carisma como defesa sozinhos (Auras, em Automações Opcionais).</em></p>",
       "effects": {
         "Defense Bonus": {
           "name": "Bônus de Defesa"
@@ -297,7 +297,13 @@
     },
     "1. Glowing Skeleton": {
       "name": "1. Esqueleto Brilhante",
-      "description": "<p>Livre-se de suas botas pesadas de chumbo, seu traje de borracha, suas luvas de risco. Deixe-os ver seus ossos radioativos. Você é resistente a dano radiante e corrupção. Quando despido, criaturas adjacentes perdem vida igual ao seu nível a cada rodada.</p>"
+      "description": "<p>Livre-se de suas botas pesadas de chumbo, seu traje de borracha, suas luvas de risco. Deixe-os ver seus ossos radioativos. Você é resistente a dano radiante e corrupção. Quando despido, criaturas adjacentes perdem vida igual ao seu nível a cada rodada.</p>",
+      "effects": {
+        "Radiant Bones (unclothed)": {
+          "name": "Ossos Radiantes (despido)",
+          "description": "<p>Ligue enquanto estiver despido: criaturas adjacentes perdem vida igual ao seu nível no início de cada rodada.</p>"
+        }
+      }
     },
     "1. Grounded": {
       "name": "1. Aterrado",
@@ -682,7 +688,13 @@
     },
     "4. Irresistible": {
       "name": "4. Irresistível",
-      "description": "<p>A cada rodada você causa dano igual ao seu nível a um inimigo que você atacou, independentemente de sua rolagem de ataque ter acertado ou errado. <em>(não automatizado)</em></p>"
+      "description": "<p>A cada rodada você causa dano igual ao seu nível a um inimigo que você atacou, independentemente de sua rolagem de ataque ter acertado ou errado.</p>",
+      "effects": {
+        "Irresistible": {
+          "name": "Irresistível",
+          "description": "<p>No início de cada rodada, dano igual ao seu nível ao último inimigo que você atacou.</p>"
+        }
+      }
     },
     "4. Kaffetropist": {
       "name": "4. Cafetropista",
