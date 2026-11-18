@@ -7,7 +7,8 @@
     "Post Scarcity Customizations": "Customizações Pós-Escassez",
     "Weapon Mods": "Mods de Arma",
     "Standard Upgrades": "Melhorias Padrão",
-    "Postreality Customizations": "Customizações Pós-Realidade"
+    "Postreality Customizations": "Customizações Pós-Realidade",
+    "Ride Mods": "Mods de Montaria e Veículo"
   },
   "mapping": {
     "changes": {
@@ -282,6 +283,246 @@
       "changes": {
         "system.description": "<p>Ganha a habilidade de usar um poder (ou magia). Usa seu próprio nível e atributos.</p>"
       }
+    },
+    "1 - Aerolith Core": {
+      "name": "1 - Núcleo de Aerólito",
+      "description": "<p>Placas de aerólito presas à montaria dão sustentação aerostática. Ocupa metade da capacidade.</p><p><strong>Custo do Mod</strong>: €500/cap</p>"
+    },
+    "2 - Babble Gem": {
+      "name": "2 - Gema Tagarela",
+      "description": "<p>Dá à montaria uma voz e uma personalidade humana semissenciente. Reduz a moral em 1.</p><p><strong>Custo do Mod</strong>: €100</p>"
+    },
+    "3 - Big Treads": {
+      "name": "3 - Esteiras Grandes",
+      "description": "<p>Atravessa rios, incêndios e a maioria dos obstáculos. −1 de velocidade e usa o dobro de suprimentos.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
+    },
+    "4 - Blade Plow": {
+      "name": "4 - Lâmina Arado",
+      "description": "<p>Limpa obstáculos. Ignora ataques frontais de 20 de dano ou menos. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €500</p>"
+    },
+    "5 - Cabin Gall": {
+      "name": "5 - Cabine Galha",
+      "description": "<p>Cápsula externa de dormir com suspensão total para uma pessoa. Descanso excelente garantido. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €250</p>"
+    },
+    "6 - Cameleocoat": {
+      "name": "6 - Camaleocapa",
+      "description": "<p>Esta pele sintética impermeável imita o terreno ao redor. Ótima para se esconder. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €20/cap</p>"
+    },
+    "7 - Chainclaw": {
+      "name": "7 - Garra Serrada",
+      "description": "<p>Um braço de origem aracnídea com lâminas cortantes. 4d8 + nível de dano. Ignora armadura. Ocupa 3 mochilas.</p><p><strong>Custo do Mod</strong>: €1000</p>"
+    },
+    "8 - Chaingun": {
+      "name": "8 - Metralhadora Giratória",
+      "description": "<p>Seis canos giratórios da perdição. 2d12 + nível de dano, longo, re 3. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €2000</p>"
+    },
+    "9 - Chitincap Hull": {
+      "name": "9 - Casco de Quitina",
+      "description": "<p>Painéis fibrosos reduzem o peso e somam +1 mochila de capacidade. −1 de defesa.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
+    },
+    "10 - Chromarmor": {
+      "name": "10 - Cromarmadura",
+      "description": "<p>Brilhante. Dá +2 de defesa e imunidade a dano radiante. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €10/cap</p>"
+    },
+    "11 - Climate Box": {
+      "name": "11 - Caixa Climática",
+      "description": "<p>Deixa a montaria confortável em climas quentes ou frios. Impressionante. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
+    },
+    "12 - Coalem Drive": {
+      "name": "12 - Motor Coalem",
+      "description": "<p>A montaria agora consome qualquer tipo de biomatéria. E solta fumaça. Ocupa 4 mochilas.</p><p><strong>Custo do Mod</strong>: €200/cap</p>"
+    },
+    "13 - Dendric Fur": {
+      "name": "13 - Pelo Dêndrico",
+      "description": "<p>Uma pelagem verde brilhante e fotossintética. Reduz à metade os suprimentos necessários. Ocupa 3 mochilas.</p><p><strong>Custo do Mod</strong>: €100/cap</p>"
+    },
+    "14 - Doom Ray": {
+      "name": "14 - Raio da Perdição",
+      "description": "<p>Precisa de uma rodada para carregar. 3d20 + nível de dano, longo, re 10. Ocupa 4 mochilas.</p><p><strong>Custo do Mod</strong>: €6000</p>"
+    },
+    "15 - Escape Pod": {
+      "name": "15 - Cápsula de Fuga",
+      "description": "<p>Envolve dois assentos (ou 2 mochilas de carga) num cisto autopropelido. Longo alcance. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €300</p>"
+    },
+    "16 - Extra Limbs": {
+      "name": "16 - Membros Extras",
+      "description": "<p>Duas mãos para segurar armas, ou duas pernas para mais estabilidade e resistência. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €75/cap</p>"
+    },
+    "17 - Flambéur": {
+      "name": "17 - Flambéur",
+      "description": "<p>Um jato de chamas. 3d6 + nível de dano, médio, re 6. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €1500</p>"
+    },
+    "18 - Frenzy Stone": {
+      "name": "18 - Pedra do Frenesi",
+      "description": "<p>Joia de combate implantável. Ative à distância para tornar a montaria uma máquina de matar implacável. Dobra o bônus de ataque e aumenta a velocidade. Irreversível. −1 de defesa. (Ative este efeito quando ela for ativada.)</p><p><strong>Custo do Mod</strong>: €50</p>"
+    },
+    "19 - Fresh Skin": {
+      "name": "19 - Pele Fresca",
+      "description": "<p>Pele viva sobre endoesqueletos sintéticos ou decompostos. Parece viva. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €25/cap</p>"
+    },
+    "20 - Gas Jets": {
+      "name": "20 - Jatos de Gás",
+      "description": "<p>Bexigas guardam gás, e sifões dirigem o jato flamejante para uma explosão de velocidade. Recarrega sozinho em algumas horas. Reabasteça com gás guardado em algumas rodadas. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €30/cap</p>"
+    },
+    "21 - Grazer Unit": {
+      "name": "21 - Unidade Pastadora",
+      "description": "<p>Boca mecânica e conversor de biomatéria. A montaria agora é herbívora. Ocupa 3 mochilas.</p><p><strong>Custo do Mod</strong>: €500/cap</p>"
+    },
+    "22 - Gun Mount": {
+      "name": "22 - Suporte de Arma",
+      "description": "<p>Suporte estabilizado com cardã para uma arma grande. Atire em movimento! Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €50</p>"
+    },
+    "23 - Heavy Armor": {
+      "name": "23 - Armadura Pesada",
+      "description": "<p>Dissipa todos os ataques de 20 de dano ou menos. −1 de velocidade e −2 de defesa. Ocupa 4 mochilas.</p><p><strong>Custo do Mod</strong>: €250/cap</p>"
+    },
+    "24 - Hollow Bones": {
+      "name": "24 - Ossos Ocos",
+      "description": "<p>Dá +1 de velocidade, bônus e defesa, mas reduz a vida em 2 por nível. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
+    },
+    "25 - Hopper": {
+      "name": "25 - Saltadora",
+      "description": "<p>Bocais e suspensões insetoides deixam a montaria pular como um gafanhoto. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €250/cap</p>"
+    },
+    "26 - Hover Wheels": {
+      "name": "26 - Rodas Flutuantes",
+      "description": "<p>Propulsores verticais da velhatec ignoram terreno moderadamente difícil. Usa +1 de suprimentos.</p><p><strong>Custo do Mod</strong>: €250/cap</p>"
+    },
+    "27 - Ice Generator": {
+      "name": "27 - Gerador de Gelo",
+      "description": "<p>Resfria a carga o bastante para transportar cadavicolés e outros perecíveis. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €75/cap</p>"
+    },
+    "28 - Lamprey": {
+      "name": "28 - Lampreia",
+      "description": "<p>Mangueira cartilaginosa extensível que serve de túnel de abordagem. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €500</p>"
+    },
+    "29 - Lazor": {
+      "name": "29 - Lazor",
+      "description": "<p>Feixe cortante de energias radiantes. 3d8 + nível de dano, curto, re 5. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €2500</p>"
+    },
+    "30 - Levi Drive": {
+      "name": "30 - Motor Levi",
+      "description": "<p>Motores de campo dobrado da velhatec e lentes de levitação para voo flutuante mágico. Ocupa 3 mochilas.</p><p><strong>Custo do Mod</strong>: €1500/cap</p>"
+    },
+    "31 - Living Sails": {
+      "name": "31 - Velas Vivas",
+      "description": "<p>Somam um pouco de velocidade numa perseguição e reduzem o custo de suprimentos em 1d4−2 por semana. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €20/cap</p>"
+    },
+    "32 - Living Tannoy": {
+      "name": "32 - Alto-falante Vivo",
+      "description": "<p>Dá à montaria uma voz rugidora. Também toca algumas músicas. Abafa sirenes. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €100</p>"
+    },
+    "33 - Luxury Seats": {
+      "name": "33 - Assentos de Luxo",
+      "description": "<p>Tão confortáveis que dá para descansar neles (se você não estiver conduzindo). Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €75/cap</p>"
+    },
+    "34 - Nutrislurry Teat": {
+      "name": "34 - Teta de Nutripasta",
+      "description": "<p>Alimento comestível (suprimentos) para quatro humanos a partir de uma mochila de combustível. Gosto de óleo. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €500</p>"
+    },
+    "35 - Obedience": {
+      "name": "35 - Obediência",
+      "description": "<p>Lealdade cirúrgica. A montaria não testa mais a moral. Perde a personalidade e tem −1 nos ataques.</p><p><strong>Custo do Mod</strong>: €50</p>"
+    },
+    "36 - Osteoliths": {
+      "name": "36 - Osteólitos",
+      "description": "<p>Crescimentos de osso vivo sobem o dano em um passo e dão resistência a fogo. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
+    },
+    "37 - Para-Radio": {
+      "name": "37 - Para-Rádio",
+      "description": "<p>Músicas de Muito Tempo Atrás, e coordenação com alguns assentamentos da velhatec. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €500</p>"
+    },
+    "38 - Plug-In Battery": {
+      "name": "38 - Bateria Plugável",
+      "description": "<p>Segundo estômago de golem para energia reserva. Fique 4 semanas sem suprimentos. Recarregue por várias horas num obelisco de carga da velhatec, ou simplesmente troque. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €100/cap</p>"
+    },
+    "39 - Plug-In Brain": {
+      "name": "39 - Cérebro Plugável",
+      "description": "<p>Cérebro de gema especializado em condução ou artilharia. Dá +5 de bônus de perícia. −1 nas salvaguardas.</p><p><strong>Custo do Mod</strong>: €200</p>"
+    },
+    "40 - Porcelain Glaze": {
+      "name": "40 - Esmalte de Porcelana",
+      "description": "<p>Dá +2 de defesa e imunidade a calor e a ataques que afetam a mente. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €100/cap</p>"
+    },
+    "41 - Rainbow Silk": {
+      "name": "41 - Seda Arco-Íris",
+      "description": "<p>Fiandeiras tecem campos alucinatórios. Muito difícil de ver com pouca luz. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €300/cap</p>"
+    },
+    "42 - Ram": {
+      "name": "42 - Aríete",
+      "description": "<p>A montaria não sofre dano ao atacar alvos duros. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
+    },
+    "43 - Rear Dispenser": {
+      "name": "43 - Dispensador Traseiro",
+      "description": "<p>Solta minas, vomes de ataque, manchas de óleo ou estrepes. Munição vendida à parte. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €75/cap</p>"
+    },
+    "44 - Recovery Rig": {
+      "name": "44 - Kit de Resgate",
+      "description": "<p>Guincho, macacos, pás, correntes. Desatola coisas de tamanho igual ou menor. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €25/cap</p>"
+    },
+    "45 - Red Button": {
+      "name": "45 - Botão Vermelho",
+      "description": "<p>Explosivos internos e um detonador causam nível × d6 de dano numa área grande. Uma vez. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €15/cap</p>"
+    },
+    "46 - Rubbercoat": {
+      "name": "46 - Capa de Borracha",
+      "description": "<p>Veda a montaria contra ataques de gás e elétricos. Dá +1 de defesa. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €10/cap</p>"
+    },
+    "47 - Satraplicator": {
+      "name": "47 - Satraplicador",
+      "description": "<p>Cápsula médica com transplantador automático de mente e espaço para um clone pronto. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €2000</p>"
+    },
+    "48 - Side Pod": {
+      "name": "48 - Cápsula Lateral",
+      "description": "<p>Parafusada ou crescida na montaria. Soma +1 de capacidade. −1 de velocidade.</p><p><strong>Custo do Mod</strong>: €50</p>"
+    },
+    "49 - Smoke Throat": {
+      "name": "49 - Garganta de Fumaça",
+      "description": "<p>Enche uma área média com fumaça opaca. Facilita fugas. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €100</p>"
+    },
+    "50 - Snazzy Paint": {
+      "name": "50 - Pintura Chamativa",
+      "description": "<p>Scarabeo, redemoinho de fordite, vantablack, gibão, splunge ou vermelho. Dá +1 de carisma enquanto você está na montaria ou perto dela e claramente parece ser o dono.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
+    },
+    "51 - Strongbox": {
+      "name": "51 - Cofre",
+      "description": "<p>1 mochila de equipamento fica a salvo de saqueadores, ladrões e demônios de laser. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €200</p>"
+    },
+    "52 - Subaquatic": {
+      "name": "52 - Subaquática",
+      "description": "<p>Uma reforma enorme funde a montaria com códigos-fonte de temnospôndilo. Anfíbia. Ocupa 4 mochilas.</p><p><strong>Custo do Mod</strong>: €500/cap</p>"
+    },
+    "53 - Thagomizer": {
+      "name": "53 - Tagomizador",
+      "description": "<p>Cauda com uma clava de espinhos letal que causa 2d6 + nível de dano. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €150/cap</p>"
+    },
+    "54 - Tube Artillery": {
+      "name": "54 - Artilharia de Tubo",
+      "description": "<p>Um foguete da velhatec. 2d10 × 1d10 de dano, muito longo, área M. Ocupa 4 mochilas.</p><p><strong>Custo do Mod</strong>: €3000</p>"
+    },
+    "55 - Turret": {
+      "name": "55 - Torreta",
+      "description": "<p>Cobre um hemisfério inteiro com suas armas de longo alcance. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €500</p>"
+    },
+    "56 - Vehicular Effigy": {
+      "name": "56 - Efígie Veicular",
+      "description": "<p>Um enfeite de capô brilhante para proteger sua montaria. Ganha +3 nas salvaguardas, mas sofre −1 de defesa.</p><p><strong>Custo do Mod</strong>: €100</p>"
+    },
+    "57 - Voidtight": {
+      "name": "57 - Hermética ao Vazio",
+      "description": "<p>Campos de força, membranas e geradores de atmosfera para sobreviver no vazio. Ocupa 3 mochilas.</p><p><strong>Custo do Mod</strong>: €150/cap</p>"
+    },
+    "58 - Water Closet": {
+      "name": "58 - Banheiro",
+      "description": "<p>Porque até aventureiros merecem um trono em movimento. Ocupa 4 mochilas.</p><p><strong>Custo do Mod</strong>: €500</p>"
+    },
+    "59 - Watertight": {
+      "name": "59 - Estanque",
+      "description": "<p>Ajuda a flutuar, atravessar riachos e afins. Motor de popa não incluso. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €10/cap</p>"
+    },
+    "60 - Xenon Drive": {
+      "name": "60 - Motor Xenon",
+      "description": "<p>Cabos de ur-metal da velhatec dão uma leve antigravidade e rastros no ar em alta velocidade. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €40/cap</p>"
     }
   }
 }
