@@ -284,40 +284,40 @@
         "system.description": "<p>Ganha a habilidade de usar um poder (ou magia). Usa seu próprio nível e atributos.</p>"
       }
     },
-    "1 - Aerolith Core": {
-      "name": "1 - Núcleo de Aerólito",
+    "01 - Aerolith Core": {
+      "name": "01 - Núcleo de Aerólito",
       "description": "<p>Placas de aerólito presas à montaria dão sustentação aerostática. Ocupa metade da capacidade.</p><p><strong>Custo do Mod</strong>: €500/cap</p>"
     },
-    "2 - Babble Gem": {
-      "name": "2 - Gema Tagarela",
+    "02 - Babble Gem": {
+      "name": "02 - Gema Tagarela",
       "description": "<p>Dá à montaria uma voz e uma personalidade humana semissenciente. Reduz a moral em 1.</p><p><strong>Custo do Mod</strong>: €100</p>"
     },
-    "3 - Big Treads": {
-      "name": "3 - Esteiras Grandes",
+    "03 - Big Treads": {
+      "name": "03 - Esteiras Grandes",
       "description": "<p>Atravessa rios, incêndios e a maioria dos obstáculos. −1 de velocidade e usa o dobro de suprimentos.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
     },
-    "4 - Blade Plow": {
-      "name": "4 - Lâmina Arado",
+    "04 - Blade Plow": {
+      "name": "04 - Lâmina Arado",
       "description": "<p>Limpa obstáculos. Ignora ataques frontais de 20 de dano ou menos. Ocupa 2 mochilas.</p><p><strong>Custo do Mod</strong>: €500</p>"
     },
-    "5 - Cabin Gall": {
-      "name": "5 - Cabine Galha",
+    "05 - Cabin Gall": {
+      "name": "05 - Cabine Galha",
       "description": "<p>Cápsula externa de dormir com suspensão total para uma pessoa. Descanso excelente garantido. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €250</p>"
     },
-    "6 - Cameleocoat": {
-      "name": "6 - Camaleocapa",
+    "06 - Cameleocoat": {
+      "name": "06 - Camaleocapa",
       "description": "<p>Esta pele sintética impermeável imita o terreno ao redor. Ótima para se esconder. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €20/cap</p>"
     },
-    "7 - Chainclaw": {
-      "name": "7 - Garra Serrada",
+    "07 - Chainclaw": {
+      "name": "07 - Garra Serrada",
       "description": "<p>Um braço de origem aracnídea com lâminas cortantes. 4d8 + nível de dano. Ignora armadura. Ocupa 3 mochilas.</p><p><strong>Custo do Mod</strong>: €1000</p>"
     },
-    "8 - Chaingun": {
-      "name": "8 - Metralhadora Giratória",
+    "08 - Chaingun": {
+      "name": "08 - Metralhadora Giratória",
       "description": "<p>Seis canos giratórios da perdição. 2d12 + nível de dano, longo, re 3. Ocupa 1 mochila.</p><p><strong>Custo do Mod</strong>: €2000</p>"
     },
-    "9 - Chitincap Hull": {
-      "name": "9 - Casco de Quitina",
+    "09 - Chitincap Hull": {
+      "name": "09 - Casco de Quitina",
       "description": "<p>Painéis fibrosos reduzem o peso e somam +1 mochila de capacidade. −1 de defesa.</p><p><strong>Custo do Mod</strong>: €50/cap</p>"
     },
     "10 - Chromarmor": {
