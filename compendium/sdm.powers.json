@@ -37,6 +37,7 @@
     },
     "Alter Self": {
       "name": "Alterar o Eu",
+      "effects": {"Low-Light Vision": {"name": "Visão em Pouca Luz"}},
       "description": "<p><em>Beleza Interior Manifestada, Mente Sobre a Carne</em></p><p>A mente do mago reesculpe seus próprios traços. Ele pode assumir a aparência de uma pessoa específica, desde que a tenha estudado de perto, ou de um tipo geral. Nenhuma habilidade é alterada. Alternativamente, o mago pode escolher ganhar guelras, visão em pouca luz, ou outra habilidade natural menor, a critério do mediador.</p>",
       "range": "toque",
       "target": "si mesmo",

@@ -113,6 +113,7 @@
 
     "Octarine Oil": {
       "name": "Óleo Octarino",
+      "effects": {"Wider Spectrum": {"name": "Espectro Ampliado"}},
       "description": "<p>Colírio iridescente que revela um espectro mais amplo, de micro-ondas a raios gama.</p>"
     },
 

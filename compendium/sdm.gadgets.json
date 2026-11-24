@@ -78,6 +78,7 @@
     },
     "Dark-Vision Goggles": {
       "name": "Óculos de Visão no Escuro",
+      "effects": {"Dark-Vision": {"name": "Visão no Escuro"}},
       "description": "<p>Com emissor infravermelho.</p>"
     },
     "Disintegrity Spray": {

@@ -1398,6 +1398,7 @@
     },
     "Twilight Shades": {
       "name": "Óculos do Crepúsculo",
+      "effects": {"Low-Light Vision": {"name": "Visão em Pouca Luz"}},
       "description": "<p>Óculos envolventes de visão noturna 360° para boates e florestas profundas.</p>"
     },
     "Umbrella Gun": {
