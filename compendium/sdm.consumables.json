@@ -238,6 +238,26 @@
     "Full Heal Treatment": {
       "name": "Tratamento de Cura Total",
       "description": "<p>Tratamento de cura total. Restaura toda a vida e todos os pontos de atributo perdidos.</p><p><em>Um serviço, não algo que se carrega: compre e use na hora, na cidade.</em></p>"
+    },
+
+    "Microbattery": {
+      "name": "Microbateria",
+      "description": "<p>Recarrega um item de 1 mochila.</p>"
+    },
+
+    "Nanoammo": {
+      "name": "Nanomunição",
+      "description": "<p>Para qualquer arma.</p>"
+    },
+
+    "Omnibattery": {
+      "name": "Omnibateria",
+      "description": "<p>Recarrega qualquer coisa.</p>"
+    },
+
+    "Power Cube": {
+      "name": "Cubo de Energia",
+      "description": "<p>Reabastece qualquer máquina.</p>"
     }
   }
 }
