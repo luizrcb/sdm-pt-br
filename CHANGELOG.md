@@ -18,6 +18,7 @@ Para o sistema WTF v1.11.0.
 - Meus Ossos Gravados avisa que a perda de resistência não é automatizada
 - Sistema WTF v1.12.0: Defesa de Aliado do Soldado descrita como aura; tradução dos efeitos Ossos Radiantes (despido) e Irresistível
 - Sistema WTF v1.12.0: tradução dos novos reabastecedores Microbateria, Nanomunição, Omnibateria e Cubo de Energia
+- Sistema WTF v1.12.0: tradução dos efeitos de visão Visão no Escuro (Óculos de Visão no Escuro), Visão em Pouca Luz (Óculos do Crepúsculo, Alterar o Eu) e Espectro Ampliado (Óleo Octarino)
 
 ## v0.5.0
 
