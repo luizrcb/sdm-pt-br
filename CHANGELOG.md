@@ -16,6 +16,8 @@ Para o sistema WTF v1.11.0.
 - Tradução dos contadores de uso dos traços com usos limitados (uma vez por turno, rodada, cena, dia ou sessão)
 - Tradução do gatilho de Ur-Arma e dos efeitos de Lança Arzax, Bastão de Urânio de Quarenta Libras e Espinho do Prazer
 - Meus Ossos Gravados avisa que a perda de resistência não é automatizada
+- Sistema WTF v1.12.0: Defesa de Aliado do Soldado descrita como aura; tradução dos efeitos Ossos Radiantes (despido) e Irresistível
+- Sistema WTF v1.12.0: tradução dos novos reabastecedores Microbateria, Nanomunição, Omnibateria e Cubo de Energia
 
 ## v0.5.0
 
