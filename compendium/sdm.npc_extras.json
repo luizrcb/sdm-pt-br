@@ -94,6 +94,7 @@
     },
     "Burning Aura": {
       "name": "Aura Ardente",
+      "effects": {"Burning Aura": {"name": "Aura Ardente"}},
       "description": "<p>Calor escorre dele: criaturas adjacentes perdem 1d4 de vida por rodada. Ilumina como uma tocha.</p>"
     },
     "Armored Hide": {

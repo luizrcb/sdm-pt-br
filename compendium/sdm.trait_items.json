@@ -1197,6 +1197,7 @@
     },
     "Sensory Overloader": {
       "name": "Sobrecarregador Sensorial",
+      "triggers": {"Loses an action (save)": "Perde uma ação (salvaguarda)"},
       "description": "<p>Arma velhatec chamativa. Muito visível no escuro. O alvo perde uma ação quando atingido (salvaguarda).</p>"
     },
     "Shapeless Hat": {
@@ -1478,6 +1479,7 @@
     },
     "Zunkwaffel Wandgun": {
       "name": "Varinha-Arma Zunkwaffel",
+      "triggers": {"Knocked out for a minute (save; undead)": "Nocauteado por um minuto (salvaguarda; mortos-vivos)"},
       "description": "<p>A pistola de supressão de desmortos interrompe temporariamente sua força animadora (salvaguarda ou nocauteado por um minuto).</p>"
     }
   }

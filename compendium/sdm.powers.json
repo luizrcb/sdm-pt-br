@@ -246,6 +246,7 @@
     },
     "Hlod Person": {
       "name": "Imolibizar Pessoa",
+      "triggers": {"Becomes as a log of wood (save)": "Torna-se como um tronco de madeira (salvaguarda)"},
       "description": "<p><em>Enlace do Demônio Disléxico, Constrição Imprevista de Leshnik</em></p><p>Agite a mão como uma folha dobrada ao meio pela sexta vez e veja seu alvo se tornar como um tronco de madeira (salvaguarda). Duro, rígido, imóvel, receptivo à carpintaria.</p>",
       "range": "curto",
       "target": "uma pessoa",
