@@ -511,8 +511,9 @@
     },
     "3. Death Hunger": {
       "name": "3. Fome da Morte",
+      "triggers": {"+1 kill": "+1 abate"},
       "counters": {"kills": "Abates"},
-      "description": "<p>Você sabe tudo sobre desmontar mortais. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 nas rolagens de ataque até o final da batalha. Após a primeira morte, você rosna e ruge até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Some cada abate no contador <strong>Abates</strong> (clique nele no inventário). Ele zera quando o combate termina.</em></p>",
+      "description": "<p>Você sabe tudo sobre desmontar mortais. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 nas rolagens de ataque até o final da batalha. Após a primeira morte, você rosna e ruge até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Cada abate soma 1 no contador <strong>Abates</strong> (também à mão: clique nele no inventário). Ele zera quando o combate termina.</em></p>",
       "effects": {
         "Death Hunger": {
           "name": "Fome da Morte"
@@ -889,6 +890,7 @@
     },
     "5. Revenant-in-Waiting": {
       "name": "5. Revenante em Espera",
+      "triggers": {"Your weapon may revive you: lower one ability score by 1": "Sua arma pode revivê-lo: reduza um atributo em 1"},
       "description": "<p>Quando você morre, sua arma (seu mestre) pode escolher revivê-lo reduzindo um de seus atributos em 1. Cada vez que você retorna, você é um pouco menos humano, um pouco mais morto. Quando todos os seus atributos são reduzidos a 0, você é o escravo cadáver ambulante de sua arma.</p>"
     },
     "5. Saffron Eater": {
@@ -985,8 +987,9 @@
     },
     "6. I Am Legion": {
       "name": "6. Eu Sou Legião",
+      "triggers": {"+1 kill": "+1 abate"},
       "counters": {"kills": "Abates"},
-      "description": "<p>Você sabe tudo sobre exércitos. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 de dano até o final da batalha. Após a primeira morte, sangue jorra de você até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Some cada abate no contador <strong>Abates</strong> (clique nele no inventário). Ele zera quando o combate termina.</em></p>",
+      "description": "<p>Você sabe tudo sobre exércitos. Além disso, rastreie os inimigos que você mata em uma batalha. Cada inimigo morto lhe dá um bônus cumulativo de +1 de dano até o final da batalha. Após a primeira morte, sangue jorra de você até que a matança pare. Especialista: o bônus é +2 por morte. Mestre: +3.</p><p><em>Cada abate soma 1 no contador <strong>Abates</strong> (também à mão: clique nele no inventário). Ele zera quando o combate termina.</em></p>",
       "effects": {
         "I Am Legion": {
           "name": "Eu Sou Legião"

@@ -257,6 +257,7 @@
     },
     "Vampiric Metabolism": {
       "name": "Metabolismo Vampírico",
+      "triggers": {"May spend a round feeding to regain 1d6 life": "Pode gastar uma rodada se alimentando para recuperar 1d6 de vida"},
       "description": "<p>Prospera com órgãos estranhos: depois de matar, pode gastar uma rodada se alimentando para recuperar 1d6 de vida.</p><p><em>Das tabelas de corrupção.</em></p>"
     },
     "Secondary Brain": {

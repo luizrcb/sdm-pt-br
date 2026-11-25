@@ -84,10 +84,12 @@
     },
     "Killbite": {
       "name": "Mordemorte",
+      "triggers": {"A free attack as it dies": "Um ataque gratuito ao morrer"},
       "description": "<p>Realiza ataque gratuito ao morrer.</p>"
     },
     "Martyr": {
       "name": "Mártir",
+      "triggers": {"Its bonus goes to nearby allies": "Seu bônus passa aos aliados próximos"},
       "description": "<p>Ao morrer, concede seu bônus a aliados próximos.</p>"
     },
     "Once Again": {
@@ -107,6 +109,7 @@
     },
     "Resistomorph": {
       "name": "Resistomorfo",
+      "triggers": {"Ignores that attack type for one round": "Ignora esse tipo de ataque por 1 rodada"},
       "description": "<p>Após ser atingido, ignora esse tipo de ataque por 1 rodada.</p>"
     },
     "Riposte": {
@@ -115,16 +118,17 @@
     },
     "Rockblood": {
       "name": "Sangrocha",
-      "description": "<p>Abaixo da metade da vida, defesa dobrada.</p><p>(ligue o efeito <em>Abaixo da metade da vida</em>)</p>",
+      "description": "<p>Abaixo da metade da vida, defesa dobrada.</p>",
       "effects": {
         "Below half life": {
           "name": "Abaixo da metade da vida",
-          "description": "<p>Ligue enquanto estiver abaixo da metade da vida.</p>"
+          "description": "<p>Ligado só abaixo da metade da vida.</p>"
         }
       }
     },
     "Shatter": {
       "name": "Estilhaçar",
+      "triggers": {"Shatters: level \u00d7 d4* to all nearby": "Estilhaça: nível × d4* a todos próximos"},
       "description": "<p>Ao morrer, causa dano de nível × d4 a todos próximos.</p>"
     },
     "Shieldfriend": {
@@ -149,11 +153,12 @@
     },
     "Tactical": {
       "name": "Tático",
-      "description": "<p>Após ser atingido, ganha +3 de defesa contra esse tipo de ataque.</p><p>(ligue o efeito <em>Adaptado</em> após ser atingido)</p>",
+      "triggers": {"Adapted: +3 defense against that attack type": "Adaptado: +3 de defesa contra esse tipo de ataque"},
+      "description": "<p>Após ser atingido, ganha +3 de defesa contra esse tipo de ataque.</p>",
       "effects": {
         "Adapted": {
           "name": "Adaptado",
-          "description": "<p>Ligue após ser atingido (contra esse tipo de ataque).</p>"
+          "description": "<p>Ganho ao ser atingido (contra esse tipo de ataque).</p>"
         }
       }
     },
@@ -169,6 +174,7 @@
     },
     "Ticking Corpse": {
       "name": "Cadáver-relógio",
+      "triggers": {"Explodes in 1d4 rounds: double damage to all nearby (save to negate)": "Explode em 1d4 rodadas: dano dobrado a todos próximos (salvaguarda para anular)"},
       "description": "<p>Causa dano dobrado a todos próximos 1d4 rodadas após a morte (salvaguarda para anular).</p>"
     },
     "Toolmaker": {
