@@ -559,49 +559,51 @@
     },
     "Caustic Purification": {
       "name": "Purificação Cáustica",
-      "description": "<p><em>Propósito do Equilíbrio, Dispersar os Antinaturais</em></p><p>Uma onda purificadora atinge o alvo: ele salva ou perde uma aflição e um benefício, e toxinas e efeitos que drenam vida nele são purificados.</p>",
+      "description": "<p>Com fogo, inundação, ar e poeira, você remove uma aflição e um benefício (salvaguarda) de uma criatura. A doença recua, as perícias desvanecem, a ferrugem voa, as máquinas ossificam, a natureza pura retorna.</p>",
       "range": "curto",
-      "target": "uma criatura",
-      "duration": "instantâneo"
+      "target": "um",
+      "duration": "instantâneo",
+      "overcharge": "<p>Purifica uma área de toxinas e de vida.</p>"
     },
     "Cut the Sky": {
       "name": "Cortar o Céu",
-      "description": "<p><em>Propósito da Devastação, Planos de Dano Oculto</em></p><p>Planos de força quase invisíveis cortam o alvo, causando [[/r 2d4x]] de dano, e podem decepar um membro ou uma cabeça.</p>",
+      "description": "<p>Planos de força estática quase invisíveis causam [[/r 2d4x]] de dano às criaturas que atravessam uma área pequena. 10+ de dano: a criatura perde um membro. 20+ de dano: perde a cabeça.</p>",
       "range": "curto",
-      "target": "uma criatura",
+      "target": "um",
       "duration": "instantâneo",
-      "overcharge": "<p>os planos cortam uma área um pouco maior, causando [[/r 4d4x]] de dano.</p>"
+      "overcharge": "<p>[[/r 4d4x]] de dano em uma área um pouco maior.</p>"
     },
     "Ha-Ka-Ba Short Circuit": {
       "name": "Curto-Circuito Ha-Ka-Ba",
-      "description": "<p><em>Propósito do Erro, Abortar/Repetir/Falhar</em></p><p>O alvo salva ou sua alma, mente e corpo saem de sincronia por 1 rodada; ataques contra suas partes separadas ganham um bônus enquanto isso.</p>",
+      "description": "<p>A alma, a mente e o corpo do alvo se desconectam por uma rodada (salvaguarda). As partes não conseguem agir de forma coordenada e ataques contra qualquer parte individual ganham um bônus.</p>",
       "range": "curto",
-      "target": "uma criatura",
+      "target": "um",
       "duration": "instantâneo",
-      "overcharge": "<p>o curto-circuito dura [[/r 1d4]] rodadas.</p>"
+      "overcharge": "<p>A desconexão dura [[/r 1d4]] rodadas.</p>"
     },
-    "Lay in Wires": {
+    "Lay In Wires": {
       "name": "Fios Vivos",
-      "description": "<p><em>Propósito da Preservação, Manter o Dossel</em></p><p>Fios de força viva drenam o alvo: você ganha 10 de vida, e ele perde 1 de vida a cada rodada por 12 rodadas.</p>",
+      "description": "<p>Crave sua forma metálica em uma criatura e ela ganha 10 de vida. Ela perde 1 de vida por rodada pelas próximas 12 rodadas. Isso cura os vivos e reanima os mortos.</p>",
       "range": "curto",
-      "target": "uma criatura",
+      "target": "um",
       "duration": "instantâneo",
-      "overcharge": "<p>você ganha 30 de vida, e o alvo perde 4 de vida a cada rodada.</p>"
+      "overcharge": "<p>Concede 30 de vida, e o alvo perde 4 de vida por rodada.</p>"
     },
     "Sense Allegiance": {
       "name": "Sentir Lealdade",
-      "description": "<p><em>Propósito da Ruína, O Maligno Deve Cair</em></p><p>Você lê a ética do alvo. Uma criatura maligna salva ou fica atordoada por [[/r 1d4]] rodadas.</p>",
+      "description": "<p>Você pode ler a ética de uma criatura e sentir se ela está alinhada ao seu propósito, neutra ou contrária — e, portanto, maligna.</p>",
       "range": "curto",
-      "target": "uma criatura",
-      "duration": "instantâneo"
+      "target": "um",
+      "duration": "instantâneo",
+      "overcharge": "<p>A criatura maligna fica atordoada por [[/r 1d4]] rodadas quando sua mente a toca (salvaguarda).</p>"
     },
     "Viridian Sun": {
       "name": "Sol Viridiano",
-      "description": "<p><em>Propósito da Criação, Escolhidos e Verdes Acolchoados</em></p><p>A luz ao seu redor fica verde e criaturas vegetais e híbridas de nível 1 brotam.</p>",
+      "description": "<p>Torna as luzes verdes e gera formas de vida estranhas (N1) — plantas acolchoadas, árvores sonhadoras, insetos mamíferos, aracnídeos aviários, gastrópodes fungoides.</p>",
       "range": "curto",
-      "target": "uma criatura",
+      "target": "um",
       "duration": "instantâneo",
-      "overcharge": "<p>as criaturas que surgem são humanos fotossintéticos de nível 2.</p>"
+      "overcharge": "<p>Gera ‘humanos’ fotossintéticos (N2).</p>"
     }
   }
 }
