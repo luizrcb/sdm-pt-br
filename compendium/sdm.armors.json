@@ -99,11 +99,11 @@
 
     "Field Glove": {
       "name": "Luva de Campo",
-      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 de vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>",
+      "description": "<p>Manopla de plástico e fio vivo com um pequeno campo protetor.</p><p>Gaste 1 de vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada</p>",
       "effects": {
         "Boost Defense Field": {
           "name": "Campo de Defesa Aprimorada",
-          "description": "<p>Gaste 1 de vida para aumentar a defesa em [[/r 1d6]] até o fim da próxima rodada (<em>edite o efeito ativo e ative-o para aplicar o bônus de defesa</em>)</p>"
+          "description": "<p>+1d6 de defesa até o fim da próxima rodada (rolado ao usar).</p>"
         }
       }
     },
