@@ -22,6 +22,7 @@ Para o sistema WTF v1.11.0.
 - Sistema WTF v1.12.0: tradução do efeito Regenera (Regenera, extras de PdM)
 - Sistema WTF v1.12.0: tradução dos novos poderes do Propósito Eterno da Arma (Vastlands Guidebook, pasta Traço Arma) a partir do texto do livro: Sentir Lealdade, Sol Viridiano, Purificação Cáustica, Fios Vivos, Cortar o Céu e Curto-Circuito Ha-Ka-Ba
 - Poderes do Vastlands Guidebook com o texto do livro: linhas de Perigoso em Nihil Est! e na Cristalização de Stoyevod (com sua história), Maldição dos Dois Pés Esquerdos, esfera de 10m da Bola de Fogo, alvo de Nihil Est! e pequenos ajustes de texto
+- Sistema WTF v1.12.0: textos dos novos gatilhos (Sobrecarregador Sensorial, Varinha-Arma Zunkwaffel, Imolibizar Pessoa, Tático, Resistomorfo, Estilhaçar, Cadáver-relógio, Mordemorte, Mártir, Revenante em Espera, Fome da Morte, Eu Sou Legião, Metabolismo Vampírico), efeito Aura Ardente; Luva de Campo, Sangrocha e Tático sem o aviso de ligar o efeito à mão; abates contados sozinhos
 
 ## v0.5.0
 
