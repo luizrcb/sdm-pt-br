@@ -20,7 +20,8 @@ Para o sistema WTF v1.11.0.
 - Sistema WTF v1.12.0: tradução dos novos reabastecedores Microbateria, Nanomunição, Omnibateria e Cubo de Energia
 - Sistema WTF v1.12.0: tradução dos efeitos de visão Visão no Escuro (Óculos de Visão no Escuro), Visão em Pouca Luz (Óculos do Crepúsculo, Alterar o Eu) e Espectro Ampliado (Óleo Octarino)
 - Sistema WTF v1.12.0: tradução do efeito Regenera (Regenera, extras de PdM)
-- Sistema WTF v1.12.0: tradução dos novos poderes do Vastlands Guidebook (pasta Traço de Arma): Purificação Cáustica, Cortar o Céu, Curto-Circuito Ha-Ka-Ba, Fios Vivos, Sentir Lealdade e Sol Viridiano
+- Sistema WTF v1.12.0: tradução dos novos poderes do Propósito Eterno da Arma (Vastlands Guidebook, pasta Traço Arma) a partir do texto do livro: Sentir Lealdade, Sol Viridiano, Purificação Cáustica, Fios Vivos, Cortar o Céu e Curto-Circuito Ha-Ka-Ba
+- Poderes do Vastlands Guidebook com o texto do livro: linhas de Perigoso em Nihil Est! e na Cristalização de Stoyevod (com sua história), Maldição dos Dois Pés Esquerdos, esfera de 10m da Bola de Fogo, alvo de Nihil Est! e pequenos ajustes de texto
 
 ## v0.5.0
 
