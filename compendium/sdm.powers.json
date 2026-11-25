@@ -110,7 +110,7 @@
     },
     "Can Trip": {
       "name": "Truque do Tropeço",
-      "description": "<p><em>Maldição do Pé Torto, Catástrofe Felina Desastrada</em></p><p>Você deseja que alguém se espalhe pelo chão e seja humilhado, e sua maldição murmurada pode fazer isso acontecer. Os cadarços do alvo se soltam de repente ou uma pedra ou galho salta para fazê-lo tropeçar. O alvo faz uma salvaguarda ou cai estatelado.</p>",
+      "description": "<p><em>Maldição dos Dois Pés Esquerdos, Catástrofe Felina Desastrada</em></p><p>Você deseja que alguém se espalhe pelo chão e seja humilhado, e sua maldição murmurada pode fazer isso acontecer. Os cadarços do alvo se soltam de repente, ou uma pedra ou galho salta para fazê-lo tropeçar. O alvo faz uma salvaguarda ou cai estatelado.</p>",
       "range": "alguns metros",
       "target": "alguém que possa ouvi-lo",
       "duration": "instantâneo",
@@ -234,7 +234,7 @@
       "range": "próximo",
       "target": "uma esfera de 7m de diâmetro",
       "duration": "uma noite ou um dia",
-      "overcharge": "<p>esculpa uma muralha de sebes espinhosas medindo 200 metros quadrados e 1 metro de espessura. Os espinhos cortam quem tentar atravessar como adagas ([[/r 1d4]] de dano).</p>"
+      "overcharge": "<p>Esculpa uma muralha de sebes espinhosas medindo 200 metros quadrados e 1 metro de espessura. Os espinhos cortam quem passar por ela como adagas ([[/r 1d4]] de dano).</p>"
     },
     "Highway Cruiser": {
       "name": "Cruzeiro de Estrada",
@@ -319,9 +319,9 @@
     },
     "Nihil Est!": {
       "name": "Nihil Est!",
-      "description": "<p><em>O Fim da Vida Tornado Presente, Vínculo de Autoimolação de Hadi</em></p><p>Entre um passo e outro, você cintila entre existência e não-existência, envelhece um ano e uma criatura que você toca desaparece no nada do espaço-verme por um ano. Sem salvaguarda.</p>",
+      "description": "<p><em>O Fim da Vida Tornado Presente, Vínculo de Autoimolação de Hadi</em></p><p>Entre um passo e outro, você cintila entre existência e não-existência, envelhece um ano e uma criatura que você toca desaparece no nada do espaço-verme por um ano. Sem salvaguarda.</p><p><strong>Perigoso:</strong> não importa quão poderoso você seja.</p>",
       "range": "toque",
-      "target": "um alvo senciente",
+      "target": "uma criatura senciente",
       "duration": "1 ano",
       "overcharge": "<p>você envelhece sete anos e uma esfera de um quilômetro de diâmetro, centrada na sua alma, desaparece no nada do espaço-verme por um ano. Sobrecarregue novamente para permanecer e observar a esfera desaparecer (tenha algum meio de levitação preparado).</p>"
     },
@@ -385,7 +385,7 @@
       "name": "Bola de Fogo",
       "description": "<p><em>Incendiário Instantâneo, Inferno Plácido de Damora</em></p><p>Você retira uma brasa do tamanho de uma bola de uma pira ou fogueira e recita fórmulas apaziguadoras para aprisionar todo o fogo dentro dela. Quando a bola atinge uma superfície dura (ou é atingida), todos os fogos aprisionados irrompem de uma vez, causando [[/r 5d6]] de dano a todas as criaturas no raio da explosão. Uma bola não detonada se dissipa inofensivamente após um dia.</p>",
       "range": "toque ou arremesso",
-      "target": "diâmetro de 10m",
+      "target": "esfera de 10m de diâmetro",
       "duration": "um dia, depois instantâneo",
       "overcharge": "<p>a bola causa [[/r 10d6]] de dano, ou seus fogos se conservam por um mês.</p>"
     },
@@ -443,7 +443,7 @@
       "range": "adjacente",
       "target": "todas as criaturas",
       "duration": "uma ação",
-      "overcharge": "<p>nenhuma rolagem de ataque necessária. *sujeito à quantidade de munição que sua arma âncora comporta.</p>"
+      "overcharge": "<p>Nenhuma rolagem de ataque necessária.</p><p>*sujeito à quantidade de munição que a arma âncora comporta.</p>"
     },
     "Roadfinder": {
       "name": "Encontra-Estradas",
@@ -459,7 +459,7 @@
       "range": "uma milha métrica",
       "target": "rocha e solo",
       "duration": "1 dia",
-      "overcharge": "<p>a pedra-rápida se fixa em pedra-padrão durante a noite, criando uma superfície que durará um século sem manutenção.</p>"
+      "overcharge": "<p>a pedra-rápida se fixa em pedra-padrão durante a noite, criando uma superfície que dura um século sem manutenção.</p>"
     },
     "Speak With Husk": {
       "name": "Falar com a Casca",
@@ -471,7 +471,7 @@
     },
     "Stoyevod’s Irreducible Crystallization of the Ego Complex": {
       "name": "Cristalização Irredutível do Complexo Egoico, por Stoyevod",
-      "description": "<p><em>Restauração do Inestimável</em></p><p>Este ritual profundamente imoral arranca uma psique partida da consciência cósmica da Mente-Total. Rouba a alma perdoada do Fogo-Total da Criação-Preservação-Destruição. Desfaz a decadência do corpo no Verde-Total da Vida-Morte-Renascimento. Num turbilhão extático, o herói é recriado de fogo sagrado, sopro sagrado e solo perfeito. Eles fazem sua rolagem de reviver com vantagem. Tudo que este ritual requer é o sacrifício amoroso de outro humano, e mais um para cada nível do herói.</p>",
+      "description": "<p><em>Restauração do Inestimável</em></p><p>Este ritual profundamente imoral arranca uma psique partida da consciência cósmica da Mente-Total. Rouba a alma perdoada do Fogo-Total da Criação-Preservação-Destruição. Desfaz a decadência do corpo no Verde-Total da Vida-Morte-Renascimento. Num turbilhão extático, o herói é recriado de fogo sagrado, sopro sagrado e solo perfeito. Eles fazem sua rolagem de reviver com vantagem. Tudo que este ritual requer é o sacrifício amoroso de outro humano, e mais um para cada nível do herói.</p><p><strong>Perigoso:</strong> o especialista sacrificial provavelmente será corrompido por este feitiço.</p><p><em>No Ano da Raposa Lambente, a Escolhida caiu antes do seu tempo e o povo da Paina enfrentou a ruína certa. Stoyevod, o Praticante, sacrificou 9 de seus irmãos e irmãs clones para trazer de volta a Escolhida e retomar o Bom e Correto Caminho da Paina.</em></p>",
       "range": "aqui",
       "target": "um herói morto",
       "duration": "permanente",
