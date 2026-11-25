@@ -71,6 +71,7 @@
     },
     "Regenerates": {
       "name": "Regenera",
+      "effects": {"Regenerates": {"name": "Regenera"}},
       "description": "<p>Recupera 1d6 de vida no início de cada turno, a menos que seja queimado ou banhado em ácido.</p>"
     },
     "Crushing Grip": {
